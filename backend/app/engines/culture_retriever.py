@@ -45,6 +45,19 @@ class CultureRetriever:
                     return chars
         return chars
 
+    def candidate_names(self, limit: int = 500) -> list[str]:
+        names: list[str] = []
+        seen = set()
+        for name in self.candidate_index:
+            if len(name) != 2 or name in seen:
+                continue
+            if all("\u4e00" <= ch <= "\u9fff" for ch in name):
+                names.append(name)
+                seen.add(name)
+            if len(names) >= limit:
+                break
+        return names
+
     def _direct_phrase(self, phrase: str) -> dict | None:
         for ch in phrase:
             for item in self.char_index.get(ch, [])[:80]:

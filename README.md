@@ -16,6 +16,19 @@ npm install
 npm run dev
 ```
 
+Windows 推荐使用脚本启动，避免重复传入 Next.js `--hostname/--port` 导致页面事件未绑定：
+
+```powershell
+.\scripts\run_backend.ps1
+.\scripts\run_frontend.ps1
+```
+
+或同时打开两个服务窗口：
+
+```powershell
+.\scripts\run_dev.ps1
+```
+
 默认前端访问 `http://127.0.0.1:3000`，后端 API 为 `http://127.0.0.1:8000`。
 
 ## 测试
@@ -27,4 +40,3 @@ python -m pytest
 ## 审计报告
 
 知识库审计报告输出到 `backend/reports/knowledge_audit_report.json`。
-

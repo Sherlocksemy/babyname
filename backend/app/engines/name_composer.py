@@ -6,12 +6,34 @@ from backend.app.schemas.baby_profile import BabyProfile
 
 
 class NameComposer:
-    def compose(self, profile: BabyProfile, pool: list[dict], excluded_names: set[str] | None = None, locked_chars: list[str] | None = None, limit: int = 420) -> list[tuple[str, list[dict]]]:
+    def compose(
+        self,
+        profile: BabyProfile,
+        pool: list[dict],
+        excluded_names: set[str] | None = None,
+        locked_chars: list[str] | None = None,
+        preferred_names: list[str] | None = None,
+        limit: int = 420,
+    ) -> list[tuple[str, list[dict]]]:
         excluded_names = excluded_names or set()
         locked_chars = locked_chars or []
         by_char = {item["char"]: item for item in pool}
         usable = [item for item in pool if item["char"] not in profile.banned_chars]
         results: list[tuple[str, list[dict]]] = []
+        for name in preferred_names or []:
+            if profile.name_length != len(name):
+                continue
+            if profile.surname + name in excluded_names:
+                continue
+            if any(ch not in by_char for ch in name) or len(set(name)) != len(name):
+                continue
+            if locked_chars and not any(ch in name for ch in locked_chars):
+                continue
+            if profile.generation_char and profile.generation_char not in name:
+                continue
+            results.append((name, [by_char[ch] for ch in name]))
+            if len(results) >= limit:
+                return results
         if profile.name_length == 1:
             for item in usable:
                 given = item["char"]
@@ -38,4 +60,3 @@ class NameComposer:
             if len(results) >= limit:
                 break
         return results
-

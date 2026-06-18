@@ -43,7 +43,14 @@ class NameService:
         if bazi_report.get("preferred_elements"):
             profile.preferred_elements[:] = bazi_report["preferred_elements"]
         pools = self.pool_builder.build(profile)
-        composed = self.composer.compose(profile, pools["generation_chars"], excluded_names=excluded_names, locked_chars=locked_chars)
+        preferred_names = self.culture.candidate_names(800)
+        composed = self.composer.compose(
+            profile,
+            pools["generation_chars"],
+            excluded_names=excluded_names,
+            locked_chars=locked_chars,
+            preferred_names=preferred_names,
+        )
         results: list[NameCandidate] = []
         for given_name, chars in composed:
             candidate = self._evaluate(profile, given_name, chars, bazi_report, pools)
@@ -58,7 +65,8 @@ class NameService:
                 if any(item.given_name == given_name for item in results):
                     continue
                 candidate = self._evaluate(profile, given_name, chars, bazi_report, pools, relaxed=True)
-                if candidate.score >= 50 and not candidate.pronunciation.get("homophone_issues"):
+                ok, _ = self.guard.accept(candidate, results)
+                if ok and candidate.score >= 50 and not candidate.pronunciation.get("homophone_issues"):
                     results.append(candidate)
                 if len(results) >= 20:
                     break
@@ -144,4 +152,3 @@ class NameService:
         if origin:
             return f"{given_name}兼顾字义、读音与本地典籍出处《{origin}》，五行属性为{elements}，仅作取名参考。"
         return f"{given_name}通过合规、字义、读音和热度检查，五行属性为{elements}；未伪造文化出处。"
-

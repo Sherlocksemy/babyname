@@ -22,7 +22,7 @@ class PronunciationEngine:
         tones = [r.get("tone", 0) for r in readings]
         initials = [self._initial(r.get("pinyin", "")) for r in readings]
         issues = []
-        for ch in full:
+        for ch in given_name:
             for item in self.blacklist.get(ch, []):
                 if need_teochew or item.get("language_type") == "mandarin":
                     issues.append(item)
@@ -62,4 +62,3 @@ class PronunciationEngine:
             if plain.startswith(initial):
                 return initial
         return plain[:1]
-

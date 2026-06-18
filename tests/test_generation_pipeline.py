@@ -28,3 +28,16 @@ def test_generate_twenty_names_from_golden_case():
     assert all(item.name.startswith("陈") for item in response.results)
     assert all(item.score_breakdown.total == item.score for item in response.results)
 
+
+def test_all_golden_cases_generate_twenty_quality_names():
+    cases = json.loads(Path("tests/golden_cases.json").read_text(encoding="utf-8"))
+    stop_chars = set("之以于其而也者乎矣焉哉兮尔何只中上下来去出入左右东西南北零二三四五六七八九十百千万亿人归孙赳见厌羊匪甘乘为与")
+    service = NameService()
+    for case in cases:
+        response = service.generate(BabyProfileRequest(**case))
+        assert len(response.results) == 20, case["case"]
+        assert len({item.name for item in response.results}) == 20, case["case"]
+        assert all(item.name.startswith(case["surname"]) for item in response.results), case["case"]
+        assert not [item.name for item in response.results if any(ch in stop_chars for ch in item.given_name)], case["case"]
+        assert all(item.recommendation_reason for item in response.results), case["case"]
+        assert all("改命" not in item.recommendation_reason and "转运" not in item.recommendation_reason for item in response.results), case["case"]
