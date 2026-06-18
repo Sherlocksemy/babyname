@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-06-18T16:05:15",
+  "strict": true,
+  "missing_counts": {
+    "kangxi_strokes.json": {
+      "kangxi_strokes": 0,
+      "kangxi_radical": 0,
+      "element": 0,
+      "components": 0
+    },
+    "char_semantic.json": {
+      "definition": 0,
+      "ancient_meaning": 0,
+      "positive_level": 0,
+      "common_level": 0
+    },
+    "04_culture_origin_layer\\shijing\\shijing_full.json": {
+      "translation": 4,
+      "keywords": 0,
+      "name_candidates": 0,
+      "chapter": 0
+    },
+    "04_culture_origin_layer\\chuci\\chuci_full.json": {
+      "translation": 46,
+      "keywords": 0,
+      "name_candidates": 0,
+      "chapter": 0
+    },
+    "04_culture_origin_layer\\tang_poetry\\tang_poetry.json": {
+      "translation": 2796,
+      "keywords": 0,
+      "name_candidates": 0,
+      "chapter": 0
+    },
+    "04_culture_origin_layer\\song_ci\\song_ci.json": {
+      "translation": 2912,
+      "keywords": 0,
+      "name_candidates": 0,
+      "chapter": 0
+    },
+    "04_culture_origin_layer\\sishuwujing\\sishuwujing.json": {
+      "translation": 0,
+      "keywords": 0,
+      "name_candidates": 0,
+      "chapter": 0
+    }
+  }
+}
