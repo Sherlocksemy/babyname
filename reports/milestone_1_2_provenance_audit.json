@@ -1,0 +1,26 @@
+{
+  "polluted": false,
+  "checks": [
+    {
+      "file": "G:\\Codex\\baby-name-system\\02_src\\backend\\app\\core\\dataset_registry.py",
+      "import_chain": [],
+      "runtime_dependency": true,
+      "hits": [
+        "direct_name_candidates_use"
+      ],
+      "pollutes_production": false,
+      "fix_action": "schema/audit reference only"
+    },
+    {
+      "file": "G:\\Codex\\baby-name-system\\02_src\\backend\\app\\core\\knowledge_audit.py",
+      "import_chain": [],
+      "runtime_dependency": true,
+      "hits": [
+        "direct_name_candidates_use"
+      ],
+      "pollutes_production": false,
+      "fix_action": "schema/audit reference only"
+    }
+  ],
+  "fixture_policy": "tests/fixtures files are pytest-only and must not be read by production code"
+}

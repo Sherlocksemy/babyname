@@ -1,0 +1,1270 @@
+{
+  "before_top20": [
+    "林仁贤",
+    "林宜言",
+    "林贤思",
+    "林宇安",
+    "林佑德",
+    "林庭修",
+    "林敬序",
+    "林星序",
+    "林墨书",
+    "林哲嘉",
+    "林嘉贤",
+    "林序博",
+    "林庭嘉",
+    "林星嘉",
+    "林泽星",
+    "林言思",
+    "林仁博",
+    "林宜贤",
+    "林川洲",
+    "林泽嘉"
+  ],
+  "after_top20": [
+    "林思敬",
+    "林敬谦",
+    "林思弘",
+    "林泉清",
+    "林竹清",
+    "林承仁",
+    "林仁维",
+    "林德修",
+    "林嘉信",
+    "林安泉",
+    "林承贤",
+    "林安德",
+    "林贤庭",
+    "林弘乔",
+    "林信初",
+    "林正则",
+    "林南岩",
+    "林波文",
+    "林海南",
+    "林明昭"
+  ],
+  "before_top3": [
+    "林仁贤",
+    "林宜言",
+    "林宇安"
+  ],
+  "after_top3": [
+    "林思敬",
+    "林泉清",
+    "林承仁"
+  ],
+  "old_top3_review": {
+    "林宇安": {
+      "status": "not_generated_after_calibration"
+    },
+    "林宜言": {
+      "status": "not_generated_after_calibration"
+    },
+    "林仁贤": {
+      "status": "not_generated_after_calibration"
+    }
+  },
+  "new_top3": [
+    {
+      "candidate_id": "NC-487a59e33aa8",
+      "surname": "林",
+      "given_name": "思敬",
+      "full_name": "林思敬",
+      "structure_id": "S06",
+      "archetype_id": "A02",
+      "semantic_pattern": "思辨/敬慎",
+      "culture_evidence_ids": [
+        "EV-eebc676b900a",
+        "EV-2ef47d142ff9"
+      ],
+      "generation_reason_codes": [
+        "SEMANTIC_ROLE_COMPOSITION",
+        "SEPARATE_CHAR_CULTURE_TRACE",
+        "POOL_CHAR_SELECTED"
+      ],
+      "generation_seed": 20260622,
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "E2_COMPOSED"
+        ],
+        "penalties": {}
+      },
+      "score": {
+        "raw_score": 90,
+        "available_max_score": 90,
+        "normalized_score": 100.0,
+        "alpha_grade": "S",
+        "fortune_score": null,
+        "fortune_status": "NOT_EVALUATED",
+        "fortune_max_score": 10,
+        "score_version": "NES_ALPHA_1.3",
+        "breakdown": {
+          "phonology": 14.45,
+          "meaning": 14.06,
+          "culture": 13.11,
+          "structure": 19.65,
+          "archetype": 10,
+          "uniqueness": 4.6,
+          "aesthetic": 9.21,
+          "naturalness": 92.08,
+          "penalties": 0,
+          "style_affinity_bonus": 1.4,
+          "profile_specificity": 98.48,
+          "surname_fit": 87.36,
+          "profile_adjustment": 3.74
+        },
+        "sub_breakdown": {
+          "phonology": {
+            "tone_variation": 3.0,
+            "initial_conflict": 3.0,
+            "final_conflict": 3.0,
+            "surname_link": 3.0,
+            "internal_flow": 2.45
+          },
+          "meaning": {
+            "char_meaning_quality": 2.9,
+            "composition_completeness": 3.86,
+            "semantic_complementarity": 3.2,
+            "modern_understanding": 2.39,
+            "time_stability": 1.7
+          },
+          "culture": {
+            "evidence_level": 3.35,
+            "original_text_relevance": 2.3,
+            "expression_completeness": 2.62,
+            "source_depth": 2.6,
+            "evidence_uniqueness": 2.24
+          },
+          "structure": {
+            "two_semantic_roles": 4.0,
+            "structure_integrity": 4.05,
+            "structure_rarity": 3.2,
+            "explainability": 4.0,
+            "structure_match": 4.4
+          },
+          "archetype": {
+            "archetype_clarity": 3.4,
+            "archetype_consistency": 3.4,
+            "archetype_match": 3.2
+          },
+          "uniqueness": {
+            "hot_char_risk": 1.6,
+            "hot_combo_risk": 1.5,
+            "template_risk": 1.5
+          },
+          "aesthetic": {
+            "restraint": 1.84,
+            "real_name_feel": 2.03,
+            "adult_usability": 1.75,
+            "conceptualization_risk": 1.66,
+            "surname_fit": 1.93
+          },
+          "style_affinity": {
+            "input_style_match": 1.4,
+            "source": "style_preferences and liked_chars"
+          },
+          "profile_specificity": {
+            "style_fit_score": 96.0,
+            "gender_tone_fit_score": 90.0,
+            "imagery_fit_score": 86,
+            "surname_fit_score": 87.36,
+            "universal_candidate_risk": 0.0
+          }
+        },
+        "top3_eligible": true,
+        "top1_eligible": true
+      },
+      "evidences": [
+        {
+          "evidence_id": "EV-eebc676b900a",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "关雎",
+          "author": "佚名",
+          "original_text": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。\n参差荇菜，左右流之。窈窕淑女，寤寐求之。\n求之不得，寤寐思服。悠哉悠哉，辗转反侧。\n参差荇菜，左右采之。窈窕淑女，琴瑟友之。\n参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。",
+          "matched_chars": [
+            "思"
+          ],
+          "matched_keywords": [],
+          "match_type": "single_char_composition",
+          "confidence": 0.76,
+          "record_id": "先秦-000001",
+          "evidence_level": "E2",
+          "suitability": {
+            "evidence_level": "E2",
+            "phrase_complete": false,
+            "semantic_dependency": false,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [
+              "SINGLE_CHAR_CULTURE_TRACE"
+            ],
+            "passed": true,
+            "evidence_suitability_score": 76,
+            "semantic": {}
+          }
+        },
+        {
+          "evidence_id": "EV-2ef47d142ff9",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "沔水",
+          "author": "佚名",
+          "original_text": "沔彼流水，朝宗于海。𫛣彼飞隼，载飞载止。嗟我兄弟，邦人诸友。莫肯念乱，谁无父母？\n沔彼流水，其流汤汤。𫛣彼飞隼，载飞载扬。念彼不迹，载起载行。心之忧矣，不可弭忘。\n𫛣彼飞隼，率彼中陵。民之讹言，宁莫之惩？我友敬矣，谗言其兴。",
+          "matched_chars": [
+            "敬"
+          ],
+          "matched_keywords": [],
+          "match_type": "single_char_composition",
+          "confidence": 0.76,
+          "record_id": "先秦-000183",
+          "evidence_level": "E2",
+          "suitability": {
+            "evidence_level": "E2",
+            "phrase_complete": false,
+            "semantic_dependency": false,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [
+              "SINGLE_CHAR_CULTURE_TRACE"
+            ],
+            "passed": true,
+            "evidence_suitability_score": 76,
+            "semantic": {}
+          }
+        }
+      ],
+      "semantic_role_first": "思辨",
+      "semantic_role_second": "敬慎",
+      "combined_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+      "meaning_completeness": 92.0,
+      "evidence_level": "E2_COMPOSED",
+      "evidence_suitability_score": 82,
+      "naturalness_score": 92.08,
+      "structure_archetype_compatibility": 100.0,
+      "compatibility_level": "HIGH",
+      "compatibility_reason_codes": [
+        "COMPATIBILITY_HIGH"
+      ],
+      "semantic_validation": {
+        "given_name": "思敬",
+        "semantic_role_first": "思辨",
+        "semantic_role_second": "敬慎",
+        "combined_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+        "meaning_completeness": 92.0,
+        "issues": [],
+        "passed": true
+      },
+      "naturalness": {
+        "naturalness_score": 92.08,
+        "adult_usability": 92.08,
+        "spoken_usability": 92.08,
+        "full_name_fit": 92.08,
+        "conceptualization_risk": 7.920000000000002,
+        "issues": [],
+        "passed": true,
+        "top20_allowed": true,
+        "top10_allowed": true,
+        "top3_allowed": true
+      },
+      "generation_mode": "semantic_role_composition",
+      "first_char_source": [
+        "char_pool",
+        "culture_evidence_char",
+        "selected_culture_text"
+      ],
+      "second_char_source": [
+        "char_pool",
+        "culture_evidence_char",
+        "selected_culture_text"
+      ],
+      "structure_rule_ids": [
+        "S06",
+        "SEMANTIC_ROLE_MATCH"
+      ],
+      "archetype_rule_ids": [
+        "A02",
+        "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+      ],
+      "was_example_name": false,
+      "was_golden_fixture": false,
+      "was_direct_name_candidate": false,
+      "reconstruction": {
+        "reconstructable": true,
+        "source_independent": true,
+        "reconstruction_steps": [
+          "first char is reconstructable from first char pool",
+          "second char is reconstructable from second char pool",
+          "semantic roles are present before scoring",
+          "combined meaning is established before ranking",
+          "both chars can be selected from current culture evidence",
+          "generation mode is rule derivation, not fixture lookup"
+        ],
+        "failures": []
+      },
+      "classic_expression_score": 53.3,
+      "derivation_originality_score": 82.1,
+      "corpus_copy_risk": 0.18,
+      "historical_name_collision": "UNKNOWN",
+      "style_affinity_score": 3.1,
+      "style_fit_score": 96.0,
+      "gender_tone_fit_score": 90.0,
+      "surname_fit_score": 87.36,
+      "imagery_fit_score": 86,
+      "profile_specificity_score": 98.48,
+      "profile_fit_reasons": [
+        "PROFILE_STRUCTURE_MATCH",
+        "PROFILE_ARCHETYPE_MATCH",
+        "PROFILE_ROLE_MATCH",
+        "PROFILE_IMAGERY_MATCH",
+        "PROFILE_CULTURE_SOURCE_MATCH"
+      ],
+      "profile_conflicts": [],
+      "gender_tone_reason_codes": [
+        "MALE_CLEAR_RESPONSIBLE"
+      ],
+      "surname_fit": {
+        "surname": "林",
+        "given_name": "思敬",
+        "tone_pattern": "2-1-4",
+        "initial_conflicts": [],
+        "final_conflicts": [],
+        "rhythm_score": 95,
+        "visual_balance_score": 88,
+        "surname_affinity_score": 72.0,
+        "surname_fit_score": 87.36
+      },
+      "universal_candidate_risk": 0.0,
+      "cross_profile_dominance_risk": 0.0
+    },
+    {
+      "candidate_id": "NC-81af877309bb",
+      "surname": "林",
+      "given_name": "泉清",
+      "full_name": "林泉清",
+      "structure_id": "S05",
+      "archetype_id": "A02",
+      "semantic_pattern": "清泉/清正",
+      "culture_evidence_ids": [
+        "EV-22d4a8194d8d",
+        "EV-2b2d74d10949",
+        "EV-6ff2a40adfb8",
+        "EV-c38a14152988"
+      ],
+      "generation_reason_codes": [
+        "DIRECT_EXPRESSION",
+        "CULTURE_TEXT_BIGRAM",
+        "POOL_CHAR_SELECTED",
+        "POOL_CHAR_SELECTED"
+      ],
+      "generation_seed": 20260622,
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "POPULAR_CHAR_USED"
+        ],
+        "penalties": {
+          "POPULARITY": 2.0
+        }
+      },
+      "score": {
+        "raw_score": 88.62,
+        "available_max_score": 90,
+        "normalized_score": 98.47,
+        "alpha_grade": "S",
+        "fortune_score": null,
+        "fortune_status": "NOT_EVALUATED",
+        "fortune_max_score": 10,
+        "score_version": "NES_ALPHA_1.3",
+        "breakdown": {
+          "phonology": 13.65,
+          "meaning": 14.27,
+          "culture": 13.79,
+          "structure": 19.67,
+          "archetype": 10,
+          "uniqueness": 4.0,
+          "aesthetic": 9.11,
+          "naturalness": 91.12,
+          "penalties": 2.0,
+          "style_affinity_bonus": 0.0,
+          "profile_specificity": 90.37,
+          "surname_fit": 87.08,
+          "profile_adjustment": 6.14
+        },
+        "sub_breakdown": {
+          "phonology": {
+            "tone_variation": 3.0,
+            "initial_conflict": 2.2,
+            "final_conflict": 3.0,
+            "surname_link": 3.0,
+            "internal_flow": 2.45
+          },
+          "meaning": {
+            "char_meaning_quality": 2.9,
+            "composition_completeness": 3.7,
+            "semantic_complementarity": 3.2,
+            "modern_understanding": 2.37,
+            "time_stability": 2.1
+          },
+          "culture": {
+            "evidence_level": 4.1,
+            "original_text_relevance": 2.65,
+            "expression_completeness": 3.03,
+            "source_depth": 2.2,
+            "evidence_uniqueness": 1.81
+          },
+          "structure": {
+            "two_semantic_roles": 4.0,
+            "structure_integrity": 3.87,
+            "structure_rarity": 3.4,
+            "explainability": 4.0,
+            "structure_match": 4.4
+          },
+          "archetype": {
+            "archetype_clarity": 3.4,
+            "archetype_consistency": 3.4,
+            "archetype_match": 3.2
+          },
+          "uniqueness": {
+            "hot_char_risk": 1.0,
+            "hot_combo_risk": 1.5,
+            "template_risk": 1.5
+          },
+          "aesthetic": {
+            "restraint": 1.82,
+            "real_name_feel": 2.0,
+            "adult_usability": 1.73,
+            "conceptualization_risk": 1.64,
+            "surname_fit": 1.91
+          },
+          "style_affinity": {
+            "input_style_match": 0.0,
+            "source": "style_preferences and liked_chars"
+          },
+          "profile_specificity": {
+            "style_fit_score": 74.0,
+            "gender_tone_fit_score": 90.0,
+            "imagery_fit_score": 98,
+            "surname_fit_score": 87.08,
+            "universal_candidate_risk": 4.0
+          }
+        },
+        "top3_eligible": true,
+        "top1_eligible": true
+      },
+      "evidences": [
+        {
+          "evidence_id": "EV-22d4a8194d8d",
+          "source_type": "tang_poetry",
+          "book": "唐诗",
+          "title": "送陆鸿渐山人采茶回",
+          "author": "皇甫曾",
+          "original_text": "千峰待逋客，香茗复丛生。\n采摘知深处，烟霞羡独行。\n幽期山寺远，野饭石泉清。\n寂寂燃灯夜，相思一磬声。",
+          "matched_chars": [
+            "泉",
+            "清"
+          ],
+          "matched_keywords": [],
+          "match_type": "direct_bigram_same_sentence",
+          "confidence": 0.95,
+          "record_id": "唐-002273",
+          "evidence_level": "E0",
+          "suitability": {
+            "evidence_level": "E0",
+            "phrase_complete": false,
+            "semantic_dependency": true,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [
+              "CONTEXT_DEPENDENT_PHRASE",
+              "DIRECT_ADJACENT_NOT_AUTOMATIC_E1"
+            ],
+            "passed": false,
+            "evidence_suitability_score": 20,
+            "semantic": {
+              "given_name": "泉清",
+              "semantic_role_first": "清泉",
+              "semantic_role_second": "清正",
+              "combined_meaning": "泉取清泉之意，清取清正之意，组合为清泉与清正相成。",
+              "meaning_completeness": 88.0,
+              "issues": [],
+              "passed": true
+            }
+          }
+        },
+        {
+          "evidence_id": "EV-2b2d74d10949",
+          "source_type": "song_ci",
+          "book": "宋词",
+          "title": "定风波令・定风波",
+          "author": "张先",
+          "original_text": "浴殿词臣亦议兵。\n禁中颇牧党羌平。\n诏卷促归难自缓。\n溪馆。\n彩花千数酒泉清。\n春草未青秋叶暮。\n□去。\n一家行色万家情。\n可恨黄莺相识晚。\n望断。\n湖边亭上不闻声。",
+          "matched_chars": [
+            "泉",
+            "清"
+          ],
+          "matched_keywords": [],
+          "match_type": "direct_bigram_same_sentence",
+          "confidence": 0.95,
+          "record_id": "宋-000361",
+          "evidence_level": "E0",
+          "suitability": {
+            "evidence_level": "E0",
+            "phrase_complete": false,
+            "semantic_dependency": true,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [
+              "CONTEXT_DEPENDENT_PHRASE",
+              "DIRECT_ADJACENT_NOT_AUTOMATIC_E1"
+            ],
+            "passed": false,
+            "evidence_suitability_score": 20,
+            "semantic": {
+              "given_name": "泉清",
+              "semantic_role_first": "清泉",
+              "semantic_role_second": "清正",
+              "combined_meaning": "泉取清泉之意，清取清正之意，组合为清泉与清正相成。",
+              "meaning_completeness": 88.0,
+              "issues": [],
+              "passed": true
+            }
+          }
+        },
+        {
+          "evidence_id": "EV-6ff2a40adfb8",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "四月",
+          "author": "佚名",
+          "original_text": "四月维夏，六月徂署。先祖匪人，胡宁忍予？\n秋日凄凄，百卉具腓。乱离瘼矣，爰其适归？\n冬日烈烈，飘风发发。民莫不谷，我独何害？\n山有嘉卉，侯栗侯梅。废为残贼，莫知其尤！\n相彼泉水，载清载浊。我日构祸，曷云能谷？\n滔滔江汉，南国之纪。尽瘁以仕，宁莫我有？\n匪鹑匪鸢，翰飞戾天。匪鳣匪鲔，潜逃于渊。\n山有蕨薇，隰有杞桋。君子作歌，维以告哀。",
+          "matched_chars": [
+            "泉",
+            "清"
+          ],
+          "matched_keywords": [],
+          "match_type": "two_chars_same_record",
+          "confidence": 0.9456,
+          "record_id": "先秦-000204",
+          "evidence_level": "E1",
+          "suitability": {
+            "evidence_level": "E1",
+            "phrase_complete": true,
+            "semantic_dependency": false,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [],
+            "passed": true,
+            "evidence_suitability_score": 94.56,
+            "semantic": {
+              "given_name": "泉清",
+              "semantic_role_first": "清泉",
+              "semantic_role_second": "清正",
+              "combined_meaning": "泉取清泉之意，清取清正之意，组合为清泉与清正相成。",
+              "meaning_completeness": 88.0,
+              "issues": [],
+              "passed": true
+            }
+          }
+        },
+        {
+          "evidence_id": "EV-c38a14152988",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "黍苗",
+          "author": "佚名",
+          "original_text": "芃芃黍苗，阴雨膏之。悠悠南行，召伯劳之。\n我任我辇，我车我牛。我行既集，盖云归哉。\n我徒我御，我师我旅。我行既集，盖云归处。\n肃肃谢功，召伯营之。烈烈征师，召伯成之。\n原隰既平，泉流既清。召伯有成，王心则宁。",
+          "matched_chars": [
+            "泉",
+            "清"
+          ],
+          "matched_keywords": [],
+          "match_type": "two_chars_same_record",
+          "confidence": 0.9456,
+          "record_id": "先秦-000227",
+          "evidence_level": "E1",
+          "suitability": {
+            "evidence_level": "E1",
+            "phrase_complete": true,
+            "semantic_dependency": false,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [],
+            "passed": true,
+            "evidence_suitability_score": 94.56,
+            "semantic": {
+              "given_name": "泉清",
+              "semantic_role_first": "清泉",
+              "semantic_role_second": "清正",
+              "combined_meaning": "泉取清泉之意，清取清正之意，组合为清泉与清正相成。",
+              "meaning_completeness": 88.0,
+              "issues": [],
+              "passed": true
+            }
+          }
+        }
+      ],
+      "semantic_role_first": "清泉",
+      "semantic_role_second": "清正",
+      "combined_meaning": "泉取清泉之意，清取清正之意，组合为清泉与清正相成。",
+      "meaning_completeness": 88.0,
+      "evidence_level": "E1",
+      "evidence_suitability_score": 94.56,
+      "naturalness_score": 91.12,
+      "structure_archetype_compatibility": 100.0,
+      "compatibility_level": "HIGH",
+      "compatibility_reason_codes": [
+        "COMPATIBILITY_HIGH"
+      ],
+      "semantic_validation": {
+        "given_name": "泉清",
+        "semantic_role_first": "清泉",
+        "semantic_role_second": "清正",
+        "combined_meaning": "泉取清泉之意，清取清正之意，组合为清泉与清正相成。",
+        "meaning_completeness": 88.0,
+        "issues": [],
+        "passed": true
+      },
+      "naturalness": {
+        "naturalness_score": 91.12,
+        "adult_usability": 91.12,
+        "spoken_usability": 91.12,
+        "full_name_fit": 91.12,
+        "conceptualization_risk": 8.879999999999995,
+        "issues": [],
+        "passed": true,
+        "top20_allowed": true,
+        "top10_allowed": true,
+        "top3_allowed": true
+      },
+      "generation_mode": "direct_expression",
+      "first_char_source": [
+        "char_pool",
+        "culture_evidence_char",
+        "selected_culture_text"
+      ],
+      "second_char_source": [
+        "char_pool",
+        "culture_evidence_char",
+        "selected_culture_text"
+      ],
+      "structure_rule_ids": [
+        "S05",
+        "SEMANTIC_ROLE_MATCH"
+      ],
+      "archetype_rule_ids": [
+        "A02",
+        "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+      ],
+      "was_example_name": false,
+      "was_golden_fixture": false,
+      "was_direct_name_candidate": false,
+      "reconstruction": {
+        "reconstructable": true,
+        "source_independent": true,
+        "reconstruction_steps": [
+          "first char is reconstructable from first char pool",
+          "second char is reconstructable from second char pool",
+          "semantic roles are present before scoring",
+          "combined meaning is established before ranking",
+          "both chars can be selected from current culture evidence",
+          "generation mode is rule derivation, not fixture lookup"
+        ],
+        "failures": []
+      },
+      "classic_expression_score": 94.56,
+      "derivation_originality_score": 50.07,
+      "corpus_copy_risk": 0.65,
+      "historical_name_collision": "UNKNOWN",
+      "style_affinity_score": 0.0,
+      "style_fit_score": 74.0,
+      "gender_tone_fit_score": 90.0,
+      "surname_fit_score": 87.08,
+      "imagery_fit_score": 98,
+      "profile_specificity_score": 90.37,
+      "profile_fit_reasons": [
+        "PROFILE_ARCHETYPE_MATCH",
+        "PROFILE_ROLE_MATCH",
+        "PROFILE_IMAGERY_MATCH",
+        "PROFILE_CULTURE_SOURCE_MATCH"
+      ],
+      "profile_conflicts": [],
+      "gender_tone_reason_codes": [
+        "MALE_CLEAR_RESPONSIBLE"
+      ],
+      "surname_fit": {
+        "surname": "林",
+        "given_name": "泉清",
+        "tone_pattern": "2-2-1",
+        "initial_conflicts": [
+          1
+        ],
+        "final_conflicts": [],
+        "rhythm_score": 84,
+        "visual_balance_score": 88,
+        "surname_affinity_score": 92.0,
+        "surname_fit_score": 87.08
+      },
+      "universal_candidate_risk": 4.0,
+      "cross_profile_dominance_risk": 4.0
+    },
+    {
+      "candidate_id": "NC-1ee71da2423f",
+      "surname": "林",
+      "given_name": "承仁",
+      "full_name": "林承仁",
+      "structure_id": "S02",
+      "archetype_id": "A03",
+      "semantic_pattern": "传承/仁德",
+      "culture_evidence_ids": [
+        "EV-40b7e16068f2",
+        "EV-83f13c2d2987"
+      ],
+      "generation_reason_codes": [
+        "SEMANTIC_ROLE_COMPOSITION",
+        "SEPARATE_CHAR_CULTURE_TRACE",
+        "POOL_CHAR_SELECTED"
+      ],
+      "generation_seed": 20260622,
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "E2_COMPOSED"
+        ],
+        "penalties": {}
+      },
+      "score": {
+        "raw_score": 87.47,
+        "available_max_score": 90,
+        "normalized_score": 97.19,
+        "alpha_grade": "S",
+        "fortune_score": null,
+        "fortune_status": "NOT_EVALUATED",
+        "fortune_max_score": 10,
+        "score_version": "NES_ALPHA_1.3",
+        "breakdown": {
+          "phonology": 13.25,
+          "meaning": 13.96,
+          "culture": 13.11,
+          "structure": 19.56,
+          "archetype": 10,
+          "uniqueness": 4.6,
+          "aesthetic": 9.16,
+          "naturalness": 91.6,
+          "penalties": 0,
+          "style_affinity_bonus": 0.54,
+          "profile_specificity": 98.62,
+          "surname_fit": 84.48,
+          "profile_adjustment": 3.29
+        },
+        "sub_breakdown": {
+          "phonology": {
+            "tone_variation": 1.8,
+            "initial_conflict": 3.0,
+            "final_conflict": 3.0,
+            "surname_link": 3.0,
+            "internal_flow": 2.45
+          },
+          "meaning": {
+            "char_meaning_quality": 2.9,
+            "composition_completeness": 3.78,
+            "semantic_complementarity": 3.2,
+            "modern_understanding": 2.38,
+            "time_stability": 1.7
+          },
+          "culture": {
+            "evidence_level": 3.35,
+            "original_text_relevance": 2.3,
+            "expression_completeness": 2.62,
+            "source_depth": 2.6,
+            "evidence_uniqueness": 2.24
+          },
+          "structure": {
+            "two_semantic_roles": 4.0,
+            "structure_integrity": 3.96,
+            "structure_rarity": 3.2,
+            "explainability": 4.0,
+            "structure_match": 4.4
+          },
+          "archetype": {
+            "archetype_clarity": 3.4,
+            "archetype_consistency": 3.4,
+            "archetype_match": 3.2
+          },
+          "uniqueness": {
+            "hot_char_risk": 1.6,
+            "hot_combo_risk": 1.5,
+            "template_risk": 1.5
+          },
+          "aesthetic": {
+            "restraint": 1.83,
+            "real_name_feel": 2.02,
+            "adult_usability": 1.74,
+            "conceptualization_risk": 1.65,
+            "surname_fit": 1.92
+          },
+          "style_affinity": {
+            "input_style_match": 0.54,
+            "source": "style_preferences and liked_chars"
+          },
+          "profile_specificity": {
+            "style_fit_score": 92.0,
+            "gender_tone_fit_score": 90.0,
+            "imagery_fit_score": 98,
+            "surname_fit_score": 84.48,
+            "universal_candidate_risk": 0.0
+          }
+        },
+        "top3_eligible": true,
+        "top1_eligible": true
+      },
+      "evidences": [
+        {
+          "evidence_id": "EV-40b7e16068f2",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "权舆",
+          "author": "佚名",
+          "original_text": "于我乎，夏屋渠渠，今也每食无余。于嗟乎，不承权舆！\n于我乎，每食四簋，今也每食不饱。于嗟乎，不承权舆！",
+          "matched_chars": [
+            "承"
+          ],
+          "matched_keywords": [],
+          "match_type": "single_char_composition",
+          "confidence": 0.76,
+          "record_id": "先秦-000135",
+          "evidence_level": "E2",
+          "suitability": {
+            "evidence_level": "E2",
+            "phrase_complete": false,
+            "semantic_dependency": false,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [
+              "SINGLE_CHAR_CULTURE_TRACE"
+            ],
+            "passed": true,
+            "evidence_suitability_score": 76,
+            "semantic": {}
+          }
+        },
+        {
+          "evidence_id": "EV-83f13c2d2987",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "叔于田",
+          "author": "佚名",
+          "original_text": "叔于田，巷无居人。岂无居人？不如叔也。洵美且仁。\n叔于狩，巷无饮酒。岂无饮酒？不如叔也。洵美且好。\n叔适野，巷无服马。岂无服马？不如叔也。洵美且武。",
+          "matched_chars": [
+            "仁"
+          ],
+          "matched_keywords": [],
+          "match_type": "single_char_composition",
+          "confidence": 0.76,
+          "record_id": "先秦-000077",
+          "evidence_level": "E2",
+          "suitability": {
+            "evidence_level": "E2",
+            "phrase_complete": false,
+            "semantic_dependency": false,
+            "context_support": true,
+            "nameability": true,
+            "reason_codes": [
+              "SINGLE_CHAR_CULTURE_TRACE"
+            ],
+            "passed": true,
+            "evidence_suitability_score": 76,
+            "semantic": {}
+          }
+        }
+      ],
+      "semantic_role_first": "传承",
+      "semantic_role_second": "仁德",
+      "combined_meaning": "承取传承之意，仁取仁德之意，组合为传承与仁德相成。",
+      "meaning_completeness": 90.0,
+      "evidence_level": "E2_COMPOSED",
+      "evidence_suitability_score": 82,
+      "naturalness_score": 91.6,
+      "structure_archetype_compatibility": 100.0,
+      "compatibility_level": "HIGH",
+      "compatibility_reason_codes": [
+        "COMPATIBILITY_HIGH"
+      ],
+      "semantic_validation": {
+        "given_name": "承仁",
+        "semantic_role_first": "传承",
+        "semantic_role_second": "仁德",
+        "combined_meaning": "承取传承之意，仁取仁德之意，组合为传承与仁德相成。",
+        "meaning_completeness": 90.0,
+        "issues": [],
+        "passed": true
+      },
+      "naturalness": {
+        "naturalness_score": 91.6,
+        "adult_usability": 91.6,
+        "spoken_usability": 91.6,
+        "full_name_fit": 91.6,
+        "conceptualization_risk": 8.400000000000006,
+        "issues": [],
+        "passed": true,
+        "top20_allowed": true,
+        "top10_allowed": true,
+        "top3_allowed": true
+      },
+      "generation_mode": "semantic_role_composition",
+      "first_char_source": [
+        "char_pool",
+        "culture_evidence_char",
+        "selected_culture_text"
+      ],
+      "second_char_source": [
+        "char_pool",
+        "culture_evidence_char",
+        "selected_culture_text"
+      ],
+      "structure_rule_ids": [
+        "S02",
+        "SEMANTIC_ROLE_MATCH"
+      ],
+      "archetype_rule_ids": [
+        "A03",
+        "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+      ],
+      "was_example_name": false,
+      "was_golden_fixture": false,
+      "was_direct_name_candidate": false,
+      "reconstruction": {
+        "reconstructable": true,
+        "source_independent": true,
+        "reconstruction_steps": [
+          "first char is reconstructable from first char pool",
+          "second char is reconstructable from second char pool",
+          "semantic roles are present before scoring",
+          "combined meaning is established before ranking",
+          "both chars can be selected from current culture evidence",
+          "generation mode is rule derivation, not fixture lookup"
+        ],
+        "failures": []
+      },
+      "classic_expression_score": 53.3,
+      "derivation_originality_score": 82.1,
+      "corpus_copy_risk": 0.18,
+      "historical_name_collision": "UNKNOWN",
+      "style_affinity_score": 1.2,
+      "style_fit_score": 92.0,
+      "gender_tone_fit_score": 90.0,
+      "surname_fit_score": 84.48,
+      "imagery_fit_score": 98,
+      "profile_specificity_score": 98.62,
+      "profile_fit_reasons": [
+        "PROFILE_STRUCTURE_MATCH",
+        "PROFILE_ARCHETYPE_MATCH",
+        "PROFILE_ROLE_MATCH",
+        "PROFILE_IMAGERY_MATCH",
+        "PROFILE_CULTURE_SOURCE_MATCH"
+      ],
+      "profile_conflicts": [],
+      "gender_tone_reason_codes": [
+        "MALE_CLEAR_RESPONSIBLE"
+      ],
+      "surname_fit": {
+        "surname": "林",
+        "given_name": "承仁",
+        "tone_pattern": "2-2-2",
+        "initial_conflicts": [],
+        "final_conflicts": [],
+        "rhythm_score": 89,
+        "visual_balance_score": 88,
+        "surname_affinity_score": 72.0,
+        "surname_fit_score": 84.48
+      },
+      "universal_candidate_risk": 0.0,
+      "cross_profile_dominance_risk": 0.0
+    }
+  ],
+  "filter_reasons": {
+    "INSUFFICIENT_CORE_EVIDENCE": 18,
+    "LOW_PROFILE_SPECIFICITY": 26,
+    "TOP_NAME_BLACKLIST": 2,
+    "TEMPLATE_NAME_PATTERN": 2
+  },
+  "top1": {
+    "candidate_id": "NC-487a59e33aa8",
+    "surname": "林",
+    "given_name": "思敬",
+    "full_name": "林思敬",
+    "structure_id": "S06",
+    "archetype_id": "A02",
+    "semantic_pattern": "思辨/敬慎",
+    "culture_evidence_ids": [
+      "EV-eebc676b900a",
+      "EV-2ef47d142ff9"
+    ],
+    "generation_reason_codes": [
+      "SEMANTIC_ROLE_COMPOSITION",
+      "SEPARATE_CHAR_CULTURE_TRACE",
+      "POOL_CHAR_SELECTED"
+    ],
+    "generation_seed": 20260622,
+    "quality_guard": {
+      "passed": true,
+      "hard_failures": [],
+      "soft_warnings": [
+        "E2_COMPOSED"
+      ],
+      "penalties": {}
+    },
+    "score": {
+      "raw_score": 90,
+      "available_max_score": 90,
+      "normalized_score": 100.0,
+      "alpha_grade": "S",
+      "fortune_score": null,
+      "fortune_status": "NOT_EVALUATED",
+      "fortune_max_score": 10,
+      "score_version": "NES_ALPHA_1.3",
+      "breakdown": {
+        "phonology": 14.45,
+        "meaning": 14.06,
+        "culture": 13.11,
+        "structure": 19.65,
+        "archetype": 10,
+        "uniqueness": 4.6,
+        "aesthetic": 9.21,
+        "naturalness": 92.08,
+        "penalties": 0,
+        "style_affinity_bonus": 1.4,
+        "profile_specificity": 98.48,
+        "surname_fit": 87.36,
+        "profile_adjustment": 3.74
+      },
+      "sub_breakdown": {
+        "phonology": {
+          "tone_variation": 3.0,
+          "initial_conflict": 3.0,
+          "final_conflict": 3.0,
+          "surname_link": 3.0,
+          "internal_flow": 2.45
+        },
+        "meaning": {
+          "char_meaning_quality": 2.9,
+          "composition_completeness": 3.86,
+          "semantic_complementarity": 3.2,
+          "modern_understanding": 2.39,
+          "time_stability": 1.7
+        },
+        "culture": {
+          "evidence_level": 3.35,
+          "original_text_relevance": 2.3,
+          "expression_completeness": 2.62,
+          "source_depth": 2.6,
+          "evidence_uniqueness": 2.24
+        },
+        "structure": {
+          "two_semantic_roles": 4.0,
+          "structure_integrity": 4.05,
+          "structure_rarity": 3.2,
+          "explainability": 4.0,
+          "structure_match": 4.4
+        },
+        "archetype": {
+          "archetype_clarity": 3.4,
+          "archetype_consistency": 3.4,
+          "archetype_match": 3.2
+        },
+        "uniqueness": {
+          "hot_char_risk": 1.6,
+          "hot_combo_risk": 1.5,
+          "template_risk": 1.5
+        },
+        "aesthetic": {
+          "restraint": 1.84,
+          "real_name_feel": 2.03,
+          "adult_usability": 1.75,
+          "conceptualization_risk": 1.66,
+          "surname_fit": 1.93
+        },
+        "style_affinity": {
+          "input_style_match": 1.4,
+          "source": "style_preferences and liked_chars"
+        },
+        "profile_specificity": {
+          "style_fit_score": 96.0,
+          "gender_tone_fit_score": 90.0,
+          "imagery_fit_score": 86,
+          "surname_fit_score": 87.36,
+          "universal_candidate_risk": 0.0
+        }
+      },
+      "top3_eligible": true,
+      "top1_eligible": true
+    },
+    "evidences": [
+      {
+        "evidence_id": "EV-eebc676b900a",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "关雎",
+        "author": "佚名",
+        "original_text": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。\n参差荇菜，左右流之。窈窕淑女，寤寐求之。\n求之不得，寤寐思服。悠哉悠哉，辗转反侧。\n参差荇菜，左右采之。窈窕淑女，琴瑟友之。\n参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。",
+        "matched_chars": [
+          "思"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000001",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      },
+      {
+        "evidence_id": "EV-2ef47d142ff9",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "沔水",
+        "author": "佚名",
+        "original_text": "沔彼流水，朝宗于海。𫛣彼飞隼，载飞载止。嗟我兄弟，邦人诸友。莫肯念乱，谁无父母？\n沔彼流水，其流汤汤。𫛣彼飞隼，载飞载扬。念彼不迹，载起载行。心之忧矣，不可弭忘。\n𫛣彼飞隼，率彼中陵。民之讹言，宁莫之惩？我友敬矣，谗言其兴。",
+        "matched_chars": [
+          "敬"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000183",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      }
+    ],
+    "semantic_role_first": "思辨",
+    "semantic_role_second": "敬慎",
+    "combined_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+    "meaning_completeness": 92.0,
+    "evidence_level": "E2_COMPOSED",
+    "evidence_suitability_score": 82,
+    "naturalness_score": 92.08,
+    "structure_archetype_compatibility": 100.0,
+    "compatibility_level": "HIGH",
+    "compatibility_reason_codes": [
+      "COMPATIBILITY_HIGH"
+    ],
+    "semantic_validation": {
+      "given_name": "思敬",
+      "semantic_role_first": "思辨",
+      "semantic_role_second": "敬慎",
+      "combined_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+      "meaning_completeness": 92.0,
+      "issues": [],
+      "passed": true
+    },
+    "naturalness": {
+      "naturalness_score": 92.08,
+      "adult_usability": 92.08,
+      "spoken_usability": 92.08,
+      "full_name_fit": 92.08,
+      "conceptualization_risk": 7.920000000000002,
+      "issues": [],
+      "passed": true,
+      "top20_allowed": true,
+      "top10_allowed": true,
+      "top3_allowed": true
+    },
+    "generation_mode": "semantic_role_composition",
+    "first_char_source": [
+      "char_pool",
+      "culture_evidence_char",
+      "selected_culture_text"
+    ],
+    "second_char_source": [
+      "char_pool",
+      "culture_evidence_char",
+      "selected_culture_text"
+    ],
+    "structure_rule_ids": [
+      "S06",
+      "SEMANTIC_ROLE_MATCH"
+    ],
+    "archetype_rule_ids": [
+      "A02",
+      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+    ],
+    "was_example_name": false,
+    "was_golden_fixture": false,
+    "was_direct_name_candidate": false,
+    "reconstruction": {
+      "reconstructable": true,
+      "source_independent": true,
+      "reconstruction_steps": [
+        "first char is reconstructable from first char pool",
+        "second char is reconstructable from second char pool",
+        "semantic roles are present before scoring",
+        "combined meaning is established before ranking",
+        "both chars can be selected from current culture evidence",
+        "generation mode is rule derivation, not fixture lookup"
+      ],
+      "failures": []
+    },
+    "classic_expression_score": 53.3,
+    "derivation_originality_score": 82.1,
+    "corpus_copy_risk": 0.18,
+    "historical_name_collision": "UNKNOWN",
+    "style_affinity_score": 3.1,
+    "style_fit_score": 96.0,
+    "gender_tone_fit_score": 90.0,
+    "surname_fit_score": 87.36,
+    "imagery_fit_score": 86,
+    "profile_specificity_score": 98.48,
+    "profile_fit_reasons": [
+      "PROFILE_STRUCTURE_MATCH",
+      "PROFILE_ARCHETYPE_MATCH",
+      "PROFILE_ROLE_MATCH",
+      "PROFILE_IMAGERY_MATCH",
+      "PROFILE_CULTURE_SOURCE_MATCH"
+    ],
+    "profile_conflicts": [],
+    "gender_tone_reason_codes": [
+      "MALE_CLEAR_RESPONSIBLE"
+    ],
+    "surname_fit": {
+      "surname": "林",
+      "given_name": "思敬",
+      "tone_pattern": "2-1-4",
+      "initial_conflicts": [],
+      "final_conflicts": [],
+      "rhythm_score": 95,
+      "visual_balance_score": 88,
+      "surname_affinity_score": 72.0,
+      "surname_fit_score": 87.36
+    },
+    "universal_candidate_risk": 0.0,
+    "cross_profile_dominance_risk": 0.0
+  },
+  "top1_status": "OK"
+}

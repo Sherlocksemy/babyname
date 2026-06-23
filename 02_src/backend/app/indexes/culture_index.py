@@ -44,8 +44,6 @@ class CultureIndex:
 
     def _index_text(self, record: dict) -> None:
         text = str(record.get("content") or "")
-        for candidate in record.get("name_candidates") or []:
-            text += str(candidate)
         for char in set(HANZI_RE.findall(text)):
             self.char_index[char].append(record)
         for sentence in SENTENCE_SPLIT_RE.split(str(record.get("content") or "")):

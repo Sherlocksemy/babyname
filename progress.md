@@ -13,3 +13,9 @@
 - Retried GitHub MCP after network recovery; connector still failed at initialization.
 - Added `yht050511/gushiwen` via direct GitHub clone and used it to fill high-confidence culture translations.
 - Ran `python .\03_tools\build_all.py`; validation passed.
+- Started Milestone 1.3 implementation from current workspace state.
+- Confirmed current alpha CLI still runs after partial 1.3 changes; sample Top3 was `林思敬 / 林泉松 / 林德修`.
+- Implemented ProfileSpecificity, SurnameFit, E2_COMPOSED/E2_IMAGERY candidate paths, path-balanced ranking, and Milestone 1.3 reports.
+- Ran `python 02_src\backend\app\cli\run_milestone_1_3.py`; Matrix A and Matrix B both passed.
+- Ran `python -m pytest 02_src\backend\tests -q`; result: `65 passed in 136.48s`.
+- Ran `python -m backend.app.cli.run_naming_alpha`; sample Top3: `林思敬 / 林泉清 / 林承仁`.

@@ -1,0 +1,224 @@
+{
+  "repeated_names": [
+    "思敬",
+    "修能",
+    "乔岳",
+    "灵安"
+  ],
+  "root_causes": [
+    "Milestone 1.2 ranked mostly by universal NES quality and E1 culture evidence.",
+    "full_name overlap hid repeated given names when surnames differed.",
+    "Direct culture bigrams dominated the candidate pool, so the same high-evidence names resurfaced across profiles.",
+    "Profile fit, gender tone, surname rhythm, imagery, and generation path were not hard enough ranking factors."
+  ],
+  "fixes": [
+    "Use given_name overlap as the core cross-case metric.",
+    "Add deterministic ProfileSpecificity and SurnameFit scores to each candidate.",
+    "Add semantic-role composition and imagery-transformation paths without pretending they are direct phrases.",
+    "Require profile thresholds for Top20, Top10, and Top3.",
+    "Select Top20 with path balance so Direct Expression is capped at 50%."
+  ],
+  "not_used": [
+    "No blacklist was added for 思敬、修能、乔岳、灵安.",
+    "No LLM-generated names were introduced."
+  ],
+  "matrix_a_summary": {
+    "top3_slot_count": 15,
+    "unique_given_name_count": 12,
+    "unique_rate": 0.8,
+    "max_given_name_frequency": 2,
+    "given_name_counts": {
+      "思敬": 2,
+      "泉清": 1,
+      "承仁": 1,
+      "宁泉": 1,
+      "安灵": 2,
+      "信文": 1,
+      "乔岳": 1,
+      "竹清": 2,
+      "泉宁": 1,
+      "昭宁": 1,
+      "朗煦": 1,
+      "泉灵": 1
+    },
+    "pairwise_max_top3_given_overlap": 1,
+    "pairwise_max_top20_given_jaccard": 0.25,
+    "meets_threshold": true
+  },
+  "matrix_b_summary": {
+    "top3_sets": {
+      "B1": [
+        "思敬",
+        "泉清",
+        "承仁"
+      ],
+      "B2": [
+        "仁承",
+        "思敬",
+        "德章"
+      ],
+      "B3": [
+        "思敬",
+        "仁维",
+        "嘉信"
+      ],
+      "B4": [
+        "敬信",
+        "思弘",
+        "谦章"
+      ],
+      "B5": [
+        "贤庭",
+        "思弘",
+        "仁维"
+      ]
+    },
+    "top1_names": [
+      "思敬",
+      "仁承",
+      "思敬",
+      "敬信",
+      "思弘"
+    ],
+    "top1_unique_rate": 0.8,
+    "exact_same_top3_pairs": [],
+    "same_given_name_surname_fit_variation": {
+      "思敬": {
+        "林": 87.36,
+        "陈": 87.36,
+        "黄": 87.36,
+        "郑": 86.92,
+        "欧阳": 82.38
+      },
+      "敬谦": {
+        "林": 87.36,
+        "陈": 87.36,
+        "黄": 84.96,
+        "欧阳": 82.98
+      },
+      "思弘": {
+        "林": 85.92,
+        "陈": 85.92,
+        "黄": 85.92,
+        "郑": 87.36,
+        "欧阳": 82.38
+      },
+      "泉清": {
+        "林": 87.08,
+        "陈": 82.08,
+        "黄": 82.08,
+        "郑": 83.52,
+        "欧阳": 78.54
+      },
+      "竹清": {
+        "林": 91.42,
+        "陈": 85.92,
+        "黄": 85.92,
+        "郑": 83.52,
+        "欧阳": 82.38
+      },
+      "仁维": {
+        "林": 84.48,
+        "陈": 88.98,
+        "黄": 84.48,
+        "郑": 85.92,
+        "欧阳": 82.38
+      },
+      "嘉信": {
+        "林": 87.36,
+        "黄": 87.36,
+        "郑": 88.42,
+        "欧阳": 82.38
+      },
+      "安泉": {
+        "林": 88.92,
+        "陈": 85.92,
+        "黄": 85.92,
+        "郑": 87.36,
+        "欧阳": 82.38
+      },
+      "承贤": {
+        "林": 84.48,
+        "陈": 86.14,
+        "黄": 82.08,
+        "郑": 83.52,
+        "欧阳": 82.98
+      },
+      "安德": {
+        "林": 85.92,
+        "陈": 85.92,
+        "黄": 85.92,
+        "郑": 87.36,
+        "欧阳": 82.38
+      },
+      "贤庭": {
+        "林": 84.48,
+        "陈": 85.98,
+        "黄": 84.48,
+        "郑": 85.92,
+        "欧阳": 87.88
+      },
+      "弘乔": {
+        "林": 86.48,
+        "陈": 84.48
+      },
+      "信初": {
+        "林": 87.36,
+        "陈": 87.36,
+        "欧阳": 82.38
+      },
+      "正则": {
+        "林": 82.08,
+        "陈": 82.08,
+        "黄": 79.68,
+        "郑": 82.84,
+        "欧阳": 77.58
+      },
+      "南岩": {
+        "林": 82.08,
+        "陈": 82.08,
+        "黄": 82.08,
+        "郑": 83.52,
+        "欧阳": 79.98
+      },
+      "波文": {
+        "林": 85.92,
+        "陈": 88.42,
+        "黄": 85.92,
+        "郑": 87.36,
+        "欧阳": 82.38
+      },
+      "海南": {
+        "林": 85.92,
+        "陈": 85.92,
+        "黄": 82.08,
+        "郑": 87.36,
+        "欧阳": 86.32
+      },
+      "明昭": {
+        "林": 85.92,
+        "郑": 84.96,
+        "欧阳": 79.98
+      },
+      "谦章": {
+        "陈": 87.92,
+        "黄": 85.92,
+        "郑": 88.42,
+        "欧阳": 86.44
+      },
+      "仁庭": {
+        "黄": 84.48,
+        "郑": 85.92,
+        "欧阳": 84.88
+      },
+      "承德": {
+        "黄": 82.08,
+        "郑": 83.52,
+        "欧阳": 79.98
+      }
+    },
+    "meets_threshold": true
+  },
+  "pytest_result": "65 passed in 136.48s",
+  "milestone_1_3_status": "PASSED"
+}

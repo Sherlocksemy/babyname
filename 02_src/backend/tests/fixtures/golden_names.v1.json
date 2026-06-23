@@ -1,0 +1,12 @@
+[
+  {"given_name": "知微", "expected_min_level": "A", "expected_structures": ["S01", "S06"], "expected_archetypes": ["A01", "A02"], "reason": "智慧与洞察结构完整"},
+  {"given_name": "景行", "expected_min_level": "A", "expected_structures": ["S02"], "expected_archetypes": ["A03"], "reason": "德行表达完整"},
+  {"given_name": "弘毅", "expected_min_level": "A", "expected_structures": ["S10"], "expected_archetypes": ["A04"], "reason": "志向与坚毅结构完整"},
+  {"given_name": "怀瑾", "expected_min_level": "A", "expected_structures": ["S02"], "expected_archetypes": ["A03"], "reason": "内在德行表达完整"},
+  {"given_name": "若谷", "expected_min_level": "A", "expected_structures": ["S05"], "expected_archetypes": ["A02"], "reason": "虚怀若谷表达完整"},
+  {"given_name": "修远", "expected_min_level": "A", "expected_structures": ["S03"], "expected_archetypes": ["A05"], "reason": "修养与远志完整"},
+  {"given_name": "慎思", "expected_min_level": "A", "expected_structures": ["S06"], "expected_archetypes": ["A01"], "reason": "审慎思辨完整"},
+  {"given_name": "清晏", "expected_min_level": "A", "expected_structures": ["S09"], "expected_archetypes": ["A09"], "reason": "清明安宁完整"},
+  {"given_name": "牧之", "expected_min_level": "A", "expected_structures": ["S07"], "expected_archetypes": ["A07"], "reason": "涵养持守完整"},
+  {"given_name": "守仁", "expected_min_level": "A", "expected_structures": ["S02"], "expected_archetypes": ["A03"], "reason": "守持仁德完整"}
+]

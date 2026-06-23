@@ -1,0 +1,12 @@
+[
+  {"given_name": "若汐", "reason": "模板化"},
+  {"given_name": "梓涵", "reason": "模板化"},
+  {"given_name": "梓轩", "reason": "模板化"},
+  {"given_name": "仁贤", "reason": "德行标签重复"},
+  {"given_name": "宜言", "reason": "宜言饮酒语境依赖"},
+  {"given_name": "宇安", "reason": "万宇安人截取不完整"},
+  {"given_name": "墨书", "reason": "物件文化符号堆叠"},
+  {"given_name": "星序", "reason": "组合意义不清"},
+  {"given_name": "川洲", "reason": "同类地理意象重复"},
+  {"given_name": "泽星", "reason": "意象关系弱"}
+]
