@@ -108,6 +108,17 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "匕",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "十",
       "risk_codes": [
         "UNSUITABLE_FUNCTION_CHAR",
@@ -149,12 +160,32 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "下",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "与",
       "risk_codes": [
         "UNSUITABLE_FUNCTION_CHAR"
       ],
       "rejection_reasons": [
         "obvious_non_name_character"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "丸",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -185,6 +216,16 @@
       ],
       "rejection_reasons": [
         "obvious_non_name_character"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "乡",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -227,6 +268,17 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "勺",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -314,12 +366,33 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "为",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "乌",
       "risk_codes": [
         "HOMOPHONE_RISK"
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "乏",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -341,6 +414,16 @@
       ],
       "rejection_reasons": [
         "obvious_non_name_character"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "仅",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -389,6 +472,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "勾",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "勿",
       "risk_codes": [
         "HOMOPHONE_RISK"
@@ -425,6 +518,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "友",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -533,6 +636,17 @@
       "rejection_reasons": [
         "obvious_non_name_character",
         "function_word_semantic"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "仗",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -648,6 +762,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "处",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "孕",
       "risk_codes": [
         "HOMOPHONE_RISK"
@@ -684,6 +808,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "归",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -771,6 +905,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "合",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "吗",
       "risk_codes": [
         "UNSUITABLE_FUNCTION_CHAR",
@@ -843,6 +987,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "岁",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -931,6 +1085,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "汤",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "泃",
       "risk_codes": [
         "HOMOPHONE_RISK"
@@ -968,6 +1132,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "劳",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -1339,6 +1513,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "周",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "呱",
       "risk_codes": [
         "FUNCTION_WORD_SEMANTIC",
@@ -1379,6 +1563,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "国",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -1436,6 +1630,16 @@
       "char": "宓",
       "risk_codes": [
         "LOW_NAMEABILITY_DEFINITION"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "官",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
       ],
       "rejection_reasons": [
         "low_nameability_definition"
@@ -1512,6 +1716,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "怪",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -1625,6 +1839,16 @@
       "char": "泓",
       "risk_codes": [
         "LOW_NAMEABILITY_DEFINITION"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "举",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
       ],
       "rejection_reasons": [
         "low_nameability_definition"
@@ -1759,12 +1983,32 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "复",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "媞",
       "risk_codes": [
         "HOMOPHONE_RISK"
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "宫",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -1776,6 +2020,16 @@
       ],
       "rejection_reasons": [
         "obvious_non_name_character"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "尝",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -1962,6 +2216,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "浑",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "俱",
       "risk_codes": [
         "OBJECT_OR_TOOL_SEMANTIC",
@@ -2127,6 +2391,16 @@
       ],
       "rejection_reasons": [
         "obvious_non_name_character",
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "息",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
         "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
@@ -3075,12 +3349,32 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "见",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "犰",
       "risk_codes": [
         "HOMOPHONE_RISK"
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "生",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -3132,6 +3426,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "节",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -3551,6 +3855,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "视",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "訄",
       "risk_codes": [
         "HOMOPHONE_RISK"
@@ -3709,6 +4023,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "诱",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },
@@ -4447,6 +4771,16 @@
       "source": "knowledge_derived_catalog"
     },
     {
+      "char": "群",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
       "char": "腭",
       "risk_codes": [
         "HOMOPHONE_RISK"
@@ -4948,6 +5282,16 @@
       ],
       "rejection_reasons": [
         "homophone_blacklist"
+      ],
+      "source": "knowledge_derived_catalog"
+    },
+    {
+      "char": "闲",
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
       ],
       "source": "knowledge_derived_catalog"
     },

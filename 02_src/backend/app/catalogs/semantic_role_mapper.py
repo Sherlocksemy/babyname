@@ -118,6 +118,77 @@ EXPLICIT_PRIMARY_CATEGORY: dict[str, str] = {
     "山": "LANDSCAPE",
 }
 
+EXPLICIT_CATEGORY_OVERRIDES: dict[str, list[str]] = {
+    "宫": ["OBJECT", "SPACE"],
+    "室": ["OBJECT", "SPACE"],
+    "殿": ["OBJECT", "SPACE"],
+    "宝": ["OBJECT", "AESTHETIC"],
+    "玉": ["OBJECT", "AESTHETIC"],
+    "珠": ["OBJECT", "AESTHETIC"],
+    "山": ["LANDSCAPE"],
+    "林": ["LANDSCAPE", "GROWTH"],
+    "江": ["WATER", "LANDSCAPE"],
+    "河": ["WATER", "LANDSCAPE"],
+    "湖": ["WATER", "LANDSCAPE"],
+    "海": ["WATER", "LANDSCAPE", "SPACE"],
+    "泉": ["WATER", "AESTHETIC"],
+    "泽": ["WATER", "AESTHETIC"],
+    "清": ["WATER", "AESTHETIC"],
+    "涛": ["WATER", "LANDSCAPE"],
+    "洪": ["WATER", "SPACE"],
+    "峰": ["LANDSCAPE", "ASPIRATION"],
+    "岳": ["LANDSCAPE", "ASPIRATION"],
+    "岭": ["LANDSCAPE"],
+    "风": ["LANDSCAPE", "AESTHETIC"],
+    "云": ["SPACE", "AESTHETIC"],
+    "雪": ["AESTHETIC", "WATER"],
+    "阳": ["BRIGHTNESS", "LANDSCAPE"],
+    "晖": ["BRIGHTNESS", "AESTHETIC"],
+    "明": ["BRIGHTNESS", "WISDOM"],
+    "世": ["ORDER", "CULTURE"],
+    "国": ["ORDER", "CULTURE"],
+    "东": ["SPACE", "BRIGHTNESS"],
+    "西": ["SPACE"],
+    "南": ["SPACE"],
+    "北": ["SPACE"],
+    "富": ["CAPABILITY"],
+    "贵": ["CAPABILITY"],
+    "发": ["ASPIRATION", "CAPABILITY"],
+    "兴": ["ASPIRATION", "BRIGHTNESS"],
+    "飞": ["ASPIRATION", "SPACE"],
+    "学": ["LEARNING", "ASPIRATION"],
+    "文": ["CULTURE", "LEARNING"],
+    "劳": ["FUNCTION"],
+    "见": ["FUNCTION"],
+    "生": ["GROWTH"],
+    "周": ["ORDER"],
+    "勤": ["CULTIVATION", "ASPIRATION"],
+    "诗": ["CULTURE", "AESTHETIC"],
+    "书": ["CULTURE", "LEARNING"],
+    "谊": ["VIRTUE", "PEACE"],
+    "惠": ["VIRTUE", "PEACE"],
+    "仁": ["VIRTUE"],
+    "德": ["VIRTUE", "CULTIVATION"],
+    "信": ["VIRTUE"],
+    "敬": ["VIRTUE", "CULTIVATION"],
+    "正": ["VIRTUE", "ORDER"],
+    "谦": ["VIRTUE", "CULTIVATION"],
+    "贤": ["VIRTUE", "WISDOM"],
+    "承": ["CAPABILITY", "CULTURE"],
+    "思": ["WISDOM", "CULTURE"],
+    "知": ["WISDOM", "LEARNING"],
+    "安": ["PEACE"],
+    "宁": ["PEACE"],
+    "楚": ["AESTHETIC", "LANDSCAPE"],
+    "莹": ["AESTHETIC", "BRIGHTNESS"],
+    "芳": ["AESTHETIC", "GROWTH"],
+    "芬": ["AESTHETIC", "GROWTH"],
+    "兰": ["AESTHETIC", "CULTURE"],
+    "芊": ["AESTHETIC", "GROWTH"],
+    "深": ["WATER", "WISDOM"],
+    "远": ["ASPIRATION", "SPACE"],
+}
+
 
 @dataclass(frozen=True)
 class SemanticMapping:
@@ -172,8 +243,12 @@ class SemanticRoleMapper:
                 elif keyword in ("书卷", "文脉"):
                     categories.append("CULTURE")
 
-        categories = list(dict.fromkeys(categories))
-        categories.sort(key=lambda item: CATEGORY_PRIORITY.get(item, 80))
+        if char in EXPLICIT_CATEGORY_OVERRIDES:
+            categories = list(EXPLICIT_CATEGORY_OVERRIDES[char])
+            basis.append(f"explicit_category:{char}")
+        else:
+            categories = list(dict.fromkeys(categories))
+            categories.sort(key=lambda item: CATEGORY_PRIORITY.get(item, 80))
         explicit = EXPLICIT_PRIMARY_CATEGORY.get(char)
         if explicit:
             if explicit in categories:

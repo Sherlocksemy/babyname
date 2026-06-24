@@ -2,46 +2,46 @@
   "case_count": 3,
   "top3_slot_count": 9,
   "top3_unique_given_name_count": 9,
-  "top20_unique_given_name_count": 55,
+  "top20_unique_given_name_count": 51,
   "all_cases_have_top3": true,
   "path_distribution": {
     "default_male": {
       "total": 20,
       "counts": {
-        "imagery_transformation": 4,
-        "semantic_role_composition": 9,
-        "direct_expression": 7
+        "direct_expression": 12,
+        "semantic_role_composition": 5,
+        "imagery_transformation": 3
       },
       "ratios": {
-        "imagery_transformation": 0.2,
-        "semantic_role_composition": 0.45,
-        "direct_expression": 0.35
+        "direct_expression": 0.6,
+        "semantic_role_composition": 0.25,
+        "imagery_transformation": 0.15
       }
     },
     "gentle_female": {
       "total": 20,
       "counts": {
-        "semantic_role_composition": 8,
-        "direct_expression": 8,
-        "imagery_transformation": 4
+        "semantic_role_composition": 3,
+        "direct_expression": 14,
+        "imagery_transformation": 3
       },
       "ratios": {
-        "semantic_role_composition": 0.4,
-        "direct_expression": 0.4,
-        "imagery_transformation": 0.2
+        "semantic_role_composition": 0.15,
+        "direct_expression": 0.7,
+        "imagery_transformation": 0.15
       }
     },
     "landscape_male": {
       "total": 20,
       "counts": {
-        "imagery_transformation": 4,
-        "semantic_role_composition": 8,
-        "direct_expression": 8
+        "direct_expression": 14,
+        "semantic_role_composition": 2,
+        "imagery_transformation": 4
       },
       "ratios": {
-        "imagery_transformation": 0.2,
-        "semantic_role_composition": 0.4,
-        "direct_expression": 0.4
+        "direct_expression": 0.7,
+        "semantic_role_composition": 0.1,
+        "imagery_transformation": 0.2
       }
     }
   }

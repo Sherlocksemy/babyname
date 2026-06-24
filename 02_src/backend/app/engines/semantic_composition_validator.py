@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from app.catalogs.nameability_classifier import HIGH_RISK_POLYPHONE_CHARS
 from app.catalogs.name_char_catalog_builder import ensure_name_char_catalog
 
 
@@ -62,6 +63,8 @@ BLOCKING_ISSUES = {
     "SEMANTIC_REDUNDANCY",
     "LANDSCAPE_DUPLICATION",
     "OBJECT_OBJECT_PAIR",
+    "LOW_NAMEABILITY_PRIMARY_CATEGORY",
+    "HIGH_RISK_POLYPHONE",
 }
 
 
@@ -86,6 +89,12 @@ class SemanticCompositionValidator:
         if first_record["nameability_level"] == "REJECTED" or second_record["nameability_level"] == "REJECTED":
             issues.append("LOW_NAMEABILITY")
             risk_codes.append("CATALOG_REJECTED_CHAR")
+        if self._primary_raw_category(first_record) in {"OBJECT", "FUNCTION", "UNKNOWN"} or self._primary_raw_category(second_record) in {"OBJECT", "FUNCTION", "UNKNOWN"}:
+            issues.append("LOW_NAMEABILITY_PRIMARY_CATEGORY")
+            risk_codes.append("LOW_NAMEABILITY_CATEGORY")
+        if first in HIGH_RISK_POLYPHONE_CHARS or second in HIGH_RISK_POLYPHONE_CHARS:
+            issues.append("HIGH_RISK_POLYPHONE")
+            risk_codes.append("HIGH_RISK_POLYPHONE")
 
         first_cat, second_cat, relation_type = self._best_category_pair(first_record, second_record)
         pair = (first_cat, second_cat)
@@ -149,6 +158,10 @@ class SemanticCompositionValidator:
         for category in record.get("semantic_categories") or []:
             if category not in {"UNKNOWN", "OBJECT", "FUNCTION"}:
                 return category
+        return (record.get("semantic_categories") or ["UNKNOWN"])[0]
+
+    @staticmethod
+    def _primary_raw_category(record: dict) -> str:
         return (record.get("semantic_categories") or ["UNKNOWN"])[0]
 
     @classmethod

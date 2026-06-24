@@ -49,12 +49,19 @@ class RankingEngine:
                 )
             )
         eligible_top3_pool = [candidate for candidate in top10 if (candidate.score or {}).get("top3_eligible")]
-        top3 = self._select_diverse(eligible_top3_pool, target=3, relaxed=False)
+        combo_top3_pool = eligible_top3_pool + [
+            candidate
+            for candidate in top20
+            if candidate not in eligible_top3_pool and (candidate.score or {}).get("top3_eligible")
+        ]
+        top3 = self._select_top3_combo(combo_top3_pool)
+        if len(top3) < 3:
+            top3 = self._select_diverse(eligible_top3_pool, target=3, relaxed=False)
         if len(top3) < 3:
             top3 = self._select_diverse(eligible_top3_pool, target=3, relaxed=True)
         if len(top3) < 3:
             top3.extend([candidate for candidate in top10 if candidate not in top3][: 3 - len(top3)])
-        top3 = self._improve_top3_diversity(top3[:3], top10)
+        top3 = self._improve_top3_diversity(top3[:3], top10, top20)
         diversity_status = "OK"
         reason = ""
         if len(top3) < 3 or len({item.structure_id for item in top3}) < 2 or len({item.archetype_id for item in top3}) < 2:
@@ -210,16 +217,57 @@ class RankingEngine:
         return selected
 
     @staticmethod
-    def _improve_top3_diversity(top3: list[NameCandidate], top10: list[NameCandidate]) -> list[NameCandidate]:
+    def _select_top3_combo(candidates: list[NameCandidate]) -> list[NameCandidate]:
+        pool = candidates[:30]
+        best: list[NameCandidate] = []
+        for i, first in enumerate(pool):
+            for j, second in enumerate(pool[i + 1 :], start=i + 1):
+                for third in pool[j + 1 :]:
+                    combo = [first, second, third]
+                    chars = "".join(item.given_name for item in combo)
+                    if len(chars) != len(set(chars)):
+                        continue
+                    if len({item.structure_id for item in combo}) < 2:
+                        continue
+                    if len({item.archetype_id for item in combo}) < 2:
+                        continue
+                    return combo
+        return best
+
+    @staticmethod
+    def _improve_top3_diversity(top3: list[NameCandidate], top10: list[NameCandidate], top20: list[NameCandidate] | None = None) -> list[NameCandidate]:
         if len(top3) < 3:
             return top3
         selected = list(top3)
+        pool = list(top10) + [item for item in (top20 or []) if item not in top10]
         if len({item.structure_id for item in selected}) < 2:
-            replacement = next((item for item in top10 if item not in selected and item.structure_id not in {row.structure_id for row in selected}), None)
+            replacement = next(
+                (
+                    item
+                    for item in pool
+                    if item not in selected
+                    and item.structure_id not in {row.structure_id for row in selected}
+                    and (item.score or {}).get("top3_eligible")
+                    and item.compatibility_level == "HIGH"
+                    and not (set(item.given_name) & {char for row in selected[:-1] for char in row.given_name})
+                ),
+                None,
+            )
             if replacement:
                 selected[-1] = replacement
         if len({item.archetype_id for item in selected}) < 2:
-            replacement = next((item for item in top10 if item not in selected and item.archetype_id not in {row.archetype_id for row in selected}), None)
+            replacement = next(
+                (
+                    item
+                    for item in pool
+                    if item not in selected
+                    and item.archetype_id not in {row.archetype_id for row in selected}
+                    and (item.score or {}).get("top3_eligible")
+                    and item.compatibility_level == "HIGH"
+                    and not (set(item.given_name) & {char for row in selected[:-1] for char in row.given_name})
+                ),
+                None,
+            )
             if replacement:
                 selected[-1] = replacement
         return selected

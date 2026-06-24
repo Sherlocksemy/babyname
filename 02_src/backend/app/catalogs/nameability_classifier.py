@@ -5,6 +5,23 @@ from app.catalogs.character_risk_classifier import CharacterRiskClassifier
 
 LEVEL_ORDER = {"CORE": 3, "EXTENDED": 2, "EXPERIMENTAL": 1, "REJECTED": 0}
 
+CORE_BLOCKING_RISKS = {
+    "HOMOPHONE_RISK",
+    "POLYPHONE",
+    "OBJECT_OR_TOOL_SEMANTIC",
+    "LOW_SOURCE_POSITIVE_LEVEL",
+}
+
+GENERATION_BLOCKING_RISKS = {
+    "HOMOPHONE_RISK",
+    "UNSUITABLE_FUNCTION_CHAR",
+    "NEGATIVE_SEMANTIC_HINT",
+    "FUNCTION_WORD_SEMANTIC",
+    "LOW_NAMEABILITY_DEFINITION",
+}
+
+HIGH_RISK_POLYPHONE_CHARS = {"乐", "行", "重", "长", "朝", "柏", "曾", "解", "区", "朴", "仇", "单", "尉", "繁", "秘", "查", "为", "发"}
+
 POSITIVE_CATEGORY_BONUS = {
     "WISDOM": 10,
     "LEARNING": 7,
@@ -92,7 +109,16 @@ class NameabilityClassifier:
             score -= 8
         score = max(0, min(100, score))
 
-        if score >= 78 and not (set(categories) & {"OBJECT", "FUNCTION"}):
+        eligible_for_core = (
+            score >= 78
+            and bool(categories)
+            and bool(mandarin)
+            and len(mandarin) == 1
+            and bool(definition)
+            and not (set(categories) & {"OBJECT", "FUNCTION", "UNKNOWN"})
+            and not (set(risk_codes) & CORE_BLOCKING_RISKS)
+        )
+        if eligible_for_core:
             level = "CORE"
         elif score >= 58:
             level = "EXTENDED"

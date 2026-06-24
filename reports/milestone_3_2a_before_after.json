@@ -1,0 +1,57 @@
+{
+  "before": {
+    "source": "G:\\Codex\\baby-name-system\\reports\\milestone_3_1b_score_display.json",
+    "available": true,
+    "metrics": {
+      "name_count": 10,
+      "unique_char_count": 16,
+      "legacy_113_ratio": 0.65,
+      "new_extended_ratio": 0.35,
+      "core_ratio": 0.4,
+      "extended_ratio": 0.6,
+      "experimental_ratio": 0.0,
+      "moral_char_counts": {
+        "思": 2,
+        "敬": 2,
+        "承": 2,
+        "仁": 1,
+        "谦": 2,
+        "正": 1,
+        "信": 1,
+        "安": 1,
+        "德": 1,
+        "贤": 1
+      }
+    },
+    "names": [
+      "林思敬",
+      "林承仁",
+      "林谦正",
+      "林信初",
+      "林安德",
+      "林波文",
+      "林明昭",
+      "林思弘",
+      "林敬谦",
+      "林承贤"
+    ]
+  },
+  "after": {
+    "source": "milestone_3_2a_generation_matrix",
+    "metrics": {
+      "name_count": 100,
+      "unique_char_count": 61,
+      "legacy_113_ratio": 0.25,
+      "new_extended_ratio": 0.75,
+      "core_ratio": 0.695,
+      "extended_ratio": 0.305,
+      "experimental_ratio": 0.0,
+      "moral_char_counts": {
+        "仁": 2,
+        "思": 10,
+        "安": 12
+      }
+    }
+  },
+  "note": "Milestone 3.1B did not store the same five-case Top20 matrix; before comparison uses the available 3.1B score-display/result sample only."
+}

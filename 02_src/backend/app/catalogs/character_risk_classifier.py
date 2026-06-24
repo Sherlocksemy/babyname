@@ -26,6 +26,7 @@ NEGATIVE_HINTS = (
     "亡",
 )
 NEGATIVE_CHARS = set("恶凶杀亡死灾祸残败毒怨哭哀罪")
+LOW_NAMEABILITY_CHARS = set("宫劳尝视诱复为闲乏仗仅勾勺丸匕处乡汤浑岁群见国生周怪官归合节友下息举")
 
 TOOL_OBJECT_HINTS = ("器", "具", "刀", "斧", "锤", "盆", "桶", "车", "船", "锅", "碗")
 FUNCTION_WORD_HINTS = ("代词", "介词", "助词", "语气词", "连词", "数词")
@@ -46,6 +47,9 @@ class CharacterRiskClassifier:
         if char in UNSUITABLE_CHARS:
             risk_codes.append("UNSUITABLE_FUNCTION_CHAR")
             rejection_reasons.append("obvious_non_name_character")
+        if char in LOW_NAMEABILITY_CHARS:
+            risk_codes.append("LOW_NAMEABILITY_CHARACTER")
+            rejection_reasons.append("low_nameability_definition")
         if "贬义" in text or char in NEGATIVE_CHARS:
             risk_codes.append("NEGATIVE_SEMANTIC_HINT")
             rejection_reasons.append("negative_definition_hint")

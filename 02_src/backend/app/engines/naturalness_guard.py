@@ -11,7 +11,7 @@ class NaturalnessGuard:
         if semantic_validation:
             for issue in semantic_validation.get("issues", []):
                 if issue in {"OBJECT_OBJECT_PAIR", "LANDSCAPE_DUPLICATION", "ABSTRACT_LABEL_PAIR", "SLOGAN_LIKE"}:
-                    score -= 10
+                    score -= 24 if issue == "OBJECT_OBJECT_PAIR" else 10
                     issues.append(issue)
                 elif issue in {"FORCED_INTERPRETATION", "INCOMPLETE_PHRASE", "SEMANTIC_DISCONNECT"}:
                     score -= 14

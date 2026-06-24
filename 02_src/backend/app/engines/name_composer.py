@@ -28,7 +28,7 @@ class NameComposer:
         structures: list[dict],
         archetypes: list[dict],
         min_count: int = 60,
-        max_count: int = 120,
+        max_count: int = 200,
     ) -> list[NameCandidate]:
         first_map = {item.char: item for item in first_pool}
         second_map = {item.char: item for item in second_pool}
@@ -201,7 +201,7 @@ class NameComposer:
         second_items = sorted(second_pool[:80], key=lambda item: (-self._path_char_score(item, style_terms, imagery_only), item.char))
         for first in first_items:
             for second in second_items:
-                if added >= max_add or len(candidates) >= 120:
+                if added >= max_add or len(candidates) >= 200:
                     return
                 given_name = first.char + second.char
                 if first.char == second.char or given_name in seen:

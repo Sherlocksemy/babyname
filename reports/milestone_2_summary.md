@@ -28,8 +28,8 @@
 - Wuge: Kangxi strokes only; interpretation marked `DATA_INCOMPLETE`.
 
 ## Naming Integration
-- Top3: 林富宫 / 林思乐 / 林国山
-- Backup7: 林诗谊 / 林学风 / 林惠峰 / 林明嘉 / 林楚深 / 林诗远 / 林富思
+- Top3: 林惠诗 / 林仁风 / 林思梦
+- Backup7: 林清嘉 / 林辉泽 / 林静永 / 林诗惠 / 林晨风 / 林辉晏 / 林云静
 - Max fortune score in Top20: 6.0
 - Fortune can add at most 10 points and cannot rescue QualityGuard failures.
 

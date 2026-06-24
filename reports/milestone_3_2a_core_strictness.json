@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "core_total": 1347,
+    "no_culture_link_count": 139,
+    "polyphonic_count": 0,
+    "low_frequency_count": 1294,
+    "high_stroke_count": 32,
+    "empty_semantic_roles_count": 0,
+    "empty_naming_meaning_count": 0,
+    "nonempty_risk_count": 0
+  },
+  "quality_gates": {
+    "core_semantic_roles_nonempty": true,
+    "core_naming_meaning_nonempty": true,
+    "core_no_risk_preferred": true
+  }
+}

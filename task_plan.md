@@ -24,6 +24,55 @@ Audit and repair generated knowledge-base outputs under `01_knowledge_base` and 
 
 | Error | Attempt | Resolution |
 | --- | --- | --- |
+
+---
+
+# Milestone 3.2A Plan
+
+## Goal
+
+Validate whether the Milestone 3.2 catalog refactor actually improves generated name quality, using deterministic catalog sampling, five fixed generation cases, before/after metrics, manual-review tables, and only scoped rule corrections when hard gates fail.
+
+## Assumptions
+
+- Checkpoint `e6efc1c` is the clean baseline before Milestone 3.2A.
+- Do not enter Milestone 3.3.
+- Do not modify original knowledge-base sources, frontend pages, RankingEngine response contract, or add a new positive name whitelist.
+- If quality gates fail, only modify NameabilityClassifier, SemanticRoleMapper, CharacterRiskClassifier, catalog level rules, or generic semantic-composition rules.
+
+## Phases
+
+1. Inspect current catalog generation, runtime generation path, report inputs, and existing tests. Status: complete.
+2. Add deterministic catalog sampling audit and CORE strictness checks. Status: complete.
+3. Run five fixed real-generation cases and before/after comparison. Status: complete.
+4. Apply allowed catalog/semantic rule corrections only if gates fail. Status: complete.
+5. Add required Milestone 3.2A tests. Status: complete.
+6. Generate required reports and run backend/frontend full validation. Status: complete.
+7. Commit and push Milestone 3.2A results. Status: pending.
+
+## Success Criteria
+
+- Required `reports/milestone_3_2a_*` JSON/MD files are generated.
+- Catalog sampling gates pass or failures are explicitly reported with scoped rule corrections.
+- Five fixed cases include Top20, Top10, Top3, Backup7, candidate-pool evidence, and manual-review recommendations.
+- Existing backend and frontend tests remain passing, with required 3.2A tests added.
+- No Milestone 3.3, frontend feature, original data mutation, or LLM semantic filling is introduced.
+
+## Result
+
+- Added deterministic Milestone 3.2A CLI reports and ten regression/acceptance tests.
+- Tightened CORE eligibility, semantic category mapping, generation pool filtering, high-risk polyphone filtering, low-nameability risk flags, and catalog-derived naming meanings.
+- Generated all required `reports/milestone_3_2a_*` outputs.
+- Catalog sample and CORE strictness gates passed.
+- Generation hard gates did not fully pass: remaining failures are Top20 character-frequency diversity across all five cases, Top10 unique-character diversity in cases C/D/E, Top20 unique-character diversity in case D, and Top3 EXTENDED limit in case D.
+- Backend validation passed: `157 passed, 51 warnings in 136.43s`.
+- Frontend validation passed: `npm.cmd run lint`, `npm.cmd test` with 15 tests, and `npm.cmd run build`.
+- Milestone 3.3 was not entered.
+
+## Historical Errors
+
+| Error | Attempt | Resolution |
+| --- | --- | --- |
 | `test_direct_expression_origin_contract` expected a Direct sample in Backup7, but strict validation downgraded it. | First targeted backend test after EvidenceExcerptBuilder. | Update regression coverage to assert Direct only for contiguous full-name evidence and use fixture-based Direct test instead of assuming generated sample location. |
 | Playwright package exists but bundled Chromium executable is not installed. | First browser smoke attempt with `chromium.launch()`. | Try installed browser channel; if unavailable, use API plus page source checks and record the browser binary limitation. |
 | `python .\03_tools\build_all.py` timed out after 304 seconds | First rebuild after adding Unihan | Optimize Unihan radical simplification to avoid repeated OpenCC initialization, then rerun in steps. |

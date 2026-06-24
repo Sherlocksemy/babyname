@@ -162,6 +162,7 @@ class NameCharCatalogBuilder:
             "semantic_keywords": semantic_mapping.keywords,
             "definition": semantic.get("definition") or "",
             "ancient_meaning": semantic.get("ancient_meaning") or "",
+            "naming_meaning": NameCharCatalogBuilder._naming_meaning(semantic.get("definition") or "", semantic_mapping.roles),
             "positive_level": int(semantic.get("positive_level") or 0),
             "common_level": int(semantic.get("common_level") or 0),
             "strokes_modern": int(base.get("strokes_modern") or compliance.get("strokes_modern") or 0),
@@ -187,6 +188,18 @@ class NameCharCatalogBuilder:
                 "culture": "04_culture_origin_layer/*",
             },
         }
+
+    @staticmethod
+    def _naming_meaning(definition: str, roles: list[str]) -> str:
+        head = str(definition or "").strip()
+        for marker in ("。", "；", ";", "\n", "--"):
+            if marker in head:
+                head = head.split(marker, 1)[0]
+        head = head[:48].strip()
+        role_text = "、".join(list(dict.fromkeys(roles))[:2])
+        if head and role_text:
+            return f"{head}；命名语义侧重{role_text}"
+        return head or role_text
 
     @staticmethod
     def _statistics(records: list[dict]) -> dict:
@@ -234,4 +247,3 @@ def _write_json(path: Path, payload: Any) -> None:
 
 def _read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
-

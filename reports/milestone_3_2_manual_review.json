@@ -5,10 +5,7 @@
       "nameability_score": 100,
       "semantic_categories": [
         "WISDOM",
-        "VIRTUE",
-        "ASPIRATION",
-        "AESTHETIC",
-        "FUNCTION"
+        "LEARNING"
       ],
       "risk_codes": [
         "POLYPHONE"
@@ -29,12 +26,10 @@
       ]
     },
     "仁": {
-      "nameability_level": "EXTENDED",
+      "nameability_level": "CORE",
       "nameability_score": 100,
       "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION",
-        "FUNCTION"
+        "VIRTUE"
       ],
       "risk_codes": []
     },
@@ -42,8 +37,8 @@
       "nameability_level": "CORE",
       "nameability_score": 100,
       "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION"
+        "WISDOM",
+        "VIRTUE"
       ],
       "risk_codes": []
     },
@@ -51,8 +46,7 @@
       "nameability_level": "CORE",
       "nameability_score": 100,
       "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION",
+        "AESTHETIC",
         "CULTURE"
       ],
       "risk_codes": []
@@ -62,8 +56,7 @@
       "nameability_score": 100,
       "semantic_categories": [
         "AESTHETIC",
-        "LANDSCAPE",
-        "GROWTH"
+        "LANDSCAPE"
       ],
       "risk_codes": []
     },
@@ -93,13 +86,10 @@
       ]
     },
     "山": {
-      "nameability_level": "EXTENDED",
-      "nameability_score": 100,
+      "nameability_level": "CORE",
+      "nameability_score": 98,
       "semantic_categories": [
-        "LANDSCAPE",
-        "VIRTUE",
-        "ASPIRATION",
-        "FUNCTION"
+        "LANDSCAPE"
       ],
       "risk_codes": []
     }
@@ -191,18 +181,15 @@
     "仁贤": {
       "given_name": "仁贤",
       "semantic_role_first": "德行品格",
-      "semantic_role_second": "德行品格",
+      "semantic_role_second": "明辨知思",
       "first_role": "德行品格",
-      "second_role": "德行品格",
+      "second_role": "明辨知思",
       "first_category": "VIRTUE",
-      "second_category": "VIRTUE",
-      "relation_type": "WEAK",
-      "combined_meaning": "",
-      "meaning_completeness": 66.0,
-      "issues": [
-        "SEMANTIC_DISCONNECT",
-        "SEMANTIC_REDUNDANCY"
-      ],
+      "second_category": "WISDOM",
+      "relation_type": "COMPLEMENTARY",
+      "combined_meaning": "仁取德行品格之意，贤取明辨知思之意，组合为VIRTUE/WISDOM相成。",
+      "meaning_completeness": 96,
+      "issues": [],
       "risk_codes": [],
       "catalog_evidence": {
         "仁": [
@@ -267,18 +254,18 @@
           }
         ]
       },
-      "passed": false
+      "passed": true
     },
     "诗楚": {
       "given_name": "诗楚",
-      "semantic_role_first": "德行品格",
+      "semantic_role_first": "清雅温润",
       "semantic_role_second": "清雅温润",
-      "first_role": "德行品格",
+      "first_role": "清雅温润",
       "second_role": "清雅温润",
-      "first_category": "ASPIRATION",
-      "second_category": "AESTHETIC",
-      "relation_type": "COMPLEMENTARY",
-      "combined_meaning": "诗取德行品格之意，楚取清雅温润之意，组合为ASPIRATION/AESTHETIC相成。",
+      "first_category": "AESTHETIC",
+      "second_category": "LANDSCAPE",
+      "relation_type": "REVERSE_COMPLEMENTARY",
+      "combined_meaning": "诗取清雅温润之意，楚取清雅温润之意，组合为AESTHETIC/LANDSCAPE相成。",
       "meaning_completeness": 96,
       "issues": [],
       "risk_codes": [],
@@ -360,7 +347,7 @@
       "second_category": "LANDSCAPE",
       "relation_type": "WEAK",
       "combined_meaning": "",
-      "meaning_completeness": 82.0,
+      "meaning_completeness": 77.0,
       "issues": [
         "LANDSCAPE_DUPLICATION"
       ],

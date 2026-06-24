@@ -3,18 +3,18 @@
   "qualified_count": 10,
   "fortune_status": "COMPLETE",
   "sample_top3": [
-    "林富宫",
-    "林思乐",
-    "林国山"
+    "林惠诗",
+    "林仁风",
+    "林思梦"
   ],
   "sample_backup7": [
-    "林诗谊",
-    "林学风",
-    "林惠峰",
-    "林明嘉",
-    "林楚深",
-    "林诗远",
-    "林富思"
+    "林清嘉",
+    "林辉泽",
+    "林静永",
+    "林诗惠",
+    "林晨风",
+    "林辉晏",
+    "林云静"
   ],
   "top3_scores": [
     {
@@ -31,19 +31,19 @@
       "breakdown": {
         "phonetic": 15,
         "phonology": 15,
-        "meaning": 14.25,
-        "culture": 12.99,
+        "meaning": 14.3,
+        "culture": 13.11,
         "structure": 19.82,
         "archetype": 10,
-        "uniqueness": 4.6,
-        "aesthetic": 9.3,
+        "uniqueness": 4.2,
+        "aesthetic": 9.5,
         "fortune": 6.0,
-        "naturalness": 93.04,
+        "naturalness": 95.04,
         "penalties": 0,
-        "style_affinity_bonus": 0.85,
-        "profile_specificity": 96.8,
+        "style_affinity_bonus": 0.54,
+        "profile_specificity": 98.96,
         "surname_fit": 87.36,
-        "profile_adjustment": 3.53
+        "profile_adjustment": 3.79
       },
       "sub_breakdown": {
         "phonology": {
@@ -57,104 +57,15 @@
           "char_meaning_quality": 2.9,
           "composition_completeness": 4.03,
           "semantic_complementarity": 3.2,
-          "modern_understanding": 2.42,
+          "modern_understanding": 2.47,
           "time_stability": 1.7
         },
         "culture": {
           "evidence_level": 3.35,
-          "original_text_relevance": 2.24,
-          "expression_completeness": 2.56,
+          "original_text_relevance": 2.3,
+          "expression_completeness": 2.62,
           "source_depth": 2.6,
           "evidence_uniqueness": 2.24
-        },
-        "structure": {
-          "two_semantic_roles": 4.0,
-          "structure_integrity": 4.22,
-          "structure_rarity": 3.2,
-          "explainability": 4.0,
-          "structure_match": 4.4
-        },
-        "archetype": {
-          "archetype_clarity": 3.4,
-          "archetype_consistency": 3.4,
-          "archetype_match": 3.2
-        },
-        "uniqueness": {
-          "hot_char_risk": 1.6,
-          "hot_combo_risk": 1.5,
-          "template_risk": 1.5
-        },
-        "aesthetic": {
-          "restraint": 1.86,
-          "real_name_feel": 2.05,
-          "adult_usability": 1.77,
-          "conceptualization_risk": 1.67,
-          "surname_fit": 1.95
-        },
-        "style_affinity": {
-          "input_style_match": 0.85,
-          "source": "style_preferences and liked_chars"
-        },
-        "profile_specificity": {
-          "style_fit_score": 92.0,
-          "gender_tone_fit_score": 90.0,
-          "imagery_fit_score": 86,
-          "surname_fit_score": 87.36,
-          "universal_candidate_risk": 0.0
-        }
-      },
-      "top3_eligible": true,
-      "top1_eligible": true
-    },
-    {
-      "raw_score": 94.7,
-      "available_max_score": 100,
-      "max_score": 100,
-      "base_quality_score": 90,
-      "normalized_score": 94.7,
-      "alpha_grade": "S",
-      "fortune_score": 4.7,
-      "fortune_status": "COMPLETE",
-      "fortune_max_score": 10,
-      "score_version": "NES_MVP_2.0",
-      "breakdown": {
-        "phonetic": 13.9,
-        "phonology": 13.9,
-        "meaning": 14.68,
-        "culture": 14.25,
-        "structure": 19.82,
-        "archetype": 10,
-        "uniqueness": 4.2,
-        "aesthetic": 9.4,
-        "fortune": 4.7,
-        "naturalness": 94.04,
-        "penalties": 0,
-        "style_affinity_bonus": 0.54,
-        "profile_specificity": 96.8,
-        "surname_fit": 87.36,
-        "profile_adjustment": 3.53
-      },
-      "sub_breakdown": {
-        "phonology": {
-          "tone_variation": 3.0,
-          "initial_conflict": 3.0,
-          "final_conflict": 3.0,
-          "surname_link": 3.0,
-          "internal_flow": 1.9
-        },
-        "meaning": {
-          "char_meaning_quality": 2.9,
-          "composition_completeness": 4.03,
-          "semantic_complementarity": 3.2,
-          "modern_understanding": 2.45,
-          "time_stability": 2.1
-        },
-        "culture": {
-          "evidence_level": 4.1,
-          "original_text_relevance": 2.67,
-          "expression_completeness": 3.06,
-          "source_depth": 2.6,
-          "evidence_uniqueness": 1.81
         },
         "structure": {
           "two_semantic_roles": 4.0,
@@ -174,11 +85,11 @@
           "template_risk": 1.5
         },
         "aesthetic": {
-          "restraint": 1.88,
-          "real_name_feel": 2.07,
-          "adult_usability": 1.79,
-          "conceptualization_risk": 1.69,
-          "surname_fit": 1.97
+          "restraint": 1.9,
+          "real_name_feel": 2.09,
+          "adult_usability": 1.81,
+          "conceptualization_risk": 1.71,
+          "surname_fit": 2.0
         },
         "style_affinity": {
           "input_style_match": 0.54,
@@ -187,7 +98,7 @@
         "profile_specificity": {
           "style_fit_score": 92.0,
           "gender_tone_fit_score": 90.0,
-          "imagery_fit_score": 86,
+          "imagery_fit_score": 98,
           "surname_fit_score": 87.36,
           "universal_candidate_risk": 0.0
         }
@@ -196,13 +107,13 @@
       "top1_eligible": true
     },
     {
-      "raw_score": 91.83,
+      "raw_score": 94.5,
       "available_max_score": 100,
       "max_score": 100,
-      "base_quality_score": 87.43,
-      "normalized_score": 91.83,
+      "base_quality_score": 90,
+      "normalized_score": 94.5,
       "alpha_grade": "S",
-      "fortune_score": 4.4,
+      "fortune_score": 4.5,
       "fortune_status": "COMPLETE",
       "fortune_max_score": 10,
       "score_version": "NES_MVP_2.0",
@@ -210,18 +121,18 @@
         "phonetic": 15,
         "phonology": 15,
         "meaning": 14.7,
-        "culture": 14.67,
+        "culture": 13.85,
         "structure": 20,
         "archetype": 10,
-        "uniqueness": 3.6,
+        "uniqueness": 4.2,
         "aesthetic": 9.5,
-        "fortune": 4.4,
+        "fortune": 4.5,
         "naturalness": 95.04,
-        "penalties": 4.0,
+        "penalties": 0,
         "style_affinity_bonus": 0.54,
-        "profile_specificity": 88.25,
-        "surname_fit": 87.42,
-        "profile_adjustment": 3.42
+        "profile_specificity": 90.23,
+        "surname_fit": 85.92,
+        "profile_adjustment": 2.33
       },
       "sub_breakdown": {
         "phonology": {
@@ -242,8 +153,8 @@
           "evidence_level": 4.1,
           "original_text_relevance": 2.67,
           "expression_completeness": 3.06,
-          "source_depth": 2.6,
-          "evidence_uniqueness": 2.24
+          "source_depth": 2.2,
+          "evidence_uniqueness": 1.81
         },
         "structure": {
           "two_semantic_roles": 4.0,
@@ -258,7 +169,7 @@
           "archetype_match": 3.2
         },
         "uniqueness": {
-          "hot_char_risk": 0.6,
+          "hot_char_risk": 1.2,
           "hot_combo_risk": 1.5,
           "template_risk": 1.5
         },
@@ -276,13 +187,102 @@
         "profile_specificity": {
           "style_fit_score": 74.0,
           "gender_tone_fit_score": 90.0,
-          "imagery_fit_score": 86,
-          "surname_fit_score": 87.42,
+          "imagery_fit_score": 98,
+          "surname_fit_score": 85.92,
           "universal_candidate_risk": 4.0
         }
       },
       "top3_eligible": true,
-      "top1_eligible": false
+      "top1_eligible": true
+    },
+    {
+      "raw_score": 92.6,
+      "available_max_score": 100,
+      "max_score": 100,
+      "base_quality_score": 87.3,
+      "normalized_score": 92.6,
+      "alpha_grade": "S",
+      "fortune_score": 5.3,
+      "fortune_status": "COMPLETE",
+      "fortune_max_score": 10,
+      "score_version": "NES_MVP_2.0",
+      "breakdown": {
+        "phonetic": 14.45,
+        "phonology": 14.45,
+        "meaning": 14.6,
+        "culture": 13.65,
+        "structure": 19.82,
+        "archetype": 10,
+        "uniqueness": 3.6,
+        "aesthetic": 9.1,
+        "fortune": 5.3,
+        "naturalness": 91.04,
+        "penalties": 2.0,
+        "style_affinity_bonus": 0.54,
+        "profile_specificity": 96.8,
+        "surname_fit": 87.36,
+        "profile_adjustment": 3.53
+      },
+      "sub_breakdown": {
+        "phonology": {
+          "tone_variation": 3.0,
+          "initial_conflict": 3.0,
+          "final_conflict": 3.0,
+          "surname_link": 3.0,
+          "internal_flow": 2.45
+        },
+        "meaning": {
+          "char_meaning_quality": 2.9,
+          "composition_completeness": 4.03,
+          "semantic_complementarity": 3.2,
+          "modern_understanding": 2.37,
+          "time_stability": 2.1
+        },
+        "culture": {
+          "evidence_level": 4.1,
+          "original_text_relevance": 2.67,
+          "expression_completeness": 3.06,
+          "source_depth": 2.0,
+          "evidence_uniqueness": 1.81
+        },
+        "structure": {
+          "two_semantic_roles": 4.0,
+          "structure_integrity": 4.22,
+          "structure_rarity": 3.2,
+          "explainability": 4.0,
+          "structure_match": 4.4
+        },
+        "archetype": {
+          "archetype_clarity": 3.4,
+          "archetype_consistency": 3.4,
+          "archetype_match": 3.2
+        },
+        "uniqueness": {
+          "hot_char_risk": 0.6,
+          "hot_combo_risk": 1.5,
+          "template_risk": 1.5
+        },
+        "aesthetic": {
+          "restraint": 1.82,
+          "real_name_feel": 2.0,
+          "adult_usability": 1.73,
+          "conceptualization_risk": 1.64,
+          "surname_fit": 1.91
+        },
+        "style_affinity": {
+          "input_style_match": 0.54,
+          "source": "style_preferences and liked_chars"
+        },
+        "profile_specificity": {
+          "style_fit_score": 92.0,
+          "gender_tone_fit_score": 90.0,
+          "imagery_fit_score": 86,
+          "surname_fit_score": 87.36,
+          "universal_candidate_risk": 0.0
+        }
+      },
+      "top3_eligible": true,
+      "top1_eligible": true
     }
   ],
   "quality_guard_not_weakened": true,

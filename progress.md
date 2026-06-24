@@ -62,3 +62,12 @@
 - Generated Milestone 3.2 reports under `reports/milestone_3_2_*`.
 - Ran backend tests: `147 passed, 51 warnings in 127.75s`.
 - Ran frontend checks: `npm.cmd run lint` passed, `npm.cmd test` passed with 15 tests, `npm.cmd run build` passed.
+- Pushed pre-Milestone 3.2A checkpoint `e6efc1c` to `origin/master` and aligned the local workspace to that commit.
+- Started Milestone 3.2A catalog quality and real-generation acceptance pass.
+- Added deterministic 3.2A catalog sampling, CORE strictness, five-case generation matrix, before/after, and manual-review reports.
+- Tightened catalog/ranking rules for CORE risk exclusion, low-nameability characters, semantic category calibration, polyphonic risk, and production pool filtering.
+- Added 10 Milestone 3.2A regression/acceptance tests.
+- Generated reports under `reports/milestone_3_2a_*`.
+- Ran backend tests: `157 passed, 51 warnings in 136.43s`.
+- Ran frontend checks: `npm.cmd run lint` passed, `npm.cmd test` passed with 15 tests, `npm.cmd run build` passed.
+- Milestone 3.2A catalog and CORE strictness gates passed, but generation hard gates still have explicit failures recorded in `reports/milestone_3_2a_generation_matrix.json`; Milestone 3.3 was not entered.

@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 
 from app.catalogs.character_risk_classifier import NEGATIVE_HINTS, UNSUITABLE_CHARS
+from app.catalogs.nameability_classifier import GENERATION_BLOCKING_RISKS, HIGH_RISK_POLYPHONE_CHARS
 from app.catalogs.name_char_catalog_builder import ensure_name_char_catalog
 from app.indexes.character_index import CharacterIndex
 from app.indexes.popularity_index import PopularityIndex
@@ -50,6 +51,15 @@ class CharPoolBuilder:
                 continue
             if record["nameability_level"] == "EXPERIMENTAL" and char not in liked:
                 rejected_summary["EXPERIMENTAL_NOT_USER_LIKED"] += 1
+                continue
+            if set(record["risk_codes"]) & GENERATION_BLOCKING_RISKS and char not in liked:
+                rejected_summary["CATALOG_HIGH_RISK"] += 1
+                continue
+            if (record.get("semantic_categories") or ["UNKNOWN"])[0] in {"OBJECT", "FUNCTION", "UNKNOWN"} and char not in liked:
+                rejected_summary["CATALOG_LOW_NAMEABILITY_PRIMARY_CATEGORY"] += 1
+                continue
+            if char in HIGH_RISK_POLYPHONE_CHARS and char not in liked:
+                rejected_summary["HIGH_RISK_POLYPHONE_CHAR"] += 1
                 continue
             if "HOMOPHONE_RISK" in record["risk_codes"]:
                 rejected_summary["HOMOPHONE_RISK"] += 1

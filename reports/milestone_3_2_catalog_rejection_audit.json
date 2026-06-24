@@ -1,10 +1,10 @@
 {
-  "rejected_count": 566,
+  "rejected_count": 600,
   "top_rejection_reasons": {
     "homophone_blacklist": 404,
     "obvious_non_name_character": 81,
+    "low_nameability_definition": 70,
     "function_word_semantic": 60,
-    "low_nameability_definition": 36,
     "negative_definition_hint": 19
   },
   "sample": [
@@ -32,6 +32,7 @@
       ],
       "definition": "一 (指事。一”是汉字部首之一。本义数词。大写作壹”。最小的正整数。常用以表示人或事、物的最少数量) 同本义 一,惟初太始道立于一,造分天地,化成万物。--《说文》 一也者,万物之本也。--《淮南子·诠言》 抱一而天下试。--《老子》 故一人有事于四方。--《书·君奭》。传天子也。” 一夫作难而七庙隳,身死人手,为天下笑。--汉·贾谊《过秦论》 一夫夜呼,乱",
       "ancient_meaning": "惟初太始，道立於一，造分天地，化成萬物。凡一之屬皆从一。",
+      "naming_meaning": "一 (指事；命名语义侧重志向开阔、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 1,
@@ -127,6 +128,7 @@
       ],
       "definition": "七〈数〉 (指事。从一ㄣ。画以纪数。本义六加一的和) 同本义 七,阳之正也。从一,微阴从中斜出也。--《说文》 其数七。--《礼记·月令》 七者,天地四时人之始也。--《汉书·律历志》 七主星。--《大戴礼记·易本命》 七日得。--《易·既济》。虞注震为七。” 凡攻木之工七。--《周礼·考工记》 有子七人。--《诗·邶风·凯风》 又如七宝(佛经上指金、银、琉",
       "ancient_meaning": "陽之正也。从一，微陰从中衺出也。凡七之屬皆从七。",
+      "naming_meaning": "七〈数〉 (指事；命名语义侧重德行品格、志向开阔",
       "positive_level": 1,
       "common_level": 1,
       "strokes_modern": 2,
@@ -203,6 +205,7 @@
       ],
       "definition": "to govern; to control; to nurture",
       "ancient_meaning": "芟艸也。从丿从乀，相交。",
+      "naming_meaning": "to govern；命名语义侧重志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -273,6 +276,7 @@
       ],
       "definition": "乜 眼睛眯成一条缝 良材在烟榻上坐了,乜着眼又说道。--茅盾《霜叶红似二月花》 又如乜斜(也作乜邪”。眼睛眯成一条缝斜视);乜嬉(眼略眯斜视) 眯着眼斜视着 鬼祟醉眼乜斜。--关汉卿《望江亭》 细娇乜着嘴儿,轻轻地摇头。--陈残云《香飘四季》 乜 偷偷摸摸不知做乜鬼?--陈残云《香飘四季》 又如乜噑(什么事) 乜 痴呆 乜miē ⒈ ①眯着眼睛斜视～斜看人。",
       "ancient_meaning": "未见结构化古义；字形构件：乚。",
+      "naming_meaning": "乜 眼睛眯成一条缝 良材在烟榻上坐了,乜着眼又说道；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -340,6 +344,7 @@
       ],
       "definition": "九 (指事。本义数词。比八大一的基数) 同本义 古人造字以纪数,起于一,极于九,皆指事也。二三四为积画,余皆变化其体。--朱骏声《说文通训定声》 乾玄用九,乃见天则。--《易·文言》传 九者,阳之数,道之纲纪也。--《楚辞·九辨》序 天道以九制。--《管子·五行》 又如九伯(宋时把痴傻人叫九伯。也写作九百”);小九九(珠算的乘法口诀;方言中比喻算计);九九(",
       "ancient_meaning": "陽之變也。象其屈曲究盡之形。凡九之屬皆从九。",
+      "naming_meaning": "九 (指事；命名语义侧重清雅温润",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -420,6 +425,7 @@
       ],
       "definition": "了〈助〉 le 用在动词或形容词后,表示完成 了 〈语气〉 表示肯定语气 表示促进或劝止 表示感叹语气 了 〈动〉 (象形。从子,无臂。小篆字象婴儿束其两臂形。初生的婴儿,往往束其两臂而裹之。本义束婴儿两臂) 手弯曲 了liǎo ⒈懂得，明白～然。明～。～如指掌。不甚～ ～。 ⒉结束，完毕此事已～。没完没～。不～ ～之。 ⒊全，完全～无惧色。 ⒋在动词后，跟",
       "ancient_meaning": "尦也。从子無臂。象形。凡了之屬皆从了。",
+      "naming_meaning": "了〈助〉 le 用在动词或形容词后,表示完成 了 〈语气〉 表示肯定语气 表示促进或劝止 表示感；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 2,
@@ -505,6 +511,7 @@
       ],
       "definition": "二 (会意。古文字二用两横画表示,是原始记数符号) 一加一的和 二,地之数也。从耦一,会意。古文又从弋。--《说文》 因二以济民行。--《易·系辞》。虞注谓乾与坤也◇世官书以贰为之,为防奸易。” 赐也闻一以知二。--《论语·公冶长》 大父未死而有二十五孙。--《韩非子·五蠹》 又如二加四得六;总数为二;二府(大肠和小肠;二太爷);二形(男女两性);二难(指难",
       "ancient_meaning": "地之數也。从偶一。凡二之屬皆从二。",
+      "naming_meaning": "二 (会意；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -577,6 +584,7 @@
       ],
       "definition": "儿 (象形。甲骨文字形,下面是人”字,上面象小儿张口哭笑。儿”是汉字部首之一,从儿”的字大都与人”有关。本义幼儿。古时男称儿,女称婴,后来孩童都称儿) 同本义 儿,孺子也。--《说文》 专气致柔,能如婴儿乎?--《老子》第九章 老人儿啼。--《史记·循吏列传》 男曰儿,女曰婴。--《苍颉篇》 见两小儿辩斗。--《列子·汤问》 又如儿女子(孩童);儿剧(犹儿戏",
       "ancient_meaning": "仁人也。古文奇字人也。象形。孔子曰：“在人下，故詰屈。”凡儿之屬皆从儿。",
+      "naming_meaning": "儿 (象形；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 2,
@@ -659,6 +667,7 @@
       ],
       "definition": "八 (象形。甲骨文象分开相背的样子『字部首之一。从八”的字多与分解、分散、相背有关。本义相背分开) 同本义 八,别也。象分别相背之形。--《说文》。段玉裁注今江、浙俗语以物与人谓之八,与人则分别矣。” 八 七加一的和 八,数也。--《玉篇》 陈浪簋。--《诗·小雅·伐木》 地理以八制。--《管子·五行》。注少阴之数。” 八者,维纲也。--《大戴礼记·本命》。",
       "ancient_meaning": "別也。象分別相背之形。凡八之屬皆从八。",
+      "naming_meaning": "八 (象形；命名语义侧重志向开阔、清雅温润",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -735,6 +744,7 @@
       ],
       "definition": "几 (象形。本义古人席地而坐时有靠背的坐具) 同本义 几,坐所以凭也。--《说文》 掌五几五席之名物。--《周礼·司几筵》。注五几左右玉雕彤漆素。” 室中度以几,堂上度以筵。--《考工记·匠人》 几杖,所以扶助衰也。--《白虎通·致仕》 必操几杖以从之。--《礼记·曲礼》 有司以几筵舍奠于墓左。--《礼记·檀弓》。疏依神也。” 或肆之筵,或授之几。--《诗·",
       "ancient_meaning": "踞几也。象形。《周禮》五几：玉几、雕几、彤几、䰍几、素几。凡几之屬皆从几。",
+      "naming_meaning": "几 (象形；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -792,6 +802,85 @@
       }
     },
     {
+      "char": "匕",
+      "unicode": "U+5315",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC",
+        "FUNCTION"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔",
+        "清雅温润"
+      ],
+      "semantic_keywords": [
+        "也"
+      ],
+      "definition": "匕 (象形。从二匕,匕亦声。甲骨文字形,象汤匙形『字部首之一。本义勺子。按一说匕”象反人形,妣”之初文) 古代的一种取食器具,长柄浅斗,形状像汤勺 先主方食,失匕箸。(箸筷子)--《三国志·蜀志·先主传》 又如比筋(羹匙与筷子) 匕 bǐ ①取食的器具先生方食，失～箸。（《三国志·蜀书·先主传》） ②箭头～入者三寸。（《左传·昭公二十六年》） 【匕首】短剑或",
+      "ancient_meaning": "相與比敘也。从反人。匕，亦所以用比取飯，一名柶。凡匕之屬皆从匕。",
+      "naming_meaning": "匕 (象形；命名语义侧重德行品格、志向开阔",
+      "positive_level": 3,
+      "common_level": 1,
+      "strokes_modern": 2,
+      "kangxi_strokes": 2,
+      "radical": "匕",
+      "kangxi_radical": "匕",
+      "element": "金",
+      "components": [
+        "乚",
+        "丿"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "bǐ",
+          "tone": 3,
+          "is_common": true,
+          "rhyme": "一啊"
+        },
+        {
+          "pinyin": "pìn",
+          "tone": 4,
+          "is_common": false,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "shijing:先秦-000203",
+        "tang_poetry:唐-001243",
+        "tang_poetry:唐-001941",
+        "tang_poetry:唐-002667",
+        "tang_poetry:唐-002897",
+        "song_ci:宋-002329"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:FUNCTION"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "十",
       "unicode": "U+5341",
       "compliance_level": 1,
@@ -812,6 +901,7 @@
       ],
       "definition": "十 (指事。甲骨文象用一根树枝代表十,金文象是结绳记数,用一个结表示十◇来一点变成了一横。本义九加一的和) 同本义 十,数之具也。╠为东西,|为南北,则四方中央备矣。--《说文》 十是数之小成。--《左传·僖公四年》疏 十亩之间兮。--《诗·小雅·六月》 兵也者,审于地图,谋十官。--《管子·七法》 天下欲反,十室九空。--葛洪《抱朴子·用刑》 与吾祖居者,",
       "ancient_meaning": "數之具也。一爲東西，|爲南北，則四方中央備矣。凡十之屬皆从十。",
+      "naming_meaning": "十 (指事；命名语义侧重清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 2,
@@ -882,6 +972,7 @@
       ],
       "definition": "卜--见萝卜” 卜 bǔ ①占卜～卦。 ②预料生死未～。 ③选择（处所）～宅。 ④姓。又见·bo。 【卜筮】古时占卜， 用龟甲称卜，用蓍草称筮，合称卜筮。 卜pú 1.我国古代少数民族名。即濮。 2.通\"仆\"。见\"卜人\"。",
       "ancient_meaning": "灼剥龜也，象灸龜之形。一曰象龜兆之從橫也。凡卜之屬皆从卜。",
+      "naming_meaning": "卜；命名语义侧重志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 2,
@@ -962,6 +1053,7 @@
       ],
       "definition": "万 (形声。萬”,甲骨文呈蝎子形。本义蝎) 虫名。蝎。 万,虫也。--《说文》 今日俸钱过十万,与君营奠复营斋。--唐·元稹《遣悲怀》 又如万寿(称皇帝、皇后的生日);万劫(即万世。形容极长的时间);万井(古代以地方一里为一井,万井即一万平方里);万夫(万人);万户(一万户);万户侯(食邑万户之侯);万顷 (百万亩。百亩为一顷) 古代的一种舞名 古州名 万m",
       "ancient_meaning": "未见结构化古义；字形构件：一。",
+      "naming_meaning": "万 (形声；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1040,6 +1132,7 @@
       ],
       "definition": "三〈数〉 (指事。本义数目。二加一的和) 同本义 三,天地人之道也。从三数。--《说文》 三,数名。--《广韵》 二与一为三。--《庄子·齐物论》 一生二,二生三,三生万物。--《老子》 王三赐命。--《易·师》。荀注三者阳德成也。” 结恨三泉。--《后汉书·袁绍传》。注三者数之小终。” 有不速之客三人来。--《易·需》 纪之以三。--《国语·周语下》 狡兔",
       "ancient_meaning": "天地人之道也。从三數。凡三之屬皆从三。",
+      "naming_meaning": "三〈数〉 (指事；命名语义侧重志向开阔、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1091,6 +1184,80 @@
       }
     },
     {
+      "char": "下",
+      "unicode": "U+4E0B",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "LEARNING",
+        "AESTHETIC",
+        "CULTURE"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔",
+        "书卷学养"
+      ],
+      "semantic_keywords": [
+        "文"
+      ],
+      "definition": "下 (指事。据甲骨文,上面部分表示位置的界限,下面部分表示在下的意思。本义下面,位置在下) 同本义 下,底也。--《说文》 在南山之下。--《诗·召南·殷其靬》 十月蟋蟀入我床下。--《诗·豳风·七月》 下声肆。--《周礼·典同》。注谓钟形下大。” 君臣上下。--《礼记·曲礼》 阴山下。--《乐府诗集·杂歌谣辞·敕勒歌》 放之山下。--唐·柳宗元《三戒》 愬",
+      "ancient_meaning": "篆文丅。",
+      "naming_meaning": "下 (指事；命名语义侧重德行品格、志向开阔",
+      "positive_level": 4,
+      "common_level": 1,
+      "strokes_modern": 3,
+      "kangxi_strokes": 3,
+      "radical": "一",
+      "kangxi_radical": "一",
+      "element": "水",
+      "components": [
+        "一",
+        "卜"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "xià",
+          "tone": 4,
+          "is_common": true,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "shijing:先秦-000015",
+        "shijing:先秦-000019",
+        "shijing:先秦-000028",
+        "shijing:先秦-000029",
+        "shijing:先秦-000031",
+        "shijing:先秦-000032"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:LEARNING",
+        "keyword:CULTURE"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "与",
       "unicode": "U+4E0E",
       "compliance_level": 1,
@@ -1109,6 +1276,7 @@
       ],
       "definition": "与 (会意。小篆字形,一、勺”合起来,表示赐予别人东西。與”,从与,从舁(鉹??),共同抬起,与,给予∠起来表偕同、朋友。本义赐予,施予,给予) 同本义 与,赐也,通作与”。--《正字通》 我持白璧一双,欲献项王,玉斗一双,欲与亚父。--《史记·项羽本纪》 又 则与斗卮酒。 取与者,义之表也。--汉·司马迁《报任安书》 与衣裳,吏护还之乡。--唐·柳宗元《童",
       "ancient_meaning": "賜予也。一勺爲与。此与與同。",
+      "naming_meaning": "与 (会意；命名语义侧重清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1170,6 +1338,76 @@
       }
     },
     {
+      "char": "丸",
+      "unicode": "U+4E38",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "ASPIRATION",
+        "AESTHETIC",
+        "FUNCTION"
+      ],
+      "semantic_roles": [
+        "志向开阔",
+        "清雅温润"
+      ],
+      "semantic_keywords": [
+        "而"
+      ],
+      "definition": "丸 (形声。反体指事。小篆是仄的反写。本义小而圆的物体) 同本义 丸,圜也。--《说文》 五六月累丸二不坠。--《庄子·达生》 市南宜僚弄丸。--《庄子·徐无鬼》 首衔铜丸。--《后汉书·张衡传》 机发吐丸。 又如鱼丸;肉丸;丸熊(形容母善教子。唐朝柳仲郢幼年好学,其母曾和熊胆丸,让其夜嚼以助勤促学);丸丹(圆粒状丹药);丸散(中药的丸剂、粉剂之属);丸熊(",
+      "ancient_meaning": "圜，傾側而轉者。从反仄。凡丸之屬皆从丸。",
+      "naming_meaning": "丸 (形声；命名语义侧重志向开阔、清雅温润",
+      "positive_level": 5,
+      "common_level": 1,
+      "strokes_modern": 3,
+      "kangxi_strokes": 3,
+      "radical": "丿",
+      "kangxi_radical": "丿",
+      "element": "土",
+      "components": [
+        "九",
+        "丶"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "wán",
+          "tone": 2,
+          "is_common": true,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "shijing:先秦-000305",
+        "tang_poetry:唐-000895",
+        "tang_poetry:唐-001243",
+        "tang_poetry:唐-001670",
+        "tang_poetry:唐-002079",
+        "tang_poetry:唐-002630"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:FUNCTION"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "么",
       "unicode": "U+4E48",
       "compliance_level": 1,
@@ -1188,6 +1426,7 @@
       ],
       "definition": "么 me 用作某些词的后缀。如什么;怎么;多么 么 用作歌词中的衬字。如五月的花儿,红呀么红似火 么 ma 用在句末,表示疑问或反诘的语气 先生,你会看喉咙吗?--《老残游记》 么 yao 小;幼小 幺,小也。象子初生之形。俗字作么。--《说文》 不长曰幺。--《通俗文》 幺麽皆微小之称也。--《汉书·叙传注》 又如幺微(微小);幺店(幺店子。路边的小店) ",
       "ancient_meaning": "未见结构化古义；字形构件：丿、厶。",
+      "naming_meaning": "么 me 用作某些词的后缀；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1278,6 +1517,7 @@
       ],
       "definition": "之 (会意。象苃过屮。枝茎益大。本义出,生出,滋长) 同本义 之,出也。象苃过屮,枝茎益大有所之,一者,地也。--《说文》 如语焉而未之然。--《礼记》。俞樾平议此之字乃其本义。未之者,未出也。” 往,朝某方向走,到…去 之,适也。--《广雅》 自伯之东。--《诗·卫风·伯兮》 之沛公军。--《史记·项羽本纪》 之虚所卖之。(虚”同墟”)--唐·柳宗元《童区",
       "ancient_meaning": "出也。象艸過屮，枝莖益大，有所之。一者，地也。凡之之屬皆从之。",
+      "naming_meaning": "之 (会意；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1359,6 +1599,7 @@
       ],
       "definition": "也 亦表示同样 叠用,强调两事并列或对等 表示转折或让步 表示委婉。如我也只好如此 表示强调 表示选择,还是 你见我府里那个门子,却是多少年纪?或是黑瘦也白净肥胖?--《水浒传》 又如也是(还是) 也 语气 用在句末表示判断或肯定语气。相当于啊”、呀” 少时之岁月为可惜也。--清·袁枚《黄生借书说》 旋见一白酋…英将也 也yě ⒈副词。 ①〈表〉同样，并行等",
       "ancient_meaning": "女陰也。象形。",
+      "naming_meaning": "也 亦表示同样 叠用,强调两事并列或对等 表示转折或让步 表示委婉；命名语义侧重志向开阔、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1415,6 +1656,76 @@
       }
     },
     {
+      "char": "乡",
+      "unicode": "U+4E61",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔",
+        "清雅温润"
+      ],
+      "semantic_keywords": [
+        "义"
+      ],
+      "definition": "乡 (会意。据甲骨文,像二人对食形。‘鄉’和‘饗’原本是一字…整个字像两个人相向对坐,共食一簋的情状。本义是用酒食款待别人,是饗”的古字) 乡”假借为行政区域名 乡,国离邑民所封乡也。啬夫别治封圻之内六乡六卿治之。--《说文》 五州为乡。--《周礼·大司徒》。注万二千五百家。” 十邑为乡,是三千六百家为一乡。--《广雅》 习乡尚齿。--《礼记·王制》 行比一",
+      "ancient_meaning": "未见结构化古义；字形构件：幺。",
+      "naming_meaning": "乡 (会意；命名语义侧重德行品格、志向开阔",
+      "positive_level": 3,
+      "common_level": 1,
+      "strokes_modern": 3,
+      "kangxi_strokes": 3,
+      "radical": "乙",
+      "kangxi_radical": "乙",
+      "element": "火",
+      "components": [
+        "幺"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "xiāng",
+          "tone": 1,
+          "is_common": true,
+          "rhyme": "二喔"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "shijing:先秦-000048",
+        "shijing:先秦-000178",
+        "shijing:先秦-000182",
+        "shijing:先秦-000305",
+        "chuci:战国-000001",
+        "chuci:战国-000016"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:VIRTUE"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "于",
       "unicode": "U+4E8E",
       "compliance_level": 1,
@@ -1435,6 +1746,7 @@
       ],
       "definition": "于〈动〉 (象形。甲骨文字形,表示气出受阻而仍越过。本义超过) 往;去 之子于归,宜其室家。--《诗·周南·桃夭》。毛传于,往也。” 予惟以尔庶邦于伐殷,逋播臣。--《书·大诰》 取 昼尔于茅,宵尔索陶。--《诗·豳风·七月》 如;好像 《易》曰介于石,不终日,贞吉。”介如石焉,宁用终日,断可识矣。--《易·系辞下》 又如于何(如何) 于 引进动作、行为的时",
       "ancient_meaning": "未见结构化古义；字形构件：二、亅。",
+      "naming_meaning": "于〈动〉 (象形；命名语义侧重德行品格、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1522,6 +1834,7 @@
       "semantic_keywords": [],
       "definition": "亡 (会意。小篆字从入,从乚。入”是人字。乚隐蔽∠起来表示人到隐蔽处。本义逃离,出走) 同本义 亡,逃也。--《说文》 晋公子生十七年而亡。--《国语·晋语四》 子牟有罪而亡。--《国语·楚语上》 怀其璧,从径道亡。--《史记·廉颇蔺相如列传》 今亡亦死,举大计亦死。--《史记·陈涉世家》 或以为亡。 数言欲亡。 亡而入胡。--《淮南子·人间训》 奴惊,各亡",
       "ancient_meaning": "A man 人 in a coffin; see 亾",
+      "naming_meaning": "亡 (会意；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1596,6 +1909,7 @@
       "semantic_keywords": [],
       "definition": "亿 (形声。左形,右声。本义安宁) 安宁;安定 亿,安也。--《说文》 不能供亿。--《左传·隐公十年》 心亿则乐。--《左传·昭公二十一年》 我盍姑亿吾鬼神。--《左传·昭公三十年》 亿其上下。--《国语·楚语》 心亿则乐。--《左传·昭公二十一年》 又如共亿(相安);亿康(安康);亿福(安宁幸福) 极多;极大 据亿丈之城。--汉·贾谊《过秦论》 又如亿兆",
       "ancient_meaning": "people；义符：亻；声符：乙",
+      "naming_meaning": "亿 (形声；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1668,6 +1982,7 @@
       ],
       "definition": "兀 (指事。从一,在人上。人头上一横,表示高平。本义高耸特出的样子) 同本义 兀,高而上平也。--《说文》 何时眼前突兀见此屋。--杜甫《茅屋为秋风所破歌》 又如兀岸(直耸挺拔);兀嵝(险峻) 光秃(如毛发)的 蜀山兀。--唐·杜牧《阿房宫赋》 又如兀首(头发脱落) 茫然无知 临文乍了了,彻卷兀若天。--柳宗元《读书》 又如兀兀陶陶(醉酒);兀楞楞(痴呆) ",
       "ancient_meaning": "高而上平也。从一在人上。讀若敻。茂陵有兀桑里。",
+      "naming_meaning": "兀 (指事；命名语义侧重志向开阔、清雅温润",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1725,6 +2040,96 @@
       }
     },
     {
+      "char": "勺",
+      "unicode": "U+52FA",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC",
+        "FUNCTION"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔",
+        "清雅温润"
+      ],
+      "semantic_keywords": [
+        "也"
+      ],
+      "definition": "勺〈名〉 (象形。本义古代舀酒器) 同本义。泛指舀东西的器具,有柄 勺,挹取也。象形。中有实,与包同意。--《说文》 勺,枓也。--《一切经音义》引《说文》 勺一升。--《考工记·梓人》 黄金勺。--《周礼·玉人》。注酒尊中勺也。” 宾勺。--《仪礼·士冠礼》。注尊升所以處酒也。” 如饭勺;炒勺(炒菜用的有柄铁锅);马勺;掌勺儿;勺水(一勺水。指少量的水);",
+      "ancient_meaning": "挹取也。象形，中有實，與包同意。凡勺之屬皆从勺。",
+      "naming_meaning": "勺〈名〉 (象形；命名语义侧重德行品格、志向开阔",
+      "positive_level": 4,
+      "common_level": 1,
+      "strokes_modern": 3,
+      "kangxi_strokes": 3,
+      "radical": "勹",
+      "kangxi_radical": "勹",
+      "element": "火",
+      "components": [
+        "勹",
+        "丶"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "sháo",
+          "tone": 2,
+          "is_common": true,
+          "rhyme": "二喔"
+        },
+        {
+          "pinyin": "shuò",
+          "tone": 4,
+          "is_common": false,
+          "rhyme": "二喔"
+        },
+        {
+          "pinyin": "zhuó",
+          "tone": 2,
+          "is_common": false,
+          "rhyme": "二喔"
+        },
+        {
+          "pinyin": "dì",
+          "tone": 4,
+          "is_common": false,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 5,
+      "culture_link_ids": [
+        "shijing:先秦-000095",
+        "chuci:战国-000027",
+        "tang_poetry:唐-000671",
+        "tang_poetry:唐-002912",
+        "sishuwujing:先秦-000002"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:FUNCTION"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "千",
       "unicode": "U+5343",
       "compliance_level": 1,
@@ -1746,6 +2151,7 @@
       ],
       "definition": "千〈数〉 (形声。从十,人声。本义数目。十百为千) 同本义 千,十百也。--《说文》 又如千夫(一千个成年男子);千门(千家);千社(25家为社,千社为25000家);千祀(千年,千代);总数为一千;千乘(兵车千辆);千载(千年) 千 〈形〉 比喻数甚大;许许多多 清丽千眼。--陆机《文赋》。注光色盛貌。” 又如千千(比喻数目很多);千般(多种花样);千寻(",
       "ancient_meaning": "十百也。从十从人。",
+      "naming_meaning": "千〈数〉 (形声；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1816,6 +2222,7 @@
       ],
       "definition": "及 (会意。甲骨文字形,从人,从手。表示后面的人赶上來用手抓住前面的人。本义追赶上,抓住) 同本义 及,逮也。--《说文》 使人追宋义子,及之齐,杀之。--《史记`项羽本纪》 无庸,将自及。--《左传隐公元年》 又如赶不及(来不及);企及(希望赶上);來得及(能够赶上);及面(见面);及时应令(与季节令令相适应) 至,达到 及,至也。--《广雅》 及期。--",
       "ancient_meaning": "逮也。从又从人。",
+      "naming_meaning": "及 (会意；命名语义侧重志向开阔、清雅温润",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1887,6 +2294,7 @@
       ],
       "definition": "口〈名〉 (象形。甲骨文字形,象人的口形。本义口腔器官,嘴) 同本义。人类用来发声和进食的器官 口,人所以言食也。--《说文》 且夫口三五之门也。--《国语·晋语》 口之为言达也。--《春秋·元命苞》 口者心之门户。--《鬼谷子·捭阖》 勺饮不入口七日。--《左传·定公四年》 下有蟾蜍,张口承之。--《后汉书·张衡传》 卖炭得钱何所营?身上衣裳口中食。--白",
       "ancient_meaning": "人所以言食也。象形。凡口之屬皆从口。",
+      "naming_meaning": "口〈名〉 (象形；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -1959,6 +2367,7 @@
       ],
       "definition": "大 (象形。甲骨文字形,象人的正面形,有手有脚。大”是汉字部首之一,从大”的字往往与人类或人事有关。本义大小的大”) 形容体积、面积、数量、力量、规模、程度等方面超过一般或超过所比较的对象。与小”相对 大,天大地大人亦大,故大象人形。古文大也,籀文介,改古文亦象人形。凡大人、大夫、太子、太君,皆尊词。--《说文》 遵彼大路兮。--《诗·郑风·遵大路》 大有。",
       "ancient_meaning": "天大，地大，人亦大。故大象人形。古文大(他達切)也。凡大之屬皆从大。",
+      "naming_meaning": "大 (象形；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -2042,6 +2451,7 @@
       ],
       "definition": "女〈名〉 (象形。甲骨文字形,象一个敛手跪着的人形。本义女性, 女人,与男”相对) 同本义 女,妇人也。--《说文》。王育说对文则处子曰女,适人曰妇。” 女也不爽,士贰其行。--《诗·卫风·氓》 一女不织,或受之寒。--贾谊《论积贮疏》 女行无偏斜,何意致不厚。--《玉台新咏·古诗为焦仲卿妻作》 男女衣著。--晋·陶渊明《桃花源记》 男女无别。--《韩非子·",
       "ancient_meaning": "婦人也。象形。王育說。凡女之屬皆从女。",
+      "naming_meaning": "女〈名〉 (象形；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -2119,6 +2529,7 @@
       ],
       "definition": "彳 (象形。小篆字字形象行”,象纵横相交的十字路。彳”是汉字部首之一,习惯上称为双人旁。从彳”的字多与行走、行为和道路有关。本义慢步行走)同本义 slowly] 彳,小步也。象人胫三属相连也。--《说文》。谓股、胫、足三属。 彳亍中辍。--潘岳《射雉赋》 又如彳彳亍亍(脚步声) 彳亍 踟蹰横渡口,彳亍上滩舟。--李贽《观涨》 彳亍而无所趋 彳chì左脚走叫\"",
       "ancient_meaning": "小步也。象人脛三屬相連也。凡彳之屬皆从彳。",
+      "naming_meaning": "彳 (象形；命名语义侧重功能连接",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 3,
@@ -2192,6 +2603,7 @@
       ],
       "definition": "才 (象形。甲骨文字形,上面一横表示土地,下面象草木的茎(嫩芽)刚刚出土,其枝叶尚未出土的样子。本义草木初生) 同本义 才,草木之初也。--《说文》 有才能;有本领 试使斗而才。--《聊斋志异·促织》 又如才郎(有才学的郎君);才哲(才智卓越的人);才雄(杰出的人才);才英(指才华杰出的文人);才杰(杰出的人才) 才 才力;才能 任人之才。--《淮南子·主术",
       "ancient_meaning": "艸木之初也。从丨上貫一，將生枝葉。一，地也。凡才之屬皆从才。",
+      "naming_meaning": "才 (象形；命名语义侧重志向开阔、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 3,
@@ -2276,6 +2688,7 @@
       ],
       "definition": "不 (象形。甲骨文字形,上面象花蒂的子房,下面象花蕊下垂形。①本义萼足。《诗·小雅·常棣》常棣之花,鄂不韡。”郑笺承华者曰鄂。”②副词。不。《荀子》锲 而不舍,金石可镂。”) 用在动词、形容词或个别副词前,表示否定 医之好治不病以为功。--《韩非子·喻老》 老妇不闻也。--《战国策·赵策》 被驱不异犬与鸡。--唐·杜甫《兵车行》 后遂不复至。--明·魏禧《大",
       "ancient_meaning": "鳥飛上翔不下來也。从一，一猶天也。象形。凡不之屬皆从不。",
+      "naming_meaning": "不 (象形；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2350,6 +2763,84 @@
       }
     },
     {
+      "char": "为",
+      "unicode": "U+4E3A",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔",
+        "清雅温润"
+      ],
+      "semantic_keywords": [
+        "义"
+      ],
+      "definition": "为 (爲的本义是母猴。象形。按字,从爪,古文下象两母猴相对形) 假借为伪”。做,作,干,搞 我生之初,尚无为。--《诗·王风·兔爰》 子为不知,我将不墜。--《左传·定公十二年》 为善者,非善也,故善无以为也。--《管子·枢言》 变化则为生,为生则乱矣。--《管子·心术上》 为,施也。又,成也。--《广雅》 有客自云能,帝使为之。--《世说新语·巧艺》 为之",
+      "ancient_meaning": "未见结构化古义；字形构件：丶、力、丶。",
+      "naming_meaning": "为 (爲的本义是母猴；命名语义侧重德行品格、志向开阔",
+      "positive_level": 5,
+      "common_level": 1,
+      "strokes_modern": 4,
+      "kangxi_strokes": 4,
+      "radical": "丶",
+      "kangxi_radical": "丶",
+      "element": "火",
+      "components": [
+        "丶",
+        "力",
+        "丶"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "wèi",
+          "tone": 4,
+          "is_common": true,
+          "rhyme": "一啊"
+        },
+        {
+          "pinyin": "wéi",
+          "tone": 2,
+          "is_common": false,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "shijing:先秦-000002",
+        "shijing:先秦-000035",
+        "shijing:先秦-000036",
+        "shijing:先秦-000040",
+        "shijing:先秦-000042",
+        "shijing:先秦-000049"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:VIRTUE"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "乌",
       "unicode": "U+4E4C",
       "compliance_level": 1,
@@ -2366,6 +2857,7 @@
       "semantic_keywords": [],
       "definition": "乌 (象形。本义鸟名,乌鸦) 同本义 燕雀乌鹊。--《楚辞·屈原·涉江》 又如乌鸟(乌鸦之属);乌鸢(乌鸦和老鹰);乌鹊(乌鸦和喜鹊);乌师(在妓院教唱或伴奏的乐师);乌鸦嘴(比喻说话讨厌的人) 古代神话传说太阳中有三足乌,因以乌”为太阳的代称 日落);乌兔(日月) 刚孵化出的幼蚕 乌 浅黑色 身披乌衣,手执耒耜,以率将 乌（烏）wū ⒈ ⒉黑色～衣。～云。",
       "ancient_meaning": "Simplified form of 烏; a crow; compare 鸟",
+      "naming_meaning": "乌 (象形；命名语义侧重志向开阔、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2420,6 +2912,91 @@
       }
     },
     {
+      "char": "乏",
+      "unicode": "U+4E4F",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC",
+        "ORDER",
+        "GROWTH"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔",
+        "清雅温润"
+      ],
+      "semantic_keywords": [
+        "礼",
+        "正",
+        "春",
+        "器",
+        "具",
+        "之",
+        "其",
+        "以"
+      ],
+      "definition": "乏〈名〉 古代射礼唱靶者用以避箭的器具,其形略似屏风 乏,春秋传曰,反正为乏。--《说文》。按,容也。从反正,推事。受矢者为正,避矢者为乏。 故文反正为乏。--《左传·宣公十五年》 凡乏用革。--《仪礼·大射仪》 乏参侯道。--《仪礼·乡射礼》。注容谓之乏,所以为获者御矢也。” 无功伏安,电抗性伏安单位 乏 〈动〉 假借为贬。物质财富短缺 振乏绝。--《吕氏",
+      "ancient_meaning": "《春秋傳》曰：“反正爲乏。”",
+      "naming_meaning": "乏〈名〉 古代射礼唱靶者用以避箭的器具,其形略似屏风 乏,春秋传曰,反正为乏；命名语义侧重德行品格、志向开阔",
+      "positive_level": 4,
+      "common_level": 1,
+      "strokes_modern": 4,
+      "kangxi_strokes": 4,
+      "radical": "丿",
+      "kangxi_radical": "丿",
+      "element": "金",
+      "components": [
+        "丿",
+        "之"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "fá",
+          "tone": 2,
+          "is_common": true,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "tang_poetry:唐-000058",
+        "tang_poetry:唐-000904",
+        "tang_poetry:唐-001096",
+        "tang_poetry:唐-001481",
+        "tang_poetry:唐-002570",
+        "tang_poetry:唐-002634"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER",
+        "OBJECT_OR_TOOL_SEMANTIC"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:VIRTUE",
+        "keyword:GROWTH",
+        "keyword:ORDER",
+        "keyword:OBJECT",
+        "keyword:FUNCTION"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "互",
       "unicode": "U+4E92",
       "compliance_level": 1,
@@ -2438,6 +3015,7 @@
       ],
       "definition": "互 (象形。是一种绞绳用的工具。本义绞绳用的工具) 同本义 段玉裁注今绞绳者尚有此器。从竹,象形,谓其物象工字;中象人手推握也。” 差错 各有乘互。--陆法言《切韵序》 古代挂肉的木架 共其牛牲之互。--《周礼·牛人》。郑玄注互,若今屠家县肉格。” 置互摆牲。--《文选·张衡·西京赋》 门,巷门 甲壳动物的总称 互 交替;相互 互,交互。 互hù ⒈彼此～助",
       "ancient_meaning": "䇘或省。",
+      "naming_meaning": "互 (象形；命名语义侧重修身涵养、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2509,6 +3087,7 @@
       ],
       "definition": "五 (五,会意。从二,从乿。二”代表天地,乿”表示互相交错。本义交午,纵横交错) 同本义 五,阴阳在天地之间交午也。--《说文》 葛屦五两。--《诗·齐风·南山》 羔羊之皮,素丝五絝。--《诗·召南·羔羊》 五 四加一的和 五,数也。--《广韵》 五载一巡守。--《书·舜典》 塞其五山。--唐·李朝威《柳毅传》 五战于秦。--宋·苏洵《六国论》 起则五六揖。",
       "ancient_meaning": "五行也。从二，陰陽在天地閒交午也。凡五之屬皆从五。",
+      "naming_meaning": "五 (五,会意；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2558,6 +3137,87 @@
       }
     },
     {
+      "char": "仅",
+      "unicode": "U+4EC5",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "LEARNING",
+        "CULTURE"
+      ],
+      "semantic_roles": [
+        "书卷学养",
+        "文章文脉"
+      ],
+      "semantic_keywords": [
+        "文"
+      ],
+      "definition": "仅〈副〉 (形声。从人,堇声。本义仅能,只能) 同本义 仅,才能也。--《说文》 仅逮是月也。--《公羊传·僖公十六年》 仅然后得兔。 余一人仅亦守府。--《国语·周语》 仅以救亡者。--《战国策·秦策》 仅得免死。--《战国策·齐策四》 仅容旋马。(仅仅能够让一匹马转过身。)--宋·司马光《训俭示康》 室仅方丈。--明·归有光《项脊轩志》 仅循资迁。--清",
+      "ancient_meaning": "古文奴从人。",
+      "naming_meaning": "仅〈副〉 (形声；命名语义侧重书卷学养、文章文脉",
+      "positive_level": 4,
+      "common_level": 1,
+      "strokes_modern": 4,
+      "kangxi_strokes": 4,
+      "radical": "亻",
+      "kangxi_radical": "亻",
+      "element": "火",
+      "components": [
+        "亻",
+        "又"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "jǐn",
+          "tone": 3,
+          "is_common": true,
+          "rhyme": "一啊"
+        },
+        {
+          "pinyin": "fù",
+          "tone": 4,
+          "is_common": false,
+          "rhyme": "一啊"
+        },
+        {
+          "pinyin": "nú",
+          "tone": 2,
+          "is_common": false,
+          "rhyme": "一啊"
+        },
+        {
+          "pinyin": "jìn",
+          "tone": 4,
+          "is_common": false,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 0,
+      "culture_link_ids": [],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:LEARNING",
+        "keyword:CULTURE"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "以",
       "unicode": "U+4EE5",
       "compliance_level": 1,
@@ -2578,6 +3238,7 @@
       ],
       "definition": "以 (象形。甲骨文字形象。金文字形,象人。本义用) 同本义。有一部分现已弱化成了介词 以,用也。--《说文》 以,用也。--《小尔雅》 凡师能左右之曰以。--《左传·僖公二十六年》 封疆社稷是以。--《左传·定公十年》 纯以形式。--蔡元培《图画》 如或知尔,则何以哉?--《论语》 又如以手代足(爬行。表示甘愿认错受罚);以疏间亲(关系疏远的人离间关系亲密的",
       "ancient_meaning": "未见结构化古义；字形构件：人。",
+      "naming_meaning": "以 (象形；命名语义侧重德行品格、清雅温润",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2661,6 +3322,7 @@
       ],
       "definition": "六〈数〉 五加一的和 人道以六制。--《管子·五行》 六日不詹。--《诗·小雅·采绿》 六主律。--《易·本命》 夫六中色也。--《国语·周语》 六王毕,四海一。--杜牧《阿房宫赋》 又如六礼(中国古代婚姻需备的六种礼节纳采、问名、纳吉、纳征、请期、亲迎);六味(指苦、酸、甘、辛、咸、淡等六种滋味);六料(原指稻、黍、稷、粱、麦、菽六谷,后 为各种谷物的泛称",
       "ancient_meaning": "《易》之數，陰變於六，正於八。从入从八。凡六之屬皆从六。",
+      "naming_meaning": "六〈数〉 五加一的和 人道以六制；命名语义侧重德行品格、志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2739,6 +3401,7 @@
       ],
       "definition": "兮 啊 葛之覃兮,施于中谷。--《诗·周南·葛覃》 兮xī文言助词，相当于现代汉语的\"啊\"、\"呀\"缘天梯～北上。登太乙～ 玉台。",
       "ancient_meaning": "語所稽也。从丂，八象气越亏也。凡兮之屬皆从兮。",
+      "naming_meaning": "兮 啊 葛之覃兮,施于中谷；命名语义侧重清雅温润",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2810,6 +3473,7 @@
       ],
       "definition": "凶 (指事。小篆字形,凵”象地陷形。乿”表示这里可陷人。兇”是会意字,从儿(人),在凶下。本义不吉利) 同本义 凶,恶也。象地穿交陷其中也。--《说文》 凶,咎也。--《尔雅》 吉凶者,言乎其得也。--《易·系辞》 一曰凶短折。--《书·洪范》 日月告凶。--《诗·小雅·十月之交》。笺告天下以凶亡之徵也。” 此孰吉孰凶?”--《楚辞·卜居》 又如凶兆(不祥的",
       "ancient_meaning": "惡也。象地穿交陷其中也。凡凶之屬皆从凶。",
+      "naming_meaning": "凶 (指事；命名语义侧重志向开阔、清雅温润",
       "positive_level": 5,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2860,6 +3524,81 @@
       }
     },
     {
+      "char": "勾",
+      "unicode": "U+52FE",
+      "compliance_level": 1,
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION"
+      ],
+      "semantic_roles": [
+        "德行品格",
+        "志向开阔"
+      ],
+      "semantic_keywords": [
+        "义"
+      ],
+      "definition": "勾 本作句”。弯曲 删除或截取 谢安已令吏部郎袁彦伯撰策文,文成,安辄勾点,令更治改。--《魏书·司马叡传》 把报上的新词勾出来 又如勾除(勾销,除掉);勾抹(勾除;抹掉);勾却(勾销,取消) 勾勒(用笔先勾一个轮廓) 勾结 都是这些和尚勾合光棍,在外诈作客商模样。--清·艾衲居《豆棚闲话》 又如勾哄(勾结哄骗);勾合(勾结;串通,结合) 勾引,引诱 他在王",
+      "ancient_meaning": "未见结构化古义；字形构件：勹、厶。",
+      "naming_meaning": "勾 本作句”；命名语义侧重德行品格、志向开阔",
+      "positive_level": 4,
+      "common_level": 1,
+      "strokes_modern": 4,
+      "kangxi_strokes": 4,
+      "radical": "勹",
+      "kangxi_radical": "勹",
+      "element": "木",
+      "components": [
+        "勹",
+        "厶"
+      ],
+      "mandarin": [
+        {
+          "pinyin": "gōu",
+          "tone": 1,
+          "is_common": true,
+          "rhyme": "一啊"
+        },
+        {
+          "pinyin": "gòu",
+          "tone": 4,
+          "is_common": false,
+          "rhyme": "一啊"
+        }
+      ],
+      "teochew_count": 0,
+      "culture_evidence_count": 6,
+      "culture_link_ids": [
+        "tang_poetry:唐-002961",
+        "song_ci:宋-000275",
+        "song_ci:宋-000377",
+        "song_ci:宋-000392",
+        "song_ci:宋-000973",
+        "song_ci:宋-001112"
+      ],
+      "popularity": {},
+      "risk_codes": [
+        "LOW_NAMEABILITY_CHARACTER"
+      ],
+      "rejection_reasons": [
+        "low_nameability_definition"
+      ],
+      "reason_codes": [
+        "REJECTED_BY_RISK_OR_SOURCE",
+        "keyword:VIRTUE"
+      ],
+      "source_fields": {
+        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
+        "base": "02_char_attribute_layer/char_base_info.csv",
+        "semantic": "02_char_attribute_layer/char_semantic.json",
+        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
+        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
+        "culture": "04_culture_origin_layer/*"
+      }
+    },
+    {
       "char": "勿",
       "unicode": "U+52FF",
       "compliance_level": 1,
@@ -2878,6 +3617,7 @@
       "semantic_keywords": [],
       "definition": "兀 (指事。从一,在人上。人头上一横,表示高平。本义高耸特出的样子) 同本义 兀,高而上平也。--《说文》 何时眼前突兀见此屋。--杜甫《茅屋为秋风所破歌》 又如兀岸(直耸挺拔);兀嵝(险峻) 光秃(如毛发)的 蜀山兀。--唐·杜牧《阿房宫赋》 又如兀首(头发脱落) 茫然无知 临文乍了了,彻卷兀若天。--柳宗元《读书》 又如兀兀陶陶(醉酒);兀楞楞(痴呆) ",
       "ancient_meaning": "州里所建旗。象其柄，有三游。雜帛，幅半異。所以趣民，故遽，稱勿勿。凡勿之屬皆从勿。",
+      "naming_meaning": "兀 (指事；命名语义侧重德行品格、志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 4,
@@ -2948,6 +3688,7 @@
       "semantic_keywords": [],
       "definition": "匀 (会意。从勹二。勹,象人曲形有所包裹,二”表示所裹不多。本义少) 假借为均”。分,分出 匀,调匀也。--《一切经音义》引《说文》 不假东风次第吹,笔匀春色一枝枝。--唐·杜荀鹤《题花木障》 又如匀滚(拉平;平均);饭匀着吃;叫东村匀出一匹马来;匀摊(平均分摊) 涂抹均匀 向镜轻匀衬脸霞。--韩儛《咏手诗》 又如匀注(均匀地点染;化妆);匀面(化妆时用手搓",
       "ancient_meaning": "Using a spoon 勹 to measure out two equal parts 冫",
+      "naming_meaning": "匀 (会意；命名语义侧重志向开阔",
       "positive_level": 3,
       "common_level": 1,
       "strokes_modern": 4,
@@ -3026,6 +3767,7 @@
       ],
       "definition": "化〈动〉 (古字为匕”。会意。甲骨文,从二人,象二人相倒背之形,一正一反,以示变化。本义变化,改变) 同本义 匕,变也。--《说文》。徐灏曰匕化古今字。” 知变化之道。--《易·系辞传》。虞注在阳称变,在阴称化,四时变化。”荀注春夏为变,秋冬为化,坤化为物。” 和故百物化焉。--《礼记·乐记》 若欲其化也。--《周礼·柞氏》。注犹生也。” 状态而实无别而为异",
       "ancient_meaning": "教行也。从𠤎从人，𠤎亦聲。",
+      "naming_meaning": "化〈动〉 (古字为匕”；命名语义侧重志向开阔",
       "positive_level": 4,
       "common_level": 1,
       "strokes_modern": 4,
@@ -3105,6 +3847,7 @@
       ],
       "definition": "厄 (厂卩会意。厂”象山崖,卩”象人在崖洞下卷曲身子不得伸展。本义困厄,遭遇困境) 同本义 戹,隘也。从户,乙声,字亦作厄。--《说文》 厄,困也。--《苍颉篇》 厄难,勤苦之事也。--《诗·谷风》笺 能济其厄涣。--《易·解注》 仲尼厄而作《春秋》。--司马迁《报任安书》 又如厄气(倒霉气);厄难(困苦;遭遇不幸);厄困(艰难窘迫);厄苦(困苦);厄急(艰",
       "ancient_meaning": "科厄，木節也。从卪厂聲。賈侍中說，以爲厄，裹也。一曰厄，蓋也。",
+      "naming_meaning": "厄 (厂卩会意；命名语义侧重志向开阔",
       "positive_level": 5,
       "common_level": 1,
       "strokes_modern": 4,
@@ -3149,664 +3892,6 @@
       "reason_codes": [
         "REJECTED_BY_RISK_OR_SOURCE",
         "keyword:FUNCTION"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "夫",
-      "unicode": "U+592B",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION",
-        "AESTHETIC",
-        "FUNCTION"
-      ],
-      "semantic_roles": [
-        "德行品格",
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [
-        "也"
-      ],
-      "definition": "夫〈名〉 (象形。甲骨文字形,像站着的人形(大),上面的一”,表示头发上插一根簪(腺??)),意思是成年男子,是个丈夫了。古时男子成年束发加冠才算丈夫,故加一”做标志。本义 成年男子的通称) 同本义 夫,丈夫也。--《说文》。按,夫从一大,会意兼象形。周制以八寸为尺,十尺为丈,人长八尺,故曰丈夫。 夫也不良。--《诗·陈风·墓门》 残贼之人,谓之一夫。--《",
-      "ancient_meaning": "丈夫也。从大，一以象簪也。周制以八寸爲尺，十尺爲丈。人長八尺，故曰丈夫。凡夫之屬皆从夫。",
-      "positive_level": 3,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "大",
-      "kangxi_radical": "大",
-      "element": "水",
-      "components": [
-        "一",
-        "大"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "fū",
-          "tone": 1,
-          "is_common": true,
-          "rhyme": "一啊"
-        },
-        {
-          "pinyin": "fú",
-          "tone": 2,
-          "is_common": false,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "shijing:先秦-000007",
-        "shijing:先秦-000054",
-        "shijing:先秦-000057",
-        "shijing:先秦-000100",
-        "shijing:先秦-000131",
-        "shijing:先秦-000141"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "UNSUITABLE_FUNCTION_CHAR"
-      ],
-      "rejection_reasons": [
-        "obvious_non_name_character"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE",
-        "keyword:FUNCTION"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "币",
-      "unicode": "U+5E01",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "ASPIRATION",
-        "AESTHETIC"
-      ],
-      "semantic_roles": [
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [],
-      "definition": "币 (形声。从巾,敝声。从巾表示与布帛有关。本义古人用作礼物的丝织品) 同本义 幣,帛也。--《说文》 四曰幣贡。--《周礼·大宰》。司农注绣帛。” 幣曰量幣。--《礼记·曲礼》 用圭璧更皮幣。--《礼记·月令》 事之以皮幣。--《孟子》 寡君是故使吉(游吉)奉其皮幣。--《左传·襄公二十八年》 请具车马皮幣。--《战国策·齐策三》 又如皮币(兽皮和缯布);",
-      "ancient_meaning": "Bills written on silk 巾",
-      "positive_level": 3,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "巾",
-      "kangxi_radical": "巾",
-      "element": "火",
-      "components": [
-        "丿",
-        "巾"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "bì",
-          "tone": 4,
-          "is_common": true,
-          "rhyme": "一啊"
-        },
-        {
-          "pinyin": "yìn",
-          "tone": 4,
-          "is_common": false,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "tang_poetry:唐-000201",
-        "tang_poetry:唐-000222",
-        "tang_poetry:唐-000247",
-        "tang_poetry:唐-000385",
-        "tang_poetry:唐-000431",
-        "tang_poetry:唐-000455"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "UNSUITABLE_FUNCTION_CHAR",
-        "OBJECT_OR_TOOL_SEMANTIC"
-      ],
-      "rejection_reasons": [
-        "obvious_non_name_character"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "户",
-      "unicode": "U+6237",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION",
-        "AESTHETIC"
-      ],
-      "semantic_roles": [
-        "德行品格",
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [],
-      "definition": "户 (象形。甲骨文字形,象门(閠)字的一半『字部首之一。从户”的多与门户有关。本义单扇门) 同本义 户,半门曰户。--《说文》 一扇曰户,两扇曰门。又在于堂室东曰户,在于宅区域曰门。--《字书》 窥其户。--《易·丰》 设于户西。--《仪礼·聘礼》 未有入室而不由户者。--《礼记·礼器》 木兰当户织。--《乐府诗集·木兰诗》 当户理红妆。 出户望南山。--晋",
-      "ancient_meaning": "Simplified form of 戶; a door swinging on its hinge",
-      "positive_level": 4,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "户",
-      "kangxi_radical": "户",
-      "element": "火",
-      "components": [
-        "丶",
-        "尸"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "hù",
-          "tone": 4,
-          "is_common": true,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "shijing:先秦-000118",
-        "shijing:先秦-000154",
-        "shijing:先秦-000155",
-        "shijing:先秦-000156",
-        "shijing:先秦-000189",
-        "chuci:战国-000001"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "OBJECT_OR_TOOL_SEMANTIC",
-        "HOMOPHONE_RISK"
-      ],
-      "rejection_reasons": [
-        "homophone_blacklist"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "手",
-      "unicode": "U+624B",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "ASPIRATION",
-        "AESTHETIC",
-        "FUNCTION"
-      ],
-      "semantic_roles": [
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [
-        "也"
-      ],
-      "definition": "手 (象形。小篆字形,象伸出五指形。本义人体上肢的总称,一般指腕以下的部分) 同本义 手,拳也。--《说文》。段注今人舒之为手,卷之为拳。其实一也。故以手与拳二篆互训。” 艮为手。--《易·说卦》 三阴在手。--《素问·阴阳别论》。注手谓气口。” 则不手拜。--《礼记·少仪》。注手拜,手至地也。” 头至手曰拜手。--《公羊传·宣公六年》注 携手同行。--《诗",
-      "ancient_meaning": "拳也。象形。凡手之屬皆从手。",
-      "positive_level": 3,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "手",
-      "kangxi_radical": "手",
-      "element": "金",
-      "components": [
-        "手"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "shǒu",
-          "tone": 3,
-          "is_common": true,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "shijing:先秦-000031",
-        "shijing:先秦-000038",
-        "shijing:先秦-000041",
-        "shijing:先秦-000057",
-        "shijing:先秦-000078",
-        "shijing:先秦-000081"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "UNSUITABLE_FUNCTION_CHAR"
-      ],
-      "rejection_reasons": [
-        "obvious_non_name_character"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE",
-        "keyword:FUNCTION"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "无",
-      "unicode": "U+65E0",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "ASPIRATION",
-        "AESTHETIC"
-      ],
-      "semantic_roles": [
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [],
-      "definition": "无 (会意。据甲骨文字形,象一个人持把在跳舞。卜辞、金文中无、舞”同字。本义乐舞) 同本义 哲学范畴,指无形、无名、虚无等,或指物质的隐微状态 天下万物生于有,有生于无。--《老子》 无 没有,跟有”相对 无,不有也。--《玉篇》 无若丹朱傲。--《书·益稷》 无偏无党。--《书·洪范》 无内人之疏,而外人之亲。--《荀子·法行》 事不耳闻目睹而臆断其有无,",
-      "ancient_meaning": "奇字无，通於元者。王育說：天屈西北爲无。",
-      "positive_level": 4,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "无",
-      "kangxi_radical": "无",
-      "element": "火",
-      "components": [
-        "一",
-        "尢"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "wú",
-          "tone": 2,
-          "is_common": true,
-          "rhyme": "一啊"
-        },
-        {
-          "pinyin": "mó",
-          "tone": 2,
-          "is_common": false,
-          "rhyme": "二喔"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "shijing:先秦-000002",
-        "shijing:先秦-000017",
-        "shijing:先秦-000023",
-        "shijing:先秦-000026",
-        "shijing:先秦-000027",
-        "shijing:先秦-000029"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "UNSUITABLE_FUNCTION_CHAR",
-        "HOMOPHONE_RISK"
-      ],
-      "rejection_reasons": [
-        "obvious_non_name_character",
-        "homophone_blacklist"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "歹",
-      "unicode": "U+6B79",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "UNKNOWN"
-      ],
-      "semantic_roles": [
-        "语义待审"
-      ],
-      "semantic_keywords": [],
-      "definition": "歹 (象形。本作歺”,音??。甲骨文字形,象有裂缝的残骨。隶变作歹”。歹”是汉字部首之一,从歹”的字多与死、坏或不吉祥等义有关。①本义残骨。《说文》 列 骨之残也。” ②坏) 坏。与好”相对 莫怕!莫怕!我们不是歹人,我们是取经的和尚。--《西游记》 父亲做歹事,误我受此重罪。--《宣和遗事》 又指 秦氏有几日好些,也有几日歹些。--《红楼梦》 在道德方面严",
-      "ancient_meaning": "A corpse",
-      "positive_level": 5,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "歹",
-      "kangxi_radical": "歹",
-      "element": "水",
-      "components": [
-        "一",
-        "夕"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "dǎi",
-          "tone": 3,
-          "is_common": true,
-          "rhyme": "一啊"
-        },
-        {
-          "pinyin": "è",
-          "tone": 4,
-          "is_common": false,
-          "rhyme": "三鹅"
-        },
-        {
-          "pinyin": "dāi",
-          "tone": 1,
-          "is_common": false,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 0,
-      "culture_link_ids": [],
-      "popularity": {},
-      "risk_codes": [
-        "HOMOPHONE_RISK"
-      ],
-      "rejection_reasons": [
-        "homophone_blacklist"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE",
-        "fallback:unknown"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "毋",
-      "unicode": "U+6BCB",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION",
-        "AESTHETIC",
-        "FUNCTION"
-      ],
-      "semantic_roles": [
-        "德行品格",
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [
-        "之",
-        "也"
-      ],
-      "definition": "毋 (形声。母”省声。毋、母古本为一字,后分化禁止之词,乃加一画以别之。本义表示禁止的词。相当于莫、勿、不要) 同本义 毋,止之也。--《说文》 毋,止之辞。--《广韵》 毋者,禁之也。--《论衡·谴告》 毋不敬。--《礼记·曲礼上》 毋吾以也。--《论语·先进》 毋从俱死。--《史记·项羽本纪》 毋内诸侯。 毋妄发。--清·徐珂《清稗类钞·战事类》 毋多谈",
-      "ancient_meaning": "止之也。从女，有奸之者。凡毋之屬皆从毋。",
-      "positive_level": 3,
-      "common_level": 1,
-      "strokes_modern": 4,
-      "kangxi_strokes": 4,
-      "radical": "毋",
-      "kangxi_radical": "毋",
-      "element": "水",
-      "components": [
-        "毋"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "wú",
-          "tone": 2,
-          "is_common": true,
-          "rhyme": "一啊"
-        },
-        {
-          "pinyin": "móu",
-          "tone": 2,
-          "is_common": false,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "shijing:先秦-000035",
-        "shijing:先秦-000186",
-        "shijing:先秦-000196",
-        "shijing:先秦-000223",
-        "chuci:战国-000023",
-        "tang_poetry:唐-001253"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "HOMOPHONE_RISK"
-      ],
-      "rejection_reasons": [
-        "homophone_blacklist"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE",
-        "keyword:FUNCTION"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "且",
-      "unicode": "U+4E14",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION",
-        "AESTHETIC",
-        "FUNCTION"
-      ],
-      "semantic_roles": [
-        "德行品格",
-        "志向开阔",
-        "清雅温润"
-      ],
-      "semantic_keywords": [
-        "也"
-      ],
-      "definition": "且 此,这;今 匪且有且,匪今斯今。--《诗·周颂·载芟》。毛传且,此也。” 且 将近;几乎 年且九十。--《列子·汤问》 上晚年多内宠,小王且二十人。--《资治通鉴》 去后且三年。--清·侯方域《壮悔堂文集》 将要 会且归矣,无庶予子憎。--《诗·齐风》 故天之且风,草木未动而鸟已翔矣。--《淮南子》 且为之奈何。--《史记·项羽本纪》 以为且噬己矣。--",
-      "ancient_meaning": "薦也。从几，足有二橫，一其下地也。凡且之屬皆从且。",
-      "positive_level": 4,
-      "common_level": 1,
-      "strokes_modern": 5,
-      "kangxi_strokes": 5,
-      "radical": "一",
-      "kangxi_radical": "一",
-      "element": "金",
-      "components": [
-        "月",
-        "一"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "qiě",
-          "tone": 3,
-          "is_common": true,
-          "rhyme": "三鹅"
-        },
-        {
-          "pinyin": "jū",
-          "tone": 1,
-          "is_common": false,
-          "rhyme": "一啊"
-        },
-        {
-          "pinyin": "cú",
-          "tone": 2,
-          "is_common": false,
-          "rhyme": "一啊"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 6,
-      "culture_link_ids": [
-        "shijing:先秦-000028",
-        "shijing:先秦-000030",
-        "shijing:先秦-000040",
-        "shijing:先秦-000041",
-        "shijing:先秦-000042",
-        "shijing:先秦-000047"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "UNSUITABLE_FUNCTION_CHAR",
-        "HOMOPHONE_RISK"
-      ],
-      "rejection_reasons": [
-        "obvious_non_name_character",
-        "homophone_blacklist"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE",
-        "keyword:FUNCTION"
-      ],
-      "source_fields": {
-        "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
-        "base": "02_char_attribute_layer/char_base_info.csv",
-        "semantic": "02_char_attribute_layer/char_semantic.json",
-        "kangxi": "02_char_attribute_layer/kangxi_strokes.json",
-        "pronunciation": "03_pronunciation_layer/mandarin_pinyin.json",
-        "culture": "04_culture_origin_layer/*"
-      }
-    },
-    {
-      "char": "丙",
-      "unicode": "U+4E19",
-      "compliance_level": 1,
-      "nameability_level": "REJECTED",
-      "nameability_score": 0,
-      "semantic_categories": [
-        "VIRTUE",
-        "ASPIRATION"
-      ],
-      "semantic_roles": [
-        "德行品格",
-        "志向开阔"
-      ],
-      "semantic_keywords": [
-        "成"
-      ],
-      "definition": "丙 (象形。本义鱼尾。《尔雅·释鱼》曰‘鱼枕谓之丁,鱼肠谓之乙,鱼尾谓之丙’。乙之象鱼肠,丙之象鱼尾,可无庸说。”) 鱼尾 鱼尾谓之丙。--《尔雅》 假借为天干的第三位,与地支相配,用以纪年、月、日 其日丙丁。--《礼记·月令》 丙刚丁柔。--《广雅·释天》 如丙子、丙戍、丙寅以纪年;丙科(汉代考试的第三等科目);丙夜(即三更。半夜,夜中子时) 古代以十干配",
-      "ancient_meaning": "位南方，萬物成，炳然。陰气初起，陽气將虧。从一入冂。一者，陽也。丙承乙，象人肩。凡丙之屬皆从丙。",
-      "positive_level": 4,
-      "common_level": 1,
-      "strokes_modern": 5,
-      "kangxi_strokes": 5,
-      "radical": "一",
-      "kangxi_radical": "一",
-      "element": "火",
-      "components": [
-        "一",
-        "内"
-      ],
-      "mandarin": [
-        {
-          "pinyin": "bǐng",
-          "tone": 3,
-          "is_common": true,
-          "rhyme": "二喔"
-        },
-        {
-          "pinyin": "bìng",
-          "tone": 4,
-          "is_common": false,
-          "rhyme": "二喔"
-        }
-      ],
-      "teochew_count": 0,
-      "culture_evidence_count": 1,
-      "culture_link_ids": [
-        "sishuwujing:先秦-000011"
-      ],
-      "popularity": {},
-      "risk_codes": [
-        "HOMOPHONE_RISK"
-      ],
-      "rejection_reasons": [
-        "homophone_blacklist"
-      ],
-      "reason_codes": [
-        "REJECTED_BY_RISK_OR_SOURCE",
-        "keyword:ASPIRATION"
       ],
       "source_fields": {
         "compliance": "01_compliance_layer/tongyong_guifan_hanzi.csv",
