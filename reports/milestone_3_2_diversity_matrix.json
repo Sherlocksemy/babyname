@@ -1,0 +1,48 @@
+{
+  "case_count": 3,
+  "top3_slot_count": 9,
+  "top3_unique_given_name_count": 9,
+  "top20_unique_given_name_count": 55,
+  "all_cases_have_top3": true,
+  "path_distribution": {
+    "default_male": {
+      "total": 20,
+      "counts": {
+        "imagery_transformation": 4,
+        "semantic_role_composition": 9,
+        "direct_expression": 7
+      },
+      "ratios": {
+        "imagery_transformation": 0.2,
+        "semantic_role_composition": 0.45,
+        "direct_expression": 0.35
+      }
+    },
+    "gentle_female": {
+      "total": 20,
+      "counts": {
+        "semantic_role_composition": 8,
+        "direct_expression": 8,
+        "imagery_transformation": 4
+      },
+      "ratios": {
+        "semantic_role_composition": 0.4,
+        "direct_expression": 0.4,
+        "imagery_transformation": 0.2
+      }
+    },
+    "landscape_male": {
+      "total": 20,
+      "counts": {
+        "imagery_transformation": 4,
+        "semantic_role_composition": 8,
+        "direct_expression": 8
+      },
+      "ratios": {
+        "imagery_transformation": 0.2,
+        "semantic_role_composition": 0.4,
+        "direct_expression": 0.4
+      }
+    }
+  }
+}

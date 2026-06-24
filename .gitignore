@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+02_src/backend/runtime/*.sqlite3
+02_src/backend/runtime/*.log
+02_src/backend/runtime/logs/
+02_src/frontend/node_modules/
+02_src/frontend/.next/
+02_src/frontend/*.log
+baby-name-system-m3.7z

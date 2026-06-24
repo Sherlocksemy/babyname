@@ -7,9 +7,9 @@
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
       "top20_given_name_jaccard": 0.1765,
-      "character_jaccard": 0.5312,
+      "character_jaccard": 0.5294,
       "semantic_pattern_jaccard": 0.1765,
-      "culture_evidence_jaccard": 0.3607
+      "culture_evidence_jaccard": 0.2923
     },
     {
       "case_a": "A1",
@@ -17,10 +17,10 @@
       "full_name_overlap": 0,
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.0526,
-      "character_jaccard": 0.3171,
-      "semantic_pattern_jaccard": 0.0526,
-      "culture_evidence_jaccard": 0.2297
+      "top20_given_name_jaccard": 0.0811,
+      "character_jaccard": 0.3684,
+      "semantic_pattern_jaccard": 0.0811,
+      "culture_evidence_jaccard": 0.2609
     },
     {
       "case_a": "A1",
@@ -31,7 +31,7 @@
       "top20_given_name_jaccard": 0.1111,
       "character_jaccard": 0.3514,
       "semantic_pattern_jaccard": 0.1111,
-      "culture_evidence_jaccard": 0.3333
+      "culture_evidence_jaccard": 0.3065
     },
     {
       "case_a": "A1",
@@ -39,10 +39,10 @@
       "full_name_overlap": 1,
       "given_name_overlap": 1,
       "top3_given_name_overlap_count": 1,
-      "top20_given_name_jaccard": 0.2121,
-      "character_jaccard": 0.5429,
-      "semantic_pattern_jaccard": 0.2121,
-      "culture_evidence_jaccard": 0.3582
+      "top20_given_name_jaccard": 0.1111,
+      "character_jaccard": 0.6061,
+      "semantic_pattern_jaccard": 0.1111,
+      "culture_evidence_jaccard": 0.2754
     },
     {
       "case_a": "A2",
@@ -51,20 +51,20 @@
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
       "top20_given_name_jaccard": 0.0526,
-      "character_jaccard": 0.3056,
+      "character_jaccard": 0.3889,
       "semantic_pattern_jaccard": 0.0526,
-      "culture_evidence_jaccard": 0.2
+      "culture_evidence_jaccard": 0.2857
     },
     {
       "case_a": "A2",
       "case_b": "A4",
-      "full_name_overlap": 1,
-      "given_name_overlap": 1,
-      "top3_given_name_overlap_count": 1,
+      "full_name_overlap": 0,
+      "given_name_overlap": 0,
+      "top3_given_name_overlap_count": 0,
       "top20_given_name_jaccard": 0.25,
-      "character_jaccard": 0.4828,
+      "character_jaccard": 0.5484,
       "semantic_pattern_jaccard": 0.25,
-      "culture_evidence_jaccard": 0.3774
+      "culture_evidence_jaccard": 0.3636
     },
     {
       "case_a": "A2",
@@ -72,32 +72,32 @@
       "full_name_overlap": 0,
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.25,
-      "character_jaccard": 0.6207,
-      "semantic_pattern_jaccard": 0.25,
-      "culture_evidence_jaccard": 0.5
+      "top20_given_name_jaccard": 0.1111,
+      "character_jaccard": 0.5938,
+      "semantic_pattern_jaccard": 0.1111,
+      "culture_evidence_jaccard": 0.3898
     },
     {
       "case_a": "A3",
       "case_b": "A4",
+      "full_name_overlap": 0,
+      "given_name_overlap": 0,
+      "top3_given_name_overlap_count": 0,
+      "top20_given_name_jaccard": 0.0256,
+      "character_jaccard": 0.4545,
+      "semantic_pattern_jaccard": 0.0256,
+      "culture_evidence_jaccard": 0.2581
+    },
+    {
+      "case_a": "A3",
+      "case_b": "A5",
       "full_name_overlap": 0,
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
       "top20_given_name_jaccard": 0.0811,
-      "character_jaccard": 0.3714,
+      "character_jaccard": 0.3421,
       "semantic_pattern_jaccard": 0.0811,
-      "culture_evidence_jaccard": 0.2462
-    },
-    {
-      "case_a": "A3",
-      "case_b": "A5",
-      "full_name_overlap": 1,
-      "given_name_overlap": 1,
-      "top3_given_name_overlap_count": 1,
-      "top20_given_name_jaccard": 0.1111,
-      "character_jaccard": 0.3333,
-      "semantic_pattern_jaccard": 0.1111,
-      "culture_evidence_jaccard": 0.2432
+      "culture_evidence_jaccard": 0.2879
     },
     {
       "case_a": "A4",
@@ -105,10 +105,10 @@
       "full_name_overlap": 0,
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.2121,
-      "character_jaccard": 0.4545,
-      "semantic_pattern_jaccard": 0.2121,
-      "culture_evidence_jaccard": 0.4211
+      "top20_given_name_jaccard": 0.0526,
+      "character_jaccard": 0.4,
+      "semantic_pattern_jaccard": 0.0526,
+      "culture_evidence_jaccard": 0.254
     }
   ],
   "matrix_b": [
@@ -116,21 +116,21 @@
       "case_a": "B1",
       "case_b": "B2",
       "full_name_overlap": 0,
-      "given_name_overlap": 1,
-      "top3_given_name_overlap_count": 1,
-      "top20_given_name_jaccard": 0.6667,
-      "character_jaccard": 0.8276,
-      "semantic_pattern_jaccard": 0.6667,
-      "culture_evidence_jaccard": 0.76
+      "given_name_overlap": 2,
+      "top3_given_name_overlap_count": 2,
+      "top20_given_name_jaccard": 0.8182,
+      "character_jaccard": 0.963,
+      "semantic_pattern_jaccard": 0.8182,
+      "culture_evidence_jaccard": 0.9565
     },
     {
       "case_a": "B1",
       "case_b": "B3",
       "full_name_overlap": 0,
-      "given_name_overlap": 1,
-      "top3_given_name_overlap_count": 1,
+      "given_name_overlap": 2,
+      "top3_given_name_overlap_count": 2,
       "top20_given_name_jaccard": 0.6,
-      "character_jaccard": 0.8,
+      "character_jaccard": 0.8571,
       "semantic_pattern_jaccard": 0.6,
       "culture_evidence_jaccard": 0.7451
     },
@@ -140,32 +140,32 @@
       "full_name_overlap": 0,
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.6,
-      "character_jaccard": 0.8333,
-      "semantic_pattern_jaccard": 0.6,
-      "culture_evidence_jaccard": 0.8163
+      "top20_given_name_jaccard": 0.6667,
+      "character_jaccard": 0.8571,
+      "semantic_pattern_jaccard": 0.6667,
+      "culture_evidence_jaccard": 0.8333
     },
     {
       "case_a": "B1",
       "case_b": "B5",
       "full_name_overlap": 0,
-      "given_name_overlap": 0,
-      "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.7391,
-      "character_jaccard": 0.8966,
-      "semantic_pattern_jaccard": 0.7391,
-      "culture_evidence_jaccard": 0.9348
+      "given_name_overlap": 1,
+      "top3_given_name_overlap_count": 1,
+      "top20_given_name_jaccard": 0.6,
+      "character_jaccard": 0.8,
+      "semantic_pattern_jaccard": 0.6,
+      "culture_evidence_jaccard": 0.78
     },
     {
       "case_a": "B2",
       "case_b": "B3",
       "full_name_overlap": 0,
-      "given_name_overlap": 1,
-      "top3_given_name_overlap_count": 1,
-      "top20_given_name_jaccard": 0.6,
-      "character_jaccard": 0.8214,
-      "semantic_pattern_jaccard": 0.6,
-      "culture_evidence_jaccard": 0.74
+      "given_name_overlap": 2,
+      "top3_given_name_overlap_count": 2,
+      "top20_given_name_jaccard": 0.7391,
+      "character_jaccard": 0.8889,
+      "semantic_pattern_jaccard": 0.7391,
+      "culture_evidence_jaccard": 0.78
     },
     {
       "case_a": "B2",
@@ -173,21 +173,21 @@
       "full_name_overlap": 0,
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.5385,
-      "character_jaccard": 0.7931,
-      "semantic_pattern_jaccard": 0.5385,
-      "culture_evidence_jaccard": 0.6731
+      "top20_given_name_jaccard": 0.8182,
+      "character_jaccard": 0.8889,
+      "semantic_pattern_jaccard": 0.8182,
+      "culture_evidence_jaccard": 0.8723
     },
     {
       "case_a": "B2",
       "case_b": "B5",
       "full_name_overlap": 0,
-      "given_name_overlap": 0,
-      "top3_given_name_overlap_count": 0,
-      "top20_given_name_jaccard": 0.6667,
-      "character_jaccard": 0.8571,
-      "semantic_pattern_jaccard": 0.6667,
-      "culture_evidence_jaccard": 0.7755
+      "given_name_overlap": 2,
+      "top3_given_name_overlap_count": 2,
+      "top20_given_name_jaccard": 0.6,
+      "character_jaccard": 0.8276,
+      "semantic_pattern_jaccard": 0.6,
+      "culture_evidence_jaccard": 0.8163
     },
     {
       "case_a": "B3",
@@ -196,9 +196,9 @@
       "given_name_overlap": 0,
       "top3_given_name_overlap_count": 0,
       "top20_given_name_jaccard": 0.7391,
-      "character_jaccard": 0.8929,
+      "character_jaccard": 0.9231,
       "semantic_pattern_jaccard": 0.7391,
-      "culture_evidence_jaccard": 0.76
+      "culture_evidence_jaccard": 0.7755
     },
     {
       "case_a": "B3",
@@ -206,41 +206,43 @@
       "full_name_overlap": 0,
       "given_name_overlap": 1,
       "top3_given_name_overlap_count": 1,
-      "top20_given_name_jaccard": 0.8182,
-      "character_jaccard": 0.8929,
-      "semantic_pattern_jaccard": 0.8182,
-      "culture_evidence_jaccard": 0.7959
+      "top20_given_name_jaccard": 0.6,
+      "character_jaccard": 0.9259,
+      "semantic_pattern_jaccard": 0.6,
+      "culture_evidence_jaccard": 0.76
     },
     {
       "case_a": "B4",
       "case_b": "B5",
       "full_name_overlap": 0,
-      "given_name_overlap": 1,
-      "top3_given_name_overlap_count": 1,
-      "top20_given_name_jaccard": 0.8182,
-      "character_jaccard": 0.9286,
-      "semantic_pattern_jaccard": 0.8182,
-      "culture_evidence_jaccard": 0.8723
+      "given_name_overlap": 0,
+      "top3_given_name_overlap_count": 0,
+      "top20_given_name_jaccard": 0.6,
+      "character_jaccard": 0.8571,
+      "semantic_pattern_jaccard": 0.6,
+      "culture_evidence_jaccard": 0.8125
     }
   ],
   "matrix_a_summary": {
     "top3_slot_count": 15,
-    "unique_given_name_count": 12,
-    "unique_rate": 0.8,
+    "unique_given_name_count": 14,
+    "unique_rate": 0.9333,
     "max_given_name_frequency": 2,
     "given_name_counts": {
       "思敬": 2,
       "泉清": 1,
-      "承仁": 1,
-      "宁泉": 1,
-      "安灵": 2,
+      "仁维": 1,
+      "安泉": 1,
+      "宁谦": 1,
       "信文": 1,
-      "乔岳": 1,
-      "竹清": 2,
-      "泉宁": 1,
-      "昭宁": 1,
-      "朗煦": 1,
-      "泉灵": 1
+      "泉竹": 1,
+      "天岳": 1,
+      "昭云": 1,
+      "昭煦": 1,
+      "信明": 1,
+      "安敬": 1,
+      "泉灵": 1,
+      "章谦": 1
     },
     "pairwise_max_top3_given_overlap": 1,
     "pairwise_max_top20_given_jaccard": 0.25,
@@ -251,37 +253,37 @@
       "B1": [
         "思敬",
         "泉清",
-        "承仁"
+        "仁维"
       ],
       "B2": [
-        "仁承",
-        "思敬",
-        "德章"
+        "仁维",
+        "承贤",
+        "思敬"
       ],
       "B3": [
         "思敬",
-        "仁维",
-        "嘉信"
+        "德昭",
+        "仁维"
       ],
       "B4": [
+        "谦正",
         "敬信",
-        "思弘",
-        "谦章"
+        "思弘"
       ],
       "B5": [
-        "贤庭",
-        "思弘",
-        "仁维"
+        "思敬",
+        "谦章",
+        "承贤"
       ]
     },
     "top1_names": [
       "思敬",
-      "仁承",
+      "仁维",
       "思敬",
       "敬信",
-      "思弘"
+      "思敬"
     ],
-    "top1_unique_rate": 0.8,
+    "top1_unique_rate": 0.6,
     "exact_same_top3_pairs": [],
     "same_given_name_surname_fit_variation": {
       "思敬": {
@@ -291,17 +293,11 @@
         "郑": 86.92,
         "欧阳": 82.38
       },
-      "敬谦": {
-        "林": 87.36,
-        "陈": 87.36,
-        "黄": 84.96,
-        "欧阳": 82.98
-      },
-      "思弘": {
-        "林": 85.92,
+      "竹清": {
+        "林": 91.42,
         "陈": 85.92,
         "黄": 85.92,
-        "郑": 87.36,
+        "郑": 83.52,
         "欧阳": 82.38
       },
       "泉清": {
@@ -311,11 +307,18 @@
         "郑": 83.52,
         "欧阳": 78.54
       },
-      "竹清": {
-        "林": 91.42,
+      "敬信": {
+        "林": 85.92,
+        "陈": 85.92,
+        "黄": 83.52,
+        "郑": 85.58,
+        "欧阳": 79.98
+      },
+      "思弘": {
+        "林": 85.92,
         "陈": 85.92,
         "黄": 85.92,
-        "郑": 83.52,
+        "郑": 87.36,
         "欧阳": 82.38
       },
       "仁维": {
@@ -325,11 +328,12 @@
         "郑": 85.92,
         "欧阳": 82.38
       },
-      "嘉信": {
-        "林": 87.36,
-        "黄": 87.36,
-        "郑": 88.42,
-        "欧阳": 82.38
+      "承贤": {
+        "林": 84.48,
+        "陈": 86.14,
+        "黄": 82.08,
+        "郑": 83.52,
+        "欧阳": 82.98
       },
       "安泉": {
         "林": 88.92,
@@ -338,12 +342,29 @@
         "郑": 87.36,
         "欧阳": 82.38
       },
-      "承贤": {
-        "林": 84.48,
-        "陈": 86.14,
-        "黄": 82.08,
-        "郑": 83.52,
-        "欧阳": 82.98
+      "信初": {
+        "林": 87.36,
+        "陈": 87.36,
+        "郑": 88.42
+      },
+      "谦正": {
+        "林": 87.36,
+        "陈": 87.36,
+        "黄": 87.36,
+        "郑": 92.92
+      },
+      "谦章": {
+        "林": 85.92,
+        "陈": 87.92,
+        "黄": 85.92,
+        "郑": 88.42,
+        "欧阳": 86.44
+      },
+      "正则": {
+        "林": 82.08,
+        "陈": 82.08,
+        "黄": 79.68,
+        "欧阳": 77.58
       },
       "安德": {
         "林": 85.92,
@@ -351,29 +372,6 @@
         "黄": 85.92,
         "郑": 87.36,
         "欧阳": 82.38
-      },
-      "贤庭": {
-        "林": 84.48,
-        "陈": 85.98,
-        "黄": 84.48,
-        "郑": 85.92,
-        "欧阳": 87.88
-      },
-      "弘乔": {
-        "林": 86.48,
-        "陈": 84.48
-      },
-      "信初": {
-        "林": 87.36,
-        "陈": 87.36,
-        "欧阳": 82.38
-      },
-      "正则": {
-        "林": 82.08,
-        "陈": 82.08,
-        "黄": 79.68,
-        "郑": 82.84,
-        "欧阳": 77.58
       },
       "南岩": {
         "林": 82.08,
@@ -398,24 +396,24 @@
       },
       "明昭": {
         "林": 85.92,
+        "陈": 85.92,
         "郑": 84.96,
         "欧阳": 79.98
       },
-      "谦章": {
-        "陈": 87.92,
-        "黄": 85.92,
-        "郑": 88.42,
-        "欧阳": 86.44
-      },
-      "仁庭": {
+      "仁承": {
+        "陈": 89.98,
         "黄": 84.48,
-        "郑": 85.92,
-        "欧阳": 84.88
+        "郑": 85.92
       },
-      "承德": {
-        "黄": 82.08,
-        "郑": 83.52,
-        "欧阳": 79.98
+      "弘明": {
+        "陈": 82.08,
+        "黄": 79.34,
+        "郑": 81.12
+      },
+      "海天": {
+        "黄": 83.52,
+        "郑": 87.36,
+        "欧阳": 87.88
       }
     },
     "meets_threshold": true

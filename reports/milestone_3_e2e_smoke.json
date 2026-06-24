@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-06-23T11:29:02",
+  "flow": [
+    "open home",
+    "submit 林姓男孩 公历 汕头 书卷清雅",
+    "poll result",
+    "open first candidate detail",
+    "favorite first candidate",
+    "regenerate",
+    "verify no overlap"
+  ],
+  "request_id": "req_671837b9d72f42f9ae2693222fad9a98",
+  "top3": [
+    "林思敬",
+    "林思弘",
+    "林敬谦"
+  ],
+  "backup7": [
+    "林承仁",
+    "林承贤",
+    "林仁庭",
+    "林谦正",
+    "林安德",
+    "林德嘉",
+    "林明信"
+  ],
+  "detail_name": "林思敬",
+  "favorite_id": "fav_f7beb88c80c34df8a9f4d6735473e80e",
+  "regenerated_top3": [
+    "林贤庭",
+    "林仁承",
+    "林贤承"
+  ],
+  "regenerated_backup7": [
+    "林嘉信",
+    "林德修",
+    "林德朗",
+    "林谦章",
+    "林云章",
+    "林波文"
+  ],
+  "overlap_after_regenerate": [],
+  "frontend_page_status": {
+    "/": 200,
+    "/generating/req_671837b9d72f42f9ae2693222fad9a98": 200,
+    "/results/req_671837b9d72f42f9ae2693222fad9a98": 200,
+    "/results/req_671837b9d72f42f9ae2693222fad9a98/cand_127cbc9bbaff462d9f6e626bfbf59ed3": 200
+  }
+}

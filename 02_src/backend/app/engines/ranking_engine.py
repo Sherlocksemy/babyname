@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 from collections import Counter
 
 from app.schemas.candidate import NameCandidate
@@ -10,6 +11,30 @@ class RankingEngine:
         sorted_candidates = sorted(candidates, key=self._sort_key)
         top20_pool = [candidate for candidate in sorted_candidates if candidate.profile_specificity_score >= 70]
         top20 = self._select_path_balanced(top20_pool, target=20)
+        if len(top20) < 20:
+            fallback_pool = [
+                candidate
+                for candidate in sorted_candidates
+                if candidate.profile_specificity_score >= 60 and candidate not in top20
+            ]
+            top20.extend(
+                self._select_limited(
+                    fallback_pool,
+                    target=20 - len(top20),
+                    max_char_count=3,
+                    max_pattern_count=5,
+                    max_record_count=5,
+                    existing=top20,
+                )
+            )
+            top20 = sorted(top20[:20], key=self._sort_key)
+        if len(top20) < 20:
+            for candidate in sorted_candidates:
+                if candidate not in top20:
+                    top20.append(candidate)
+                if len(top20) >= 20:
+                    break
+            top20 = sorted(top20[:20], key=self._sort_key)
         top10_pool = [candidate for candidate in top20 if candidate.profile_specificity_score >= 80]
         top10 = self._select_limited(top10_pool, target=10, max_char_count=1, max_pattern_count=2, max_record_count=2)
         if len(top10) < 10:
@@ -25,6 +50,11 @@ class RankingEngine:
             )
         eligible_top3_pool = [candidate for candidate in top10 if (candidate.score or {}).get("top3_eligible")]
         top3 = self._select_diverse(eligible_top3_pool, target=3, relaxed=False)
+        if len(top3) < 3:
+            top3 = self._select_diverse(eligible_top3_pool, target=3, relaxed=True)
+        if len(top3) < 3:
+            top3.extend([candidate for candidate in top10 if candidate not in top3][: 3 - len(top3)])
+        top3 = self._improve_top3_diversity(top3[:3], top10)
         diversity_status = "OK"
         reason = ""
         if len(top3) < 3 or len({item.structure_id for item in top3}) < 2 or len({item.archetype_id for item in top3}) < 2:
@@ -52,7 +82,8 @@ class RankingEngine:
         archetype_clarity = 1 if candidate.archetype_id else 0
         phonology = (candidate.score or {}).get("breakdown", {}).get("phonology", 0)
         popularity_penalty = (candidate.score or {}).get("breakdown", {}).get("penalties", 0)
-        return (-score, -profile, path_rank, -surname_fit, -evidence_strength, -structure_score, -archetype_clarity, -phonology, popularity_penalty, candidate.given_name)
+        surname_hash = int(hashlib.sha1(f"{candidate.surname}:{candidate.given_name}".encode("utf-8")).hexdigest()[:6], 16) / 0xFFFFFF
+        return (-score, -profile, path_rank, -surname_fit, surname_hash, -evidence_strength, -structure_score, -archetype_clarity, -phonology, popularity_penalty, candidate.given_name)
 
     def _select_path_balanced(self, candidates: list[NameCandidate], target: int) -> list[NameCandidate]:
         direct_cap = max(1, int(target * 0.40))
@@ -63,16 +94,22 @@ class RankingEngine:
             ("semantic_role_composition", semantic_target),
             ("imagery_transformation", imagery_target),
         ]:
-            selected.extend(
-                self._select_limited(
-                    [candidate for candidate in candidates if candidate.generation_mode == mode and candidate not in selected],
-                    target=count,
-                    max_char_count=2,
-                    max_pattern_count=4,
-                    max_record_count=4,
-                    existing=selected,
-                )
+            mode_candidates = [candidate for candidate in candidates if candidate.generation_mode == mode and candidate not in selected]
+            added = self._select_limited(
+                mode_candidates,
+                target=count,
+                max_char_count=2,
+                max_pattern_count=4,
+                max_record_count=4,
+                existing=selected,
             )
+            selected.extend(added)
+            if len(added) < count:
+                for candidate in mode_candidates:
+                    if candidate not in selected:
+                        selected.append(candidate)
+                    if sum(1 for item in selected if item.generation_mode == mode) >= count:
+                        break
         remaining = [candidate for candidate in candidates if candidate not in selected]
         selected.extend(
             self._select_limited(
@@ -170,4 +207,19 @@ class RankingEngine:
                     selected.append(candidate)
                     if len(selected) >= target:
                         break
+        return selected
+
+    @staticmethod
+    def _improve_top3_diversity(top3: list[NameCandidate], top10: list[NameCandidate]) -> list[NameCandidate]:
+        if len(top3) < 3:
+            return top3
+        selected = list(top3)
+        if len({item.structure_id for item in selected}) < 2:
+            replacement = next((item for item in top10 if item not in selected and item.structure_id not in {row.structure_id for row in selected}), None)
+            if replacement:
+                selected[-1] = replacement
+        if len({item.archetype_id for item in selected}) < 2:
+            replacement = next((item for item in top10 if item not in selected and item.archetype_id not in {row.archetype_id for row in selected}), None)
+            if replacement:
+                selected[-1] = replacement
         return selected

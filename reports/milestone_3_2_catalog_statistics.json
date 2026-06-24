@@ -1,0 +1,33 @@
+{
+  "total_records": 8105,
+  "level_counts": {
+    "REJECTED": 566,
+    "EXTENDED": 3747,
+    "CORE": 2053,
+    "EXPERIMENTAL": 1739
+  },
+  "core_extended_count": 5800,
+  "legacy_name_friendly_unique_count": 113,
+  "minimum_required_core_extended": 452,
+  "minimum_coverage_passed": true,
+  "category_counts": {
+    "ASPIRATION": 4905,
+    "AESTHETIC": 2917,
+    "SPACE": 165,
+    "GROWTH": 995,
+    "FUNCTION": 3526,
+    "VIRTUE": 2796,
+    "ORDER": 148,
+    "OBJECT": 423,
+    "LANDSCAPE": 471,
+    "LEARNING": 417,
+    "CULTURE": 336,
+    "UNKNOWN": 710,
+    "PEACE": 266,
+    "WISDOM": 180,
+    "WATER": 672,
+    "CAPABILITY": 143,
+    "CULTIVATION": 144,
+    "BRIGHTNESS": 368
+  }
+}

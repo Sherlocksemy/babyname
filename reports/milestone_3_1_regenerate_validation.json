@@ -1,0 +1,564 @@
+{
+  "generated_at": "2026-06-23T17:00:51",
+  "request_id": "req_6e5eded158f0425f83a84d088d3f210e",
+  "three_consecutive_regenerates": [
+    {
+      "attempt": 1,
+      "http_status": 202,
+      "request_id": "req_6e5eded158f0425f83a84d088d3f210e",
+      "run_id": "run_4935440886084c7ba3eeb3dbc73eebea",
+      "status": "COMPLETED",
+      "result_status": "COMPLETE",
+      "top3_count": 3,
+      "backup7_count": 7,
+      "counts": {
+        "top3": 3,
+        "backup": 7,
+        "qualified": 10,
+        "required": 10
+      },
+      "names": [
+        "林弘思",
+        "林敬信",
+        "林仁庭",
+        "林贤承",
+        "林德修",
+        "林谦章",
+        "林正则",
+        "林海南",
+        "林安明",
+        "林思博"
+      ],
+      "error": null
+    },
+    {
+      "attempt": 2,
+      "http_status": 202,
+      "request_id": "req_6e5eded158f0425f83a84d088d3f210e",
+      "run_id": "run_a44fd6137c8149669d1d8453058db600",
+      "status": "COMPLETED",
+      "result_status": "COMPLETE",
+      "top3_count": 3,
+      "backup7_count": 7,
+      "counts": {
+        "top3": 3,
+        "backup": 7,
+        "qualified": 10,
+        "required": 10
+      },
+      "names": [
+        "林敬思",
+        "林贤庭",
+        "林仁承",
+        "林嘉德",
+        "林云章",
+        "林光华",
+        "林思修",
+        "林弘敬",
+        "林仁维",
+        "林贤维"
+      ],
+      "error": null
+    },
+    {
+      "attempt": 3,
+      "http_status": 409,
+      "request_id": "req_6e5eded158f0425f83a84d088d3f210e",
+      "run_id": null,
+      "status": null,
+      "result_status": null,
+      "top3_count": 0,
+      "backup7_count": 0,
+      "counts": null,
+      "names": [],
+      "error": {
+        "code": "INSUFFICIENT_QUALIFIED_CANDIDATES",
+        "message": "Unable to generate at least 3 qualified candidates.",
+        "field": null,
+        "details": {
+          "shown_names_excluded": 60
+        }
+      }
+    }
+  ],
+  "final_readable_result_after_regenerates": {
+    "http_status": 200,
+    "status": "COMPLETED",
+    "result_status": "COMPLETE",
+    "run_id": "run_a44fd6137c8149669d1d8453058db600",
+    "top3_count": 3,
+    "backup7_count": 7
+  },
+  "partial_candidate_shortage_simulation": {
+    "http_status": 202,
+    "status": "PARTIAL",
+    "result_status": "INSUFFICIENT_QUALIFIED_CANDIDATES",
+    "counts": {
+      "top3": 3,
+      "backup": 5,
+      "qualified": 8,
+      "required": 10
+    },
+    "top3_count": 3,
+    "backup7_count": 5,
+    "session": {
+      "session_id": "req_52d0513d688443e3ba7fc974c3883970",
+      "status": "PARTIAL",
+      "error_code": null,
+      "error_message": null
+    },
+    "runs": [
+      {
+        "run_id": "run_709559ffbe4e4e6384d242f0e3740383",
+        "run_number": 1,
+        "status": "PARTIAL",
+        "candidate_count": 8,
+        "summary": {
+          "run_id": "run_709559ffbe4e4e6384d242f0e3740383",
+          "ranking_version": "RankingEngine.MVP",
+          "result_status": "INSUFFICIENT_QUALIFIED_CANDIDATES",
+          "counts": {
+            "top3": 3,
+            "backup": 5,
+            "qualified": 8,
+            "required": 10
+          },
+          "warnings": [],
+          "limitations": [
+            "传统命理、生肖及五格内容仅供文化参考。"
+          ],
+          "profile": {},
+          "baby_profile": {},
+          "fortune": {},
+          "top3_names": [
+            "林知安",
+            "林知行",
+            "林明安"
+          ],
+          "backup7_names": [
+            "林明行",
+            "林承安",
+            "林承行",
+            "林思安",
+            "林思行"
+          ],
+          "candidate_count": 8,
+          "generation_elapsed_ms": 0.28
+        }
+      }
+    ]
+  },
+  "failed_regenerate_simulation": {
+    "request_id": "req_21f9c7c6a3384ffbb78032b48f155eb7",
+    "before_failure_status": "COMPLETED",
+    "before_failure_run_id": "run_f420654f26ee4bae98771dbaa80178f3",
+    "http_status": 500,
+    "error_response": {
+      "error": {
+        "code": "GENERATION_FAILED",
+        "message": "Name generation failed.",
+        "field": null,
+        "details": {}
+      }
+    },
+    "after_failure_status": "COMPLETED",
+    "after_failure_result_status": "COMPLETE",
+    "after_failure_run_id": "run_f420654f26ee4bae98771dbaa80178f3",
+    "previous_result_preserved": true,
+    "session": {
+      "session_id": "req_21f9c7c6a3384ffbb78032b48f155eb7",
+      "status": "COMPLETED",
+      "error_code": "GENERATION_FAILED",
+      "error_message": "Name generation failed."
+    },
+    "runs": [
+      {
+        "run_id": "run_f420654f26ee4bae98771dbaa80178f3",
+        "run_number": 1,
+        "status": "COMPLETED",
+        "candidate_count": 10,
+        "summary": {
+          "run_id": "run_f420654f26ee4bae98771dbaa80178f3",
+          "ranking_version": "RankingEngine.MVP",
+          "result_status": "COMPLETE",
+          "counts": {
+            "top3": 3,
+            "backup": 7,
+            "qualified": 10,
+            "required": 10
+          },
+          "warnings": [],
+          "limitations": [
+            "仅做天干、地支、藏干的基础五行统计。",
+            "不输出完整旺衰、精确格局、调候或专家级喜用神。",
+            "传统命理、生肖及五格内容仅供文化参考。"
+          ],
+          "profile": {
+            "profile_signature": "97628648c18b",
+            "gender_tone": "clear_responsible",
+            "style_vector": {
+              "structures": {
+                "S01": 1,
+                "S06": 1,
+                "S08": 1,
+                "S02": 1,
+                "S07": 1
+              },
+              "archetypes": {
+                "A01": 1,
+                "A02": 1,
+                "A03": 1,
+                "A07": 1
+              },
+              "imagery": {
+                "竹": 1,
+                "兰": 1,
+                "清": 1,
+                "文": 1,
+                "书": 1,
+                "德": 1,
+                "仁": 1,
+                "敬": 1,
+                "正": 1,
+                "信": 1
+              },
+              "roles": {
+                "认知": 1,
+                "思辨": 1,
+                "文气": 1,
+                "书卷": 1,
+                "清正": 1,
+                "德行": 1,
+                "仁德": 1,
+                "敬慎": 1,
+                "正直": 1,
+                "践行": 1
+              },
+              "sources": {
+                "sishuwujing": 2,
+                "tang_poetry": 1,
+                "song_ci": 1,
+                "shijing": 1
+              },
+              "avoid": {}
+            },
+            "preferred_structures": [
+              "S01",
+              "S06",
+              "S08",
+              "S02",
+              "S07"
+            ],
+            "preferred_archetypes": [
+              "A01",
+              "A02",
+              "A03",
+              "A07"
+            ],
+            "preferred_imagery": [
+              "竹",
+              "兰",
+              "清",
+              "文",
+              "书",
+              "德",
+              "仁",
+              "敬",
+              "正",
+              "信"
+            ],
+            "preferred_semantic_roles": [
+              "认知",
+              "思辨",
+              "文气",
+              "书卷",
+              "清正",
+              "德行",
+              "仁德",
+              "敬慎",
+              "正直",
+              "践行"
+            ],
+            "preferred_culture_sources": [
+              "sishuwujing",
+              "tang_poetry",
+              "song_ci",
+              "shijing"
+            ],
+            "avoid_style_tags": []
+          },
+          "baby_profile": {
+            "surname": "林",
+            "gender": "male",
+            "calendar_type": "solar",
+            "birth_year": 2025,
+            "birth_month": 3,
+            "birth_day": 1,
+            "birth_hour": 8,
+            "birth_minute": 30,
+            "is_leap_month": false,
+            "birth_province": "广东省",
+            "birth_city": "汕头市",
+            "timezone": "Asia/Shanghai",
+            "region": "teochew",
+            "style_preferences": [
+              "书卷清雅",
+              "君子品格"
+            ],
+            "liked_chars": [],
+            "blocked_chars": [],
+            "exclude_given_names": [],
+            "generation_seed": 30320001
+          },
+          "fortune": {
+            "calendar": {
+              "solar_datetime": "2025-03-01 08:30:00",
+              "lunar_date": {
+                "year": 2025,
+                "month": 2,
+                "day": 2,
+                "raw_month": 2,
+                "is_leap_month": false,
+                "month_cn": "二",
+                "day_cn": "初二",
+                "year_ganzhi": "乙巳",
+                "month_ganzhi": "戊寅",
+                "day_ganzhi": "己巳",
+                "time_ganzhi": "戊辰",
+                "zodiac": "蛇"
+              },
+              "is_leap_month": false,
+              "timezone": "Asia/Shanghai",
+              "calendar_library": "lunar-python",
+              "calendar_library_version": "1.4.8",
+              "calculation_status": "COMPLETE",
+              "warnings": []
+            },
+            "true_solar_time": {
+              "standard_time": "2025-03-01 08:30:00",
+              "longitude": 116.681972,
+              "standard_meridian": 120.0,
+              "longitude_correction_minutes": -13.2721,
+              "equation_of_time_minutes": -13.0431,
+              "true_solar_time": "2025-03-01 08:03:41.084871",
+              "date_shift": 0,
+              "method": "longitude correction + equation of time",
+              "status": "COMPLETE",
+              "confidence": 0.86,
+              "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+              "warnings": []
+            },
+            "four_pillars": {
+              "year_pillar": {
+                "stem": "乙",
+                "branch": "巳",
+                "text": "乙巳"
+              },
+              "month_pillar": {
+                "stem": "戊",
+                "branch": "寅",
+                "text": "戊寅"
+              },
+              "day_pillar": {
+                "stem": "己",
+                "branch": "巳",
+                "text": "己巳"
+              },
+              "hour_pillar": {
+                "stem": "戊",
+                "branch": "辰",
+                "text": "戊辰"
+              },
+              "day_master": "己",
+              "hidden_stems": {
+                "year_pillar": [
+                  "丙",
+                  "庚",
+                  "戊"
+                ],
+                "month_pillar": [
+                  "甲",
+                  "丙",
+                  "戊"
+                ],
+                "day_pillar": [
+                  "丙",
+                  "庚",
+                  "戊"
+                ],
+                "hour_pillar": [
+                  "戊",
+                  "乙",
+                  "癸"
+                ]
+              },
+              "method": {
+                "year_boundary": "LICHUN",
+                "month_boundary": "JIEQI",
+                "time_basis": "TRUE_SOLAR_TIME",
+                "zi_hour_rule": "SAME_DAY",
+                "timezone": "Asia/Shanghai"
+              },
+              "cross_validation": {
+                "day_pillar_anchor_method": "己巳",
+                "library_day_pillar": "己巳",
+                "passed": true,
+                "anchor": "2000-01-01 戊午"
+              },
+              "status": "COMPLETE",
+              "confidence": 0.88,
+              "warnings": []
+            },
+            "five_elements": {
+              "day_master": {
+                "stem": "己",
+                "element": "earth"
+              },
+              "element_counts": {
+                "wood": 2,
+                "fire": 2,
+                "earth": 4,
+                "metal": 0,
+                "water": 0
+              },
+              "weighted_elements": {
+                "wood": 2.3,
+                "fire": 2.35,
+                "earth": 4.8,
+                "metal": 0.5,
+                "water": 0.25
+              },
+              "seasonal_context": "spring",
+              "balance_summary": "基础统计显示 earth 相对较多（4.80），water 相对较少（0.25）；仅作为启发式参考。",
+              "analysis_level": "FOUNDATION_V1",
+              "status": "COMPLETE",
+              "limitations": [
+                "仅做天干、地支、藏干的基础五行统计。",
+                "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+              ],
+              "recommendation_status": "HEURISTIC",
+              "supportive_elements": [
+                "water",
+                "metal"
+              ],
+              "caution_elements": [
+                "earth"
+              ],
+              "confidence": 0.68
+            },
+            "zodiac": {
+              "bazi_zodiac": "蛇",
+              "folk_zodiac": "蛇",
+              "boundary_difference": false,
+              "preferred_radicals": [
+                "木",
+                "口",
+                "宀",
+                "纟",
+                "艹",
+                "讠",
+                "辶",
+                "心",
+                "火",
+                "女",
+                "竹",
+                "忄",
+                "阝",
+                "王",
+                "马",
+                "囗",
+                "月",
+                "一",
+                "田",
+                "广",
+                "鸟",
+                "巾",
+                "羽",
+                "贝"
+              ],
+              "avoid_radicals": [
+                "氵",
+                "亻",
+                "艹",
+                "日",
+                "禾",
+                "刂",
+                "木",
+                "山",
+                "人",
+                "力",
+                "王",
+                "冫",
+                "口",
+                "扌",
+                "欠",
+                "钅",
+                "又",
+                "攵",
+                "米",
+                "子",
+                "戈",
+                "辶",
+                "弓",
+                "纟"
+              ],
+              "matched_rules": [
+                "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+                "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+              ],
+              "status": "COMPLETE",
+              "rule_version": "zodiac_taboo.csv:2026-06-18",
+              "warnings": []
+            },
+            "fusion": {
+              "module_id": "fortune_context",
+              "status": "COMPLETE",
+              "score": null,
+              "available_score": 0,
+              "max_score": 10,
+              "warnings": [],
+              "limitations": [
+                "仅做天干、地支、藏干的基础五行统计。",
+                "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+              ]
+            },
+            "status": "COMPLETE"
+          },
+          "top3_names": [
+            "林思敬",
+            "林仁庭",
+            "林贤承"
+          ],
+          "backup7_names": [
+            "林弘修",
+            "林安信",
+            "林谦正",
+            "林波文",
+            "林海南",
+            "林敬谦",
+            "林思弘"
+          ],
+          "candidate_count": 10,
+          "generation_elapsed_ms": 2167.34
+        }
+      },
+      {
+        "run_id": "run_8a7baaf4bc1c4a6aaee70982900c1103",
+        "run_number": 2,
+        "status": "FAILED",
+        "candidate_count": 0,
+        "summary": {
+          "result_status": "GENERATION_FAILED",
+          "error_code": "GENERATION_FAILED",
+          "error_message": "Name generation failed.",
+          "counts": {
+            "top3": 0,
+            "backup": 0,
+            "qualified": 0,
+            "required": 10
+          }
+        }
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@ from app.engines.culture_retriever import CultureRetriever
 from app.engines.profile_specificity_engine import STYLE_RULES
 from app.engines.semantic_composition_validator import SemanticCompositionValidator
 from app.engines.structure_archetype_compatibility import evaluate_compatibility
-from app.schemas.candidate import CandidateChar, NameCandidate
+from app.schemas.candidate import CandidateChar, CultureEvidence, NameCandidate
 from app.schemas.naming_input import NamingInput
 
 
@@ -37,6 +37,7 @@ class NameComposer:
         rng = random.Random(naming_input.generation_seed)
         candidates: list[NameCandidate] = []
         seen: set[str] = set()
+        excluded_given_names = set(naming_input.exclude_given_names)
 
         evidence_records = self._ordered_culture_records(naming_input, structures, archetypes)
         direct_limit = max(30, int(max_count * 0.42))
@@ -57,6 +58,8 @@ class NameComposer:
                     break
                 if given_name in seen:
                     continue
+                if given_name in excluded_given_names:
+                    continue
                 if given_name[0] not in allowed_first or given_name[1] not in allowed_second:
                     continue
                 semantic = self.semantic_validator.validate(given_name)
@@ -65,7 +68,7 @@ class NameComposer:
                 structure = self._select_structure(structures, semantic, rng)
                 archetype = self._select_archetype(archetypes, structure["id"], rng)
                 compatibility = evaluate_compatibility(structure["id"], archetype["id"])
-                if compatibility["compatibility_level"] in {"LOW", "CONFLICT"}:
+                if compatibility["compatibility_level"] == "CONFLICT":
                     continue
                 evidences = self.culture_retriever.evidence_for_name(given_name, limit=4)
                 if not evidences:
@@ -142,6 +145,8 @@ class NameComposer:
                             return
                         if given_name in seen:
                             continue
+                        if given_name in set(naming_input.exclude_given_names):
+                            continue
                         if given_name[0] not in first_map or given_name[1] not in second_map:
                             continue
                         semantic = self.semantic_validator.validate(given_name)
@@ -150,7 +155,7 @@ class NameComposer:
                         structure = self._select_structure(structures, semantic, random.Random(naming_input.generation_seed))
                         archetype = self._select_archetype(archetypes, structure["id"], random.Random(naming_input.generation_seed))
                         compatibility = evaluate_compatibility(structure["id"], archetype["id"])
-                        if compatibility["compatibility_level"] in {"LOW", "CONFLICT"}:
+                        if compatibility["compatibility_level"] == "CONFLICT":
                             continue
                         evidences = self.culture_retriever.evidence_for_name(given_name, limit=4)
                         if not evidences:
@@ -192,14 +197,16 @@ class NameComposer:
         added = 0
         style_terms = self._style_terms(naming_input)
         rng = random.Random(naming_input.generation_seed + (17 if imagery_only else 11))
-        first_items = sorted(first_pool[:52], key=lambda item: (-self._path_char_score(item, style_terms, imagery_only), item.char))
-        second_items = sorted(second_pool[:52], key=lambda item: (-self._path_char_score(item, style_terms, imagery_only), item.char))
+        first_items = sorted(first_pool[:80], key=lambda item: (-self._path_char_score(item, style_terms, imagery_only), item.char))
+        second_items = sorted(second_pool[:80], key=lambda item: (-self._path_char_score(item, style_terms, imagery_only), item.char))
         for first in first_items:
             for second in second_items:
                 if added >= max_add or len(candidates) >= 120:
                     return
                 given_name = first.char + second.char
                 if first.char == second.char or given_name in seen:
+                    continue
+                if given_name in set(naming_input.exclude_given_names):
                     continue
                 semantic = self.semantic_validator.validate(given_name)
                 if not semantic["passed"]:
@@ -209,10 +216,10 @@ class NameComposer:
                 structure = self._select_structure(structures, semantic, rng)
                 archetype = self._select_archetype(archetypes, structure["id"], rng)
                 compatibility = evaluate_compatibility(structure["id"], archetype["id"])
-                if compatibility["compatibility_level"] in {"LOW", "CONFLICT"}:
+                if compatibility["compatibility_level"] == "CONFLICT":
                     continue
-                first_evidences = self.culture_retriever.evidence_for_char(first.char, limit=2)
-                second_evidences = self.culture_retriever.evidence_for_char(second.char, limit=2)
+                first_evidences = self.culture_retriever.evidence_for_char(first.char, limit=2) or self._catalog_evidence_for_char(first)
+                second_evidences = self.culture_retriever.evidence_for_char(second.char, limit=2) or self._catalog_evidence_for_char(second)
                 if not first_evidences or not second_evidences:
                     continue
                 evidences = first_evidences[:1] + second_evidences[:1]
@@ -328,7 +335,7 @@ class NameComposer:
 
     @staticmethod
     def _path_char_score(item: CandidateChar, style_terms: dict[str, set[str]], imagery_only: bool) -> float:
-        text = item.char + "".join(item.semantic_roles)
+        text = item.char + "".join(item.semantic_roles) + "".join(item.semantic_categories)
         score = item.final_score
         role_hits = sum(1 for role in style_terms["roles"] if role and role in text)
         imagery_hits = sum(1 for image in style_terms["imagery"] if image and image in text)
@@ -337,8 +344,39 @@ class NameComposer:
 
     @staticmethod
     def _has_imagery_hit(given_name: str, semantic: dict, style_terms: dict[str, set[str]]) -> bool:
-        text = given_name + semantic["semantic_role_first"] + semantic["semantic_role_second"] + semantic["combined_meaning"]
-        return any(image and image in text for image in style_terms["imagery"])
+        text = (
+            given_name
+            + semantic["semantic_role_first"]
+            + semantic["semantic_role_second"]
+            + semantic["combined_meaning"]
+            + semantic.get("first_category", "")
+            + semantic.get("second_category", "")
+        )
+        if any(image and image in text for image in style_terms["imagery"]):
+            return True
+        return bool({semantic.get("first_category"), semantic.get("second_category")} & {"AESTHETIC", "LANDSCAPE", "WATER", "BRIGHTNESS", "SPACE", "GROWTH"})
+
+    @staticmethod
+    def _catalog_evidence_for_char(candidate_char: CandidateChar) -> list[CultureEvidence]:
+        evidences: list[CultureEvidence] = []
+        for index, link in enumerate(candidate_char.culture_links[:2]):
+            evidences.append(
+                CultureEvidence(
+                    evidence_id=f"CAT-{candidate_char.char}-{index}-{link.get('source_record_id', '')}",
+                    source_type=str(link.get("source_type") or ""),
+                    book=str(link.get("source_type") or ""),
+                    title=link.get("title") or None,
+                    author=link.get("author") or None,
+                    original_text=str(link.get("matched_text") or link.get("display_excerpt") or candidate_char.char),
+                    matched_chars=[candidate_char.char],
+                    matched_keywords=list(link.get("keywords") or []),
+                    match_type="catalog_char_evidence",
+                    confidence=0.72,
+                    record_id=str(link.get("source_record_id") or ""),
+                    evidence_level="E2",
+                )
+            )
+        return evidences
 
     @staticmethod
     def _select_structure(structures: list[dict], semantic: dict, rng: random.Random) -> dict:

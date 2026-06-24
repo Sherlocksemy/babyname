@@ -43,6 +43,7 @@ class EvidenceSuitabilityEvaluator:
             reason_codes.append("DIRECT_ADJACENT_NOT_AUTOMATIC_E1")
         if semantic_dependency:
             reason_codes.append("CONTEXT_DEPENDENT_PHRASE")
+            reason_codes.append("FORCED_INTERPRETATION")
         reason_codes.extend(semantic["issues"])
         return {
             "evidence_level": level,

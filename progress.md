@@ -19,3 +19,46 @@
 - Ran `python 02_src\backend\app\cli\run_milestone_1_3.py`; Matrix A and Matrix B both passed.
 - Ran `python -m pytest 02_src\backend\tests -q`; result: `65 passed in 136.48s`.
 - Ran `python -m backend.app.cli.run_naming_alpha`; sample Top3: `林思敬 / 林泉清 / 林承仁`.
+- Started and completed Milestone 2 fortune foundation layer.
+- Installed and pinned `lunar-python==1.4.8`; `sxtwl==2.0.7` failed to build due missing Microsoft C++ build tools and was not used.
+- Added BabyProfile, calendar, true solar time, four pillars, five elements, zodiac, wuge, fortune fusion, Backup7, and Milestone 2 reports.
+- Ran `python 02_src\backend\app\cli\run_milestone_2.py`; sample Top3: `林思敬 / 林承仁 / 林谦正`.
+- Ran `python -m pytest 02_src\backend\tests -q`; result: `89 passed in 158.98s`.
+- Started Milestone 3 API, SQLite, and frontend MVP integration.
+- Confirmed FastAPI/Uvicorn/Pydantic/Httpx are installed; installed `SQLAlchemy==2.0.51`.
+- Added FastAPI API, SQLite persistence, repositories, naming services, result/detail/favorite/regenerate routes, and unified API error contract.
+- Added Next.js TypeScript frontend under `02_src/frontend` with form, generating, results, and candidate detail pages.
+- Ran API smoke flow: generate, result, detail, favorite, regenerate all passed.
+- Ran backend API tests: `16 passed`.
+- Ran full backend pytest: `105 passed, 33 warnings in 210.37s`.
+- Ran frontend checks: `npm run lint` passed, `npm run test` passed with 4 tests, `npm run build` passed.
+- Ran HTTP E2E smoke; Top3 `林思敬 / 林思弘 / 林敬谦`, regenerated Top3 `林贤庭 / 林仁承 / 林贤承`, no overlap.
+- Generated Milestone 3 reports under `reports/`.
+- Started and completed Milestone 3.1 Gate A result-correctness repair.
+- Disabled application-layer visible-result reselection; API Top3/Backup7 now use RankingEngine output order and engine candidate IDs directly.
+- Added COMPLETE/PARTIAL/FAILED contract, regenerate core-path exclusion, failed-run recording, previous-result preservation, and stale RUNNING recovery on database startup.
+- Fixed cultural origin contract so Direct Expression uses name-level evidence and composed names show component evidences plus disclaimer.
+- Updated frontend result/detail behavior for origin display, PARTIAL notices, and regenerate failure preservation.
+- Generated Milestone 3.1 reports under `reports/`.
+- Ran backend tests: `120 passed, 51 warnings in 241.78s`.
+- Ran frontend checks: `npm run lint` passed, `npm run test` passed with 8 tests, `npm run build` passed.
+- Started and completed Milestone 3.1B evidence precision and trusted display repair.
+- Added EvidenceExcerptBuilder; evidence now includes exact match positions, display excerpts, exact_match, and 240-character excerpt cap.
+- Enforced strict Direct Expression validation; non-contiguous whole-name evidence is downgraded to composition/imagery display.
+- Verified 林思敬 shows two precise component excerpts and 林德初 is not shown as a false whole-name origin.
+- Updated API card/detail display contracts for Chinese structure/personality labels, ranking score vs NES score, popularity/template risk, and independent Teochew pronunciation limitations.
+- Reworked frontend result/detail pages to hide internal IDs, English enums, generation reason constants, and raw JSON blocks.
+- Ran backend tests: `129 passed, 51 warnings in 228.41s`.
+- Ran frontend checks: `npm run lint` passed, `npm run test` passed with 15 tests, `npm run build` passed.
+- Ran browser smoke via installed Edge channel; result/detail page checks passed.
+- Generated Milestone 3.1B reports under `reports/`.
+- Started and completed Milestone 3.2 8105-character knowledge-driven catalog refactor.
+- Added Name Character Catalog builder, nameability classifier, semantic role mapper, character culture linker, risk classifier, and semantic catalog audit modules.
+- Generated derived catalog files under `02_src/backend/runtime/derived/`: name character catalog, semantic role catalog, culture links, rejected chars, and metadata.
+- Catalog build result: 8105 records, 2053 CORE, 3747 EXTENDED, 1739 EXPERIMENTAL, 566 REJECTED; CORE+EXTENDED = 5800.
+- Removed runtime positive-source dependency on `NAME_FRIENDLY_CHARS` and `CHAR_INFO`; candidate pool and semantic validation now read catalog data.
+- Updated composition/ranking compatibility for catalog-backed evidence and matrix-report diversity while preserving production single-run ranking behavior.
+- Added 18 Milestone 3.2 catalog/runtime regression tests.
+- Generated Milestone 3.2 reports under `reports/milestone_3_2_*`.
+- Ran backend tests: `147 passed, 51 warnings in 127.75s`.
+- Ran frontend checks: `npm.cmd run lint` passed, `npm.cmd test` passed with 15 tests, `npm.cmd run build` passed.

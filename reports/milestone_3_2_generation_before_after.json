@@ -1,0 +1,217 @@
+{
+  "before": {
+    "legacy_positive_source": "NAME_FRIENDLY_CHARS",
+    "legacy_unique_count": 113
+  },
+  "after": {
+    "positive_source": "name_char_catalog.v1.json",
+    "catalog_total": 8105,
+    "core_extended_count": 5800
+  },
+  "cases": {
+    "default_male": {
+      "input": {
+        "surname": "林",
+        "gender": "male",
+        "birth_date": "2025-03-01",
+        "birth_time": "08:30",
+        "birth_location": "广东省汕头市",
+        "region": "teochew",
+        "style_preferences": [
+          "书卷清雅",
+          "君子品格"
+        ],
+        "generation_seed": 20260622
+      },
+      "result_status": "OK",
+      "char_pool_counts": {
+        "first_pool": 80,
+        "second_pool": 80
+      },
+      "generated_candidates_count": 118,
+      "passed_candidates_count": 91,
+      "qualified_count": 10,
+      "top3": [
+        "富宫",
+        "思乐",
+        "惠峰"
+      ],
+      "top20": [
+        "富宫",
+        "诗谊",
+        "诗远",
+        "惠远",
+        "阳世",
+        "富思",
+        "诗晏",
+        "诗宫",
+        "思乐",
+        "阳宫",
+        "阳思",
+        "学风",
+        "惠山",
+        "惠峰",
+        "明嘉",
+        "国山",
+        "清明",
+        "富安",
+        "楚深",
+        "飞楚"
+      ],
+      "path_distribution": {
+        "total": 20,
+        "counts": {
+          "imagery_transformation": 4,
+          "semantic_role_composition": 9,
+          "direct_expression": 7
+        },
+        "ratios": {
+          "imagery_transformation": 0.2,
+          "semantic_role_composition": 0.45,
+          "direct_expression": 0.35
+        }
+      },
+      "filter_reasons": {
+        "INSUFFICIENT_CORE_EVIDENCE": 22,
+        "NEGATIVE_SEMANTIC": 7,
+        "COMMON_NOUN_OR_OBJECT_NAME": 1
+      }
+    },
+    "gentle_female": {
+      "input": {
+        "surname": "陈",
+        "gender": "female",
+        "birth_date": "2025-03-01",
+        "birth_time": "08:30",
+        "birth_location": "广东省汕头市",
+        "region": "teochew",
+        "style_preferences": [
+          "温润知性",
+          "民国书卷气"
+        ],
+        "generation_seed": 20260622
+      },
+      "result_status": "INSUFFICIENT_QUALIFIED_CANDIDATES",
+      "char_pool_counts": {
+        "first_pool": 80,
+        "second_pool": 80
+      },
+      "generated_candidates_count": 118,
+      "passed_candidates_count": 81,
+      "qualified_count": 8,
+      "top3": [
+        "阳楚",
+        "莹安",
+        "芳兰"
+      ],
+      "top20": [
+        "阳楚",
+        "莹楚",
+        "楚深",
+        "阳安",
+        "莹安",
+        "惠思",
+        "思劳",
+        "芬安",
+        "阳世",
+        "莹世",
+        "阳旭",
+        "思乐",
+        "莹旭",
+        "芬宜",
+        "芬阳",
+        "芬树",
+        "美淑",
+        "林晴",
+        "明嘉",
+        "芳兰"
+      ],
+      "path_distribution": {
+        "total": 20,
+        "counts": {
+          "semantic_role_composition": 8,
+          "direct_expression": 8,
+          "imagery_transformation": 4
+        },
+        "ratios": {
+          "semantic_role_composition": 0.4,
+          "direct_expression": 0.4,
+          "imagery_transformation": 0.2
+        }
+      },
+      "filter_reasons": {
+        "NEGATIVE_SEMANTIC": 22,
+        "INSUFFICIENT_CORE_EVIDENCE": 22,
+        "COMMON_NOUN_OR_OBJECT_NAME": 1
+      }
+    },
+    "landscape_male": {
+      "input": {
+        "surname": "黄",
+        "gender": "male",
+        "birth_date": "2025-03-01",
+        "birth_time": "08:30",
+        "birth_location": "广东省汕头市",
+        "region": "teochew",
+        "style_preferences": [
+          "大气开阔",
+          "山水自然"
+        ],
+        "generation_seed": 20260622
+      },
+      "result_status": "INSUFFICIENT_QUALIFIED_CANDIDATES",
+      "char_pool_counts": {
+        "first_pool": 80,
+        "second_pool": 80
+      },
+      "generated_candidates_count": 118,
+      "passed_candidates_count": 95,
+      "qualified_count": 7,
+      "top3": [
+        "山宝",
+        "阳峰",
+        "深远"
+      ],
+      "top20": [
+        "山宝",
+        "山惠",
+        "山富",
+        "阳山",
+        "阳峰",
+        "林山",
+        "林峰",
+        "江峰",
+        "深远",
+        "远东",
+        "宫淮",
+        "合宫",
+        "江远",
+        "江世",
+        "阳世",
+        "宫静",
+        "林泽",
+        "兰汤",
+        "芬玉",
+        "兰芬"
+      ],
+      "path_distribution": {
+        "total": 20,
+        "counts": {
+          "imagery_transformation": 4,
+          "semantic_role_composition": 8,
+          "direct_expression": 8
+        },
+        "ratios": {
+          "imagery_transformation": 0.2,
+          "semantic_role_composition": 0.4,
+          "direct_expression": 0.4
+        }
+      },
+      "filter_reasons": {
+        "NEGATIVE_SEMANTIC": 11,
+        "INSUFFICIENT_CORE_EVIDENCE": 15,
+        "COMMON_NOUN_OR_OBJECT_NAME": 1
+      }
+    }
+  }
+}

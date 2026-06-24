@@ -1,0 +1,245 @@
+{
+  "generated_at": "2026-06-23T11:29:02",
+  "base_url": "http://127.0.0.1:8000",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/health"
+    },
+    {
+      "method": "GET",
+      "path": "/ready"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/names/generate",
+      "status": 202
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/names/{request_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/names/{request_id}/candidates/{candidate_id}"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/names/{request_id}/regenerate",
+      "status": 202
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/favorites",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/favorites?request_id=..."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/favorites/{favorite_id}",
+      "status": 204
+    }
+  ],
+  "sample_request": {
+    "surname": "林",
+    "gender": "male",
+    "calendar_type": "solar",
+    "birth_year": 2025,
+    "birth_month": 3,
+    "birth_day": 1,
+    "birth_hour": 8,
+    "birth_minute": 30,
+    "is_leap_month": false,
+    "birth_province": "广东省",
+    "birth_city": "汕头市",
+    "timezone": "Asia/Shanghai",
+    "region": "teochew",
+    "style_preferences": [
+      "书卷清雅",
+      "君子品格"
+    ],
+    "liked_chars": [],
+    "blocked_chars": [],
+    "generation_seed": 20260623
+  },
+  "sample_generate_response": {
+    "request_id": "req_671837b9d72f42f9ae2693222fad9a98",
+    "status": "COMPLETED",
+    "created_at": "2026-06-23T03:28:55.350386"
+  },
+  "sample_result_top3": [
+    {
+      "candidate_id": "cand_127cbc9bbaff462d9f6e626bfbf59ed3",
+      "rank_type": "TOP3",
+      "rank_position": 1,
+      "full_name": "林思敬",
+      "given_name": "思敬",
+      "score": 94.9,
+      "structure": "S06",
+      "archetype": "A02",
+      "culture_source": "诗经 / 关雎",
+      "culture_evidence": {
+        "title": "关雎",
+        "author": "佚名",
+        "book": "诗经",
+        "source_type": "shijing",
+        "evidence_level": "E2_COMPOSED"
+      },
+      "one_sentence_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+      "pinyin": "sī jìng",
+      "teochew_risk": "NOTICE",
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "E2_COMPOSED"
+        ],
+        "penalties": {}
+      },
+      "nes_breakdown": {
+        "phonetic": 14.45,
+        "phonology": 14.45,
+        "meaning": 14.06,
+        "culture": 13.11,
+        "structure": 19.65,
+        "archetype": 10,
+        "uniqueness": 4.6,
+        "aesthetic": 9.21,
+        "fortune": 4.9,
+        "naturalness": 92.08,
+        "penalties": 0,
+        "style_affinity_bonus": 1.4,
+        "profile_specificity": 98.48,
+        "surname_fit": 87.36,
+        "profile_adjustment": 3.74
+      }
+    },
+    {
+      "candidate_id": "cand_3bdcb467c19540eba7ecd049810d7401",
+      "rank_type": "TOP3",
+      "rank_position": 2,
+      "full_name": "林思弘",
+      "given_name": "思弘",
+      "score": 94.04,
+      "structure": "S06",
+      "archetype": "A02",
+      "culture_source": "诗经 / 关雎",
+      "culture_evidence": {
+        "title": "关雎",
+        "author": "佚名",
+        "book": "诗经",
+        "source_type": "shijing",
+        "evidence_level": "E2_COMPOSED"
+      },
+      "one_sentence_meaning": "思取思辨之意，弘取弘阔之意，组合为思辨与弘阔相成。",
+      "pinyin": "sī hóng",
+      "teochew_risk": "NOTICE",
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "E2_COMPOSED"
+        ],
+        "penalties": {}
+      },
+      "nes_breakdown": {
+        "phonetic": 14.45,
+        "phonology": 14.45,
+        "meaning": 14.25,
+        "culture": 13.11,
+        "structure": 19.82,
+        "archetype": 10,
+        "uniqueness": 4.6,
+        "aesthetic": 9.3,
+        "fortune": 5.3,
+        "naturalness": 93.04,
+        "penalties": 0,
+        "style_affinity_bonus": 0.85,
+        "profile_specificity": 92.31,
+        "surname_fit": 85.92,
+        "profile_adjustment": 2.34
+      }
+    },
+    {
+      "candidate_id": "cand_56ceaa1dcb044a51b8e4fca328a3b16f",
+      "rank_type": "TOP3",
+      "rank_position": 3,
+      "full_name": "林敬谦",
+      "given_name": "敬谦",
+      "score": 93.27,
+      "structure": "S05",
+      "archetype": "A02",
+      "culture_source": "诗经 / 沔水",
+      "culture_evidence": {
+        "title": "沔水",
+        "author": "佚名",
+        "book": "诗经",
+        "source_type": "shijing",
+        "evidence_level": "E2_IMAGERY"
+      },
+      "one_sentence_meaning": "敬取敬慎之意，谦取谦逊之意，组合为敬慎与谦逊相成。",
+      "pinyin": "jìng qiān",
+      "teochew_risk": "NOTICE",
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "E2_IMAGERY"
+        ],
+        "penalties": {}
+      },
+      "nes_breakdown": {
+        "phonetic": 15,
+        "phonology": 15,
+        "meaning": 14.01,
+        "culture": 12.99,
+        "structure": 19.8,
+        "archetype": 10,
+        "uniqueness": 5,
+        "aesthetic": 9.18,
+        "fortune": 4.1,
+        "naturalness": 91.84,
+        "penalties": 0,
+        "style_affinity_bonus": 0.85,
+        "profile_specificity": 88.24,
+        "surname_fit": 87.36,
+        "profile_adjustment": 2.33
+      }
+    }
+  ],
+  "sample_detail_keys": [
+    "archetype",
+    "candidate_id",
+    "culture",
+    "disclaimer",
+    "fortune",
+    "generation_path",
+    "imagery",
+    "limitations",
+    "meaning",
+    "name",
+    "pronunciation",
+    "quality_guard",
+    "recommendation",
+    "request_id",
+    "scores",
+    "structure"
+  ],
+  "sample_error_response": {
+    "error": {
+      "code": "LOCATION_DATA_MISSING",
+      "message": "当前MVP仅支持汕头市、潮州市、揭阳市的真太阳时计算。",
+      "field": "birth_city",
+      "details": {
+        "supported_cities": [
+          "汕头市",
+          "潮州市",
+          "揭阳市"
+        ]
+      }
+    }
+  }
+}

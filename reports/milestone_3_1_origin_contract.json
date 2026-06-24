@@ -1,0 +1,239 @@
+{
+  "generated_at": "2026-06-23T17:00:51",
+  "request_id": "req_6e5eded158f0425f83a84d088d3f210e",
+  "direct_expression_sample": {
+    "card": {
+      "candidate_id": "cand_c9e48931b96a46578410cf7e05b5c90b",
+      "engine_candidate_id": "NC-319efa6b972f",
+      "rank_type": "BACKUP7",
+      "rank_position": 1,
+      "full_name": "林信初",
+      "given_name": "信初",
+      "score": 90.66,
+      "structure": "S02",
+      "archetype": "A03",
+      "origin": {
+        "mode": "DIRECT_EXPRESSION",
+        "display_label": "整体出处：诗经 / 巧言",
+        "name_level_evidence": {
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "巧言",
+          "author": "佚名",
+          "original_text": "悠悠昊天，曰父母且。无罪无辜，乱如此幠。昊天已威，予慎无罪。昊天大幠，予慎无辜。\n乱之初生，僭始既涵。乱之又生，君子信谗。君子如怒，乱庶遄沮。君子如祉，乱庶遄已。\n君子屡盟，乱是用长。君子信盗，乱是用暴。盗言孔甘，乱是用餤。匪其止共，维王之邛。\n奕奕寝庙，君子作之。秩秩大猷，圣人莫之。他人有心，予忖度之。跃跃毚兔，遇犬获之。\n荏染柔木，君子树之。往来行言，心焉数之。蛇蛇硕言，出自口矣。巧言如簧，颜之厚矣。\n彼何人斯？居河之麋。无拳无勇，职为乱阶。既微且尰，尔勇伊何？为犹将多，尔居徒几何？",
+          "matched_text": "信初",
+          "matched_chars": [
+            "信",
+            "初"
+          ],
+          "matched_keywords": [],
+          "evidence_level": "E2",
+          "record_id": "先秦-000198"
+        },
+        "component_evidences": [],
+        "composition_reason": null,
+        "combined_meaning": "信取诚信之意，初取初心之意，组合为诚信与初心相成。",
+        "disclaimer": null
+      },
+      "culture_source": "整体出处：诗经 / 巧言",
+      "culture_evidence": {
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "巧言",
+        "author": "佚名",
+        "original_text": "悠悠昊天，曰父母且。无罪无辜，乱如此幠。昊天已威，予慎无罪。昊天大幠，予慎无辜。\n乱之初生，僭始既涵。乱之又生，君子信谗。君子如怒，乱庶遄沮。君子如祉，乱庶遄已。\n君子屡盟，乱是用长。君子信盗，乱是用暴。盗言孔甘，乱是用餤。匪其止共，维王之邛。\n奕奕寝庙，君子作之。秩秩大猷，圣人莫之。他人有心，予忖度之。跃跃毚兔，遇犬获之。\n荏染柔木，君子树之。往来行言，心焉数之。蛇蛇硕言，出自口矣。巧言如簧，颜之厚矣。\n彼何人斯？居河之麋。无拳无勇，职为乱阶。既微且尰，尔勇伊何？为犹将多，尔居徒几何？",
+        "matched_text": "信初",
+        "matched_chars": [
+          "信",
+          "初"
+        ],
+        "matched_keywords": [],
+        "evidence_level": "E2",
+        "record_id": "先秦-000198"
+      },
+      "one_sentence_meaning": "信取诚信之意，初取初心之意，组合为诚信与初心相成。",
+      "pinyin": "xìn chū",
+      "teochew_risk": "LOW",
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [],
+        "penalties": {}
+      },
+      "nes_breakdown": {
+        "phonetic": 14.45,
+        "phonology": 14.45,
+        "meaning": 13.48,
+        "culture": 12.87,
+        "structure": 19.12,
+        "archetype": 10,
+        "uniqueness": 5,
+        "aesthetic": 8.92,
+        "fortune": 4.9,
+        "naturalness": 89.2,
+        "penalties": 0,
+        "style_affinity_bonus": 0.0,
+        "profile_specificity": 86.88,
+        "surname_fit": 87.36,
+        "profile_adjustment": 1.92
+      }
+    },
+    "detail_origin": {
+      "mode": "DIRECT_EXPRESSION",
+      "display_label": "整体出处：诗经 / 巧言",
+      "name_level_evidence": {
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "巧言",
+        "author": "佚名",
+        "original_text": "悠悠昊天，曰父母且。无罪无辜，乱如此幠。昊天已威，予慎无罪。昊天大幠，予慎无辜。\n乱之初生，僭始既涵。乱之又生，君子信谗。君子如怒，乱庶遄沮。君子如祉，乱庶遄已。\n君子屡盟，乱是用长。君子信盗，乱是用暴。盗言孔甘，乱是用餤。匪其止共，维王之邛。\n奕奕寝庙，君子作之。秩秩大猷，圣人莫之。他人有心，予忖度之。跃跃毚兔，遇犬获之。\n荏染柔木，君子树之。往来行言，心焉数之。蛇蛇硕言，出自口矣。巧言如簧，颜之厚矣。\n彼何人斯？居河之麋。无拳无勇，职为乱阶。既微且尰，尔勇伊何？为犹将多，尔居徒几何？",
+        "matched_text": "信初",
+        "matched_chars": [
+          "信",
+          "初"
+        ],
+        "matched_keywords": [],
+        "evidence_level": "E2",
+        "record_id": "先秦-000198"
+      },
+      "component_evidences": [],
+      "composition_reason": null,
+      "combined_meaning": "信取诚信之意，初取初心之意，组合为诚信与初心相成。",
+      "disclaimer": null
+    },
+    "validated": true
+  },
+  "composed_sample": {
+    "card": {
+      "candidate_id": "cand_6b1110acff9443ba9c5ce99a07f7ad70",
+      "engine_candidate_id": "NC-54eb16c3825e",
+      "rank_type": "TOP3",
+      "rank_position": 1,
+      "full_name": "林思敬",
+      "given_name": "思敬",
+      "score": 94.9,
+      "structure": "S06",
+      "archetype": "A02",
+      "origin": {
+        "mode": "SEMANTIC_ROLE_COMPOSITION",
+        "display_label": "组合推导：由“思”“敬”两字的文化证据组合推导",
+        "name_level_evidence": null,
+        "component_evidences": [
+          {
+            "position": "FIRST",
+            "char": "思",
+            "source_type": "shijing",
+            "book": "诗经",
+            "title": "关雎",
+            "author": "佚名",
+            "original_text": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。\n参差荇菜，左右流之。窈窕淑女，寤寐求之。\n求之不得，寤寐思服。悠哉悠哉，辗转反侧。\n参差荇菜，左右采之。窈窕淑女，琴瑟友之。\n参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。",
+            "matched_text": "思",
+            "matched_chars": [
+              "思"
+            ],
+            "matched_keywords": [],
+            "evidence_level": "E2",
+            "record_id": "先秦-000001"
+          },
+          {
+            "position": "SECOND",
+            "char": "敬",
+            "source_type": "shijing",
+            "book": "诗经",
+            "title": "沔水",
+            "author": "佚名",
+            "original_text": "沔彼流水，朝宗于海。𫛣彼飞隼，载飞载止。嗟我兄弟，邦人诸友。莫肯念乱，谁无父母？\n沔彼流水，其流汤汤。𫛣彼飞隼，载飞载扬。念彼不迹，载起载行。心之忧矣，不可弭忘。\n𫛣彼飞隼，率彼中陵。民之讹言，宁莫之惩？我友敬矣，谗言其兴。",
+            "matched_text": "敬",
+            "matched_chars": [
+              "敬"
+            ],
+            "matched_keywords": [],
+            "evidence_level": "E2",
+            "record_id": "先秦-000183"
+          }
+        ],
+        "composition_reason": "SEMANTIC_ROLE_COMPOSITION / SEPARATE_CHAR_CULTURE_TRACE / POOL_CHAR_SELECTED",
+        "combined_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+        "disclaimer": "该姓名由多个文化证据与命名结构组合推导，并非古籍原文中的固定双字姓名表达。"
+      },
+      "culture_source": "组合推导：由“思”“敬”两字的文化证据组合推导",
+      "culture_evidence": null,
+      "one_sentence_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+      "pinyin": "sī jìng",
+      "teochew_risk": "NOTICE",
+      "quality_guard": {
+        "passed": true,
+        "hard_failures": [],
+        "soft_warnings": [
+          "E2_COMPOSED"
+        ],
+        "penalties": {}
+      },
+      "nes_breakdown": {
+        "phonetic": 14.45,
+        "phonology": 14.45,
+        "meaning": 14.06,
+        "culture": 13.11,
+        "structure": 19.65,
+        "archetype": 10,
+        "uniqueness": 4.6,
+        "aesthetic": 9.21,
+        "fortune": 4.9,
+        "naturalness": 92.08,
+        "penalties": 0,
+        "style_affinity_bonus": 1.4,
+        "profile_specificity": 98.48,
+        "surname_fit": 87.36,
+        "profile_adjustment": 3.74
+      }
+    },
+    "detail_origin": {
+      "mode": "SEMANTIC_ROLE_COMPOSITION",
+      "display_label": "组合推导：由“思”“敬”两字的文化证据组合推导",
+      "name_level_evidence": null,
+      "component_evidences": [
+        {
+          "position": "FIRST",
+          "char": "思",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "关雎",
+          "author": "佚名",
+          "original_text": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。\n参差荇菜，左右流之。窈窕淑女，寤寐求之。\n求之不得，寤寐思服。悠哉悠哉，辗转反侧。\n参差荇菜，左右采之。窈窕淑女，琴瑟友之。\n参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。",
+          "matched_text": "思",
+          "matched_chars": [
+            "思"
+          ],
+          "matched_keywords": [],
+          "evidence_level": "E2",
+          "record_id": "先秦-000001"
+        },
+        {
+          "position": "SECOND",
+          "char": "敬",
+          "source_type": "shijing",
+          "book": "诗经",
+          "title": "沔水",
+          "author": "佚名",
+          "original_text": "沔彼流水，朝宗于海。𫛣彼飞隼，载飞载止。嗟我兄弟，邦人诸友。莫肯念乱，谁无父母？\n沔彼流水，其流汤汤。𫛣彼飞隼，载飞载扬。念彼不迹，载起载行。心之忧矣，不可弭忘。\n𫛣彼飞隼，率彼中陵。民之讹言，宁莫之惩？我友敬矣，谗言其兴。",
+          "matched_text": "敬",
+          "matched_chars": [
+            "敬"
+          ],
+          "matched_keywords": [],
+          "evidence_level": "E2",
+          "record_id": "先秦-000183"
+        }
+      ],
+      "composition_reason": "SEMANTIC_ROLE_COMPOSITION / SEPARATE_CHAR_CULTURE_TRACE / POOL_CHAR_SELECTED",
+      "combined_meaning": "思取思辨之意，敬取敬慎之意，组合为思辨与敬慎相成。",
+      "disclaimer": "该姓名由多个文化证据与命名结构组合推导，并非古籍原文中的固定双字姓名表达。"
+    },
+    "validated": true
+  },
+  "frontend_origin_display": {
+    "result_page": "uses originSummaryText(origin); direct and composed cards are rendered from origin contract, not first evidence",
+    "detail_page": "renders name_level_evidence only for DIRECT_EXPRESSION and component_evidences for composed names",
+    "partial_result": "partialResultMessage(result) displays actual qualified count and keeps available names visible"
+  }
+}

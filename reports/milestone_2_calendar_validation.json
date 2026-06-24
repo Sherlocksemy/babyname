@@ -1,0 +1,85 @@
+{
+  "solar_to_lunar": {
+    "solar_datetime": "2025-03-01 08:30:00",
+    "lunar_date": {
+      "year": 2025,
+      "month": 2,
+      "day": 2,
+      "raw_month": 2,
+      "is_leap_month": false,
+      "month_cn": "二",
+      "day_cn": "初二",
+      "year_ganzhi": "乙巳",
+      "month_ganzhi": "戊寅",
+      "day_ganzhi": "己巳",
+      "time_ganzhi": "戊辰",
+      "zodiac": "蛇"
+    },
+    "is_leap_month": false,
+    "timezone": "Asia/Shanghai",
+    "calendar_library": "lunar-python",
+    "calendar_library_version": "1.4.8",
+    "calculation_status": "COMPLETE",
+    "warnings": []
+  },
+  "lunar_to_solar": {
+    "solar_datetime": "2025-03-01 09:10:00",
+    "lunar_date": {
+      "year": 2025,
+      "month": 2,
+      "day": 2,
+      "raw_month": 2,
+      "is_leap_month": false,
+      "month_cn": "二",
+      "day_cn": "初二",
+      "year_ganzhi": "乙巳",
+      "month_ganzhi": "戊寅",
+      "day_ganzhi": "己巳",
+      "time_ganzhi": "己巳",
+      "zodiac": "蛇"
+    },
+    "is_leap_month": false,
+    "timezone": "Asia/Shanghai",
+    "calendar_library": "lunar-python",
+    "calendar_library_version": "1.4.8",
+    "calculation_status": "COMPLETE",
+    "warnings": []
+  },
+  "leap_month": {
+    "solar_datetime": "2025-07-25 10:00:00",
+    "lunar_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 1,
+      "raw_month": -6,
+      "is_leap_month": true,
+      "month_cn": "闰六",
+      "day_cn": "初一",
+      "year_ganzhi": "乙巳",
+      "month_ganzhi": "癸未",
+      "day_ganzhi": "乙未",
+      "time_ganzhi": "辛巳",
+      "zodiac": "蛇"
+    },
+    "is_leap_month": true,
+    "timezone": "Asia/Shanghai",
+    "calendar_library": "lunar-python",
+    "calendar_library_version": "1.4.8",
+    "calculation_status": "COMPLETE",
+    "warnings": []
+  },
+  "invalid_leap_month_rejected": true,
+  "invalid_leap_month_error": "invalid lunar date: wrong lunar year 2025  month -2",
+  "cross_validation_vectors": [
+    {
+      "solar": "2025-03-01",
+      "expected_lunar": "2025-02-02",
+      "passed": true
+    },
+    {
+      "lunar": "2025 leap 6-1",
+      "expected_solar": "2025-07-25",
+      "passed": true
+    }
+  ]
+}

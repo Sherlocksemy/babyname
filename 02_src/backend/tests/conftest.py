@@ -52,3 +52,53 @@ def milestone_1_3_results():
         "matrix_a_overlap": overlap_metrics(matrix_a),
         "matrix_b_overlap": overlap_metrics(matrix_b),
     }
+
+
+@pytest.fixture(scope="session")
+def milestone_2_reports():
+    from app.cli.run_milestone_2 import build_reports
+
+    return build_reports()
+
+
+@pytest.fixture(scope="session")
+def api_client():
+    from fastapi.testclient import TestClient
+
+    from app.api.main import app
+
+    with TestClient(app) as client:
+        yield client
+
+
+@pytest.fixture(scope="session")
+def api_payload() -> dict:
+    return {
+        "surname": "林",
+        "gender": "male",
+        "calendar_type": "solar",
+        "birth_year": 2025,
+        "birth_month": 3,
+        "birth_day": 1,
+        "birth_hour": 8,
+        "birth_minute": 30,
+        "is_leap_month": False,
+        "birth_province": "广东省",
+        "birth_city": "汕头市",
+        "timezone": "Asia/Shanghai",
+        "region": "teochew",
+        "style_preferences": ["书卷清雅", "君子品格"],
+        "liked_chars": [],
+        "blocked_chars": [],
+        "generation_seed": 20260623,
+    }
+
+
+@pytest.fixture(scope="session")
+def api_generated(api_client, api_payload) -> dict:
+    response = api_client.post("/api/v1/names/generate", json=api_payload)
+    assert response.status_code == 202
+    request_id = response.json()["request_id"]
+    result = api_client.get(f"/api/v1/names/{request_id}")
+    assert result.status_code == 200
+    return {"accepted": response.json(), "result": result.json()}

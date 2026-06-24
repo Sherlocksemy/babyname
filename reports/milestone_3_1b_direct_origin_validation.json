@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-06-23T17:57:39",
+  "direct_expression_rules": [
+    "given_name must appear contiguously in original_text",
+    "matched_text == given_name",
+    "exact_match == true",
+    "evidence_level == E1"
+  ],
+  "dechu_validation": {
+    "name": "林德初",
+    "source": "诗经 / 宾之初筵",
+    "original_text": "宾之初筵，左右秩秩。既醉以酒，既饱以德。",
+    "contains_dechu_contiguous": false,
+    "final_origin_mode": "SEMANTIC_ROLE_COMPOSITION",
+    "name_level_evidence": null,
+    "component_evidences": [
+      {
+        "position": "FIRST",
+        "char": "德",
+        "source_record_id": "",
+        "source_type": null,
+        "book": "诗经",
+        "title": "宾之初筵",
+        "author": "佚名",
+        "original_text": "宾之初筵，左右秩秩。既醉以酒，既饱以德。",
+        "matched_text": "德",
+        "match_start": 18,
+        "match_end": 19,
+        "display_excerpt": "既醉以酒，既饱以德。",
+        "exact_match": true,
+        "matched_chars": [],
+        "matched_keywords": [],
+        "evidence_level": "E1",
+        "record_id": null
+      },
+      {
+        "position": "SECOND",
+        "char": "初",
+        "source_record_id": "",
+        "source_type": null,
+        "book": null,
+        "title": null,
+        "author": null,
+        "original_text": "",
+        "matched_text": "初",
+        "match_start": null,
+        "match_end": null,
+        "display_excerpt": "",
+        "exact_match": false,
+        "matched_chars": [],
+        "matched_keywords": [],
+        "evidence_level": null,
+        "record_id": null
+      }
+    ]
+  },
+  "downgraded_false_direct_expression_count_in_sample_run": 3,
+  "downgraded_false_direct_expression_samples": [
+    {
+      "full_name": "林信初",
+      "given_name": "信初",
+      "final_origin_mode": "SEMANTIC_ROLE_COMPOSITION"
+    },
+    {
+      "full_name": "林波文",
+      "given_name": "波文",
+      "final_origin_mode": "SEMANTIC_ROLE_COMPOSITION"
+    },
+    {
+      "full_name": "林明昭",
+      "given_name": "明昭",
+      "final_origin_mode": "SEMANTIC_ROLE_COMPOSITION"
+    }
+  ]
+}

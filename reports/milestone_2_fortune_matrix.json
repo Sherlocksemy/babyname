@@ -1,0 +1,1642 @@
+{
+  "shantou_solar": {
+    "baby_profile": {
+      "surname": "林",
+      "gender": "male",
+      "calendar_type": "solar",
+      "birth_year": 2025,
+      "birth_month": 3,
+      "birth_day": 1,
+      "birth_hour": 8,
+      "birth_minute": 30,
+      "is_leap_month": false,
+      "birth_province": "广东省",
+      "birth_city": "汕头市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "书卷清雅",
+        "君子品格"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-03-01 08:30:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 2,
+        "day": 2,
+        "raw_month": 2,
+        "is_leap_month": false,
+        "month_cn": "二",
+        "day_cn": "初二",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "戊寅",
+        "day_ganzhi": "己巳",
+        "time_ganzhi": "戊辰",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": false,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-03-01 08:30:00",
+      "longitude": 116.681972,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -13.2721,
+      "equation_of_time_minutes": -13.0431,
+      "true_solar_time": "2025-03-01 08:03:41.084871",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "戊",
+        "branch": "寅",
+        "text": "戊寅"
+      },
+      "day_pillar": {
+        "stem": "己",
+        "branch": "巳",
+        "text": "己巳"
+      },
+      "hour_pillar": {
+        "stem": "戊",
+        "branch": "辰",
+        "text": "戊辰"
+      },
+      "day_master": "己",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "day_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "hour_pillar": [
+          "戊",
+          "乙",
+          "癸"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "己巳",
+        "library_day_pillar": "己巳",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "己",
+        "element": "earth"
+      },
+      "element_counts": {
+        "wood": 2,
+        "fire": 2,
+        "earth": 4,
+        "metal": 0,
+        "water": 0
+      },
+      "weighted_elements": {
+        "wood": 2.3,
+        "fire": 2.35,
+        "earth": 4.8,
+        "metal": 0.5,
+        "water": 0.25
+      },
+      "seasonal_context": "spring",
+      "balance_summary": "基础统计显示 earth 相对较多（4.80），water 相对较少（0.25）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "water",
+        "metal"
+      ],
+      "caution_elements": [
+        "earth"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "蛇",
+      "folk_zodiac": "蛇",
+      "boundary_difference": false,
+      "preferred_radicals": [
+        "木",
+        "口",
+        "宀",
+        "纟",
+        "艹",
+        "讠",
+        "辶",
+        "心",
+        "火",
+        "女",
+        "竹",
+        "忄",
+        "阝",
+        "王",
+        "马",
+        "囗",
+        "月",
+        "一",
+        "田",
+        "广",
+        "鸟",
+        "巾",
+        "羽",
+        "贝"
+      ],
+      "avoid_radicals": [
+        "氵",
+        "亻",
+        "艹",
+        "日",
+        "禾",
+        "刂",
+        "木",
+        "山",
+        "人",
+        "力",
+        "王",
+        "冫",
+        "口",
+        "扌",
+        "欠",
+        "钅",
+        "又",
+        "攵",
+        "米",
+        "子",
+        "戈",
+        "辶",
+        "弓",
+        "纟"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "林富宫",
+      "林思乐",
+      "林国山"
+    ],
+    "backup7": [
+      "林诗谊",
+      "林学风",
+      "林惠峰",
+      "林明嘉",
+      "林楚深",
+      "林诗远",
+      "林富思"
+    ]
+  },
+  "chaozhou_lunar": {
+    "baby_profile": {
+      "surname": "陈",
+      "gender": "female",
+      "calendar_type": "lunar",
+      "birth_year": 2025,
+      "birth_month": 2,
+      "birth_day": 2,
+      "birth_hour": 9,
+      "birth_minute": 10,
+      "is_leap_month": false,
+      "birth_province": "广东省",
+      "birth_city": "潮州市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "温润知性",
+        "民国书卷气"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-03-01 09:10:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 2,
+        "day": 2,
+        "raw_month": 2,
+        "is_leap_month": false,
+        "month_cn": "二",
+        "day_cn": "初二",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "戊寅",
+        "day_ganzhi": "己巳",
+        "time_ganzhi": "己巳",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": false,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-03-01 09:10:00",
+      "longitude": 116.622603,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -13.5096,
+      "equation_of_time_minutes": -13.0431,
+      "true_solar_time": "2025-03-01 08:43:26.836311",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "戊",
+        "branch": "寅",
+        "text": "戊寅"
+      },
+      "day_pillar": {
+        "stem": "己",
+        "branch": "巳",
+        "text": "己巳"
+      },
+      "hour_pillar": {
+        "stem": "戊",
+        "branch": "辰",
+        "text": "戊辰"
+      },
+      "day_master": "己",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "day_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "hour_pillar": [
+          "戊",
+          "乙",
+          "癸"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "己巳",
+        "library_day_pillar": "己巳",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "己",
+        "element": "earth"
+      },
+      "element_counts": {
+        "wood": 2,
+        "fire": 2,
+        "earth": 4,
+        "metal": 0,
+        "water": 0
+      },
+      "weighted_elements": {
+        "wood": 2.3,
+        "fire": 2.35,
+        "earth": 4.8,
+        "metal": 0.5,
+        "water": 0.25
+      },
+      "seasonal_context": "spring",
+      "balance_summary": "基础统计显示 earth 相对较多（4.80），water 相对较少（0.25）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "water",
+        "metal"
+      ],
+      "caution_elements": [
+        "earth"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "蛇",
+      "folk_zodiac": "蛇",
+      "boundary_difference": false,
+      "preferred_radicals": [
+        "木",
+        "口",
+        "宀",
+        "纟",
+        "艹",
+        "讠",
+        "辶",
+        "心",
+        "火",
+        "女",
+        "竹",
+        "忄",
+        "阝",
+        "王",
+        "马",
+        "囗",
+        "月",
+        "一",
+        "田",
+        "广",
+        "鸟",
+        "巾",
+        "羽",
+        "贝"
+      ],
+      "avoid_radicals": [
+        "氵",
+        "亻",
+        "艹",
+        "日",
+        "禾",
+        "刂",
+        "木",
+        "山",
+        "人",
+        "力",
+        "王",
+        "冫",
+        "口",
+        "扌",
+        "欠",
+        "钅",
+        "又",
+        "攵",
+        "米",
+        "子",
+        "戈",
+        "辶",
+        "弓",
+        "纟"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "陈阳楚",
+      "陈莹安",
+      "陈芳兰"
+    ],
+    "backup7": [
+      "陈芬宜",
+      "陈美淑",
+      "陈莹楚",
+      "陈阳安"
+    ]
+  },
+  "jieyang_lunar_leap": {
+    "baby_profile": {
+      "surname": "黄",
+      "gender": "neutral",
+      "calendar_type": "lunar",
+      "birth_year": 2025,
+      "birth_month": 6,
+      "birth_day": 1,
+      "birth_hour": 10,
+      "birth_minute": 0,
+      "is_leap_month": true,
+      "birth_province": "广东省",
+      "birth_city": "揭阳市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "雅致",
+        "思想家"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-07-25 10:00:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 6,
+        "day": 1,
+        "raw_month": -6,
+        "is_leap_month": true,
+        "month_cn": "闰六",
+        "day_cn": "初一",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "癸未",
+        "day_ganzhi": "乙未",
+        "time_ganzhi": "辛巳",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": true,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-07-25 10:00:00",
+      "longitude": 116.372831,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -14.5087,
+      "equation_of_time_minutes": -6.1777,
+      "true_solar_time": "2025-07-25 09:39:18.820372",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "癸",
+        "branch": "未",
+        "text": "癸未"
+      },
+      "day_pillar": {
+        "stem": "乙",
+        "branch": "未",
+        "text": "乙未"
+      },
+      "hour_pillar": {
+        "stem": "辛",
+        "branch": "巳",
+        "text": "辛巳"
+      },
+      "day_master": "乙",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "己",
+          "丁",
+          "乙"
+        ],
+        "day_pillar": [
+          "己",
+          "丁",
+          "乙"
+        ],
+        "hour_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "乙未",
+        "library_day_pillar": "乙未",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "乙",
+        "element": "wood"
+      },
+      "element_counts": {
+        "wood": 2,
+        "fire": 2,
+        "earth": 2,
+        "metal": 1,
+        "water": 1
+      },
+      "weighted_elements": {
+        "wood": 2.5,
+        "fire": 2.6,
+        "earth": 2.6,
+        "metal": 1.5,
+        "water": 1.0
+      },
+      "seasonal_context": "summer_transition",
+      "balance_summary": "基础统计显示 fire 相对较多（2.60），water 相对较少（1.00）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "water",
+        "metal"
+      ],
+      "caution_elements": [
+        "fire"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "蛇",
+      "folk_zodiac": "蛇",
+      "boundary_difference": false,
+      "preferred_radicals": [
+        "木",
+        "口",
+        "宀",
+        "纟",
+        "艹",
+        "讠",
+        "辶",
+        "心",
+        "火",
+        "女",
+        "竹",
+        "忄",
+        "阝",
+        "王",
+        "马",
+        "囗",
+        "月",
+        "一",
+        "田",
+        "广",
+        "鸟",
+        "巾",
+        "羽",
+        "贝"
+      ],
+      "avoid_radicals": [
+        "氵",
+        "亻",
+        "艹",
+        "日",
+        "禾",
+        "刂",
+        "木",
+        "山",
+        "人",
+        "力",
+        "王",
+        "冫",
+        "口",
+        "扌",
+        "欠",
+        "钅",
+        "又",
+        "攵",
+        "米",
+        "子",
+        "戈",
+        "辶",
+        "弓",
+        "纟"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "黄宁宗",
+      "黄思谊",
+      "黄楚谁"
+    ],
+    "backup7": [
+      "黄学慧",
+      "黄山明",
+      "黄楚深",
+      "黄思富",
+      "黄天宁",
+      "黄学智"
+    ]
+  },
+  "before_lichun": {
+    "baby_profile": {
+      "surname": "郑",
+      "gender": "male",
+      "calendar_type": "solar",
+      "birth_year": 2025,
+      "birth_month": 2,
+      "birth_day": 3,
+      "birth_hour": 20,
+      "birth_minute": 0,
+      "is_leap_month": false,
+      "birth_province": "",
+      "birth_city": "汕头市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "大气开阔",
+        "山水自然"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-02-03 20:00:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 1,
+        "day": 6,
+        "raw_month": 1,
+        "is_leap_month": false,
+        "month_cn": "正",
+        "day_cn": "初六",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "戊寅",
+        "day_ganzhi": "癸卯",
+        "time_ganzhi": "壬戌",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": false,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-02-03 20:00:00",
+      "longitude": 116.681972,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -13.2721,
+      "equation_of_time_minutes": -13.9705,
+      "true_solar_time": "2025-02-03 19:32:45.444339",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "甲",
+        "branch": "辰",
+        "text": "甲辰"
+      },
+      "month_pillar": {
+        "stem": "丁",
+        "branch": "丑",
+        "text": "丁丑"
+      },
+      "day_pillar": {
+        "stem": "癸",
+        "branch": "卯",
+        "text": "癸卯"
+      },
+      "hour_pillar": {
+        "stem": "壬",
+        "branch": "戌",
+        "text": "壬戌"
+      },
+      "day_master": "癸",
+      "hidden_stems": {
+        "year_pillar": [
+          "戊",
+          "乙",
+          "癸"
+        ],
+        "month_pillar": [
+          "己",
+          "癸",
+          "辛"
+        ],
+        "day_pillar": [
+          "乙"
+        ],
+        "hour_pillar": [
+          "戊",
+          "辛",
+          "丁"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "癸卯",
+        "library_day_pillar": "癸卯",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "癸",
+        "element": "water"
+      },
+      "element_counts": {
+        "wood": 2,
+        "fire": 1,
+        "earth": 3,
+        "metal": 0,
+        "water": 2
+      },
+      "weighted_elements": {
+        "wood": 2.3,
+        "fire": 1.25,
+        "earth": 3.15,
+        "metal": 0.5,
+        "water": 2.5
+      },
+      "seasonal_context": "winter_transition",
+      "balance_summary": "基础统计显示 earth 相对较多（3.15），metal 相对较少（0.50）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "metal",
+        "fire"
+      ],
+      "caution_elements": [
+        "earth"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "龙",
+      "folk_zodiac": "蛇",
+      "boundary_difference": true,
+      "preferred_radicals": [
+        "氵",
+        "日",
+        "王",
+        "纟",
+        "木",
+        "讠",
+        "月",
+        "羽",
+        "子",
+        "雨",
+        "巾",
+        "水",
+        "马",
+        "大",
+        "女",
+        "彡",
+        "竹",
+        "糸",
+        "丶",
+        "力",
+        "十",
+        "白",
+        "目",
+        "衣"
+      ],
+      "avoid_radicals": [
+        "艹",
+        "亻",
+        "口",
+        "忄",
+        "宀",
+        "心",
+        "木",
+        "禾",
+        "山",
+        "广",
+        "氵",
+        "辶",
+        "穴",
+        "刂",
+        "月",
+        "门",
+        "阝",
+        "田",
+        "戈",
+        "犭",
+        "力",
+        "尸",
+        "弓",
+        "女"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "郑山宝",
+      "郑阳峰",
+      "郑风远"
+    ],
+    "backup7": [
+      "郑兰宫",
+      "郑山风",
+      "郑江峰",
+      "郑阳远"
+    ]
+  },
+  "after_lichun": {
+    "baby_profile": {
+      "surname": "郑",
+      "gender": "male",
+      "calendar_type": "solar",
+      "birth_year": 2025,
+      "birth_month": 2,
+      "birth_day": 4,
+      "birth_hour": 12,
+      "birth_minute": 0,
+      "is_leap_month": false,
+      "birth_province": "",
+      "birth_city": "汕头市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "大气开阔",
+        "山水自然"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-02-04 12:00:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 1,
+        "day": 7,
+        "raw_month": 1,
+        "is_leap_month": false,
+        "month_cn": "正",
+        "day_cn": "初七",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "戊寅",
+        "day_ganzhi": "甲辰",
+        "time_ganzhi": "庚午",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": false,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-02-04 12:00:00",
+      "longitude": 116.681972,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -13.2721,
+      "equation_of_time_minutes": -14.0917,
+      "true_solar_time": "2025-02-04 11:32:38.169818",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "戊",
+        "branch": "寅",
+        "text": "戊寅"
+      },
+      "day_pillar": {
+        "stem": "甲",
+        "branch": "辰",
+        "text": "甲辰"
+      },
+      "hour_pillar": {
+        "stem": "庚",
+        "branch": "午",
+        "text": "庚午"
+      },
+      "day_master": "甲",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "day_pillar": [
+          "戊",
+          "乙",
+          "癸"
+        ],
+        "hour_pillar": [
+          "丁",
+          "己"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "甲辰",
+        "library_day_pillar": "甲辰",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "甲",
+        "element": "wood"
+      },
+      "element_counts": {
+        "wood": 3,
+        "fire": 2,
+        "earth": 2,
+        "metal": 1,
+        "water": 0
+      },
+      "weighted_elements": {
+        "wood": 3.3,
+        "fire": 2.35,
+        "earth": 2.8,
+        "metal": 1.25,
+        "water": 0.25
+      },
+      "seasonal_context": "spring",
+      "balance_summary": "基础统计显示 wood 相对较多（3.30），water 相对较少（0.25）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "water",
+        "metal"
+      ],
+      "caution_elements": [
+        "wood"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "蛇",
+      "folk_zodiac": "蛇",
+      "boundary_difference": false,
+      "preferred_radicals": [
+        "木",
+        "口",
+        "宀",
+        "纟",
+        "艹",
+        "讠",
+        "辶",
+        "心",
+        "火",
+        "女",
+        "竹",
+        "忄",
+        "阝",
+        "王",
+        "马",
+        "囗",
+        "月",
+        "一",
+        "田",
+        "广",
+        "鸟",
+        "巾",
+        "羽",
+        "贝"
+      ],
+      "avoid_radicals": [
+        "氵",
+        "亻",
+        "艹",
+        "日",
+        "禾",
+        "刂",
+        "木",
+        "山",
+        "人",
+        "力",
+        "王",
+        "冫",
+        "口",
+        "扌",
+        "欠",
+        "钅",
+        "又",
+        "攵",
+        "米",
+        "子",
+        "戈",
+        "辶",
+        "弓",
+        "纟"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "郑山宝",
+      "郑深峰",
+      "郑远东"
+    ],
+    "backup7": [
+      "郑兰宫",
+      "郑山富",
+      "郑阳峰",
+      "郑江远",
+      "郑宫兰"
+    ]
+  },
+  "before_23": {
+    "baby_profile": {
+      "surname": "欧阳",
+      "gender": "female",
+      "calendar_type": "solar",
+      "birth_year": 2025,
+      "birth_month": 3,
+      "birth_day": 1,
+      "birth_hour": 22,
+      "birth_minute": 50,
+      "is_leap_month": false,
+      "birth_province": "",
+      "birth_city": "潮州市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "现代高级",
+        "温柔坚定"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-03-01 22:50:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 2,
+        "day": 2,
+        "raw_month": 2,
+        "is_leap_month": false,
+        "month_cn": "二",
+        "day_cn": "初二",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "戊寅",
+        "day_ganzhi": "己巳",
+        "time_ganzhi": "乙亥",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": false,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-03-01 22:50:00",
+      "longitude": 116.622603,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -13.5096,
+      "equation_of_time_minutes": -13.0431,
+      "true_solar_time": "2025-03-01 22:23:26.836311",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "戊",
+        "branch": "寅",
+        "text": "戊寅"
+      },
+      "day_pillar": {
+        "stem": "己",
+        "branch": "巳",
+        "text": "己巳"
+      },
+      "hour_pillar": {
+        "stem": "乙",
+        "branch": "亥",
+        "text": "乙亥"
+      },
+      "day_master": "己",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "day_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "hour_pillar": [
+          "壬",
+          "甲"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "己巳",
+        "library_day_pillar": "己巳",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "己",
+        "element": "earth"
+      },
+      "element_counts": {
+        "wood": 3,
+        "fire": 2,
+        "earth": 2,
+        "metal": 0,
+        "water": 1
+      },
+      "weighted_elements": {
+        "wood": 3.3,
+        "fire": 2.35,
+        "earth": 2.75,
+        "metal": 0.5,
+        "water": 1.05
+      },
+      "seasonal_context": "spring",
+      "balance_summary": "基础统计显示 wood 相对较多（3.30），metal 相对较少（0.50）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "metal",
+        "water"
+      ],
+      "caution_elements": [
+        "wood"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "蛇",
+      "folk_zodiac": "蛇",
+      "boundary_difference": false,
+      "preferred_radicals": [
+        "木",
+        "口",
+        "宀",
+        "纟",
+        "艹",
+        "讠",
+        "辶",
+        "心",
+        "火",
+        "女",
+        "竹",
+        "忄",
+        "阝",
+        "王",
+        "马",
+        "囗",
+        "月",
+        "一",
+        "田",
+        "广",
+        "鸟",
+        "巾",
+        "羽",
+        "贝"
+      ],
+      "avoid_radicals": [
+        "氵",
+        "亻",
+        "艹",
+        "日",
+        "禾",
+        "刂",
+        "木",
+        "山",
+        "人",
+        "力",
+        "王",
+        "冫",
+        "口",
+        "扌",
+        "欠",
+        "钅",
+        "又",
+        "攵",
+        "米",
+        "子",
+        "戈",
+        "辶",
+        "弓",
+        "纟"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "欧阳安宝",
+      "欧阳楚深",
+      "欧阳芳兰"
+    ],
+    "backup7": [
+      "欧阳安富"
+    ]
+  },
+  "after_23": {
+    "baby_profile": {
+      "surname": "欧阳",
+      "gender": "female",
+      "calendar_type": "solar",
+      "birth_year": 2025,
+      "birth_month": 3,
+      "birth_day": 1,
+      "birth_hour": 23,
+      "birth_minute": 10,
+      "is_leap_month": false,
+      "birth_province": "",
+      "birth_city": "潮州市",
+      "timezone": "Asia/Shanghai",
+      "region": "teochew",
+      "style_preferences": [
+        "现代高级",
+        "温柔坚定"
+      ],
+      "liked_chars": [],
+      "blocked_chars": [],
+      "exclude_given_names": [],
+      "generation_seed": 20260623
+    },
+    "calendar": {
+      "solar_datetime": "2025-03-01 23:10:00",
+      "lunar_date": {
+        "year": 2025,
+        "month": 2,
+        "day": 2,
+        "raw_month": 2,
+        "is_leap_month": false,
+        "month_cn": "二",
+        "day_cn": "初二",
+        "year_ganzhi": "乙巳",
+        "month_ganzhi": "戊寅",
+        "day_ganzhi": "己巳",
+        "time_ganzhi": "丙子",
+        "zodiac": "蛇"
+      },
+      "is_leap_month": false,
+      "timezone": "Asia/Shanghai",
+      "calendar_library": "lunar-python",
+      "calendar_library_version": "1.4.8",
+      "calculation_status": "COMPLETE",
+      "warnings": []
+    },
+    "true_solar_time": {
+      "standard_time": "2025-03-01 23:10:00",
+      "longitude": 116.622603,
+      "standard_meridian": 120.0,
+      "longitude_correction_minutes": -13.5096,
+      "equation_of_time_minutes": -13.0431,
+      "true_solar_time": "2025-03-01 22:43:26.836311",
+      "date_shift": 0,
+      "method": "longitude correction + equation of time",
+      "status": "COMPLETE",
+      "confidence": 0.86,
+      "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+      "warnings": []
+    },
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "戊",
+        "branch": "寅",
+        "text": "戊寅"
+      },
+      "day_pillar": {
+        "stem": "己",
+        "branch": "巳",
+        "text": "己巳"
+      },
+      "hour_pillar": {
+        "stem": "乙",
+        "branch": "亥",
+        "text": "乙亥"
+      },
+      "day_master": "己",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "day_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "hour_pillar": [
+          "壬",
+          "甲"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "己巳",
+        "library_day_pillar": "己巳",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "five_elements": {
+      "day_master": {
+        "stem": "己",
+        "element": "earth"
+      },
+      "element_counts": {
+        "wood": 3,
+        "fire": 2,
+        "earth": 2,
+        "metal": 0,
+        "water": 1
+      },
+      "weighted_elements": {
+        "wood": 3.3,
+        "fire": 2.35,
+        "earth": 2.75,
+        "metal": 0.5,
+        "water": 1.05
+      },
+      "seasonal_context": "spring",
+      "balance_summary": "基础统计显示 wood 相对较多（3.30），metal 相对较少（0.50）；仅作为启发式参考。",
+      "analysis_level": "FOUNDATION_V1",
+      "status": "COMPLETE",
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。"
+      ],
+      "recommendation_status": "HEURISTIC",
+      "supportive_elements": [
+        "metal",
+        "water"
+      ],
+      "caution_elements": [
+        "wood"
+      ],
+      "confidence": 0.68
+    },
+    "zodiac": {
+      "bazi_zodiac": "蛇",
+      "folk_zodiac": "蛇",
+      "boundary_difference": false,
+      "preferred_radicals": [
+        "木",
+        "口",
+        "宀",
+        "纟",
+        "艹",
+        "讠",
+        "辶",
+        "心",
+        "火",
+        "女",
+        "竹",
+        "忄",
+        "阝",
+        "王",
+        "马",
+        "囗",
+        "月",
+        "一",
+        "田",
+        "广",
+        "鸟",
+        "巾",
+        "羽",
+        "贝"
+      ],
+      "avoid_radicals": [
+        "氵",
+        "亻",
+        "艹",
+        "日",
+        "禾",
+        "刂",
+        "木",
+        "山",
+        "人",
+        "力",
+        "王",
+        "冫",
+        "口",
+        "扌",
+        "欠",
+        "钅",
+        "又",
+        "攵",
+        "米",
+        "子",
+        "戈",
+        "辶",
+        "弓",
+        "纟"
+      ],
+      "matched_rules": [
+        "由 johnwu1114/chinese-name 十二生肖 better 字库派生；原仓库按笔画列宜用字，本字段汇总部首。",
+        "由 johnwu1114/chinese-name 十二生肖 worse 字库派生；原仓库按笔画列忌用字，本字段汇总部首。"
+      ],
+      "status": "COMPLETE",
+      "rule_version": "zodiac_taboo.csv:2026-06-18",
+      "warnings": []
+    },
+    "top3": [
+      "欧阳安宝",
+      "欧阳楚深",
+      "欧阳芳兰"
+    ],
+    "backup7": [
+      "欧阳安富"
+    ]
+  }
+}

@@ -2,24 +2,13 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 
+from app.catalogs.character_risk_classifier import NEGATIVE_HINTS, UNSUITABLE_CHARS
+from app.catalogs.name_char_catalog_builder import ensure_name_char_catalog
 from app.indexes.character_index import CharacterIndex
 from app.indexes.popularity_index import PopularityIndex
 from app.indexes.pronunciation_index import PronunciationIndex
 from app.schemas.candidate import CandidateChar, CultureEvidence
 from app.schemas.naming_input import NamingInput
-
-
-UNSUITABLE_CHARS = set(
-    "乂乜儿几卜了么也兮乎哉矣焉其之而于以与或且及并把被将就很吗呢啊吧呀"
-    "一二三四五六七八九十百千万亿零不无未非否勿莫没旧帝王夫女民臣父母鸟虫鱼菜草犬马口手目耳穷细"
-)
-NAME_FRIENDLY_CHARS = set(
-    "知思明德仁义礼信文书闻清雅安宁和温润远行景云泽川山怀修诚敬正嘉乐新承彦谦然"
-    "微言道贤哲睿朗昭晖晨曜煦衡宥博达鸿凌志望庭序家祐佑宜初南乔松竹兰芷洲汀沅湘"
-    "辰星月华光若沐汐涵轩宸萱桐墨子雨浩宇梓能毅瑾弘则灵均容维闻辨昭章"
-    "天地海波岳岩泉风雨洲渊"
-)
-NEGATIVE_HINTS = ("贬义", "恶", "病", "死", "灾", "祸", "残", "败", "毒", "怨", "哭", "哀", "凶", "杀", "亡")
 
 
 class CharPoolBuilder:
@@ -32,6 +21,7 @@ class CharPoolBuilder:
         self.character_index = character_index or CharacterIndex()
         self.pronunciation_index = pronunciation_index or PronunciationIndex()
         self.popularity_index = popularity_index or PopularityIndex()
+        self.catalog = ensure_name_char_catalog()
 
     def build(
         self,
@@ -39,6 +29,7 @@ class CharPoolBuilder:
         structures: list[dict],
         archetypes: list[dict],
         evidences: list[CultureEvidence],
+        fortune_context: dict | None = None,
         first_limit: int = 80,
         second_limit: int = 80,
     ) -> dict:
@@ -46,86 +37,110 @@ class CharPoolBuilder:
         role_terms = self._role_terms(structures, archetypes, naming_input)
         blocked = set(naming_input.blocked_chars) | set(naming_input.surname)
         liked = set(naming_input.liked_chars)
+        rejected_summary: Counter[str] = Counter()
         candidates: list[CandidateChar] = []
 
-        for char in self.character_index.compliance:
-            if char in blocked or char in UNSUITABLE_CHARS:
+        for record in self.catalog["records"]:
+            char = record["char"]
+            if char in blocked:
+                rejected_summary["USER_BLOCKED_OR_SURNAME_CHAR"] += 1
                 continue
-            profile = self.character_index.get(char)
-            semantic = profile.get("semantic") or {}
-            definition = str(semantic.get("definition") or "")
-            if not definition:
+            if record["nameability_level"] == "REJECTED":
+                rejected_summary["CATALOG_REJECTED"] += 1
                 continue
-            if any(hint in definition for hint in NEGATIVE_HINTS):
+            if record["nameability_level"] == "EXPERIMENTAL" and char not in liked:
+                rejected_summary["EXPERIMENTAL_NOT_USER_LIKED"] += 1
                 continue
-            if not profile.get("mandarin"):
-                continue
-            risks = self.pronunciation_index.risks(char)
-            if risks:
-                continue
-            positive_level = int(semantic.get("positive_level") or 0)
-            common_level = int(semantic.get("common_level") or 3)
-            if positive_level < 3 or common_level > 2:
+            if "HOMOPHONE_RISK" in record["risk_codes"]:
+                rejected_summary["HOMOPHONE_RISK"] += 1
                 continue
 
-            score = positive_level * 4 + (4 - common_level) * 3
-            risk_flags: list[str] = []
+            profile = self.character_index.get(char)
+            score = float(record["nameability_score"])
+            risk_flags = list(record["risk_codes"])
             matched_roles: list[str] = []
+            search_text = "".join(
+                [
+                    char,
+                    record.get("definition", ""),
+                    "".join(record.get("semantic_roles") or []),
+                    "".join(record.get("semantic_categories") or []),
+                    "".join(record.get("semantic_keywords") or []),
+                ]
+            )
             for term in role_terms:
-                if term and (term in definition or term == char):
+                if term and (term in search_text or term == char):
                     score += 4
                     matched_roles.append(term)
-            if char not in NAME_FRIENDLY_CHARS and char not in liked:
-                continue
-            if char in NAME_FRIENDLY_CHARS:
-                score += 6
             if char in evidence_by_char:
                 score += min(18, 4 + len(evidence_by_char[char]) * 2)
+            elif record["culture_evidence_count"]:
+                score += min(12, record["culture_evidence_count"] * 1.5)
             if char in liked:
                 score += 20
-            if len(profile.get("mandarin") or []) > 1:
+            if len(record.get("mandarin") or []) > 1:
                 score -= 4
                 risk_flags.append("POLYPHONE")
-            popularity = self.popularity_index.get_char(char)
-            popularity_penalty = 0.0
-            if popularity:
-                heat = popularity.get("heat_level")
-                if heat == "爆款":
-                    popularity_penalty = 8
-                elif heat == "高":
-                    popularity_penalty = 5
-                elif heat == "中":
-                    popularity_penalty = 2
-                score -= popularity_penalty
-                if popularity_penalty:
-                    risk_flags.append("POPULAR_CHAR")
-            teochew = self.pronunciation_index.teochew_readings(char)
-            if teochew:
-                score += 1.5
 
-            structure_scores = {item["id"]: self._match_score(char, definition, item) for item in structures}
-            archetype_scores = {item["id"]: self._match_score(char, definition, item) for item in archetypes}
-            candidate = CandidateChar(
-                char=char,
-                semantic_roles=matched_roles or role_terms[:2],
-                structure_scores=structure_scores,
-                archetype_scores=archetype_scores,
-                culture_evidence_ids=evidence_by_char.get(char, [])[:8],
-                mandarin=profile.get("mandarin") or [],
-                teochew=teochew,
-                popularity_penalty=popularity_penalty,
-                risk_flags=risk_flags,
-                final_score=round(score, 4),
+            popularity = self.popularity_index.get_char(char)
+            if popularity:
+                score += 25
+            popularity_penalty = self._popularity_penalty(popularity)
+            if popularity_penalty:
+                score -= popularity_penalty
+                risk_flags.append("POPULAR_CHAR")
+            if "FUNCTION" in record.get("semantic_categories", []):
+                score -= 8
+            if "OBJECT" in record.get("semantic_categories", []):
+                score -= 6
+            if "OBJECT_OR_TOOL_SEMANTIC" in risk_flags:
+                score -= 12
+            if "LOW_SOURCE_POSITIVE_LEVEL" in risk_flags:
+                score -= 10
+
+            element = self._element_en(record.get("element") or "")
+            supportive = set(((fortune_context or {}).get("five_elements") or {}).get("supportive_elements") or [])
+            caution = set(((fortune_context or {}).get("five_elements") or {}).get("caution_elements") or [])
+            if element in supportive:
+                score += 2.0
+            if element in caution:
+                score -= 1.0
+
+            structure_scores = {item["id"]: self._match_score(char, search_text, item) for item in structures}
+            archetype_scores = {item["id"]: self._match_score(char, search_text, item) for item in archetypes}
+            catalog_links = self.catalog["culture_links"].get(char, [])
+            candidates.append(
+                CandidateChar(
+                    char=char,
+                    semantic_roles=list(dict.fromkeys(matched_roles + list(record.get("semantic_roles") or [])))[:6],
+                    semantic_categories=list(record.get("semantic_categories") or []),
+                    structure_scores=structure_scores,
+                    archetype_scores=archetype_scores,
+                    culture_evidence_ids=(evidence_by_char.get(char, []) + record.get("culture_link_ids", []))[:8],
+                    culture_links=catalog_links[:4],
+                    mandarin=record.get("mandarin") or [],
+                    teochew=self.pronunciation_index.teochew_readings(char),
+                    popularity_penalty=popularity_penalty,
+                    risk_flags=list(dict.fromkeys(risk_flags)),
+                    final_score=round(score, 4),
+                    element=element,
+                    radical=str(record.get("radical") or ""),
+                    catalog_level=record["nameability_level"],
+                    catalog_score=float(record["nameability_score"]),
+                    reason_codes=list(record.get("reason_codes") or []),
+                )
             )
-            candidates.append(candidate)
 
         candidates.sort(key=lambda item: (-item.final_score, item.char))
         first_pool = self._position_pool(candidates, structures, position=0, limit=first_limit)
         second_pool = self._position_pool(candidates, structures, position=1, limit=second_limit)
+        candidate_by_char = {item.char: item for item in candidates}
+        first_pool = self._ensure_liked_chars(first_pool, candidate_by_char, liked, first_limit)
+        second_pool = self._ensure_liked_chars(second_pool, candidate_by_char, liked, second_limit)
         return {
             "first_pool": first_pool,
             "second_pool": second_pool,
-            "rejected_summary": dict(Counter()),
+            "rejected_summary": dict(rejected_summary),
         }
 
     @staticmethod
@@ -147,12 +162,12 @@ class CharPoolBuilder:
         return mapping
 
     @staticmethod
-    def _match_score(char: str, definition: str, item: dict) -> float:
+    def _match_score(char: str, text: str, item: dict) -> float:
         score = 0.0
         for keyword in item.get("keywords", []) + item.get("semantic_roles", []):
             if keyword == char:
                 score += 5
-            elif keyword and keyword in definition:
+            elif keyword and keyword in text:
                 score += 3
         return score
 
@@ -160,9 +175,41 @@ class CharPoolBuilder:
     def _position_pool(candidates: list[CandidateChar], structures: list[dict], position: int, limit: int) -> list[CandidateChar]:
         if not structures:
             return candidates[:limit]
-        role = structures[0].get("semantic_roles", [""])[min(position, len(structures[0].get("semantic_roles", [""])) - 1)]
+        roles = structures[0].get("semantic_roles", [""])
+        role = roles[min(position, len(roles) - 1)]
         ranked = sorted(
             candidates,
             key=lambda item: (-(item.final_score + (4 if role in item.semantic_roles else 0)), item.char),
         )
         return ranked[:limit]
+
+    @staticmethod
+    def _popularity_penalty(popularity: dict | None) -> float:
+        if not popularity:
+            return 0.0
+        heat = popularity.get("heat_level")
+        if heat == "爆款":
+            return 8
+        if heat == "高":
+            return 5
+        if heat == "中":
+            return 2
+        return 0.0
+
+    @staticmethod
+    def _element_en(element: str) -> str:
+        return {"木": "wood", "火": "fire", "土": "earth", "金": "metal", "水": "water"}.get(element, element)
+
+    @staticmethod
+    def _ensure_liked_chars(pool: list[CandidateChar], candidate_by_char: dict[str, CandidateChar], liked: set[str], limit: int) -> list[CandidateChar]:
+        result = list(pool)
+        present = {item.char for item in result}
+        for char in liked:
+            if char in present or char not in candidate_by_char:
+                continue
+            if len(result) >= limit:
+                result[-1] = candidate_by_char[char]
+            else:
+                result.append(candidate_by_char[char])
+            present.add(char)
+        return result

@@ -4,26 +4,26 @@
       "total": 20,
       "counts": {
         "semantic_role_composition": 8,
-        "imagery_transformation": 4,
-        "direct_expression": 8
+        "direct_expression": 8,
+        "imagery_transformation": 4
       },
       "ratios": {
         "semantic_role_composition": 0.4,
-        "imagery_transformation": 0.2,
-        "direct_expression": 0.4
+        "direct_expression": 0.4,
+        "imagery_transformation": 0.2
       },
       "meets_threshold": true
     },
     "A2": {
       "total": 20,
       "counts": {
-        "imagery_transformation": 4,
         "semantic_role_composition": 8,
+        "imagery_transformation": 4,
         "direct_expression": 8
       },
       "ratios": {
-        "imagery_transformation": 0.2,
         "semantic_role_composition": 0.4,
+        "imagery_transformation": 0.2,
         "direct_expression": 0.4
       },
       "meets_threshold": true
@@ -31,42 +31,42 @@
     "A3": {
       "total": 20,
       "counts": {
-        "direct_expression": 8,
         "semantic_role_composition": 8,
-        "imagery_transformation": 4
+        "imagery_transformation": 4,
+        "direct_expression": 8
       },
       "ratios": {
-        "direct_expression": 0.4,
         "semantic_role_composition": 0.4,
-        "imagery_transformation": 0.2
+        "imagery_transformation": 0.2,
+        "direct_expression": 0.4
       },
       "meets_threshold": true
     },
     "A4": {
       "total": 20,
       "counts": {
-        "semantic_role_composition": 8,
-        "direct_expression": 7,
-        "imagery_transformation": 5
+        "direct_expression": 8,
+        "imagery_transformation": 4,
+        "semantic_role_composition": 8
       },
       "ratios": {
-        "semantic_role_composition": 0.4,
-        "direct_expression": 0.35,
-        "imagery_transformation": 0.25
+        "direct_expression": 0.4,
+        "imagery_transformation": 0.2,
+        "semantic_role_composition": 0.4
       },
       "meets_threshold": true
     },
     "A5": {
       "total": 20,
       "counts": {
+        "semantic_role_composition": 8,
         "imagery_transformation": 4,
-        "direct_expression": 9,
-        "semantic_role_composition": 7
+        "direct_expression": 8
       },
       "ratios": {
+        "semantic_role_composition": 0.4,
         "imagery_transformation": 0.2,
-        "direct_expression": 0.45,
-        "semantic_role_composition": 0.35
+        "direct_expression": 0.4
       },
       "meets_threshold": true
     }
@@ -76,13 +76,13 @@
       "total": 20,
       "counts": {
         "semantic_role_composition": 8,
-        "imagery_transformation": 4,
-        "direct_expression": 8
+        "direct_expression": 8,
+        "imagery_transformation": 4
       },
       "ratios": {
         "semantic_role_composition": 0.4,
-        "imagery_transformation": 0.2,
-        "direct_expression": 0.4
+        "direct_expression": 0.4,
+        "imagery_transformation": 0.2
       },
       "meets_threshold": true
     },
@@ -131,13 +131,13 @@
     "B5": {
       "total": 20,
       "counts": {
-        "imagery_transformation": 4,
         "semantic_role_composition": 8,
+        "imagery_transformation": 4,
         "direct_expression": 8
       },
       "ratios": {
-        "imagery_transformation": 0.2,
         "semantic_role_composition": 0.4,
+        "imagery_transformation": 0.2,
         "direct_expression": 0.4
       },
       "meets_threshold": true

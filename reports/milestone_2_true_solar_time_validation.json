@@ -1,0 +1,47 @@
+{
+  "normal": {
+    "standard_time": "2025-03-01 08:30:00",
+    "longitude": 116.681972,
+    "standard_meridian": 120.0,
+    "longitude_correction_minutes": -13.2721,
+    "equation_of_time_minutes": -13.0431,
+    "true_solar_time": "2025-03-01 08:03:41.084871",
+    "date_shift": 0,
+    "method": "longitude correction + equation of time",
+    "status": "COMPLETE",
+    "confidence": 0.86,
+    "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+    "warnings": []
+  },
+  "missing_city": {
+    "standard_time": "2025-03-01 08:30:00",
+    "longitude": null,
+    "standard_meridian": 120.0,
+    "longitude_correction_minutes": null,
+    "equation_of_time_minutes": null,
+    "true_solar_time": null,
+    "date_shift": 0,
+    "method": "longitude correction + equation of time",
+    "status": "LOCATION_DATA_MISSING",
+    "confidence": 0,
+    "source": "Milestone 2 built-in city table",
+    "warnings": [
+      "LOCATION_DATA_MISSING"
+    ]
+  },
+  "cross_day": {
+    "standard_time": "2025-03-01 00:05:00",
+    "longitude": 116.372831,
+    "standard_meridian": 120.0,
+    "longitude_correction_minutes": -14.5087,
+    "equation_of_time_minutes": -13.0431,
+    "true_solar_time": "2025-02-28 23:37:26.891031",
+    "date_shift": -1,
+    "method": "longitude correction + equation of time",
+    "status": "COMPLETE",
+    "confidence": 0.86,
+    "source": "国家基础地理信息中心公开行政区划中心点数据整理；Milestone 2 内置首批城市表。",
+    "warnings": []
+  },
+  "method": "true solar time = standard time + (longitude - 120E) * 4 minutes + equation of time"
+}

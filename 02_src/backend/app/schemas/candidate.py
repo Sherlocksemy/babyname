@@ -41,27 +41,41 @@ class CultureEvidence:
 class CandidateChar:
     char: str
     semantic_roles: list[str] = field(default_factory=list)
+    semantic_categories: list[str] = field(default_factory=list)
     structure_scores: dict[str, float] = field(default_factory=dict)
     archetype_scores: dict[str, float] = field(default_factory=dict)
     culture_evidence_ids: list[str] = field(default_factory=list)
+    culture_links: list[dict] = field(default_factory=list)
     mandarin: list[dict] = field(default_factory=list)
     teochew: list[dict] = field(default_factory=list)
     popularity_penalty: float = 0.0
     risk_flags: list[str] = field(default_factory=list)
     final_score: float = 0.0
+    element: str = ""
+    radical: str = ""
+    catalog_level: str = ""
+    catalog_score: float = 0.0
+    reason_codes: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {
             "char": self.char,
             "semantic_roles": self.semantic_roles,
+            "semantic_categories": self.semantic_categories,
             "structure_scores": self.structure_scores,
             "archetype_scores": self.archetype_scores,
             "culture_evidence_ids": self.culture_evidence_ids,
+            "culture_links": self.culture_links,
             "mandarin": self.mandarin,
             "teochew": self.teochew,
             "popularity_penalty": self.popularity_penalty,
             "risk_flags": self.risk_flags,
             "final_score": self.final_score,
+            "element": self.element,
+            "radical": self.radical,
+            "catalog_level": self.catalog_level,
+            "catalog_score": self.catalog_score,
+            "reason_codes": self.reason_codes,
         }
 
 
@@ -119,6 +133,9 @@ class NameCandidate:
     surname_fit: dict | None = None
     universal_candidate_risk: float = 0.0
     cross_profile_dominance_risk: float = 0.0
+    fortune_evaluation: dict | None = None
+    fortune_score: float | None = None
+    fortune_status: str = "NOT_EVALUATED"
 
     def to_dict(self) -> dict:
         return {
@@ -132,6 +149,8 @@ class NameCandidate:
             "culture_evidence_ids": self.culture_evidence_ids,
             "generation_reason_codes": self.generation_reason_codes,
             "generation_seed": self.generation_seed,
+            "first_char": self.first_char.to_dict() if self.first_char else None,
+            "second_char": self.second_char.to_dict() if self.second_char else None,
             "quality_guard": self.quality_guard,
             "score": self.score,
             "evidences": [item.to_dict() for item in self.evidences],
@@ -172,4 +191,7 @@ class NameCandidate:
             "surname_fit": self.surname_fit,
             "universal_candidate_risk": self.universal_candidate_risk,
             "cross_profile_dominance_risk": self.cross_profile_dominance_risk,
+            "fortune_evaluation": self.fortune_evaluation,
+            "fortune_score": self.fortune_score,
+            "fortune_status": self.fortune_status,
         }

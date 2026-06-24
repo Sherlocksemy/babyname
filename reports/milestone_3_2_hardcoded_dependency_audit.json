@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "allowed_rule_tables": [
+    "template name filters",
+    "negative semantic hints",
+    "semantic category compatibility matrix",
+    "structure and archetype definitions"
+  ]
+}

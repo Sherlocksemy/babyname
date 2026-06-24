@@ -25,6 +25,7 @@ class NaturalnessGuard:
         if full_name[0] == given_name[0]:
             score -= 8
             issues.append("FULL_NAME_REPETITION")
+        score += (sum(ord(char) for char in given_name) % 5) - 2
         score = max(0, min(100, score))
         return {
             "naturalness_score": score,

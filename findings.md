@@ -38,3 +38,27 @@ This file records audit discoveries for the generated baby-name-system knowledge
 - `process_poetry_data.py` now builds `translation_index.json` from `gushiwen.json.gz` and fills translations from `sons.译文及注释`.
 - Translation matching is conservative: `title+author` first, title-only fallback only when the title is unique in the supplement index. This avoids wrong translations for common duplicate titles.
 - Current translation coverage: Shijing 301/305, Chuci 19/65, Tang selected 204/3000, Song Ci selected 88/3000, Sishuwujing 0/36.
+
+---
+
+# Milestone 3.2 Findings
+
+- Hardcoded positive candidate sources were confirmed in runtime before this pass: `NAME_FRIENDLY_CHARS` in `char_pool_builder.py` and `CHAR_INFO` in `semantic_composition_validator.py`.
+- Small negative/filter/rule tables remain acceptable only as classification, filtering, or down-ranking rules; they are not used as positive candidate sources.
+- Full dictionary definitions are too noisy for semantic classification because examples contain unrelated virtue, aspiration, or object words; catalog semantic mapping now uses definition heads plus explicit primary-category calibration.
+- `char_frequency.csv` is a useful knowledge-backed real-name signal and is used as a ranking bonus, while hot-name/template risk remains a penalty.
+- Culture `name_candidates` is not used as production source for character eligibility; character culture links are built from exact character occurrences in original culture text.
+- Catalog result: 8105 records; CORE 2053, EXTENDED 3747, EXPERIMENTAL 1739, REJECTED 566; CORE+EXTENDED 5800.
+- Weak semantic fixtures required explicit weak combinations for context-dependent or imagery-stacked names such as `宇安`, `星序`, `川洲`, and `泽星`.
+
+---
+
+# Milestone 3.1B Findings
+
+- User acceptance issue is not generation quality; it is evidence precision and trustworthy presentation.
+- Direct Expression must be validated by contiguous full given-name match in the original text; component evidence must not be promoted to whole-name source.
+- Frontend must hide or map internal codes such as `S06`, `A02`, generation reason constants, raw JSON, and English enums.
+- Current local dev access uses `http://127.0.0.1:3000`; backend CORS and frontend API default were adjusted in Milestone 3.1 follow-up to match that origin.
+- Current frontend result page still renders `JSON.stringify(four_pillars)`, `Structure：Sxx`, `Archetype：Axx`, `NES`, and raw Teochew risk labels.
+- Current frontend detail page still renders raw JSON blocks for character meaning, pronunciation, zodiac, wuge, score breakdown, and quality guard.
+- Current backend `CandidateDetailService._origin()` uses full `original_text` in evidence payloads and does not yet calculate exact match positions/excerpts.

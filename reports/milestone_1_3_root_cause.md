@@ -16,8 +16,4 @@
 ## Status
 - Matrix A meets threshold: True
 - Matrix B meets threshold: True
-- Pytest: 65 passed in 136.48s
 - Milestone 2: not entered
-
-## Pytest
-- 65 passed in 136.48s

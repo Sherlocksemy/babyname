@@ -6,9 +6,9 @@ from app.core.knowledge_loader import KnowledgeLoader
 
 
 class PronunciationIndex:
-    def __init__(self, loader: KnowledgeLoader | None = None) -> None:
+    def __init__(self, loader: KnowledgeLoader | None = None, datasets: dict | None = None) -> None:
         self.loader = loader or KnowledgeLoader()
-        self.datasets = self.loader.load_all()
+        self.datasets = datasets or self.loader.load_all()
         self.mandarin = self.datasets["mandarin_pinyin"].data
         self.teochew: dict[str, list[dict]] = defaultdict(list)
         self.homophone_risks: dict[str, list[dict]] = defaultdict(list)

@@ -1,0 +1,243 @@
+{
+  "before_lichun": {
+    "year_pillar": {
+      "stem": "甲",
+      "branch": "辰",
+      "text": "甲辰"
+    },
+    "month_pillar": {
+      "stem": "丁",
+      "branch": "丑",
+      "text": "丁丑"
+    },
+    "day_pillar": {
+      "stem": "癸",
+      "branch": "卯",
+      "text": "癸卯"
+    },
+    "hour_pillar": {
+      "stem": "壬",
+      "branch": "戌",
+      "text": "壬戌"
+    },
+    "day_master": "癸",
+    "hidden_stems": {
+      "year_pillar": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "month_pillar": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "day_pillar": [
+        "乙"
+      ],
+      "hour_pillar": [
+        "戊",
+        "辛",
+        "丁"
+      ]
+    },
+    "method": {
+      "year_boundary": "LICHUN",
+      "month_boundary": "JIEQI",
+      "time_basis": "STANDARD_TIME",
+      "zi_hour_rule": "SAME_DAY",
+      "timezone": "Asia/Shanghai"
+    },
+    "cross_validation": {
+      "day_pillar_anchor_method": "癸卯",
+      "library_day_pillar": "癸卯",
+      "passed": true,
+      "anchor": "2000-01-01 戊午"
+    },
+    "status": "COMPLETE",
+    "confidence": 0.88,
+    "warnings": []
+  },
+  "after_lichun": {
+    "year_pillar": {
+      "stem": "乙",
+      "branch": "巳",
+      "text": "乙巳"
+    },
+    "month_pillar": {
+      "stem": "戊",
+      "branch": "寅",
+      "text": "戊寅"
+    },
+    "day_pillar": {
+      "stem": "甲",
+      "branch": "辰",
+      "text": "甲辰"
+    },
+    "hour_pillar": {
+      "stem": "庚",
+      "branch": "午",
+      "text": "庚午"
+    },
+    "day_master": "甲",
+    "hidden_stems": {
+      "year_pillar": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "month_pillar": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "day_pillar": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "hour_pillar": [
+        "丁",
+        "己"
+      ]
+    },
+    "method": {
+      "year_boundary": "LICHUN",
+      "month_boundary": "JIEQI",
+      "time_basis": "STANDARD_TIME",
+      "zi_hour_rule": "SAME_DAY",
+      "timezone": "Asia/Shanghai"
+    },
+    "cross_validation": {
+      "day_pillar_anchor_method": "甲辰",
+      "library_day_pillar": "甲辰",
+      "passed": true,
+      "anchor": "2000-01-01 戊午"
+    },
+    "status": "COMPLETE",
+    "confidence": 0.88,
+    "warnings": []
+  },
+  "zi_rule_same_day": {
+    "year_pillar": {
+      "stem": "乙",
+      "branch": "巳",
+      "text": "乙巳"
+    },
+    "month_pillar": {
+      "stem": "戊",
+      "branch": "寅",
+      "text": "戊寅"
+    },
+    "day_pillar": {
+      "stem": "己",
+      "branch": "巳",
+      "text": "己巳"
+    },
+    "hour_pillar": {
+      "stem": "乙",
+      "branch": "亥",
+      "text": "乙亥"
+    },
+    "day_master": "己",
+    "hidden_stems": {
+      "year_pillar": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "month_pillar": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "day_pillar": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "hour_pillar": [
+        "壬",
+        "甲"
+      ]
+    },
+    "method": {
+      "year_boundary": "LICHUN",
+      "month_boundary": "JIEQI",
+      "time_basis": "STANDARD_TIME",
+      "zi_hour_rule": "SAME_DAY",
+      "timezone": "Asia/Shanghai"
+    },
+    "cross_validation": {
+      "day_pillar_anchor_method": "己巳",
+      "library_day_pillar": "己巳",
+      "passed": true,
+      "anchor": "2000-01-01 戊午"
+    },
+    "status": "COMPLETE",
+    "confidence": 0.88,
+    "warnings": []
+  },
+  "zi_rule_next_day_at_23": {
+    "year_pillar": {
+      "stem": "乙",
+      "branch": "巳",
+      "text": "乙巳"
+    },
+    "month_pillar": {
+      "stem": "戊",
+      "branch": "寅",
+      "text": "戊寅"
+    },
+    "day_pillar": {
+      "stem": "庚",
+      "branch": "午",
+      "text": "庚午"
+    },
+    "hour_pillar": {
+      "stem": "戊",
+      "branch": "子",
+      "text": "戊子"
+    },
+    "day_master": "庚",
+    "hidden_stems": {
+      "year_pillar": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "month_pillar": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "day_pillar": [
+        "丁",
+        "己"
+      ],
+      "hour_pillar": [
+        "癸"
+      ]
+    },
+    "method": {
+      "year_boundary": "LICHUN",
+      "month_boundary": "JIEQI",
+      "time_basis": "STANDARD_TIME",
+      "zi_hour_rule": "NEXT_DAY_AT_23",
+      "timezone": "Asia/Shanghai"
+    },
+    "cross_validation": {
+      "day_pillar_anchor_method": "庚午",
+      "library_day_pillar": "庚午",
+      "passed": true,
+      "anchor": "2000-01-01 戊午"
+    },
+    "status": "COMPLETE",
+    "confidence": 0.88,
+    "warnings": []
+  },
+  "cross_validation": {
+    "method": "lunar-python EightChar plus independent day pillar sequence anchored at 2000-01-01 戊午",
+    "passed": true
+  }
+}

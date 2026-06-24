@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-06-23T17:57:39",
+  "hidden_internal_fields": [
+    "S01-S12 raw ids",
+    "A01-A12 raw ids",
+    "generation reason constants",
+    "candidate_id",
+    "raw JSON blocks",
+    "GitHub source notes"
+  ],
+  "enum_mapping": {
+    "male": "?",
+    "female": "?",
+    "neutral": "??",
+    "solar": "??",
+    "lunar": "??",
+    "COMPLETE": "????",
+    "PARTIAL": "????",
+    "NOT_EVALUATED": "????",
+    "DATA_INCOMPLETE": "??????"
+  },
+  "fortune_summary_example": {
+    "four_pillars": {
+      "year_pillar": {
+        "stem": "乙",
+        "branch": "巳",
+        "text": "乙巳"
+      },
+      "month_pillar": {
+        "stem": "戊",
+        "branch": "寅",
+        "text": "戊寅"
+      },
+      "day_pillar": {
+        "stem": "己",
+        "branch": "巳",
+        "text": "己巳"
+      },
+      "hour_pillar": {
+        "stem": "戊",
+        "branch": "辰",
+        "text": "戊辰"
+      },
+      "day_master": "己",
+      "hidden_stems": {
+        "year_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "month_pillar": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "day_pillar": [
+          "丙",
+          "庚",
+          "戊"
+        ],
+        "hour_pillar": [
+          "戊",
+          "乙",
+          "癸"
+        ]
+      },
+      "method": {
+        "year_boundary": "LICHUN",
+        "month_boundary": "JIEQI",
+        "time_basis": "TRUE_SOLAR_TIME",
+        "zi_hour_rule": "SAME_DAY",
+        "timezone": "Asia/Shanghai"
+      },
+      "cross_validation": {
+        "day_pillar_anchor_method": "己巳",
+        "library_day_pillar": "己巳",
+        "passed": true,
+        "anchor": "2000-01-01 戊午"
+      },
+      "status": "COMPLETE",
+      "confidence": 0.88,
+      "warnings": []
+    },
+    "true_solar_time_display_rule": "YYYY-MM-DD HH:mm, no microseconds"
+  },
+  "teochew_risk_fix": {
+    "characters": [
+      {
+        "char": "思",
+        "readings": [
+          {
+            "char": "思",
+            "pinyin_teochew": "sai1",
+            "tone": "1",
+            "accent": "揭阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv1",
+            "tone": "1",
+            "accent": "揭阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv3",
+            "tone": "3",
+            "accent": "揭阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sai1",
+            "tone": "1",
+            "accent": "汕头",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv1",
+            "tone": "1",
+            "accent": "汕头",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv3",
+            "tone": "3",
+            "accent": "汕头",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sai1",
+            "tone": "1",
+            "accent": "潮州",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv1",
+            "tone": "1",
+            "accent": "潮州",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv3",
+            "tone": "3",
+            "accent": "潮州",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sai1",
+            "tone": "1",
+            "accent": "潮阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "su1",
+            "tone": "1",
+            "accent": "潮阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "su3",
+            "tone": "3",
+            "accent": "潮阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sai1",
+            "tone": "1",
+            "accent": "澄海",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv1",
+            "tone": "1",
+            "accent": "澄海",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv3",
+            "tone": "3",
+            "accent": "澄海",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sai1",
+            "tone": "1",
+            "accent": "饶平",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv1",
+            "tone": "1",
+            "accent": "饶平",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "思",
+            "pinyin_teochew": "sv3",
+            "tone": "3",
+            "accent": "饶平",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          }
+        ]
+      },
+      {
+        "char": "敬",
+        "readings": [
+          {
+            "char": "敬",
+            "pinyin_teochew": "geng3",
+            "tone": "3",
+            "accent": "揭阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "敬",
+            "pinyin_teochew": "geng3",
+            "tone": "3",
+            "accent": "汕头",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "敬",
+            "pinyin_teochew": "geng3",
+            "tone": "3",
+            "accent": "潮州",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "敬",
+            "pinyin_teochew": "geng3",
+            "tone": "3",
+            "accent": "潮阳",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "敬",
+            "pinyin_teochew": "geng3",
+            "tone": "3",
+            "accent": "澄海",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          },
+          {
+            "char": "敬",
+            "pinyin_teochew": "geng3",
+            "tone": "3",
+            "accent": "饶平",
+            "is_colloquial": "False",
+            "is_literary": "False"
+          }
+        ]
+      }
+    ],
+    "full_name_reading_status": "PARTIAL",
+    "risk_level": "UNKNOWN",
+    "risk_reasons": [],
+    "limitations": [
+      "潮汕单字读音：已查询",
+      "姓名连读及变调风险：暂未完整评估"
+    ]
+  },
+  "popularity_template_risk_fix": {
+    "level": "HIGH",
+    "label": "高",
+    "reasons": [
+      "根据热门字、模板名和内部避雷规则综合评估。"
+    ]
+  },
+  "page_regression": {
+    "browser": "msedge via Playwright channel",
+    "request_id": "req_b87102ecf3a2427091f566ad5ee9b4bc",
+    "resultNoRawJson": true,
+    "resultNoInternalIds": true,
+    "resultNoEnglishEnums": true,
+    "resultHasChineseRisk": true,
+    "resultHasStructuredFourPillars": true,
+    "resultNoMicroseconds": true,
+    "detailNoRawJson": true,
+    "detailNoInternalIds": true,
+    "detailHasTwoExcerpts": true,
+    "detailTeochewHonest": true,
+    "detailPopularity": true
+  }
+}

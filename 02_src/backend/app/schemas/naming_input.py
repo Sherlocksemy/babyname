@@ -14,6 +14,7 @@ class NamingInput:
     style_preferences: list[str] = field(default_factory=list)
     liked_chars: list[str] = field(default_factory=list)
     blocked_chars: list[str] = field(default_factory=list)
+    exclude_given_names: list[str] = field(default_factory=list)
     generation_seed: int = 20260622
 
     @classmethod
@@ -28,6 +29,7 @@ class NamingInput:
             style_preferences=list(payload.get("style_preferences") or []),
             liked_chars=list(payload.get("liked_chars") or []),
             blocked_chars=list(payload.get("blocked_chars") or []),
+            exclude_given_names=list(payload.get("exclude_given_names") or []),
             generation_seed=int(payload.get("generation_seed", 20260622)),
         )
 

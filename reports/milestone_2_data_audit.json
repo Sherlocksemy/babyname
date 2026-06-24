@@ -1,0 +1,37 @@
+{
+  "read_documents": [
+    "04_docs_v5/01_PRD.md",
+    "04_docs_v5/02_SPEC.md",
+    "04_docs_v5/02A_NAMING_PHILOSOPHY.md",
+    "04_docs_v5/02B_NAMING_EVALUATION_SYSTEM.md",
+    "04_docs_v5/03_DATA_SCHEMA.md",
+    "04_docs_v5/04_DEV_PLAN.md",
+    "01_knowledge_base/06_numerology_layer/README.md",
+    "reports/knowledge_audit.json"
+  ],
+  "bazi_rules": {
+    "keys": [
+      "ten_gods",
+      "patterns",
+      "element_rules",
+      "ushen_rules",
+      "source_tables"
+    ],
+    "status": "RULE_TEXT_ONLY_FOR_ADVANCED_PATTERNS"
+  },
+  "wuge_rules": {
+    "stroke_math_count": 81,
+    "sancai_config_count": 1,
+    "interpretation_status": "DATA_INCOMPLETE",
+    "note": "81数理文本为占位式派生说明，本轮只使用五格数值，不生成吉凶断语。"
+  },
+  "zodiac_rules": {
+    "row_count": 12,
+    "status": "COMPLETE_FOR_AUXILIARY_RADICALS"
+  },
+  "calendar_dependency": {
+    "name": "lunar-python",
+    "version": "1.4.8",
+    "sxtwl_status": "FAILED_BUILD_ON_CURRENT_WINDOWS_PY314"
+  }
+}

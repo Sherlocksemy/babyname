@@ -1,0 +1,440 @@
+{
+  "sample_chars": {
+    "知": {
+      "nameability_level": "EXTENDED",
+      "nameability_score": 100,
+      "semantic_categories": [
+        "WISDOM",
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC",
+        "FUNCTION"
+      ],
+      "risk_codes": [
+        "POLYPHONE"
+      ]
+    },
+    "微": {
+      "nameability_level": "EXTENDED",
+      "nameability_score": 74,
+      "semantic_categories": [
+        "WISDOM",
+        "VIRTUE",
+        "ASPIRATION",
+        "AESTHETIC",
+        "LANDSCAPE"
+      ],
+      "risk_codes": [
+        "LOW_SOURCE_POSITIVE_LEVEL"
+      ]
+    },
+    "仁": {
+      "nameability_level": "EXTENDED",
+      "nameability_score": 100,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "FUNCTION"
+      ],
+      "risk_codes": []
+    },
+    "贤": {
+      "nameability_level": "CORE",
+      "nameability_score": 100,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION"
+      ],
+      "risk_codes": []
+    },
+    "诗": {
+      "nameability_level": "CORE",
+      "nameability_score": 100,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "CULTURE"
+      ],
+      "risk_codes": []
+    },
+    "楚": {
+      "nameability_level": "CORE",
+      "nameability_score": 100,
+      "semantic_categories": [
+        "AESTHETIC",
+        "LANDSCAPE",
+        "GROWTH"
+      ],
+      "risk_codes": []
+    },
+    "乂": {
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "ASPIRATION",
+        "FUNCTION"
+      ],
+      "risk_codes": [
+        "UNSUITABLE_FUNCTION_CHAR"
+      ]
+    },
+    "罪": {
+      "nameability_level": "REJECTED",
+      "nameability_score": 0,
+      "semantic_categories": [
+        "VIRTUE",
+        "ASPIRATION",
+        "LANDSCAPE"
+      ],
+      "risk_codes": [
+        "UNSUITABLE_FUNCTION_CHAR",
+        "NEGATIVE_SEMANTIC_HINT",
+        "LOW_NAMEABILITY_DEFINITION"
+      ]
+    },
+    "山": {
+      "nameability_level": "EXTENDED",
+      "nameability_score": 100,
+      "semantic_categories": [
+        "LANDSCAPE",
+        "VIRTUE",
+        "ASPIRATION",
+        "FUNCTION"
+      ],
+      "risk_codes": []
+    }
+  },
+  "sample_compositions": {
+    "知微": {
+      "given_name": "知微",
+      "semantic_role_first": "明辨知思",
+      "semantic_role_second": "明辨知思",
+      "first_role": "明辨知思",
+      "second_role": "明辨知思",
+      "first_category": "WISDOM",
+      "second_category": "WISDOM",
+      "relation_type": "COMPLEMENTARY",
+      "combined_meaning": "知取明辨知思之意，微取明辨知思之意，组合为WISDOM/WISDOM相成。",
+      "meaning_completeness": 96,
+      "issues": [],
+      "risk_codes": [
+        "LOW_SOURCE_POSITIVE_LEVEL",
+        "POLYPHONE"
+      ],
+      "catalog_evidence": {
+        "知": [
+          {
+            "char": "知",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000033",
+            "title": "雄雉",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "不知德行",
+            "display_excerpt": "不知德行",
+            "exact_match": true,
+            "keywords": [
+              "君子",
+              "山水",
+              "志向"
+            ]
+          },
+          {
+            "char": "知",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000040",
+            "title": "北门",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "莫知我艰",
+            "display_excerpt": "莫知我艰",
+            "exact_match": true,
+            "keywords": [
+              "文学出处",
+              "清雅"
+            ]
+          }
+        ],
+        "微": [
+          {
+            "char": "微",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000026",
+            "title": "柏舟",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "微我无酒",
+            "display_excerpt": "微我无酒",
+            "exact_match": true,
+            "keywords": [
+              "山水"
+            ]
+          },
+          {
+            "char": "微",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000036",
+            "title": "式微",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "式微",
+            "display_excerpt": "式微",
+            "exact_match": true,
+            "keywords": [
+              "志向"
+            ]
+          }
+        ]
+      },
+      "passed": true
+    },
+    "仁贤": {
+      "given_name": "仁贤",
+      "semantic_role_first": "德行品格",
+      "semantic_role_second": "德行品格",
+      "first_role": "德行品格",
+      "second_role": "德行品格",
+      "first_category": "VIRTUE",
+      "second_category": "VIRTUE",
+      "relation_type": "WEAK",
+      "combined_meaning": "",
+      "meaning_completeness": 66.0,
+      "issues": [
+        "SEMANTIC_DISCONNECT",
+        "SEMANTIC_REDUNDANCY"
+      ],
+      "risk_codes": [],
+      "catalog_evidence": {
+        "仁": [
+          {
+            "char": "仁",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000077",
+            "title": "叔于田",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "洵美且仁",
+            "display_excerpt": "洵美且仁",
+            "exact_match": true,
+            "keywords": [
+              "志向"
+            ]
+          },
+          {
+            "char": "仁",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000103",
+            "title": "卢令",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "其人美且仁",
+            "display_excerpt": "其人美且仁",
+            "exact_match": true,
+            "keywords": [
+              "志向"
+            ]
+          }
+        ],
+        "贤": [
+          {
+            "char": "贤",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000205",
+            "title": "北山",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "我从事独贤",
+            "display_excerpt": "我从事独贤",
+            "exact_match": true,
+            "keywords": [
+              "山水",
+              "志向"
+            ]
+          },
+          {
+            "char": "贤",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000246",
+            "title": "行苇",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "序宾以贤",
+            "display_excerpt": "序宾以贤",
+            "exact_match": true,
+            "keywords": [
+              "志向"
+            ]
+          }
+        ]
+      },
+      "passed": false
+    },
+    "诗楚": {
+      "given_name": "诗楚",
+      "semantic_role_first": "德行品格",
+      "semantic_role_second": "清雅温润",
+      "first_role": "德行品格",
+      "second_role": "清雅温润",
+      "first_category": "ASPIRATION",
+      "second_category": "AESTHETIC",
+      "relation_type": "COMPLEMENTARY",
+      "combined_meaning": "诗取德行品格之意，楚取清雅温润之意，组合为ASPIRATION/AESTHETIC相成。",
+      "meaning_completeness": 96,
+      "issues": [],
+      "risk_codes": [],
+      "catalog_evidence": {
+        "诗": [
+          {
+            "char": "诗",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000200",
+            "title": "巷伯",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "作为此诗",
+            "display_excerpt": "作为此诗",
+            "exact_match": true,
+            "keywords": [
+              "君子",
+              "志向",
+              "芳草"
+            ]
+          },
+          {
+            "char": "诗",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000252",
+            "title": "卷阿",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "矢诗不多",
+            "display_excerpt": "矢诗不多",
+            "exact_match": true,
+            "keywords": [
+              "君子",
+              "志向"
+            ]
+          }
+        ],
+        "楚": [
+          {
+            "char": "楚",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000009",
+            "title": "汉广",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "言刈其楚",
+            "display_excerpt": "言刈其楚",
+            "exact_match": true,
+            "keywords": [
+              "山水",
+              "芳草"
+            ]
+          },
+          {
+            "char": "楚",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000050",
+            "title": "定之方中",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "作于楚宫",
+            "display_excerpt": "作于楚宫",
+            "exact_match": true,
+            "keywords": [
+              "山水"
+            ]
+          }
+        ]
+      },
+      "passed": true
+    },
+    "峰山": {
+      "given_name": "峰山",
+      "semantic_role_first": "山川自然",
+      "semantic_role_second": "山川自然",
+      "first_role": "山川自然",
+      "second_role": "山川自然",
+      "first_category": "LANDSCAPE",
+      "second_category": "LANDSCAPE",
+      "relation_type": "WEAK",
+      "combined_meaning": "",
+      "meaning_completeness": 82.0,
+      "issues": [
+        "LANDSCAPE_DUPLICATION"
+      ],
+      "risk_codes": [],
+      "catalog_evidence": {
+        "峰": [
+          {
+            "char": "峰",
+            "source_type": "tang_poetry",
+            "source_record_id": "唐-000005",
+            "title": "帝京篇十首 五",
+            "author": "太宗皇帝",
+            "dynasty": "唐",
+            "matched_text": "峰势接云危",
+            "display_excerpt": "峰势接云危",
+            "exact_match": true,
+            "keywords": [
+              "山水",
+              "芳草"
+            ]
+          },
+          {
+            "char": "峰",
+            "source_type": "tang_poetry",
+            "source_record_id": "唐-000016",
+            "title": "经破薛举战地",
+            "author": "太宗皇帝",
+            "dynasty": "唐",
+            "matched_text": "峰雾抱莲昏",
+            "display_excerpt": "峰雾抱莲昏",
+            "exact_match": true,
+            "keywords": [
+              "山水",
+              "志向"
+            ]
+          }
+        ],
+        "山": [
+          {
+            "char": "山",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000014",
+            "title": "草虫",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "陟彼南山",
+            "display_excerpt": "陟彼南山",
+            "exact_match": true,
+            "keywords": [
+              "君子",
+              "山水",
+              "志向",
+              "芳草"
+            ]
+          },
+          {
+            "char": "山",
+            "source_type": "shijing",
+            "source_record_id": "先秦-000019",
+            "title": "殷其雷",
+            "author": "佚名",
+            "dynasty": "先秦",
+            "matched_text": "在南山之阳",
+            "display_excerpt": "在南山之阳",
+            "exact_match": true,
+            "keywords": [
+              "君子",
+              "山水",
+              "志向"
+            ]
+          }
+        ]
+      },
+      "passed": false
+    }
+  }
+}

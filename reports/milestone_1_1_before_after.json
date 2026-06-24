@@ -28,19 +28,19 @@
     "林泉清",
     "林竹清",
     "林承仁",
-    "林仁维",
-    "林德修",
-    "林嘉信",
-    "林安泉",
     "林承贤",
-    "林安德",
-    "林贤庭",
-    "林弘乔",
+    "林仁庭",
+    "林德修",
     "林信初",
+    "林安德",
+    "林谦章",
     "林正则",
+    "林弘晨",
+    "林明信",
     "林南岩",
     "林波文",
     "林海南",
+    "林安晨",
     "林明昭"
   ],
   "before_top3": [
@@ -54,13 +54,13 @@
     "林承仁"
   ],
   "old_top3_review": {
+    "林仁贤": {
+      "status": "not_generated_after_calibration"
+    },
     "林宇安": {
       "status": "not_generated_after_calibration"
     },
     "林宜言": {
-      "status": "not_generated_after_calibration"
-    },
-    "林仁贤": {
       "status": "not_generated_after_calibration"
     }
   },
@@ -71,7 +71,7 @@
       "given_name": "思敬",
       "full_name": "林思敬",
       "structure_id": "S06",
-      "archetype_id": "A02",
+      "archetype_id": "A01",
       "semantic_pattern": "思辨/敬慎",
       "culture_evidence_ids": [
         "EV-eebc676b900a",
@@ -92,15 +92,18 @@
         "penalties": {}
       },
       "score": {
-        "raw_score": 90,
-        "available_max_score": 90,
-        "normalized_score": 100.0,
+        "raw_score": 94.9,
+        "available_max_score": 100,
+        "max_score": 100,
+        "base_quality_score": 90,
+        "normalized_score": 94.9,
         "alpha_grade": "S",
-        "fortune_score": null,
-        "fortune_status": "NOT_EVALUATED",
+        "fortune_score": 4.9,
+        "fortune_status": "COMPLETE",
         "fortune_max_score": 10,
-        "score_version": "NES_ALPHA_1.3",
+        "score_version": "NES_MVP_2.0",
         "breakdown": {
+          "phonetic": 14.45,
           "phonology": 14.45,
           "meaning": 14.06,
           "culture": 13.11,
@@ -108,6 +111,7 @@
           "archetype": 10,
           "uniqueness": 4.6,
           "aesthetic": 9.21,
+          "fortune": 4.9,
           "naturalness": 92.08,
           "penalties": 0,
           "style_affinity_bonus": 1.4,
@@ -285,7 +289,7 @@
         "SEMANTIC_ROLE_MATCH"
       ],
       "archetype_rule_ids": [
-        "A02",
+        "A01",
         "STRUCTURE_ARCHETYPE_COMPATIBILITY"
       ],
       "was_example_name": false,
@@ -337,7 +341,68 @@
         "surname_fit_score": 87.36
       },
       "universal_candidate_risk": 0.0,
-      "cross_profile_dominance_risk": 0.0
+      "cross_profile_dominance_risk": 0.0,
+      "fortune_evaluation": {
+        "module_id": "fortune_fusion",
+        "status": "COMPLETE",
+        "score": 4.9,
+        "available_score": 7.5,
+        "max_score": 10,
+        "recommended_elements": [
+          "water",
+          "metal"
+        ],
+        "caution_elements": [
+          "earth"
+        ],
+        "preferred_char_features": [
+          "element:water",
+          "element:metal"
+        ],
+        "avoid_char_features": [
+          "element:earth"
+        ],
+        "warnings": [],
+        "limitations": [
+          "仅做天干、地支、藏干的基础五行统计。",
+          "不输出完整旺衰、精确格局、调候或专家级喜用神。",
+          "五格仅计算数值，不使用占位81数理吉凶解释。"
+        ],
+        "metadata": {
+          "char_elements": [
+            "metal",
+            "wood"
+          ],
+          "wuge": {
+            "surname_strokes": [
+              8
+            ],
+            "given_name_strokes": [
+              9,
+              12
+            ],
+            "tiange": 9,
+            "renge": 17,
+            "dige": 21,
+            "waige": 13,
+            "zongge": 29,
+            "sancai": "水金木",
+            "stroke_source": "KANGXI",
+            "numerology_interpretation": null,
+            "interpretation_status": "DATA_INCOMPLETE",
+            "status": "COMPLETE",
+            "warnings": [
+              "WUGE_INTERPRETATION_DATA_INCOMPLETE"
+            ]
+          },
+          "zodiac": {
+            "bazi_zodiac": "蛇",
+            "folk_zodiac": "蛇"
+          }
+        }
+      },
+      "fortune_score": 4.9,
+      "fortune_status": "COMPLETE"
     },
     {
       "candidate_id": "NC-81af877309bb",
@@ -371,15 +436,18 @@
         }
       },
       "score": {
-        "raw_score": 88.62,
-        "available_max_score": 90,
-        "normalized_score": 98.47,
+        "raw_score": 93.52,
+        "available_max_score": 100,
+        "max_score": 100,
+        "base_quality_score": 88.62,
+        "normalized_score": 93.52,
         "alpha_grade": "S",
-        "fortune_score": null,
-        "fortune_status": "NOT_EVALUATED",
+        "fortune_score": 4.9,
+        "fortune_status": "COMPLETE",
         "fortune_max_score": 10,
-        "score_version": "NES_ALPHA_1.3",
+        "score_version": "NES_MVP_2.0",
         "breakdown": {
+          "phonetic": 13.65,
           "phonology": 13.65,
           "meaning": 14.27,
           "culture": 13.79,
@@ -387,6 +455,7 @@
           "archetype": 10,
           "uniqueness": 4.0,
           "aesthetic": 9.11,
+          "fortune": 4.9,
           "naturalness": 91.12,
           "penalties": 2.0,
           "style_affinity_bonus": 0.0,
@@ -709,7 +778,70 @@
         "surname_fit_score": 87.08
       },
       "universal_candidate_risk": 4.0,
-      "cross_profile_dominance_risk": 4.0
+      "cross_profile_dominance_risk": 4.0,
+      "fortune_evaluation": {
+        "module_id": "fortune_fusion",
+        "status": "COMPLETE",
+        "score": 4.9,
+        "available_score": 7.5,
+        "max_score": 10,
+        "recommended_elements": [
+          "water",
+          "metal"
+        ],
+        "caution_elements": [
+          "earth"
+        ],
+        "preferred_char_features": [
+          "element:water",
+          "element:metal"
+        ],
+        "avoid_char_features": [
+          "element:earth"
+        ],
+        "warnings": [
+          "OVERCOMPENSATION_RISK"
+        ],
+        "limitations": [
+          "仅做天干、地支、藏干的基础五行统计。",
+          "不输出完整旺衰、精确格局、调候或专家级喜用神。",
+          "五格仅计算数值，不使用占位81数理吉凶解释。"
+        ],
+        "metadata": {
+          "char_elements": [
+            "water",
+            "water"
+          ],
+          "wuge": {
+            "surname_strokes": [
+              8
+            ],
+            "given_name_strokes": [
+              9,
+              12
+            ],
+            "tiange": 9,
+            "renge": 17,
+            "dige": 21,
+            "waige": 13,
+            "zongge": 29,
+            "sancai": "水金木",
+            "stroke_source": "KANGXI",
+            "numerology_interpretation": null,
+            "interpretation_status": "DATA_INCOMPLETE",
+            "status": "COMPLETE",
+            "warnings": [
+              "WUGE_INTERPRETATION_DATA_INCOMPLETE"
+            ]
+          },
+          "zodiac": {
+            "bazi_zodiac": "蛇",
+            "folk_zodiac": "蛇"
+          }
+        }
+      },
+      "fortune_score": 4.9,
+      "fortune_status": "COMPLETE"
     },
     {
       "candidate_id": "NC-1ee71da2423f",
@@ -738,15 +870,18 @@
         "penalties": {}
       },
       "score": {
-        "raw_score": 87.47,
-        "available_max_score": 90,
-        "normalized_score": 97.19,
+        "raw_score": 92.37,
+        "available_max_score": 100,
+        "max_score": 100,
+        "base_quality_score": 87.47,
+        "normalized_score": 92.37,
         "alpha_grade": "S",
-        "fortune_score": null,
-        "fortune_status": "NOT_EVALUATED",
+        "fortune_score": 4.9,
+        "fortune_status": "COMPLETE",
         "fortune_max_score": 10,
-        "score_version": "NES_ALPHA_1.3",
+        "score_version": "NES_MVP_2.0",
         "breakdown": {
+          "phonetic": 13.25,
           "phonology": 13.25,
           "meaning": 13.96,
           "culture": 13.11,
@@ -754,6 +889,7 @@
           "archetype": 10,
           "uniqueness": 4.6,
           "aesthetic": 9.16,
+          "fortune": 4.9,
           "naturalness": 91.6,
           "penalties": 0,
           "style_affinity_bonus": 0.54,
@@ -983,14 +1119,76 @@
         "surname_fit_score": 84.48
       },
       "universal_candidate_risk": 0.0,
-      "cross_profile_dominance_risk": 0.0
+      "cross_profile_dominance_risk": 0.0,
+      "fortune_evaluation": {
+        "module_id": "fortune_fusion",
+        "status": "COMPLETE",
+        "score": 4.9,
+        "available_score": 7.5,
+        "max_score": 10,
+        "recommended_elements": [
+          "water",
+          "metal"
+        ],
+        "caution_elements": [
+          "earth"
+        ],
+        "preferred_char_features": [
+          "element:water",
+          "element:metal"
+        ],
+        "avoid_char_features": [
+          "element:earth"
+        ],
+        "warnings": [
+          "OVERCOMPENSATION_RISK"
+        ],
+        "limitations": [
+          "仅做天干、地支、藏干的基础五行统计。",
+          "不输出完整旺衰、精确格局、调候或专家级喜用神。",
+          "五格仅计算数值，不使用占位81数理吉凶解释。"
+        ],
+        "metadata": {
+          "char_elements": [
+            "metal",
+            "metal"
+          ],
+          "wuge": {
+            "surname_strokes": [
+              8
+            ],
+            "given_name_strokes": [
+              8,
+              4
+            ],
+            "tiange": 9,
+            "renge": 16,
+            "dige": 12,
+            "waige": 5,
+            "zongge": 20,
+            "sancai": "水土木",
+            "stroke_source": "KANGXI",
+            "numerology_interpretation": null,
+            "interpretation_status": "DATA_INCOMPLETE",
+            "status": "COMPLETE",
+            "warnings": [
+              "WUGE_INTERPRETATION_DATA_INCOMPLETE"
+            ]
+          },
+          "zodiac": {
+            "bazi_zodiac": "蛇",
+            "folk_zodiac": "蛇"
+          }
+        }
+      },
+      "fortune_score": 4.9,
+      "fortune_status": "COMPLETE"
     }
   ],
   "filter_reasons": {
     "INSUFFICIENT_CORE_EVIDENCE": 18,
     "LOW_PROFILE_SPECIFICITY": 26,
-    "TOP_NAME_BLACKLIST": 2,
-    "TEMPLATE_NAME_PATTERN": 2
+    "TOP_NAME_BLACKLIST": 2
   },
   "top1": {
     "candidate_id": "NC-487a59e33aa8",
@@ -998,7 +1196,7 @@
     "given_name": "思敬",
     "full_name": "林思敬",
     "structure_id": "S06",
-    "archetype_id": "A02",
+    "archetype_id": "A01",
     "semantic_pattern": "思辨/敬慎",
     "culture_evidence_ids": [
       "EV-eebc676b900a",
@@ -1019,15 +1217,18 @@
       "penalties": {}
     },
     "score": {
-      "raw_score": 90,
-      "available_max_score": 90,
-      "normalized_score": 100.0,
+      "raw_score": 94.9,
+      "available_max_score": 100,
+      "max_score": 100,
+      "base_quality_score": 90,
+      "normalized_score": 94.9,
       "alpha_grade": "S",
-      "fortune_score": null,
-      "fortune_status": "NOT_EVALUATED",
+      "fortune_score": 4.9,
+      "fortune_status": "COMPLETE",
       "fortune_max_score": 10,
-      "score_version": "NES_ALPHA_1.3",
+      "score_version": "NES_MVP_2.0",
       "breakdown": {
+        "phonetic": 14.45,
         "phonology": 14.45,
         "meaning": 14.06,
         "culture": 13.11,
@@ -1035,6 +1236,7 @@
         "archetype": 10,
         "uniqueness": 4.6,
         "aesthetic": 9.21,
+        "fortune": 4.9,
         "naturalness": 92.08,
         "penalties": 0,
         "style_affinity_bonus": 1.4,
@@ -1212,7 +1414,7 @@
       "SEMANTIC_ROLE_MATCH"
     ],
     "archetype_rule_ids": [
-      "A02",
+      "A01",
       "STRUCTURE_ARCHETYPE_COMPATIBILITY"
     ],
     "was_example_name": false,
@@ -1264,7 +1466,68 @@
       "surname_fit_score": 87.36
     },
     "universal_candidate_risk": 0.0,
-    "cross_profile_dominance_risk": 0.0
+    "cross_profile_dominance_risk": 0.0,
+    "fortune_evaluation": {
+      "module_id": "fortune_fusion",
+      "status": "COMPLETE",
+      "score": 4.9,
+      "available_score": 7.5,
+      "max_score": 10,
+      "recommended_elements": [
+        "water",
+        "metal"
+      ],
+      "caution_elements": [
+        "earth"
+      ],
+      "preferred_char_features": [
+        "element:water",
+        "element:metal"
+      ],
+      "avoid_char_features": [
+        "element:earth"
+      ],
+      "warnings": [],
+      "limitations": [
+        "仅做天干、地支、藏干的基础五行统计。",
+        "不输出完整旺衰、精确格局、调候或专家级喜用神。",
+        "五格仅计算数值，不使用占位81数理吉凶解释。"
+      ],
+      "metadata": {
+        "char_elements": [
+          "metal",
+          "wood"
+        ],
+        "wuge": {
+          "surname_strokes": [
+            8
+          ],
+          "given_name_strokes": [
+            9,
+            12
+          ],
+          "tiange": 9,
+          "renge": 17,
+          "dige": 21,
+          "waige": 13,
+          "zongge": 29,
+          "sancai": "水金木",
+          "stroke_source": "KANGXI",
+          "numerology_interpretation": null,
+          "interpretation_status": "DATA_INCOMPLETE",
+          "status": "COMPLETE",
+          "warnings": [
+            "WUGE_INTERPRETATION_DATA_INCOMPLETE"
+          ]
+        },
+        "zodiac": {
+          "bazi_zodiac": "蛇",
+          "folk_zodiac": "蛇"
+        }
+      }
+    },
+    "fortune_score": 4.9,
+    "fortune_status": "COMPLETE"
   },
   "top1_status": "OK"
 }

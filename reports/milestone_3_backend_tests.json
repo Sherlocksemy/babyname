@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-06-23T11:29:02",
+  "command": "$env:PYTHONPATH='02_src;02_src/backend'; python -m pytest 02_src/backend/tests -q",
+  "status": "passed",
+  "result": "105 passed, 33 warnings in 210.37s",
+  "notes": [
+    "Warnings are FastAPI TestClient httpx deprecation and Python utcnow deprecation; no failures."
+  ]
+}

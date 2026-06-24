@@ -1,0 +1,43 @@
+{
+  "version": "name_char_catalog.v1",
+  "built_at": "2026-06-23T11:11:44.799476+00:00",
+  "source": "01_knowledge_base",
+  "statistics": {
+    "total_records": 8105,
+    "nameability_levels": {
+      "REJECTED": 566,
+      "EXTENDED": 3747,
+      "CORE": 2053,
+      "EXPERIMENTAL": 1739
+    },
+    "core_extended_count": 5800,
+    "rejected_count": 566,
+    "with_culture_evidence": 5465,
+    "semantic_categories": {
+      "ASPIRATION": 4905,
+      "AESTHETIC": 2917,
+      "SPACE": 165,
+      "GROWTH": 995,
+      "FUNCTION": 3526,
+      "VIRTUE": 2796,
+      "ORDER": 148,
+      "OBJECT": 423,
+      "LANDSCAPE": 471,
+      "LEARNING": 417,
+      "CULTURE": 336,
+      "UNKNOWN": 710,
+      "PEACE": 266,
+      "WISDOM": 180,
+      "WATER": 672,
+      "CAPABILITY": 143,
+      "CULTIVATION": 144,
+      "BRIGHTNESS": 368
+    }
+  },
+  "files": {
+    "catalog": "G:\\Codex\\baby-name-system\\02_src\\backend\\runtime\\derived\\name_char_catalog.v1.json",
+    "semantic_roles": "G:\\Codex\\baby-name-system\\02_src\\backend\\runtime\\derived\\semantic_role_catalog.v1.json",
+    "culture_links": "G:\\Codex\\baby-name-system\\02_src\\backend\\runtime\\derived\\character_culture_links.v1.json",
+    "rejected": "G:\\Codex\\baby-name-system\\02_src\\backend\\runtime\\derived\\rejected_name_chars.v1.json"
+  }
+}

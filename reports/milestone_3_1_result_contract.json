@@ -1,0 +1,1232 @@
+{
+  "generated_at": "2026-06-23T17:00:51",
+  "fixed_case_input": {
+    "surname": "林",
+    "gender": "male",
+    "calendar_type": "solar",
+    "birth_year": 2025,
+    "birth_month": 3,
+    "birth_day": 1,
+    "birth_hour": 8,
+    "birth_minute": 30,
+    "is_leap_month": false,
+    "birth_province": "广东省",
+    "birth_city": "汕头市",
+    "timezone": "Asia/Shanghai",
+    "region": "teochew",
+    "style_preferences": [
+      "书卷清雅",
+      "君子品格"
+    ],
+    "liked_chars": [],
+    "blocked_chars": [],
+    "generation_seed": 20260623
+  },
+  "pre_fix_baseline": {
+    "source": "reports/baby_name_system_m3_audit.md reproduction baseline",
+    "orchestrator_top3": [
+      "林思敬",
+      "林承仁",
+      "林谦正"
+    ],
+    "api_top3": [
+      "林思敬",
+      "林思弘",
+      "林敬谦"
+    ],
+    "orchestrator_backup7": [
+      "林信初",
+      "林安德",
+      "林波文",
+      "林明昭",
+      "林思弘",
+      "林敬谦",
+      "林承贤"
+    ],
+    "api_backup7": [
+      "林承仁",
+      "林承贤",
+      "林仁庭",
+      "林谦正",
+      "林安德",
+      "林德嘉",
+      "林明信"
+    ],
+    "observed_regenerate_counts": [
+      {
+        "http": 202,
+        "status": "COMPLETED",
+        "top3": 3,
+        "backup7": 6,
+        "result_status": "OK"
+      },
+      {
+        "http": 202,
+        "status": "COMPLETED",
+        "top3": 3,
+        "backup7": 0,
+        "result_status": "OK"
+      },
+      {
+        "http": 409,
+        "status": null,
+        "top3": 0,
+        "backup7": 0,
+        "result_status": null
+      }
+    ]
+  },
+  "post_fix": {
+    "orchestrator": {
+      "top3": [
+        {
+          "position": 1,
+          "full_name": "林思敬",
+          "given_name": "思敬",
+          "engine_candidate_id": "NC-54eb16c3825e",
+          "score": {
+            "raw_score": 94.9,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 90,
+            "normalized_score": 94.9,
+            "alpha_grade": "S",
+            "fortune_score": 4.9,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 14.45,
+              "phonology": 14.45,
+              "meaning": 14.06,
+              "culture": 13.11,
+              "structure": 19.65,
+              "archetype": 10,
+              "uniqueness": 4.6,
+              "aesthetic": 9.21,
+              "fortune": 4.9,
+              "naturalness": 92.08,
+              "penalties": 0,
+              "style_affinity_bonus": 1.4,
+              "profile_specificity": 98.48,
+              "surname_fit": 87.36,
+              "profile_adjustment": 3.74
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.86,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.39,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.3,
+                "expression_completeness": 2.62,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 4.05,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 1.6,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.84,
+                "real_name_feel": 2.03,
+                "adult_usability": 1.75,
+                "conceptualization_risk": 1.66,
+                "surname_fit": 1.93
+              },
+              "style_affinity": {
+                "input_style_match": 1.4,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 96.0,
+                "gender_tone_fit_score": 90.0,
+                "imagery_fit_score": 86,
+                "surname_fit_score": 87.36,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": true
+          }
+        },
+        {
+          "position": 2,
+          "full_name": "林承仁",
+          "given_name": "承仁",
+          "engine_candidate_id": "NC-13bc2727c711",
+          "score": {
+            "raw_score": 92.37,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 87.47,
+            "normalized_score": 92.37,
+            "alpha_grade": "S",
+            "fortune_score": 4.9,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 13.25,
+              "phonology": 13.25,
+              "meaning": 13.96,
+              "culture": 13.11,
+              "structure": 19.56,
+              "archetype": 10,
+              "uniqueness": 4.6,
+              "aesthetic": 9.16,
+              "fortune": 4.9,
+              "naturalness": 91.6,
+              "penalties": 0,
+              "style_affinity_bonus": 0.54,
+              "profile_specificity": 98.62,
+              "surname_fit": 84.48,
+              "profile_adjustment": 3.29
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 1.8,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.78,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.38,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.3,
+                "expression_completeness": 2.62,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 3.96,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 1.6,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.83,
+                "real_name_feel": 2.02,
+                "adult_usability": 1.74,
+                "conceptualization_risk": 1.65,
+                "surname_fit": 1.92
+              },
+              "style_affinity": {
+                "input_style_match": 0.54,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 92.0,
+                "gender_tone_fit_score": 90.0,
+                "imagery_fit_score": 98,
+                "surname_fit_score": 84.48,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": true
+          }
+        },
+        {
+          "position": 3,
+          "full_name": "林谦正",
+          "given_name": "谦正",
+          "engine_candidate_id": "NC-0cb57e152589",
+          "score": {
+            "raw_score": 90.88,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 85.68,
+            "normalized_score": 90.88,
+            "alpha_grade": "S",
+            "fortune_score": 5.2,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 14.45,
+              "phonology": 14.45,
+              "meaning": 13.91,
+              "culture": 12.59,
+              "structure": 19.52,
+              "archetype": 10,
+              "uniqueness": 4.0,
+              "aesthetic": 9.14,
+              "fortune": 5.2,
+              "naturalness": 91.36,
+              "penalties": 2.0,
+              "style_affinity_bonus": 0.54,
+              "profile_specificity": 96.8,
+              "surname_fit": 87.36,
+              "profile_adjustment": 3.53
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.74,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.38,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.24,
+                "expression_completeness": 2.56,
+                "source_depth": 2.2,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 3.92,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 1.0,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.83,
+                "real_name_feel": 2.01,
+                "adult_usability": 1.74,
+                "conceptualization_risk": 1.64,
+                "surname_fit": 1.92
+              },
+              "style_affinity": {
+                "input_style_match": 0.54,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 92.0,
+                "gender_tone_fit_score": 90.0,
+                "imagery_fit_score": 86,
+                "surname_fit_score": 87.36,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": true
+          }
+        }
+      ],
+      "backup7": [
+        {
+          "position": 1,
+          "full_name": "林信初",
+          "given_name": "信初",
+          "engine_candidate_id": "NC-319efa6b972f",
+          "score": {
+            "raw_score": 90.66,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 85.76,
+            "normalized_score": 90.66,
+            "alpha_grade": "S",
+            "fortune_score": 4.9,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 14.45,
+              "phonology": 14.45,
+              "meaning": 13.48,
+              "culture": 12.87,
+              "structure": 19.12,
+              "archetype": 10,
+              "uniqueness": 5,
+              "aesthetic": 8.92,
+              "fortune": 4.9,
+              "naturalness": 89.2,
+              "penalties": 0,
+              "style_affinity_bonus": 0.0,
+              "profile_specificity": 86.88,
+              "surname_fit": 87.36,
+              "profile_adjustment": 1.92
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.36,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.32,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.18,
+                "expression_completeness": 2.5,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 3.52,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 2.0,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.78,
+                "real_name_feel": 1.96,
+                "adult_usability": 1.69,
+                "conceptualization_risk": 1.61,
+                "surname_fit": 1.87
+              },
+              "style_affinity": {
+                "input_style_match": 0.0,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 88.0,
+                "gender_tone_fit_score": 78.0,
+                "imagery_fit_score": 80,
+                "surname_fit_score": 87.36,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": false,
+            "top1_eligible": false
+          }
+        },
+        {
+          "position": 2,
+          "full_name": "林安德",
+          "given_name": "安德",
+          "engine_candidate_id": "NC-2bcd09b162e5",
+          "score": {
+            "raw_score": 90.46,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 86.56,
+            "normalized_score": 90.46,
+            "alpha_grade": "S",
+            "fortune_score": 3.9,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 15,
+              "phonology": 15,
+              "meaning": 14.11,
+              "culture": 13.11,
+              "structure": 19.69,
+              "archetype": 10,
+              "uniqueness": 3.6,
+              "aesthetic": 9.23,
+              "fortune": 3.9,
+              "naturalness": 92.32,
+              "penalties": 2.0,
+              "style_affinity_bonus": 0.54,
+              "profile_specificity": 96.63,
+              "surname_fit": 85.92,
+              "profile_adjustment": 3.28
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 3.0
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.91,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.4,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.3,
+                "expression_completeness": 2.62,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 4.09,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 0.6,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.85,
+                "real_name_feel": 2.03,
+                "adult_usability": 1.75,
+                "conceptualization_risk": 1.66,
+                "surname_fit": 1.94
+              },
+              "style_affinity": {
+                "input_style_match": 0.54,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 92.0,
+                "gender_tone_fit_score": 90.0,
+                "imagery_fit_score": 86,
+                "surname_fit_score": 85.92,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": true
+          }
+        },
+        {
+          "position": 3,
+          "full_name": "林波文",
+          "given_name": "波文",
+          "engine_candidate_id": "NC-5920ec04375f",
+          "score": {
+            "raw_score": 83.38,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 78.48,
+            "normalized_score": 83.38,
+            "alpha_grade": "S",
+            "fortune_score": 4.9,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 14.45,
+              "phonology": 14.45,
+              "meaning": 13.58,
+              "culture": 12.27,
+              "structure": 19.21,
+              "archetype": 10,
+              "uniqueness": 3.6,
+              "aesthetic": 8.97,
+              "fortune": 4.9,
+              "naturalness": 89.68,
+              "penalties": 6.0,
+              "style_affinity_bonus": 0.54,
+              "profile_specificity": 88.39,
+              "surname_fit": 85.92,
+              "profile_adjustment": 1.87
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.44,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.33,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.18,
+                "expression_completeness": 2.5,
+                "source_depth": 2.0,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 3.61,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 0.6,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.79,
+                "real_name_feel": 1.97,
+                "adult_usability": 1.7,
+                "conceptualization_risk": 1.61,
+                "surname_fit": 1.88
+              },
+              "style_affinity": {
+                "input_style_match": 0.54,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 92.0,
+                "gender_tone_fit_score": 78.0,
+                "imagery_fit_score": 80,
+                "surname_fit_score": 85.92,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": false
+          }
+        },
+        {
+          "position": 4,
+          "full_name": "林明昭",
+          "given_name": "明昭",
+          "engine_candidate_id": "NC-428d86cfe9d4",
+          "score": {
+            "raw_score": 80.2,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 76,
+            "normalized_score": 80.2,
+            "alpha_grade": "A",
+            "fortune_score": 4.2,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 13.9,
+              "phonology": 13.9,
+              "meaning": 14.46,
+              "culture": 14.22,
+              "structure": 18.52,
+              "archetype": 7.95,
+              "uniqueness": 3.6,
+              "aesthetic": 9.21,
+              "fortune": 4.2,
+              "naturalness": 92.08,
+              "penalties": 4.0,
+              "style_affinity_bonus": 0.0,
+              "profile_specificity": 80.13,
+              "surname_fit": 85.92,
+              "profile_adjustment": 0.07
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 1.9
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.86,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.39,
+                "time_stability": 2.1
+              },
+              "culture": {
+                "evidence_level": 4.1,
+                "original_text_relevance": 2.66,
+                "expression_completeness": 3.04,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 1.81
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 4.05,
+                "structure_rarity": 3.3,
+                "explainability": 4.0,
+                "structure_match": 3.17
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 2.45,
+                "archetype_match": 2.1
+              },
+              "uniqueness": {
+                "hot_char_risk": 0.6,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.84,
+                "real_name_feel": 2.03,
+                "adult_usability": 1.75,
+                "conceptualization_risk": 1.66,
+                "surname_fit": 1.93
+              },
+              "style_affinity": {
+                "input_style_match": 0.0,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 88.0,
+                "gender_tone_fit_score": 78.0,
+                "imagery_fit_score": 74,
+                "surname_fit_score": 85.92,
+                "universal_candidate_risk": 18.0
+              }
+            },
+            "top3_eligible": false,
+            "top1_eligible": false
+          }
+        },
+        {
+          "position": 5,
+          "full_name": "林思弘",
+          "given_name": "思弘",
+          "engine_candidate_id": "NC-835f7f3cd88b",
+          "score": {
+            "raw_score": 94.04,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 88.74,
+            "normalized_score": 94.04,
+            "alpha_grade": "S",
+            "fortune_score": 5.3,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 14.45,
+              "phonology": 14.45,
+              "meaning": 14.25,
+              "culture": 13.11,
+              "structure": 19.82,
+              "archetype": 10,
+              "uniqueness": 4.6,
+              "aesthetic": 9.3,
+              "fortune": 5.3,
+              "naturalness": 93.04,
+              "penalties": 0,
+              "style_affinity_bonus": 0.85,
+              "profile_specificity": 92.31,
+              "surname_fit": 85.92,
+              "profile_adjustment": 2.34
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 4.03,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.42,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.3,
+                "expression_completeness": 2.62,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 4.22,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 1.6,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.86,
+                "real_name_feel": 2.05,
+                "adult_usability": 1.77,
+                "conceptualization_risk": 1.67,
+                "surname_fit": 1.95
+              },
+              "style_affinity": {
+                "input_style_match": 0.85,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 92.0,
+                "gender_tone_fit_score": 78.0,
+                "imagery_fit_score": 74,
+                "surname_fit_score": 85.92,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": true
+          }
+        },
+        {
+          "position": 6,
+          "full_name": "林敬谦",
+          "given_name": "敬谦",
+          "engine_candidate_id": "NC-462df4a799bf",
+          "score": {
+            "raw_score": 93.27,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 89.17,
+            "normalized_score": 93.27,
+            "alpha_grade": "S",
+            "fortune_score": 4.1,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 15,
+              "phonology": 15,
+              "meaning": 14.01,
+              "culture": 12.99,
+              "structure": 19.8,
+              "archetype": 10,
+              "uniqueness": 5,
+              "aesthetic": 9.18,
+              "fortune": 4.1,
+              "naturalness": 91.84,
+              "penalties": 0,
+              "style_affinity_bonus": 0.85,
+              "profile_specificity": 88.24,
+              "surname_fit": 87.36,
+              "profile_adjustment": 2.33
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 3.0,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 3.0
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.82,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.39,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.24,
+                "expression_completeness": 2.56,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 4.0,
+                "structure_rarity": 3.4,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 2.0,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.84,
+                "real_name_feel": 2.02,
+                "adult_usability": 1.74,
+                "conceptualization_risk": 1.65,
+                "surname_fit": 1.93
+              },
+              "style_affinity": {
+                "input_style_match": 0.85,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 74.0,
+                "gender_tone_fit_score": 90.0,
+                "imagery_fit_score": 86,
+                "surname_fit_score": 87.36,
+                "universal_candidate_risk": 4.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": false
+          }
+        },
+        {
+          "position": 7,
+          "full_name": "林承贤",
+          "given_name": "承贤",
+          "engine_candidate_id": "NC-9ff8e815db6f",
+          "score": {
+            "raw_score": 92.35,
+            "available_max_score": 100,
+            "max_score": 100,
+            "base_quality_score": 86.75,
+            "normalized_score": 92.35,
+            "alpha_grade": "S",
+            "fortune_score": 5.6,
+            "fortune_status": "COMPLETE",
+            "fortune_max_score": 10,
+            "score_version": "NES_MVP_2.0",
+            "breakdown": {
+              "phonetic": 13.25,
+              "phonology": 13.25,
+              "meaning": 13.91,
+              "culture": 13.11,
+              "structure": 19.52,
+              "archetype": 10,
+              "uniqueness": 5,
+              "aesthetic": 9.14,
+              "fortune": 5.6,
+              "naturalness": 91.36,
+              "penalties": 0,
+              "style_affinity_bonus": 0.0,
+              "profile_specificity": 94.78,
+              "surname_fit": 84.48,
+              "profile_adjustment": 2.83
+            },
+            "sub_breakdown": {
+              "phonology": {
+                "tone_variation": 1.8,
+                "initial_conflict": 3.0,
+                "final_conflict": 3.0,
+                "surname_link": 3.0,
+                "internal_flow": 2.45
+              },
+              "meaning": {
+                "char_meaning_quality": 2.9,
+                "composition_completeness": 3.74,
+                "semantic_complementarity": 3.2,
+                "modern_understanding": 2.38,
+                "time_stability": 1.7
+              },
+              "culture": {
+                "evidence_level": 3.35,
+                "original_text_relevance": 2.3,
+                "expression_completeness": 2.62,
+                "source_depth": 2.6,
+                "evidence_uniqueness": 2.24
+              },
+              "structure": {
+                "two_semantic_roles": 4.0,
+                "structure_integrity": 3.92,
+                "structure_rarity": 3.2,
+                "explainability": 4.0,
+                "structure_match": 4.4
+              },
+              "archetype": {
+                "archetype_clarity": 3.4,
+                "archetype_consistency": 3.4,
+                "archetype_match": 3.2
+              },
+              "uniqueness": {
+                "hot_char_risk": 2.0,
+                "hot_combo_risk": 1.5,
+                "template_risk": 1.5
+              },
+              "aesthetic": {
+                "restraint": 1.83,
+                "real_name_feel": 2.01,
+                "adult_usability": 1.74,
+                "conceptualization_risk": 1.64,
+                "surname_fit": 1.92
+              },
+              "style_affinity": {
+                "input_style_match": 0.0,
+                "source": "style_preferences and liked_chars"
+              },
+              "profile_specificity": {
+                "style_fit_score": 88.0,
+                "gender_tone_fit_score": 90.0,
+                "imagery_fit_score": 86,
+                "surname_fit_score": 84.48,
+                "universal_candidate_risk": 0.0
+              }
+            },
+            "top3_eligible": true,
+            "top1_eligible": true
+          }
+        }
+      ],
+      "result_status": "OK",
+      "qualified_count": 10
+    },
+    "api": {
+      "http_status": 202,
+      "request_id": "req_6e5eded158f0425f83a84d088d3f210e",
+      "run_id": "run_62016b70e13f48f2b18d36a81a19d3b9",
+      "status": "COMPLETED",
+      "result_status": "COMPLETE",
+      "counts": {
+        "top3": 3,
+        "backup": 7,
+        "qualified": 10,
+        "required": 10
+      },
+      "top3": [
+        {
+          "position": 1,
+          "full_name": "林思敬",
+          "given_name": "思敬",
+          "engine_candidate_id": "NC-54eb16c3825e",
+          "score": 94.9,
+          "api_candidate_id": "cand_6b1110acff9443ba9c5ce99a07f7ad70"
+        },
+        {
+          "position": 2,
+          "full_name": "林承仁",
+          "given_name": "承仁",
+          "engine_candidate_id": "NC-13bc2727c711",
+          "score": 92.37,
+          "api_candidate_id": "cand_7d4d7b77c9c8450096cd14952206a0e5"
+        },
+        {
+          "position": 3,
+          "full_name": "林谦正",
+          "given_name": "谦正",
+          "engine_candidate_id": "NC-0cb57e152589",
+          "score": 90.88,
+          "api_candidate_id": "cand_7373ab92a9de42a28cde02f018d496b2"
+        }
+      ],
+      "backup7": [
+        {
+          "position": 1,
+          "full_name": "林信初",
+          "given_name": "信初",
+          "engine_candidate_id": "NC-319efa6b972f",
+          "score": 90.66,
+          "api_candidate_id": "cand_c9e48931b96a46578410cf7e05b5c90b"
+        },
+        {
+          "position": 2,
+          "full_name": "林安德",
+          "given_name": "安德",
+          "engine_candidate_id": "NC-2bcd09b162e5",
+          "score": 90.46,
+          "api_candidate_id": "cand_6fb0b2dc50ab4fc68bf4f50a9d789feb"
+        },
+        {
+          "position": 3,
+          "full_name": "林波文",
+          "given_name": "波文",
+          "engine_candidate_id": "NC-5920ec04375f",
+          "score": 83.38,
+          "api_candidate_id": "cand_6e426f8274ab405c93c601bb27fa8f7f"
+        },
+        {
+          "position": 4,
+          "full_name": "林明昭",
+          "given_name": "明昭",
+          "engine_candidate_id": "NC-428d86cfe9d4",
+          "score": 80.2,
+          "api_candidate_id": "cand_184df64a661843b1a242b243b90a56ff"
+        },
+        {
+          "position": 5,
+          "full_name": "林思弘",
+          "given_name": "思弘",
+          "engine_candidate_id": "NC-835f7f3cd88b",
+          "score": 94.04,
+          "api_candidate_id": "cand_50dd2f5b0f344aba8647a6842b171b3f"
+        },
+        {
+          "position": 6,
+          "full_name": "林敬谦",
+          "given_name": "敬谦",
+          "engine_candidate_id": "NC-462df4a799bf",
+          "score": 93.27,
+          "api_candidate_id": "cand_3c53a386c02e4317bcaf8756a2e1874a"
+        },
+        {
+          "position": 7,
+          "full_name": "林承贤",
+          "given_name": "承贤",
+          "engine_candidate_id": "NC-9ff8e815db6f",
+          "score": 92.35,
+          "api_candidate_id": "cand_1f8232b5b1fb45f2952909005f2008d0"
+        }
+      ]
+    },
+    "top3_ids_match_ranking_engine": true,
+    "backup7_ids_match_ranking_engine": true,
+    "top3_comparison": [
+      {
+        "position": 1,
+        "orchestrator_full_name": "林思敬",
+        "api_full_name": "林思敬",
+        "orchestrator_candidate_id": "NC-54eb16c3825e",
+        "api_engine_candidate_id": "NC-54eb16c3825e",
+        "matched": true
+      },
+      {
+        "position": 2,
+        "orchestrator_full_name": "林承仁",
+        "api_full_name": "林承仁",
+        "orchestrator_candidate_id": "NC-13bc2727c711",
+        "api_engine_candidate_id": "NC-13bc2727c711",
+        "matched": true
+      },
+      {
+        "position": 3,
+        "orchestrator_full_name": "林谦正",
+        "api_full_name": "林谦正",
+        "orchestrator_candidate_id": "NC-0cb57e152589",
+        "api_engine_candidate_id": "NC-0cb57e152589",
+        "matched": true
+      }
+    ],
+    "backup7_comparison": [
+      {
+        "position": 1,
+        "orchestrator_full_name": "林信初",
+        "api_full_name": "林信初",
+        "orchestrator_candidate_id": "NC-319efa6b972f",
+        "api_engine_candidate_id": "NC-319efa6b972f",
+        "matched": true
+      },
+      {
+        "position": 2,
+        "orchestrator_full_name": "林安德",
+        "api_full_name": "林安德",
+        "orchestrator_candidate_id": "NC-2bcd09b162e5",
+        "api_engine_candidate_id": "NC-2bcd09b162e5",
+        "matched": true
+      },
+      {
+        "position": 3,
+        "orchestrator_full_name": "林波文",
+        "api_full_name": "林波文",
+        "orchestrator_candidate_id": "NC-5920ec04375f",
+        "api_engine_candidate_id": "NC-5920ec04375f",
+        "matched": true
+      },
+      {
+        "position": 4,
+        "orchestrator_full_name": "林明昭",
+        "api_full_name": "林明昭",
+        "orchestrator_candidate_id": "NC-428d86cfe9d4",
+        "api_engine_candidate_id": "NC-428d86cfe9d4",
+        "matched": true
+      },
+      {
+        "position": 5,
+        "orchestrator_full_name": "林思弘",
+        "api_full_name": "林思弘",
+        "orchestrator_candidate_id": "NC-835f7f3cd88b",
+        "api_engine_candidate_id": "NC-835f7f3cd88b",
+        "matched": true
+      },
+      {
+        "position": 6,
+        "orchestrator_full_name": "林敬谦",
+        "api_full_name": "林敬谦",
+        "orchestrator_candidate_id": "NC-462df4a799bf",
+        "api_engine_candidate_id": "NC-462df4a799bf",
+        "matched": true
+      },
+      {
+        "position": 7,
+        "orchestrator_full_name": "林承贤",
+        "api_full_name": "林承贤",
+        "orchestrator_candidate_id": "NC-9ff8e815db6f",
+        "api_engine_candidate_id": "NC-9ff8e815db6f",
+        "matched": true
+      }
+    ],
+    "select_visible_candidates_handling": {
+      "status": "disabled",
+      "method_behavior": "raises RuntimeError if called",
+      "message": "RankingEngine result is the only visible-result source."
+    },
+    "state_contract": {
+      "COMPLETE": "top3_count == 3 and backup7_count == 7",
+      "PARTIAL": "top3_count == 3 and backup7_count < 7; result_status=INSUFFICIENT_QUALIFIED_CANDIDATES",
+      "FAILED": "top3_count < 3 or engine/storage failure; no readable result replacement"
+    }
+  }
+}

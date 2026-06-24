@@ -4,8 +4,9 @@ from app.schemas.candidate import NameCandidate
 
 
 class CandidateQualityScorer:
-    SCORE_VERSION = "NES_ALPHA_1.3"
-    AVAILABLE_MAX_SCORE = 90
+    SCORE_VERSION = "NES_MVP_2.0"
+    AVAILABLE_MAX_SCORE = 100
+    BASE_MAX_SCORE = 90
 
     def score(self, candidate: NameCandidate) -> dict:
         first = candidate.first_char
@@ -90,10 +91,13 @@ class CandidateQualityScorer:
         penalties = sum((candidate.quality_guard or {}).get("penalties", {}).values())
         style_bonus = min(3.5, candidate.style_affinity_score * 0.45)
         profile_adjustment = self._profile_adjustment(candidate)
-        raw_score = max(0, phonology + meaning + culture + structure + archetype + uniqueness + aesthetic + style_bonus + profile_adjustment - penalties)
-        raw_score = min(self.AVAILABLE_MAX_SCORE, self._apply_caps(raw_score, candidate))
+        base_score = max(0, phonology + meaning + culture + structure + archetype + uniqueness + aesthetic + style_bonus + profile_adjustment - penalties)
+        base_score = min(self.BASE_MAX_SCORE, self._apply_caps(base_score, candidate))
+        fortune_score = candidate.fortune_score if candidate.fortune_score is not None else None
+        raw_score = min(self.AVAILABLE_MAX_SCORE, base_score + (fortune_score or 0))
         normalized = raw_score / self.AVAILABLE_MAX_SCORE * 100
         breakdown = {
+            "phonetic": round(phonology, 2),
             "phonology": round(phonology, 2),
             "meaning": round(meaning, 2),
             "culture": round(culture, 2),
@@ -101,6 +105,7 @@ class CandidateQualityScorer:
             "archetype": round(archetype, 2),
             "uniqueness": round(uniqueness, 2),
             "aesthetic": round(aesthetic, 2),
+            "fortune": round(fortune_score, 2) if fortune_score is not None else None,
             "naturalness": round(candidate.naturalness_score, 2),
             "penalties": round(penalties, 2),
             "style_affinity_bonus": round(style_bonus, 2),
@@ -128,10 +133,12 @@ class CandidateQualityScorer:
         return {
             "raw_score": round(raw_score, 2),
             "available_max_score": self.AVAILABLE_MAX_SCORE,
+            "max_score": self.AVAILABLE_MAX_SCORE,
+            "base_quality_score": round(base_score, 2),
             "normalized_score": round(normalized, 2),
             "alpha_grade": self._grade(raw_score),
-            "fortune_score": None,
-            "fortune_status": "NOT_EVALUATED",
+            "fortune_score": round(fortune_score, 2) if fortune_score is not None else None,
+            "fortune_status": candidate.fortune_status,
             "fortune_max_score": 10,
             "score_version": self.SCORE_VERSION,
             "breakdown": breakdown,

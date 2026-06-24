@@ -303,7 +303,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 0.0,
-    "cross_profile_dominance_risk": 0.0
+    "cross_profile_dominance_risk": 0.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-e24da08112d7",
@@ -600,7 +603,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-1b1aa9a51607",
@@ -891,7 +897,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 42.8,
-    "cross_profile_dominance_risk": 42.8
+    "cross_profile_dominance_risk": 42.8,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-a1b9874d8fc3",
@@ -1189,7 +1198,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 18.0,
-    "cross_profile_dominance_risk": 18.0
+    "cross_profile_dominance_risk": 18.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-def5bbec521f",
@@ -1486,7 +1498,10 @@
       "surname_fit_score": 84.48
     },
     "universal_candidate_risk": 0.0,
-    "cross_profile_dominance_risk": 0.0
+    "cross_profile_dominance_risk": 0.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-ba073b89eb6c",
@@ -1774,7 +1789,10 @@
       "surname_fit_score": 89.92
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-375d7524839d",
@@ -2074,7 +2092,10 @@
       "surname_fit_score": 83.52
     },
     "universal_candidate_risk": 42.8,
-    "cross_profile_dominance_risk": 42.8
+    "cross_profile_dominance_risk": 42.8,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-5955e341633b",
@@ -2369,7 +2390,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-beb9bcb36c2f",
@@ -2668,7 +2692,10 @@
       "surname_fit_score": 83.52
     },
     "universal_candidate_risk": 26.0,
-    "cross_profile_dominance_risk": 26.0
+    "cross_profile_dominance_risk": 26.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-aa18017d5ee4",
@@ -2966,7 +2993,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 26.8,
-    "cross_profile_dominance_risk": 26.8
+    "cross_profile_dominance_risk": 26.8,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-fe40ad877706",
@@ -3262,7 +3292,10 @@
       "surname_fit_score": 80.64
     },
     "universal_candidate_risk": 26.0,
-    "cross_profile_dominance_risk": 26.0
+    "cross_profile_dominance_risk": 26.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-449adf8a84b2",
@@ -3561,7 +3594,10 @@
       "surname_fit_score": 82.08
     },
     "universal_candidate_risk": 42.8,
-    "cross_profile_dominance_risk": 42.8
+    "cross_profile_dominance_risk": 42.8,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-c271b8a1b647",
@@ -3858,7 +3894,10 @@
       "surname_fit_score": 87.42
     },
     "universal_candidate_risk": 26.0,
-    "cross_profile_dominance_risk": 26.0
+    "cross_profile_dominance_risk": 26.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-dc3b251500ad",
@@ -4157,7 +4196,10 @@
       "surname_fit_score": 82.14
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-cd80e0d7b046",
@@ -4441,7 +4483,10 @@
       "surname_fit_score": 82.08
     },
     "universal_candidate_risk": 29.2,
-    "cross_profile_dominance_risk": 29.2
+    "cross_profile_dominance_risk": 29.2,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-c58d050d968f",
@@ -4737,7 +4782,10 @@
       "surname_fit_score": 82.08
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-f255617742e0",
@@ -5035,7 +5083,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 18.0,
-    "cross_profile_dominance_risk": 18.0
+    "cross_profile_dominance_risk": 18.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-a1bf09a582a3",
@@ -5318,7 +5369,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 26.8,
-    "cross_profile_dominance_risk": 26.8
+    "cross_profile_dominance_risk": 26.8,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-87f507d17c41",
@@ -5615,7 +5669,10 @@
       "surname_fit_score": 87.42
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-c180dfed1cb9",
@@ -5912,7 +5969,10 @@
       "surname_fit_score": 87.08
     },
     "universal_candidate_risk": 20.0,
-    "cross_profile_dominance_risk": 20.0
+    "cross_profile_dominance_risk": 20.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-f29c31d3117a",
@@ -6121,7 +6181,10 @@
       "surname_fit_score": 87.98
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-f4b807f7f51e",
@@ -6364,7 +6427,10 @@
       "surname_fit_score": 89.42
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-f1620547e6e1",
@@ -6663,7 +6729,10 @@
       "surname_fit_score": 83.52
     },
     "universal_candidate_risk": 42.8,
-    "cross_profile_dominance_risk": 42.8
+    "cross_profile_dominance_risk": 42.8,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-889d7f7bbc6b",
@@ -6959,7 +7028,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-0f647ea04655",
@@ -7249,7 +7321,10 @@
       "surname_fit_score": 82.14
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-f3fd50f80212",
@@ -7439,7 +7514,10 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-3aff434942bd",
@@ -7629,7 +7707,402 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
+  },
+  {
+    "candidate_id": "NC-baf3464c3772",
+    "surname": "林",
+    "given_name": "弘波",
+    "full_name": "林弘波",
+    "structure_id": "S09",
+    "archetype_id": "A09",
+    "semantic_pattern": "弘阔/波澜",
+    "culture_evidence_ids": [
+      "EV-6d7eeacb5694",
+      "EV-061b45001722"
+    ],
+    "generation_reason_codes": [
+      "SEMANTIC_ROLE_COMPOSITION",
+      "SEPARATE_CHAR_CULTURE_TRACE",
+      "POOL_CHAR_SELECTED"
+    ],
+    "generation_seed": 20260622,
+    "quality_guard": {
+      "passed": false,
+      "hard_failures": [
+        "LOW_PROFILE_SPECIFICITY"
+      ],
+      "soft_warnings": [
+        "E2_COMPOSED",
+        "POPULAR_CHAR_USED",
+        "LOW_PROFILE_SPECIFICITY"
+      ],
+      "penalties": {
+        "POPULARITY": 2.0
+      }
+    },
+    "score": null,
+    "evidences": [
+      {
+        "evidence_id": "EV-6d7eeacb5694",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "节南山",
+        "author": "佚名",
+        "original_text": "节彼南山，维石岩岩。赫赫师尹，民具尔瞻。忧心如惔，不敢戏谈。国既卒斩，何用不监！\n节彼南山，有实其猗。赫赫师尹，不平谓何。天方荐瘥，丧乱弘多。民言无嘉，惨莫惩嗟。\n尹氏大师，维周之氐；秉国之钧，四方是维。天子是毗，俾民不迷。不吊昊天，不宜空我师。\n弗躬弗亲，庶民弗信。弗问弗仕，勿罔君子。式夷式已，无小人殆。琐琐姻亚，则无膴仕。\n昊天不佣，降此鞠讻。昊天不惠，降此大戾。君子如届，俾民心阕。君子如夷，恶怒是违。\n不吊昊天，乱靡有定。式月斯生，俾民不宁。忧心如酲，谁秉国成？不自为政，卒劳百姓。\n驾彼四牡，四牡项领。我瞻四方，蹙蹙靡所骋。\n方茂尔恶，相尔矛矣。既夷既怿，如相酬矣。\n昊天不平，我王不宁。不惩其心，覆怨其正。\n家父作诵，以究王讻。式讹尔心，以畜万邦。",
+        "matched_chars": [
+          "弘"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000191",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      },
+      {
+        "evidence_id": "EV-061b45001722",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "渐渐之石",
+        "author": "佚名",
+        "original_text": "渐渐之石，维其高矣。山川悠远，维其劳矣。武人东征，不遑朝矣。\n渐渐之石，维其卒矣。山川悠远，曷其没矣？武人东征，不遑出矣。\n有豕白蹢，烝涉波矣。月离于毕，俾滂沱矣。武人东征，不皇他矣。",
+        "matched_chars": [
+          "波"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000232",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      }
+    ],
+    "semantic_role_first": "弘阔",
+    "semantic_role_second": "波澜",
+    "combined_meaning": "弘取弘阔之意，波取波澜之意，组合为弘阔与波澜相成。",
+    "meaning_completeness": 82.0,
+    "evidence_level": "E2_COMPOSED",
+    "evidence_suitability_score": 82,
+    "naturalness_score": 89.68,
+    "structure_archetype_compatibility": 100.0,
+    "compatibility_level": "HIGH",
+    "compatibility_reason_codes": [
+      "COMPATIBILITY_HIGH"
+    ],
+    "semantic_validation": {
+      "given_name": "弘波",
+      "semantic_role_first": "弘阔",
+      "semantic_role_second": "波澜",
+      "combined_meaning": "弘取弘阔之意，波取波澜之意，组合为弘阔与波澜相成。",
+      "meaning_completeness": 82.0,
+      "issues": [],
+      "passed": true
+    },
+    "naturalness": {
+      "naturalness_score": 89.68,
+      "adult_usability": 89.68,
+      "spoken_usability": 89.68,
+      "full_name_fit": 89.68,
+      "conceptualization_risk": 10.319999999999993,
+      "issues": [],
+      "passed": true,
+      "top20_allowed": true,
+      "top10_allowed": true,
+      "top3_allowed": false
+    },
+    "generation_mode": "semantic_role_composition",
+    "first_char_source": [
+      "char_pool",
+      "selected_culture_text"
+    ],
+    "second_char_source": [
+      "char_pool",
+      "culture_evidence_char",
+      "selected_culture_text"
+    ],
+    "structure_rule_ids": [
+      "S09",
+      "SEMANTIC_ROLE_MATCH"
+    ],
+    "archetype_rule_ids": [
+      "A09",
+      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+    ],
+    "was_example_name": false,
+    "was_golden_fixture": false,
+    "was_direct_name_candidate": false,
+    "reconstruction": {
+      "reconstructable": true,
+      "source_independent": true,
+      "reconstruction_steps": [
+        "first char is reconstructable from first char pool",
+        "second char is reconstructable from second char pool",
+        "semantic roles are present before scoring",
+        "combined meaning is established before ranking",
+        "both chars can be selected from current culture evidence",
+        "generation mode is rule derivation, not fixture lookup"
+      ],
+      "failures": []
+    },
+    "classic_expression_score": 53.3,
+    "derivation_originality_score": 82.1,
+    "corpus_copy_risk": 0.18,
+    "historical_name_collision": "UNKNOWN",
+    "style_affinity_score": 0.7,
+    "style_fit_score": 54.0,
+    "gender_tone_fit_score": 78.0,
+    "surname_fit_score": 85.92,
+    "imagery_fit_score": 74,
+    "profile_specificity_score": 59.85,
+    "profile_fit_reasons": [
+      "PROFILE_CULTURE_SOURCE_MATCH"
+    ],
+    "profile_conflicts": [
+      "LOW_PROFILE_SPECIFICITY"
+    ],
+    "gender_tone_reason_codes": [
+      "GENDER_TONE_BASELINE"
+    ],
+    "surname_fit": {
+      "surname": "林",
+      "given_name": "弘波",
+      "tone_pattern": "2-2-1",
+      "initial_conflicts": [],
+      "final_conflicts": [],
+      "rhythm_score": 92,
+      "visual_balance_score": 88,
+      "surname_affinity_score": 72.0,
+      "surname_fit_score": 85.92
+    },
+    "universal_candidate_risk": 42.0,
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
+  },
+  {
+    "candidate_id": "NC-e1e6cf0dc087",
+    "surname": "林",
+    "given_name": "弘云",
+    "full_name": "林弘云",
+    "structure_id": "S05",
+    "archetype_id": "A09",
+    "semantic_pattern": "弘阔/云气",
+    "culture_evidence_ids": [
+      "EV-6d7eeacb5694",
+      "EV-297941c6ef87"
+    ],
+    "generation_reason_codes": [
+      "SEMANTIC_ROLE_COMPOSITION",
+      "SEPARATE_CHAR_CULTURE_TRACE",
+      "POOL_CHAR_SELECTED"
+    ],
+    "generation_seed": 20260622,
+    "quality_guard": {
+      "passed": false,
+      "hard_failures": [
+        "LOW_PROFILE_SPECIFICITY"
+      ],
+      "soft_warnings": [
+        "E2_COMPOSED",
+        "POPULAR_CHAR_USED",
+        "LOW_PROFILE_SPECIFICITY"
+      ],
+      "penalties": {
+        "POPULARITY": 4.0
+      }
+    },
+    "score": null,
+    "evidences": [
+      {
+        "evidence_id": "EV-6d7eeacb5694",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "节南山",
+        "author": "佚名",
+        "original_text": "节彼南山，维石岩岩。赫赫师尹，民具尔瞻。忧心如惔，不敢戏谈。国既卒斩，何用不监！\n节彼南山，有实其猗。赫赫师尹，不平谓何。天方荐瘥，丧乱弘多。民言无嘉，惨莫惩嗟。\n尹氏大师，维周之氐；秉国之钧，四方是维。天子是毗，俾民不迷。不吊昊天，不宜空我师。\n弗躬弗亲，庶民弗信。弗问弗仕，勿罔君子。式夷式已，无小人殆。琐琐姻亚，则无膴仕。\n昊天不佣，降此鞠讻。昊天不惠，降此大戾。君子如届，俾民心阕。君子如夷，恶怒是违。\n不吊昊天，乱靡有定。式月斯生，俾民不宁。忧心如酲，谁秉国成？不自为政，卒劳百姓。\n驾彼四牡，四牡项领。我瞻四方，蹙蹙靡所骋。\n方茂尔恶，相尔矛矣。既夷既怿，如相酬矣。\n昊天不平，我王不宁。不惩其心，覆怨其正。\n家父作诵，以究王讻。式讹尔心，以畜万邦。",
+        "matched_chars": [
+          "弘"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000191",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      },
+      {
+        "evidence_id": "EV-297941c6ef87",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "卷耳",
+        "author": "佚名",
+        "original_text": "采采卷耳，不盈顷筐。嗟我怀人，置彼周行。\n陟彼崔嵬，我马虺𬯎。我姑酌彼金罍，维以不永怀。\n陟彼高冈，我马玄黄。我姑酌彼兕觥，维以不永伤。\n陟彼砠矣，我马瘏矣，我仆痡矣，云何吁矣。",
+        "matched_chars": [
+          "云"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000003",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      }
+    ],
+    "semantic_role_first": "弘阔",
+    "semantic_role_second": "云气",
+    "combined_meaning": "弘取弘阔之意，云取云气之意，组合为弘阔与云气相成。",
+    "meaning_completeness": 84.0,
+    "evidence_level": "E2_COMPOSED",
+    "evidence_suitability_score": 82,
+    "naturalness_score": 90.16,
+    "structure_archetype_compatibility": 100.0,
+    "compatibility_level": "HIGH",
+    "compatibility_reason_codes": [
+      "COMPATIBILITY_HIGH"
+    ],
+    "semantic_validation": {
+      "given_name": "弘云",
+      "semantic_role_first": "弘阔",
+      "semantic_role_second": "云气",
+      "combined_meaning": "弘取弘阔之意，云取云气之意，组合为弘阔与云气相成。",
+      "meaning_completeness": 84.0,
+      "issues": [],
+      "passed": true
+    },
+    "naturalness": {
+      "naturalness_score": 90.16,
+      "adult_usability": 90.16,
+      "spoken_usability": 90.16,
+      "full_name_fit": 90.16,
+      "conceptualization_risk": 9.840000000000003,
+      "issues": [],
+      "passed": true,
+      "top20_allowed": true,
+      "top10_allowed": true,
+      "top3_allowed": true
+    },
+    "generation_mode": "semantic_role_composition",
+    "first_char_source": [
+      "char_pool",
+      "selected_culture_text"
+    ],
+    "second_char_source": [
+      "char_pool",
+      "culture_evidence_char",
+      "selected_culture_text"
+    ],
+    "structure_rule_ids": [
+      "S05",
+      "SEMANTIC_ROLE_MATCH"
+    ],
+    "archetype_rule_ids": [
+      "A09",
+      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+    ],
+    "was_example_name": false,
+    "was_golden_fixture": false,
+    "was_direct_name_candidate": false,
+    "reconstruction": {
+      "reconstructable": true,
+      "source_independent": true,
+      "reconstruction_steps": [
+        "first char is reconstructable from first char pool",
+        "second char is reconstructable from second char pool",
+        "semantic roles are present before scoring",
+        "combined meaning is established before ranking",
+        "both chars can be selected from current culture evidence",
+        "generation mode is rule derivation, not fixture lookup"
+      ],
+      "failures": []
+    },
+    "classic_expression_score": 53.3,
+    "derivation_originality_score": 82.1,
+    "corpus_copy_risk": 0.18,
+    "historical_name_collision": "UNKNOWN",
+    "style_affinity_score": 0.7,
+    "style_fit_score": 54.0,
+    "gender_tone_fit_score": 78.0,
+    "surname_fit_score": 85.98,
+    "imagery_fit_score": 74,
+    "profile_specificity_score": 59.86,
+    "profile_fit_reasons": [
+      "PROFILE_CULTURE_SOURCE_MATCH"
+    ],
+    "profile_conflicts": [
+      "LOW_PROFILE_SPECIFICITY"
+    ],
+    "gender_tone_reason_codes": [
+      "GENDER_TONE_BASELINE"
+    ],
+    "surname_fit": {
+      "surname": "林",
+      "given_name": "弘云",
+      "tone_pattern": "2-2-2",
+      "initial_conflicts": [],
+      "final_conflicts": [],
+      "rhythm_score": 89,
+      "visual_balance_score": 88,
+      "surname_affinity_score": 78.0,
+      "surname_fit_score": 85.98
+    },
+    "universal_candidate_risk": 42.0,
+    "cross_profile_dominance_risk": 42.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-149b467884d2",
@@ -7821,19 +8294,22 @@
       "surname_fit_score": 85.92
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
-    "candidate_id": "NC-76f2623ff362",
+    "candidate_id": "NC-f8ea52f47d7b",
     "surname": "林",
-    "given_name": "思凌",
-    "full_name": "林思凌",
+    "given_name": "安泉",
+    "full_name": "林安泉",
     "structure_id": "S05",
     "archetype_id": "A09",
-    "semantic_pattern": "思辨/凌云",
+    "semantic_pattern": "安定/清泉",
     "culture_evidence_ids": [
-      "EV-eebc676b900a",
-      "EV-0391fee3974f"
+      "EV-921c98a3a588",
+      "EV-4259faa4485f"
     ],
     "generation_reason_codes": [
       "SEMANTIC_ROLE_COMPOSITION",
@@ -7854,19 +8330,19 @@
     "score": null,
     "evidences": [
       {
-        "evidence_id": "EV-eebc676b900a",
+        "evidence_id": "EV-921c98a3a588",
         "source_type": "shijing",
         "book": "诗经",
-        "title": "关雎",
+        "title": "无衣",
         "author": "佚名",
-        "original_text": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。\n参差荇菜，左右流之。窈窕淑女，寤寐求之。\n求之不得，寤寐思服。悠哉悠哉，辗转反侧。\n参差荇菜，左右采之。窈窕淑女，琴瑟友之。\n参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。",
+        "original_text": "岂曰无衣七兮？不如子之衣，安且吉兮！\n岂曰无衣六兮？不如子之衣，安且燠兮！",
         "matched_chars": [
-          "思"
+          "安"
         ],
         "matched_keywords": [],
         "match_type": "single_char_composition",
         "confidence": 0.76,
-        "record_id": "先秦-000001",
+        "record_id": "先秦-000122",
         "evidence_level": "E2",
         "suitability": {
           "evidence_level": "E2",
@@ -7883,19 +8359,19 @@
         }
       },
       {
-        "evidence_id": "EV-0391fee3974f",
+        "evidence_id": "EV-4259faa4485f",
         "source_type": "shijing",
         "book": "诗经",
-        "title": "七月",
+        "title": "泉水",
         "author": "佚名",
-        "original_text": "七月流火，九月授衣。一之日觱发，二之日栗烈。无衣无褐，何以卒岁？\n三之日于耜，四之日举趾。同我妇子，馌彼南亩。田畯至喜。\n七月流火，九月授衣。春日载阳，有鸣仓庚。女执懿筐，遵彼微行，爰求柔桑。\n春日迟迟，采蘩祁祁。女心伤悲，殆及公子同归。\n七月流火，八月萑苇。蚕月条桑，取彼斧斨。以伐远扬，猗彼女桑。\n七月鸣鵙，八月载绩。载玄载黄，我朱孔阳，为公子裳。\n四月秀葽，五月鸣蜩。八月其获，十月陨萚。一之日于貉，取彼狐狸，为公子裘。\n二之日其同，载缵武功。言私其𫎆，献豜于公。\n五月斯螽动股，六月莎鸡振羽。七月在野，八月在宇，九月在户，十月蟋蟀，入我床下。\n穹窒熏鼠，塞向墐户。嗟我妇子，曰为改岁，入此室处。\n六月食郁及薁，七月亨葵及菽。八月剥枣，十月获稻。为此春酒，以介眉寿。\n七月食瓜，八月断壶，九月叔苴，采荼薪樗。食我农夫。\n九月筑场圃，十月纳禾稼。黍稷重穋，禾麻菽麦。嗟我农夫，我稼既同，上入执宫功。\n昼尔于茅，宵尔索绹，亟其乘屋，其始播百谷。\n二之日凿冰冲冲，三之日纳于凌阴。四之日其蚤，献羔祭韭。九月肃霜，十月涤场。\n朋酒斯飨，曰杀羔羊，跻彼公堂。称彼兕觥：万寿无疆！",
+        "original_text": "毖彼泉水，亦流于淇。有怀于卫，靡日不思。娈彼诸姬，聊与之谋。\n出宿于泲，饮饯于祢。女子有行，远父母兄弟，问我诸姑，遂及伯姊。\n出宿于干，饮饯于言。载脂载辖，还车言迈。遄臻于卫，不瑕有害？\n我思肥泉，兹之永叹。思须与漕，我心悠悠。驾言出游，以写我忧。",
         "matched_chars": [
-          "凌"
+          "泉"
         ],
         "matched_keywords": [],
         "match_type": "single_char_composition",
         "confidence": 0.76,
-        "record_id": "先秦-000154",
+        "record_id": "先秦-000039",
         "evidence_level": "E2",
         "suitability": {
           "evidence_level": "E2",
@@ -7912,33 +8388,33 @@
         }
       }
     ],
-    "semantic_role_first": "思辨",
-    "semantic_role_second": "凌云",
-    "combined_meaning": "思取思辨之意，凌取凌云之意，组合为思辨与凌云相成。",
-    "meaning_completeness": 90.0,
+    "semantic_role_first": "安定",
+    "semantic_role_second": "清泉",
+    "combined_meaning": "安取安定之意，泉取清泉之意，组合为安定与清泉相成。",
+    "meaning_completeness": 85.0,
     "evidence_level": "E2_COMPOSED",
     "evidence_suitability_score": 82,
-    "naturalness_score": 91.6,
+    "naturalness_score": 90.4,
     "structure_archetype_compatibility": 100.0,
     "compatibility_level": "HIGH",
     "compatibility_reason_codes": [
       "COMPATIBILITY_HIGH"
     ],
     "semantic_validation": {
-      "given_name": "思凌",
-      "semantic_role_first": "思辨",
-      "semantic_role_second": "凌云",
-      "combined_meaning": "思取思辨之意，凌取凌云之意，组合为思辨与凌云相成。",
-      "meaning_completeness": 90.0,
+      "given_name": "安泉",
+      "semantic_role_first": "安定",
+      "semantic_role_second": "清泉",
+      "combined_meaning": "安取安定之意，泉取清泉之意，组合为安定与清泉相成。",
+      "meaning_completeness": 85.0,
       "issues": [],
       "passed": true
     },
     "naturalness": {
-      "naturalness_score": 91.6,
-      "adult_usability": 91.6,
-      "spoken_usability": 91.6,
-      "full_name_fit": 91.6,
-      "conceptualization_risk": 8.400000000000006,
+      "naturalness_score": 90.4,
+      "adult_usability": 90.4,
+      "spoken_usability": 90.4,
+      "full_name_fit": 90.4,
+      "conceptualization_risk": 9.599999999999994,
       "issues": [],
       "passed": true,
       "top20_allowed": true,
@@ -7984,14 +8460,14 @@
     "derivation_originality_score": 82.1,
     "corpus_copy_risk": 0.18,
     "historical_name_collision": "UNKNOWN",
-    "style_affinity_score": 1.2,
-    "style_fit_score": 58.0,
+    "style_affinity_score": 0.0,
+    "style_fit_score": 54.0,
     "gender_tone_fit_score": 78.0,
-    "surname_fit_score": 85.92,
-    "imagery_fit_score": 74,
-    "profile_specificity_score": 67.03,
+    "surname_fit_score": 88.92,
+    "imagery_fit_score": 86,
+    "profile_specificity_score": 66.87,
     "profile_fit_reasons": [
-      "PROFILE_ROLE_MATCH",
+      "PROFILE_IMAGERY_MATCH",
       "PROFILE_CULTURE_SOURCE_MATCH"
     ],
     "profile_conflicts": [],
@@ -8000,405 +8476,20 @@
     ],
     "surname_fit": {
       "surname": "林",
-      "given_name": "思凌",
+      "given_name": "安泉",
       "tone_pattern": "2-1-2",
       "initial_conflicts": [],
       "final_conflicts": [],
       "rhythm_score": 92,
       "visual_balance_score": 88,
-      "surname_affinity_score": 72.0,
-      "surname_fit_score": 85.92
-    },
-    "universal_candidate_risk": 20.0,
-    "cross_profile_dominance_risk": 20.0
-  },
-  {
-    "candidate_id": "NC-879b04160279",
-    "surname": "林",
-    "given_name": "兰安",
-    "full_name": "林兰安",
-    "structure_id": "S09",
-    "archetype_id": "A09",
-    "semantic_pattern": "兰质/安定",
-    "culture_evidence_ids": [
-      "EV-ebcd86662420",
-      "EV-921c98a3a588"
-    ],
-    "generation_reason_codes": [
-      "SEMANTIC_ROLE_COMPOSITION",
-      "SEPARATE_CHAR_CULTURE_TRACE",
-      "POOL_CHAR_SELECTED"
-    ],
-    "generation_seed": 20260622,
-    "quality_guard": {
-      "passed": false,
-      "hard_failures": [
-        "LOW_PROFILE_SPECIFICITY"
-      ],
-      "soft_warnings": [
-        "E2_COMPOSED",
-        "POPULAR_CHAR_USED"
-      ],
-      "penalties": {
-        "POPULARITY": 4.0
-      }
-    },
-    "score": null,
-    "evidences": [
-      {
-        "evidence_id": "EV-ebcd86662420",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "芄兰",
-        "author": "佚名",
-        "original_text": "芄兰之支，童子佩觿。虽则佩觿，能不我知。容兮遂兮，垂带悸兮。\n芄兰之叶，童子佩韘。虽则佩韘，能不我甲。容兮遂兮，垂带悸兮。",
-        "matched_chars": [
-          "兰"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000060",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      },
-      {
-        "evidence_id": "EV-921c98a3a588",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "无衣",
-        "author": "佚名",
-        "original_text": "岂曰无衣七兮？不如子之衣，安且吉兮！\n岂曰无衣六兮？不如子之衣，安且燠兮！",
-        "matched_chars": [
-          "安"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000122",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      }
-    ],
-    "semantic_role_first": "兰质",
-    "semantic_role_second": "安定",
-    "combined_meaning": "兰取兰质之意，安取安定之意，组合为兰质与安定相成。",
-    "meaning_completeness": 86.0,
-    "evidence_level": "E2_COMPOSED",
-    "evidence_suitability_score": 82,
-    "naturalness_score": 90.64,
-    "structure_archetype_compatibility": 100.0,
-    "compatibility_level": "HIGH",
-    "compatibility_reason_codes": [
-      "COMPATIBILITY_HIGH"
-    ],
-    "semantic_validation": {
-      "given_name": "兰安",
-      "semantic_role_first": "兰质",
-      "semantic_role_second": "安定",
-      "combined_meaning": "兰取兰质之意，安取安定之意，组合为兰质与安定相成。",
-      "meaning_completeness": 86.0,
-      "issues": [],
-      "passed": true
-    },
-    "naturalness": {
-      "naturalness_score": 90.64,
-      "adult_usability": 90.64,
-      "spoken_usability": 90.64,
-      "full_name_fit": 90.64,
-      "conceptualization_risk": 9.36,
-      "issues": [],
-      "passed": true,
-      "top20_allowed": true,
-      "top10_allowed": true,
-      "top3_allowed": true
-    },
-    "generation_mode": "semantic_role_composition",
-    "first_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "second_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "structure_rule_ids": [
-      "S09",
-      "SEMANTIC_ROLE_MATCH"
-    ],
-    "archetype_rule_ids": [
-      "A09",
-      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
-    ],
-    "was_example_name": false,
-    "was_golden_fixture": false,
-    "was_direct_name_candidate": false,
-    "reconstruction": {
-      "reconstructable": true,
-      "source_independent": true,
-      "reconstruction_steps": [
-        "first char is reconstructable from first char pool",
-        "second char is reconstructable from second char pool",
-        "semantic roles are present before scoring",
-        "combined meaning is established before ranking",
-        "both chars can be selected from current culture evidence",
-        "generation mode is rule derivation, not fixture lookup"
-      ],
-      "failures": []
-    },
-    "classic_expression_score": 53.3,
-    "derivation_originality_score": 82.1,
-    "corpus_copy_risk": 0.18,
-    "historical_name_collision": "UNKNOWN",
-    "style_affinity_score": 0.0,
-    "style_fit_score": 54.0,
-    "gender_tone_fit_score": 78.0,
-    "surname_fit_score": 82.08,
-    "imagery_fit_score": 86,
-    "profile_specificity_score": 66.05,
-    "profile_fit_reasons": [
-      "PROFILE_IMAGERY_MATCH",
-      "PROFILE_CULTURE_SOURCE_MATCH"
-    ],
-    "profile_conflicts": [],
-    "gender_tone_reason_codes": [
-      "GENDER_TONE_BASELINE"
-    ],
-    "surname_fit": {
-      "surname": "林",
-      "given_name": "兰安",
-      "tone_pattern": "2-2-1",
-      "initial_conflicts": [
-        0
-      ],
-      "final_conflicts": [],
-      "rhythm_score": 84,
-      "visual_balance_score": 88,
-      "surname_affinity_score": 72.0,
-      "surname_fit_score": 82.08
+      "surname_affinity_score": 84.0,
+      "surname_fit_score": 88.92
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
-  },
-  {
-    "candidate_id": "NC-77d2d7252aee",
-    "surname": "林",
-    "given_name": "兰宁",
-    "full_name": "林兰宁",
-    "structure_id": "S09",
-    "archetype_id": "A09",
-    "semantic_pattern": "兰质/宁静",
-    "culture_evidence_ids": [
-      "EV-ebcd86662420",
-      "EV-32414fcf8602"
-    ],
-    "generation_reason_codes": [
-      "SEMANTIC_ROLE_COMPOSITION",
-      "SEPARATE_CHAR_CULTURE_TRACE",
-      "POOL_CHAR_SELECTED"
-    ],
-    "generation_seed": 20260622,
-    "quality_guard": {
-      "passed": false,
-      "hard_failures": [
-        "LOW_PROFILE_SPECIFICITY"
-      ],
-      "soft_warnings": [
-        "E2_COMPOSED",
-        "POPULAR_CHAR_USED"
-      ],
-      "penalties": {
-        "POPULARITY": 4.0
-      }
-    },
-    "score": null,
-    "evidences": [
-      {
-        "evidence_id": "EV-ebcd86662420",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "芄兰",
-        "author": "佚名",
-        "original_text": "芄兰之支，童子佩觿。虽则佩觿，能不我知。容兮遂兮，垂带悸兮。\n芄兰之叶，童子佩韘。虽则佩韘，能不我甲。容兮遂兮，垂带悸兮。",
-        "matched_chars": [
-          "兰"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000060",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      },
-      {
-        "evidence_id": "EV-32414fcf8602",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "葛覃",
-        "author": "佚名",
-        "original_text": "葛之覃兮，施于中谷，维叶萋萋。黄鸟于飞，集于灌木，其鸣喈喈。\n葛之覃兮，施于中谷，维叶莫莫。是刈是濩，为𫄨为绤，服之无斁。\n言告师氏，言告言归。薄污我私，薄浣我衣。害浣害否，归宁父母。",
-        "matched_chars": [
-          "宁"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000002",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      }
-    ],
-    "semantic_role_first": "兰质",
-    "semantic_role_second": "宁静",
-    "combined_meaning": "兰取兰质之意，宁取宁静之意，组合为兰质与宁静相成。",
-    "meaning_completeness": 87.0,
-    "evidence_level": "E2_COMPOSED",
-    "evidence_suitability_score": 82,
-    "naturalness_score": 90.88,
-    "structure_archetype_compatibility": 100.0,
-    "compatibility_level": "HIGH",
-    "compatibility_reason_codes": [
-      "COMPATIBILITY_HIGH"
-    ],
-    "semantic_validation": {
-      "given_name": "兰宁",
-      "semantic_role_first": "兰质",
-      "semantic_role_second": "宁静",
-      "combined_meaning": "兰取兰质之意，宁取宁静之意，组合为兰质与宁静相成。",
-      "meaning_completeness": 87.0,
-      "issues": [],
-      "passed": true
-    },
-    "naturalness": {
-      "naturalness_score": 90.88,
-      "adult_usability": 90.88,
-      "spoken_usability": 90.88,
-      "full_name_fit": 90.88,
-      "conceptualization_risk": 9.120000000000005,
-      "issues": [],
-      "passed": true,
-      "top20_allowed": true,
-      "top10_allowed": true,
-      "top3_allowed": true
-    },
-    "generation_mode": "semantic_role_composition",
-    "first_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "second_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "structure_rule_ids": [
-      "S09",
-      "SEMANTIC_ROLE_MATCH"
-    ],
-    "archetype_rule_ids": [
-      "A09",
-      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
-    ],
-    "was_example_name": false,
-    "was_golden_fixture": false,
-    "was_direct_name_candidate": false,
-    "reconstruction": {
-      "reconstructable": true,
-      "source_independent": true,
-      "reconstruction_steps": [
-        "first char is reconstructable from first char pool",
-        "second char is reconstructable from second char pool",
-        "semantic roles are present before scoring",
-        "combined meaning is established before ranking",
-        "both chars can be selected from current culture evidence",
-        "generation mode is rule derivation, not fixture lookup"
-      ],
-      "failures": []
-    },
-    "classic_expression_score": 53.3,
-    "derivation_originality_score": 82.1,
-    "corpus_copy_risk": 0.18,
-    "historical_name_collision": "UNKNOWN",
-    "style_affinity_score": 0.0,
-    "style_fit_score": 54.0,
-    "gender_tone_fit_score": 78.0,
-    "surname_fit_score": 80.64,
-    "imagery_fit_score": 86,
-    "profile_specificity_score": 65.88,
-    "profile_fit_reasons": [
-      "PROFILE_IMAGERY_MATCH",
-      "PROFILE_CULTURE_SOURCE_MATCH"
-    ],
-    "profile_conflicts": [],
-    "gender_tone_reason_codes": [
-      "GENDER_TONE_BASELINE"
-    ],
-    "surname_fit": {
-      "surname": "林",
-      "given_name": "兰宁",
-      "tone_pattern": "2-2-2",
-      "initial_conflicts": [
-        0
-      ],
-      "final_conflicts": [],
-      "rhythm_score": 81,
-      "visual_balance_score": 88,
-      "surname_affinity_score": 72.0,
-      "surname_fit_score": 80.64
-    },
-    "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-366874fdd8fc",
@@ -8413,7 +8504,7 @@
       "EV-4259faa4485f"
     ],
     "generation_reason_codes": [
-      "SEMANTIC_ROLE_COMPOSITION",
+      "IMAGERY_TRANSFORMATION",
       "SEPARATE_CHAR_CULTURE_TRACE",
       "POOL_CHAR_SELECTED"
     ],
@@ -8424,7 +8515,7 @@
         "LOW_PROFILE_SPECIFICITY"
       ],
       "soft_warnings": [
-        "E2_COMPOSED",
+        "E2_IMAGERY",
         "POPULAR_CHAR_USED"
       ],
       "penalties": {
@@ -8496,8 +8587,8 @@
     "semantic_role_second": "清泉",
     "combined_meaning": "兰取兰质之意，泉取清泉之意，组合为兰质与清泉相成。",
     "meaning_completeness": 83.0,
-    "evidence_level": "E2_COMPOSED",
-    "evidence_suitability_score": 82,
+    "evidence_level": "E2_IMAGERY",
+    "evidence_suitability_score": 80,
     "naturalness_score": 89.92,
     "structure_archetype_compatibility": 100.0,
     "compatibility_level": "HIGH",
@@ -8525,7 +8616,7 @@
       "top10_allowed": true,
       "top3_allowed": false
     },
-    "generation_mode": "semantic_role_composition",
+    "generation_mode": "imagery_transformation",
     "first_char_source": [
       "char_pool",
       "culture_evidence_char",
@@ -8560,8 +8651,8 @@
       ],
       "failures": []
     },
-    "classic_expression_score": 53.3,
-    "derivation_originality_score": 82.1,
+    "classic_expression_score": 52.0,
+    "derivation_originality_score": 82.3,
     "corpus_copy_risk": 0.18,
     "historical_name_collision": "UNKNOWN",
     "style_affinity_score": 0.0,
@@ -8594,7 +8685,10 @@
       "surname_fit_score": 81.24
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-64ec02b0c40b",
@@ -8609,7 +8703,7 @@
       "EV-664877d93727"
     ],
     "generation_reason_codes": [
-      "SEMANTIC_ROLE_COMPOSITION",
+      "IMAGERY_TRANSFORMATION",
       "SEPARATE_CHAR_CULTURE_TRACE",
       "POOL_CHAR_SELECTED"
     ],
@@ -8620,7 +8714,7 @@
         "LOW_PROFILE_SPECIFICITY"
       ],
       "soft_warnings": [
-        "E2_COMPOSED",
+        "E2_IMAGERY",
         "POPULAR_CHAR_USED"
       ],
       "penalties": {
@@ -8692,8 +8786,8 @@
     "semantic_role_second": "灵秀",
     "combined_meaning": "兰取兰质之意，灵取灵秀之意，组合为兰质与灵秀相成。",
     "meaning_completeness": 86.0,
-    "evidence_level": "E2_COMPOSED",
-    "evidence_suitability_score": 82,
+    "evidence_level": "E2_IMAGERY",
+    "evidence_suitability_score": 80,
     "naturalness_score": 90.64,
     "structure_archetype_compatibility": 100.0,
     "compatibility_level": "HIGH",
@@ -8721,7 +8815,7 @@
       "top10_allowed": true,
       "top3_allowed": true
     },
-    "generation_mode": "semantic_role_composition",
+    "generation_mode": "imagery_transformation",
     "first_char_source": [
       "char_pool",
       "culture_evidence_char",
@@ -8756,8 +8850,8 @@
       ],
       "failures": []
     },
-    "classic_expression_score": 53.3,
-    "derivation_originality_score": 82.1,
+    "classic_expression_score": 52.0,
+    "derivation_originality_score": 82.3,
     "corpus_copy_risk": 0.18,
     "historical_name_collision": "UNKNOWN",
     "style_affinity_score": 0.0,
@@ -8789,396 +8883,10 @@
       "surname_fit_score": 76.8
     },
     "universal_candidate_risk": 24.0,
-    "cross_profile_dominance_risk": 24.0
-  },
-  {
-    "candidate_id": "NC-3f899a67abe1",
-    "surname": "林",
-    "given_name": "若容",
-    "full_name": "林若容",
-    "structure_id": "S05",
-    "archetype_id": "A09",
-    "semantic_pattern": "如若/包容",
-    "culture_evidence_ids": [
-      "EV-94cf6ce9570a",
-      "EV-ebcd86662420"
-    ],
-    "generation_reason_codes": [
-      "SEMANTIC_ROLE_COMPOSITION",
-      "SEPARATE_CHAR_CULTURE_TRACE",
-      "POOL_CHAR_SELECTED"
-    ],
-    "generation_seed": 20260622,
-    "quality_guard": {
-      "passed": false,
-      "hard_failures": [
-        "TEMPLATE_NAME_PATTERN",
-        "LOW_PROFILE_SPECIFICITY"
-      ],
-      "soft_warnings": [
-        "E2_COMPOSED",
-        "LOW_PROFILE_SPECIFICITY"
-      ],
-      "penalties": {}
-    },
-    "score": null,
-    "evidences": [
-      {
-        "evidence_id": "EV-94cf6ce9570a",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "氓",
-        "author": "佚名",
-        "original_text": "氓之蚩蚩，抱布贸丝。匪来贸丝，来即我谋。送子涉淇，至于顿丘。匪我愆期，子无良媒。将子无怒，秋以为期。\n乘彼垝垣，以望复关。不见复关，泣涕涟涟。既见复关，载笑载言。尔卜尔筮，体无咎言。以尔车来，以我贿迁。\n桑之未落，其叶沃若。于嗟鸠兮！无食桑葚。于嗟女兮！无与士耽。士之耽兮，犹可说也。女之耽兮，不可说也。\n桑之落矣，其黄而陨。自我徂尔，三岁食贫。淇水汤汤，渐车帷裳。女也不爽，士二其行。士也罔极，二三其德。\n三岁为妇，靡室劳矣。夙兴夜寐，靡有朝矣。言既遂矣，至于暴矣。兄弟不知，咥其笑矣。静言思之，躬自悼矣。\n及尔偕老，老使我怨。淇则有岸，隰则有泮。总角之宴，言笑晏晏，信誓旦旦，不思其反。反是不思，亦已焉哉！",
-        "matched_chars": [
-          "若"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000058",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      },
-      {
-        "evidence_id": "EV-ebcd86662420",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "芄兰",
-        "author": "佚名",
-        "original_text": "芄兰之支，童子佩觿。虽则佩觿，能不我知。容兮遂兮，垂带悸兮。\n芄兰之叶，童子佩韘。虽则佩韘，能不我甲。容兮遂兮，垂带悸兮。",
-        "matched_chars": [
-          "容"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000060",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      }
-    ],
-    "semantic_role_first": "如若",
-    "semantic_role_second": "包容",
-    "combined_meaning": "若取如若之意，容取包容之意，组合为如若与包容相成。",
-    "meaning_completeness": 78.0,
-    "evidence_level": "E2_COMPOSED",
-    "evidence_suitability_score": 82,
-    "naturalness_score": 88.72,
-    "structure_archetype_compatibility": 100.0,
-    "compatibility_level": "HIGH",
-    "compatibility_reason_codes": [
-      "COMPATIBILITY_HIGH"
-    ],
-    "semantic_validation": {
-      "given_name": "若容",
-      "semantic_role_first": "如若",
-      "semantic_role_second": "包容",
-      "combined_meaning": "若取如若之意，容取包容之意，组合为如若与包容相成。",
-      "meaning_completeness": 78.0,
-      "issues": [],
-      "passed": true
-    },
-    "naturalness": {
-      "naturalness_score": 88.72,
-      "adult_usability": 88.72,
-      "spoken_usability": 88.72,
-      "full_name_fit": 88.72,
-      "conceptualization_risk": 11.280000000000001,
-      "issues": [],
-      "passed": true,
-      "top20_allowed": true,
-      "top10_allowed": true,
-      "top3_allowed": false
-    },
-    "generation_mode": "semantic_role_composition",
-    "first_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "second_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "structure_rule_ids": [
-      "S05",
-      "SEMANTIC_ROLE_MATCH"
-    ],
-    "archetype_rule_ids": [
-      "A09",
-      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
-    ],
-    "was_example_name": false,
-    "was_golden_fixture": false,
-    "was_direct_name_candidate": false,
-    "reconstruction": {
-      "reconstructable": true,
-      "source_independent": true,
-      "reconstruction_steps": [
-        "first char is reconstructable from first char pool",
-        "second char is reconstructable from second char pool",
-        "semantic roles are present before scoring",
-        "combined meaning is established before ranking",
-        "both chars can be selected from current culture evidence",
-        "generation mode is rule derivation, not fixture lookup"
-      ],
-      "failures": []
-    },
-    "classic_expression_score": 53.3,
-    "derivation_originality_score": 82.1,
-    "corpus_copy_risk": 0.18,
-    "historical_name_collision": "UNKNOWN",
-    "style_affinity_score": 0.0,
-    "style_fit_score": 54.0,
-    "gender_tone_fit_score": 78.0,
-    "surname_fit_score": 82.08,
-    "imagery_fit_score": 74,
-    "profile_specificity_score": 59.39,
-    "profile_fit_reasons": [
-      "PROFILE_CULTURE_SOURCE_MATCH"
-    ],
-    "profile_conflicts": [
-      "LOW_PROFILE_SPECIFICITY"
-    ],
-    "gender_tone_reason_codes": [
-      "GENDER_TONE_BASELINE"
-    ],
-    "surname_fit": {
-      "surname": "林",
-      "given_name": "若容",
-      "tone_pattern": "2-4-2",
-      "initial_conflicts": [
-        1
-      ],
-      "final_conflicts": [],
-      "rhythm_score": 84,
-      "visual_balance_score": 88,
-      "surname_affinity_score": 72.0,
-      "surname_fit_score": 82.08
-    },
-    "universal_candidate_risk": 42.0,
-    "cross_profile_dominance_risk": 42.0
-  },
-  {
-    "candidate_id": "NC-15d0c9efc0d9",
-    "surname": "林",
-    "given_name": "若海",
-    "full_name": "林若海",
-    "structure_id": "S05",
-    "archetype_id": "A02",
-    "semantic_pattern": "如若/海量",
-    "culture_evidence_ids": [
-      "EV-94cf6ce9570a",
-      "EV-2ef47d142ff9"
-    ],
-    "generation_reason_codes": [
-      "SEMANTIC_ROLE_COMPOSITION",
-      "SEPARATE_CHAR_CULTURE_TRACE",
-      "POOL_CHAR_SELECTED"
-    ],
-    "generation_seed": 20260622,
-    "quality_guard": {
-      "passed": false,
-      "hard_failures": [
-        "TEMPLATE_NAME_PATTERN"
-      ],
-      "soft_warnings": [
-        "E2_COMPOSED",
-        "POPULAR_CHAR_USED",
-        "LOW_PROFILE_SPECIFICITY"
-      ],
-      "penalties": {
-        "POPULARITY": 4.0
-      }
-    },
-    "score": null,
-    "evidences": [
-      {
-        "evidence_id": "EV-94cf6ce9570a",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "氓",
-        "author": "佚名",
-        "original_text": "氓之蚩蚩，抱布贸丝。匪来贸丝，来即我谋。送子涉淇，至于顿丘。匪我愆期，子无良媒。将子无怒，秋以为期。\n乘彼垝垣，以望复关。不见复关，泣涕涟涟。既见复关，载笑载言。尔卜尔筮，体无咎言。以尔车来，以我贿迁。\n桑之未落，其叶沃若。于嗟鸠兮！无食桑葚。于嗟女兮！无与士耽。士之耽兮，犹可说也。女之耽兮，不可说也。\n桑之落矣，其黄而陨。自我徂尔，三岁食贫。淇水汤汤，渐车帷裳。女也不爽，士二其行。士也罔极，二三其德。\n三岁为妇，靡室劳矣。夙兴夜寐，靡有朝矣。言既遂矣，至于暴矣。兄弟不知，咥其笑矣。静言思之，躬自悼矣。\n及尔偕老，老使我怨。淇则有岸，隰则有泮。总角之宴，言笑晏晏，信誓旦旦，不思其反。反是不思，亦已焉哉！",
-        "matched_chars": [
-          "若"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000058",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      },
-      {
-        "evidence_id": "EV-2ef47d142ff9",
-        "source_type": "shijing",
-        "book": "诗经",
-        "title": "沔水",
-        "author": "佚名",
-        "original_text": "沔彼流水，朝宗于海。𫛣彼飞隼，载飞载止。嗟我兄弟，邦人诸友。莫肯念乱，谁无父母？\n沔彼流水，其流汤汤。𫛣彼飞隼，载飞载扬。念彼不迹，载起载行。心之忧矣，不可弭忘。\n𫛣彼飞隼，率彼中陵。民之讹言，宁莫之惩？我友敬矣，谗言其兴。",
-        "matched_chars": [
-          "海"
-        ],
-        "matched_keywords": [],
-        "match_type": "single_char_composition",
-        "confidence": 0.76,
-        "record_id": "先秦-000183",
-        "evidence_level": "E2",
-        "suitability": {
-          "evidence_level": "E2",
-          "phrase_complete": false,
-          "semantic_dependency": false,
-          "context_support": true,
-          "nameability": true,
-          "reason_codes": [
-            "SINGLE_CHAR_CULTURE_TRACE"
-          ],
-          "passed": true,
-          "evidence_suitability_score": 76,
-          "semantic": {}
-        }
-      }
-    ],
-    "semantic_role_first": "如若",
-    "semantic_role_second": "海量",
-    "combined_meaning": "若取如若之意，海取海量之意，组合为如若与海量相成。",
-    "meaning_completeness": 74.0,
-    "evidence_level": "E2_COMPOSED",
-    "evidence_suitability_score": 82,
-    "naturalness_score": 87.75999999999999,
-    "structure_archetype_compatibility": 100.0,
-    "compatibility_level": "HIGH",
-    "compatibility_reason_codes": [
-      "COMPATIBILITY_HIGH"
-    ],
-    "semantic_validation": {
-      "given_name": "若海",
-      "semantic_role_first": "如若",
-      "semantic_role_second": "海量",
-      "combined_meaning": "若取如若之意，海取海量之意，组合为如若与海量相成。",
-      "meaning_completeness": 74.0,
-      "issues": [],
-      "passed": true
-    },
-    "naturalness": {
-      "naturalness_score": 87.75999999999999,
-      "adult_usability": 87.75999999999999,
-      "spoken_usability": 87.75999999999999,
-      "full_name_fit": 87.75999999999999,
-      "conceptualization_risk": 12.240000000000009,
-      "issues": [],
-      "passed": true,
-      "top20_allowed": true,
-      "top10_allowed": true,
-      "top3_allowed": false
-    },
-    "generation_mode": "semantic_role_composition",
-    "first_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "second_char_source": [
-      "char_pool",
-      "culture_evidence_char",
-      "selected_culture_text"
-    ],
-    "structure_rule_ids": [
-      "S05",
-      "SEMANTIC_ROLE_MATCH"
-    ],
-    "archetype_rule_ids": [
-      "A02",
-      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
-    ],
-    "was_example_name": false,
-    "was_golden_fixture": false,
-    "was_direct_name_candidate": false,
-    "reconstruction": {
-      "reconstructable": true,
-      "source_independent": true,
-      "reconstruction_steps": [
-        "first char is reconstructable from first char pool",
-        "second char is reconstructable from second char pool",
-        "semantic roles are present before scoring",
-        "combined meaning is established before ranking",
-        "both chars can be selected from current culture evidence",
-        "generation mode is rule derivation, not fixture lookup"
-      ],
-      "failures": []
-    },
-    "classic_expression_score": 53.3,
-    "derivation_originality_score": 82.1,
-    "corpus_copy_risk": 0.18,
-    "historical_name_collision": "UNKNOWN",
-    "style_affinity_score": 0.0,
-    "style_fit_score": 70.0,
-    "gender_tone_fit_score": 78.0,
-    "surname_fit_score": 87.36,
-    "imagery_fit_score": 74,
-    "profile_specificity_score": 70.74,
-    "profile_fit_reasons": [
-      "PROFILE_ARCHETYPE_MATCH",
-      "PROFILE_CULTURE_SOURCE_MATCH"
-    ],
-    "profile_conflicts": [
-      "LOW_PROFILE_SPECIFICITY"
-    ],
-    "gender_tone_reason_codes": [
-      "GENDER_TONE_BASELINE"
-    ],
-    "surname_fit": {
-      "surname": "林",
-      "given_name": "若海",
-      "tone_pattern": "2-4-3",
-      "initial_conflicts": [],
-      "final_conflicts": [],
-      "rhythm_score": 95,
-      "visual_balance_score": 88,
-      "surname_affinity_score": 72.0,
-      "surname_fit_score": 87.36
-    },
-    "universal_candidate_risk": 26.0,
-    "cross_profile_dominance_risk": 26.0
+    "cross_profile_dominance_risk": 24.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   },
   {
     "candidate_id": "NC-49e2813d142b",
@@ -9373,6 +9081,205 @@
       "surname_fit_score": 84.48
     },
     "universal_candidate_risk": 0.0,
-    "cross_profile_dominance_risk": 0.0
+    "cross_profile_dominance_risk": 0.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
+  },
+  {
+    "candidate_id": "NC-8d3e7f46dbfc",
+    "surname": "林",
+    "given_name": "敬志",
+    "full_name": "林敬志",
+    "structure_id": "S05",
+    "archetype_id": "A09",
+    "semantic_pattern": "敬慎/志向",
+    "culture_evidence_ids": [
+      "EV-2ef47d142ff9",
+      "EV-d22d0f9163f2"
+    ],
+    "generation_reason_codes": [
+      "IMAGERY_TRANSFORMATION",
+      "SEPARATE_CHAR_CULTURE_TRACE",
+      "POOL_CHAR_SELECTED"
+    ],
+    "generation_seed": 20260622,
+    "quality_guard": {
+      "passed": false,
+      "hard_failures": [
+        "LOW_PROFILE_SPECIFICITY"
+      ],
+      "soft_warnings": [
+        "E2_IMAGERY",
+        "POPULAR_CHAR_USED"
+      ],
+      "penalties": {
+        "POPULARITY": 2.0
+      }
+    },
+    "score": null,
+    "evidences": [
+      {
+        "evidence_id": "EV-2ef47d142ff9",
+        "source_type": "shijing",
+        "book": "诗经",
+        "title": "沔水",
+        "author": "佚名",
+        "original_text": "沔彼流水，朝宗于海。𫛣彼飞隼，载飞载止。嗟我兄弟，邦人诸友。莫肯念乱，谁无父母？\n沔彼流水，其流汤汤。𫛣彼飞隼，载飞载扬。念彼不迹，载起载行。心之忧矣，不可弭忘。\n𫛣彼飞隼，率彼中陵。民之讹言，宁莫之惩？我友敬矣，谗言其兴。",
+        "matched_chars": [
+          "敬"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "先秦-000183",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      },
+      {
+        "evidence_id": "EV-d22d0f9163f2",
+        "source_type": "chuci",
+        "book": "楚辞",
+        "title": "离骚",
+        "author": "屈原",
+        "original_text": "帝高阳之苗裔兮，朕皇考曰伯庸。\n摄提贞于孟陬兮，惟庚寅吾以降。\n皇览揆余初度兮，肇锡余以嘉名：\n名余曰正则兮，字余曰灵均。\n纷吾既有此内美兮，又重之以修能。\n扈江离与辟芷兮，纫秋兰以为佩。\n汨余若将不及兮，恐年岁之不吾与。\n朝搴阰之木兰兮，夕揽洲之宿莽。\n日月忽其不淹兮，春与秋其代序。\n惟草木之零落兮，恐美人之迟暮。\n不抚壮而弃秽兮，何不改乎此度?\n乘骐骥以驰骋兮，来吾道夫先路！\n昔三后之纯粹兮，固众芳之所在。\n杂申椒与菌桂兮，岂惟纫夫蕙茝！\n彼尧、舜之耿介兮，既遵道而得路。\n何桀纣之猖披兮，夫惟捷径以窘步。\n惟夫党人之偷乐兮，路幽昧以险隘。\n岂余身之殚殃兮，恐皇舆之败绩！\n忽奔走以先后兮，及前王之踵武。\n荃不查余之中情兮，反信谗而齌怒。\n余固知謇謇之为患兮，忍而不能舍也。\n指九天以为正兮，夫惟灵修之故也。\n曰黄昏以为期兮，羌中道而改路！\n初既与余成言兮，后悔遁而有他。\n余既不难夫离别兮，伤灵修之数化。\n余既滋兰之九畹兮，又树蕙之百亩。\n畦留夷与揭车兮，杂杜衡与芳芷。\n冀枝叶之峻茂兮，愿俟时乎吾将刈。\n虽萎绝其亦何伤兮，哀众芳之芜秽。\n众皆竞进以贪婪兮，凭不厌乎求索。\n羌内恕己以量人兮，各兴心而嫉妒。\n忽驰骛以追逐兮，非余心之所急。\n老冉冉其将至兮，恐修名之不立。\n朝饮木兰之坠露兮，夕餐秋菊之落英。\n苟余情其信姱以练要兮，长顑颔亦何伤。\n掔木根以结茞兮，贯薜荔之落蕊。\n矫菌桂以纫蕙兮，索胡绳之𫄥𫄥。\n謇吾法夫前修兮，非世俗之所服。\n虽不周于今之人兮，愿依彭咸之遗则。\n长太息以掩涕兮，哀民生之多艰。\n余虽好修姱以鞿羁兮，謇朝谇而夕替。\n既替余以蕙𬙋兮，又申之以揽茝。\n亦余心之所善兮，虽九死其犹未悔。\n怨灵修之浩荡兮，终不察夫民心。\n众女嫉余之蛾眉兮，谣诼谓余以善淫。\n固时俗之工巧兮，偭规矩而改错。\n背绳墨以追曲兮，竞周容以为度。\n忳郁邑余侘傺兮，吾独穷困乎此时也。\n宁溘死以流亡兮，余不忍为此态也。\n鸷鸟之不群兮，自前世而固然。\n何方圜之能周兮，夫孰异道而相安？\n屈心而抑志兮，忍尤而攘诟。\n伏清白以死直兮，固前圣之所厚。\n悔相道之不察兮，延伫乎吾将反。\n回朕车以复路兮，及行迷之未远。\n步余马于兰皋兮，驰椒丘且焉止息。\n进不入以离尤兮，退将复修吾初服。\n制芰荷以为衣兮，集芙蓉以为裳。\n不吾知其亦已兮，苟余情其信芳。\n高余冠之岌岌兮，长余佩之陆离。\n芳与泽其杂糅兮，唯昭质其犹未亏。\n忽反顾以游目兮，将往观乎四荒。\n佩缤纷其繁饰兮，芳菲菲其弥章。\n民生各有所乐兮，余独好修以为常。\n虽体解吾犹未变兮，岂余心之可惩。\n女媭之婵媛兮，申申其詈予，曰：\n鲧婞直以亡身兮，终然夭乎羽之野。\n汝何博謇而好修兮，纷独有此姱节？\n薋菉葹以盈室兮，判独离而不服。\n众不可户说兮，孰云察余之中情？\n世并举而好朋兮，夫何茕独而不予听？\n依前圣以节中兮，喟凭心而历兹。\n济沅、湘以南征兮，就重华而敶词：\n启《九辩》与《九歌》兮，夏康娱以自纵。\n不顾难以图后兮，五子用失乎家衖。\n羿淫游以佚畋兮，又好射夫封狐。\n固乱流其鲜终兮，浞又贪夫厥家。\n浇身被服强圉兮，纵欲而不忍。\n日康娱而自忘兮，厥首用夫颠陨。\n夏桀之常违兮，乃遂焉而逢殃。\n后辛之菹醢兮，殷宗用而不长。\n汤、禹俨而祗敬兮，周论道而莫差。\n举贤才而授能兮，循绳墨而不颇。\n皇天无私阿兮，览民德焉错辅。\n夫维圣哲以茂行兮，苟得用此下土。\n瞻前而顾后兮，相观民之计极。\n夫孰非义而可用兮？\n孰非善而可服？\n阽余身而危死兮，览余初其犹未悔。\n不量凿而正枘兮，固前修以菹醢。\n曾歔欷余郁邑兮，哀朕时之不当。\n揽茹蕙以掩涕兮，沾余襟之浪浪。\n跪敷衽以陈辞兮，耿吾既得此中正。\n驷玉虬以桀鹥兮，溘埃风余上征。\n朝发轫于苍梧兮，夕余至乎县圃。\n欲少留此灵琐兮，日忽忽其将暮。\n吾令羲和弭节兮，望崦嵫而勿迫。\n路漫漫其修远兮，吾将上下而求索。\n饮余马于咸池兮，总余辔乎扶桑。\n折若木以拂日兮，聊逍遥以相羊。\n前望舒使先驱兮，后飞廉使奔属。\n鸾皇为余先戒兮，雷师告余以未具。\n吾令凤鸟飞腾兮，继之以日夜。\n飘风屯其相离兮，帅云霓而来御。\n纷总总其离合兮，斑陆离其上下。\n吾令帝阍开关兮，倚阊阖而望予。\n时暧暧其将罢兮，结幽兰而延伫。\n世溷浊而不分兮，好蔽美而嫉妒。\n朝吾将济于白水兮，登阆风而绁马。\n忽反顾以流涕兮，哀高丘之无女。\n溘吾游此春宫兮，折琼枝以继佩。\n及荣华之未落兮，相下女之可诒。\n吾令丰隆乘云兮，求宓妃之所在。\n解佩𬙋以结言兮，吾令謇修以为理。\n纷总总其离合兮，忽纬繣其难迁。\n夕归次于穷石兮，朝濯发乎洧盘。\n保厥美以骄傲兮，日康娱以淫游。\n虽信美而无礼兮，来违弃而改求。\n览相观于四极兮，周流乎天余乃下。\n望瑶台之偃蹇兮，见有娀之佚女。\n吾令鸩为媒兮，鸩告余以不好。\n雄鸠之鸣逝兮，余犹恶其佻巧。\n心犹豫而狐疑兮，欲自适而不可。\n凤皇既受诒兮，恐高辛之先我。\n欲远集而无所止兮，聊浮游以逍遥。\n及少康之未家兮，留有虞之二姚。\n理弱而媒拙兮，恐导言之不固。\n世溷浊而嫉贤兮，好蔽美而称恶。\n闺中既以邃远兮，哲王又不寤。\n怀朕情而不发兮，余焉能忍而与此终古？\n索琼茅以筳篿兮，命灵氛为余占之。\n曰：两美其必合兮，孰信修而慕之？\n思九州之博大兮，岂惟是其有女？」\n曰：勉远逝而无狐疑兮，孰求美而释女？\n何所独无芳草兮，尔何怀乎故宇？」\n世幽昧以昡曜兮，孰云察余之善恶？\n民好恶其不同兮，惟此党人其独异！\n户服艾以盈要兮，谓幽兰其不可佩。\n览察草木其犹未得兮，岂珵美之能当？\n苏粪壤以充祎兮，谓申椒其不芳。\n欲从灵氛之吉占兮，心犹豫而狐疑。\n巫咸将夕降兮，怀椒糈而要之。\n百神翳其备降兮，九疑缤其并迎。\n皇剡剡其扬灵兮，告余以吉故。\n曰：勉升降以上下兮，求矩矱之所同。\n汤、禹俨而求合兮，挚、咎繇而能调。\n苟中情其好修兮，又何必用夫行媒？\n说操筑于傅岩兮，武丁用而不疑。\n吕望之鼓刀兮，遭周文而得举。\n宁戚之讴歌兮，齐桓闻以该辅。\n及年岁之未晏兮，时亦犹其未央。\n恐鹈𫛞之先鸣兮，使夫百草为之不芳。\n何琼佩之偃蹇兮，众𫉁然而蔽之。\n惟此党人之不谅兮，恐嫉妒而折之。\n时缤纷其变易兮，又何可以淹留？\n兰芷变而不芳兮，荃蕙化而为茅。\n何昔日之芳草兮，今直为此萧艾也？\n岂其有他故兮，莫好修之害也！\n余以兰为可恃兮，羌无实而容长。\n委厥美以从俗兮，苟得列乎众芳。\n椒专佞以慢慆兮，榝又欲充夫佩帏。\n既干进而务入兮，又何芳之能祗？\n固时俗之流从兮，又孰能无变化？\n览椒兰其若兹兮，又况揭车与江离？\n惟兹佩之可贵兮，委厥美而历兹。\n芳菲菲而难亏兮，芬至今犹未沬。\n和调度以自娱兮，聊浮游而求女。\n及余饰之方壮兮，周流观乎上下。\n灵氛既告余以吉占兮，历吉日乎吾将行。\n折琼枝以为羞兮，精琼爢以为粻。\n为余驾飞龙兮，杂瑶象以为车。\n何离心之可同兮？\n吾将远逝以自疏。\n邅吾道夫昆仑兮，路修远以周流。\n扬云霓之晻蔼兮，鸣玉鸾之啾啾。\n朝发轫于天津兮，夕余至乎西极。\n凤皇翼其承旗兮，高翱翔之翼翼。\n忽吾行此流沙兮，遵赤水而容与。\n麾蛟龙使梁津兮，诏西皇使涉予。\n路修远以多艰兮，腾众车使径待。\n路不周以左转兮，指西海以为期。\n屯余车其千乘兮，齐玉轪而并驰。\n驾八龙之婉婉兮，载云旗之委蛇。\n抑志而弭节兮，神高驰之邈邈。\n奏《九歌》而舞《韶》兮，聊假日以偷乐。\n陟升皇之赫戏兮，忽临睨夫旧乡。\n仆夫悲余马怀兮，蜷局顾而不行。\n乱曰：已矣哉！国无人莫我知兮，又何怀乎故都！\n既莫足与为美政兮，吾将从彭咸之所居！",
+        "matched_chars": [
+          "志"
+        ],
+        "matched_keywords": [],
+        "match_type": "single_char_composition",
+        "confidence": 0.76,
+        "record_id": "战国-000001",
+        "evidence_level": "E2",
+        "suitability": {
+          "evidence_level": "E2",
+          "phrase_complete": false,
+          "semantic_dependency": false,
+          "context_support": true,
+          "nameability": true,
+          "reason_codes": [
+            "SINGLE_CHAR_CULTURE_TRACE"
+          ],
+          "passed": true,
+          "evidence_suitability_score": 76,
+          "semantic": {}
+        }
+      }
+    ],
+    "semantic_role_first": "敬慎",
+    "semantic_role_second": "志向",
+    "combined_meaning": "敬取敬慎之意，志取志向之意，组合为敬慎与志向相成。",
+    "meaning_completeness": 90.0,
+    "evidence_level": "E2_IMAGERY",
+    "evidence_suitability_score": 80,
+    "naturalness_score": 91.6,
+    "structure_archetype_compatibility": 100.0,
+    "compatibility_level": "HIGH",
+    "compatibility_reason_codes": [
+      "COMPATIBILITY_HIGH"
+    ],
+    "semantic_validation": {
+      "given_name": "敬志",
+      "semantic_role_first": "敬慎",
+      "semantic_role_second": "志向",
+      "combined_meaning": "敬取敬慎之意，志取志向之意，组合为敬慎与志向相成。",
+      "meaning_completeness": 90.0,
+      "issues": [],
+      "passed": true
+    },
+    "naturalness": {
+      "naturalness_score": 91.6,
+      "adult_usability": 91.6,
+      "spoken_usability": 91.6,
+      "full_name_fit": 91.6,
+      "conceptualization_risk": 8.400000000000006,
+      "issues": [],
+      "passed": true,
+      "top20_allowed": true,
+      "top10_allowed": true,
+      "top3_allowed": true
+    },
+    "generation_mode": "imagery_transformation",
+    "first_char_source": [
+      "char_pool",
+      "culture_evidence_char",
+      "selected_culture_text"
+    ],
+    "second_char_source": [
+      "char_pool",
+      "culture_evidence_char",
+      "selected_culture_text"
+    ],
+    "structure_rule_ids": [
+      "S05",
+      "SEMANTIC_ROLE_MATCH"
+    ],
+    "archetype_rule_ids": [
+      "A09",
+      "STRUCTURE_ARCHETYPE_COMPATIBILITY"
+    ],
+    "was_example_name": false,
+    "was_golden_fixture": false,
+    "was_direct_name_candidate": false,
+    "reconstruction": {
+      "reconstructable": true,
+      "source_independent": true,
+      "reconstruction_steps": [
+        "first char is reconstructable from first char pool",
+        "second char is reconstructable from second char pool",
+        "semantic roles are present before scoring",
+        "combined meaning is established before ranking",
+        "both chars can be selected from current culture evidence",
+        "generation mode is rule derivation, not fixture lookup"
+      ],
+      "failures": []
+    },
+    "classic_expression_score": 52.0,
+    "derivation_originality_score": 82.3,
+    "corpus_copy_risk": 0.18,
+    "historical_name_collision": "UNKNOWN",
+    "style_affinity_score": 2.6,
+    "style_fit_score": 58.0,
+    "gender_tone_fit_score": 90.0,
+    "surname_fit_score": 85.92,
+    "imagery_fit_score": 80,
+    "profile_specificity_score": 65.27,
+    "profile_fit_reasons": [
+      "PROFILE_ROLE_MATCH",
+      "PROFILE_IMAGERY_MATCH",
+      "PROFILE_CULTURE_SOURCE_MATCH"
+    ],
+    "profile_conflicts": [],
+    "gender_tone_reason_codes": [
+      "MALE_CLEAR_RESPONSIBLE"
+    ],
+    "surname_fit": {
+      "surname": "林",
+      "given_name": "敬志",
+      "tone_pattern": "2-4-4",
+      "initial_conflicts": [],
+      "final_conflicts": [],
+      "rhythm_score": 92,
+      "visual_balance_score": 88,
+      "surname_affinity_score": 72.0,
+      "surname_fit_score": 85.92
+    },
+    "universal_candidate_risk": 20.0,
+    "cross_profile_dominance_risk": 20.0,
+    "fortune_evaluation": null,
+    "fortune_score": null,
+    "fortune_status": "NOT_EVALUATED"
   }
 ]

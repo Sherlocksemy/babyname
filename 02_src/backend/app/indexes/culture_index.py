@@ -12,9 +12,9 @@ SENTENCE_SPLIT_RE = re.compile(r"[。！？；，、\n\r]")
 
 
 class CultureIndex:
-    def __init__(self, loader: KnowledgeLoader | None = None) -> None:
+    def __init__(self, loader: KnowledgeLoader | None = None, datasets: dict | None = None) -> None:
         self.loader = loader or KnowledgeLoader()
-        self.datasets = self.loader.load_all()
+        self.datasets = datasets or self.loader.load_all()
         self.records: list[dict] = []
         self.by_id: dict[str, dict] = {}
         self.char_index: dict[str, list[dict]] = defaultdict(list)

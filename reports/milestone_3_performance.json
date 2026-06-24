@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-23T11:29:02",
+  "ready_check_ms": 12.56,
+  "startup_elapsed_ms": 5711.78,
+  "knowledge_load_elapsed_ms": 442.76,
+  "generate_api_elapsed_ms": 1875.71,
+  "generate_engine_elapsed_ms": 1725.02,
+  "result_read_elapsed_ms": 9.4,
+  "candidate_detail_elapsed_ms": 8.34,
+  "favorite_elapsed_ms": 16.78,
+  "regenerate_api_elapsed_ms": 1788.32,
+  "regenerated_result_read_elapsed_ms": 13.51,
+  "frontend_home_status": 200
+}

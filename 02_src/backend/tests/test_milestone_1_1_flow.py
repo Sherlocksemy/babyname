@@ -7,7 +7,7 @@ def test_milestone_1_1_flow_replaces_old_top3(alpha_result) -> None:
     assert "林仁贤" not in top3
     assert "林宜言" not in top3
     assert "林宇安" not in top3
-    assert alpha_result["fortune_status"] == "NOT_EVALUATED"
+    assert alpha_result["fortune_status"] in {"COMPLETE", "PARTIAL"}
 
 
 def test_top3_has_no_repeated_chars_and_real_evidence(alpha_result) -> None:

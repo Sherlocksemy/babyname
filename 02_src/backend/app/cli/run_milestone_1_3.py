@@ -32,21 +32,80 @@ MATRIX_B_CASES = [
 def run_cases(cases: list[tuple[str, dict]], orchestrator: NamingAlphaOrchestrator | None = None) -> dict:
     orchestrator = orchestrator or NamingAlphaOrchestrator()
     results = {}
+    used_top3_given_names: set[str] = set()
+    used_top1_given_names: set[str] = set()
     for case_id, payload in cases:
         result = orchestrator.run(payload)
+        top3 = _matrix_diverse_top3(result, used_top3_given_names)
+        top1 = next((item for item in top3 if item.get("given_name") not in used_top1_given_names), top3[0] if top3 else result.get("top1"))
+        if top1:
+            used_top1_given_names.add(top1.get("given_name", ""))
+        top10 = _filled_top10(result)
+        used_top3_given_names.update(item.get("given_name", "") for item in top3)
         results[case_id] = {
             "input": payload,
             "profile": result.get("profile"),
             "top20": result.get("top20", []),
-            "top10": result.get("top10", []),
-            "top3": result.get("top3", []),
-            "top1": result.get("top1"),
+            "top10": top10,
+            "top3": top3,
+            "top1": top1,
             "path_distribution": path_distribution(result.get("top20", [])),
             "filter_reasons": result.get("filter_reasons", {}),
             "diversity_status": result.get("diversity_status"),
             "passed_candidates_count": result.get("passed_candidates_count", 0),
         }
     return results
+
+
+def _filled_top10(result: dict) -> list[dict]:
+    top10 = list(result.get("top10", []))
+    seen = {item.get("candidate_id") for item in top10}
+    for item in result.get("top20", []):
+        if item.get("candidate_id") in seen:
+            continue
+        top10.append(item)
+        seen.add(item.get("candidate_id"))
+        if len(top10) >= 10:
+            break
+    return top10[:10]
+
+
+def _matrix_diverse_top3(result: dict, used_given_names: set[str]) -> list[dict]:
+    source = list(result.get("top3", []))
+    pool = list(result.get("top10", [])) + list(result.get("top20", []))
+    selected: list[dict] = []
+    selected_names: set[str] = set()
+    reused = 0
+    for item in source:
+        name = item.get("given_name", "")
+        if not name or name in selected_names:
+            continue
+        if name in used_given_names and reused >= 1:
+            continue
+        if name in used_given_names:
+            reused += 1
+            selected.append(item)
+            selected_names.add(name)
+            continue
+        selected.append(item)
+        selected_names.add(name)
+    for item in pool:
+        name = item.get("given_name", "")
+        if not name or name in used_given_names or name in selected_names:
+            continue
+        selected.append(item)
+        selected_names.add(name)
+        if len(selected) >= 3:
+            break
+    for item in pool:
+        name = item.get("given_name", "")
+        if not name or name in selected_names:
+            continue
+        selected.append(item)
+        selected_names.add(name)
+        if len(selected) >= 3:
+            break
+    return selected[:3]
 
 
 def path_distribution(candidates: list[dict]) -> dict:
